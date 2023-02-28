@@ -7,8 +7,12 @@
     },
     "steps": [
       {
-        "title": "Run Nginx and access default page",
+        "title": "Create deployments in a different ways",
         "text": "step1.md"
+      },
+      {
+        "title": "Expose Deployments and check status of Services",
+        "text": "step2.md"
       }
     ]
   },
