@@ -1,1 +1,18 @@
-
+{
+  "title": "Create Deployment and expose it",
+  "description": "Learn how to create Deployments and expose it with Service",
+  "details": {
+    "intro": {
+      "text": "intro.md"
+    },
+    "steps": [
+      {
+        "title": "Run Nginx and access default page",
+        "text": "step1.md"
+      }
+    ]
+  },
+  "backend": {
+    "imageid": "kubernetes-kubeadm-2nodes"
+  }
+}
