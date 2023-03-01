@@ -3,7 +3,7 @@ First of all - useful links:
 - [Nodes](https://kubernetes.io/docs/concepts/architecture/nodes/)
 - [Command line tool (kubectl) manual](https://kubernetes.io/docs/reference/kubectl/)
 - `k cluster-info -h`{{exec}}
-- `k nodes -h`{{exec}}
+- `k get nodes -h`{{exec}}
 
 Task list:
 - Get list of nodes in Kubernetes cluster
@@ -13,6 +13,7 @@ Task list:
 <pre>
   $ k cluster-info
   $ k get nodes -o wide
+  $ k get nodes -o yaml
   $ k describe node controlplane
 </pre>
 </details>
