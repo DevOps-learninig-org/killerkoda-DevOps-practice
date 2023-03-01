@@ -1,6 +1,7 @@
 {
   "items": [
     { "path": "git", "title": "GIT practice" },
+    { "path": "ansible", "title": "Ansible practice" },
     { "path": "cicd", "title": "CI/CD practice" }
   ]
 }
