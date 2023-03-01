@@ -1,0 +1,8 @@
+{
+  "title": "Ansible practice",
+  "description": "This is the description of DAP",
+  
+  "backend": {
+    "imageid": "ubuntu"
+  }
+}
