@@ -6,6 +6,18 @@
       {
         "title": "Useful links",
         "text": "links.md"
+      },
+      {
+        "title": "Create Deployment in Imperative way",
+        "text": "imperative.md"
+      },
+      {
+        "title": "Create Deployment in Declarative way",
+        "text": "declarative.md"
+      },
+      {
+        "title": "Tuning and debugging Deployments",
+        "text": "tuning_debug.md"
       }
     ]
   },
