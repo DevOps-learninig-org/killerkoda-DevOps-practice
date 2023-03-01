@@ -1,6 +1,18 @@
 {
-  "title": "Linux networking practoce",
+  "title": "Linux networking practice",
   "description": "This is the description of LNP",
+  "details": {
+    "steps": [
+      {
+        "title": "Learn how to monitor network activity",
+        "text": "net_activity.md"
+      },
+      {
+        "title": "Learn how to analyze network traffic",
+        "text": "analyze_traffic.md"
+      }
+    ]
+  },
   "backend": {
     "imageid": "ubuntu"
   }
