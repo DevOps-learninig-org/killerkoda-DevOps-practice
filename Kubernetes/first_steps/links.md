@@ -1,7 +1,6 @@
 Read some useful materials before:
 
 - [Learn Kubernetes Basics](https://kubernetes.io/docs/tutorials/kubernetes-basics/)
-- [Kubernetes configuration best practices](https://kubernetes.io/docs/concepts/configuration/overview/)
 - [Kubernetes Glossary](https://kubernetes.io/docs/reference/glossary/?fundamental=true)
 - [Basic concepts](https://kubernetes.io/docs/concepts/)
 - `k -h`{{exec}}
