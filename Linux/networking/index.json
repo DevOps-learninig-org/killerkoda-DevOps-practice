@@ -4,6 +4,10 @@
   "details": {
     "steps": [
       {
+        "title": "Learn how to configure network devices",
+        "text": "net_config.md"
+      },
+      {
         "title": "Learn how to monitor network activity",
         "text": "net_activity.md"
       },
