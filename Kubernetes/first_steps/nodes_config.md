@@ -6,4 +6,14 @@ First of all - useful links:
 
 Task list:
 - Get list of nodes in Kubernetes cluster
+<details>
+<summary>Tips</summary>
+<br>
+`k get nodes`{{exec}}
+</details>
 - Get configuration in yaml format
+<details>
+<summary>Tips</summary>
+<br>
+`k config view`{{exec}}
+</details>
