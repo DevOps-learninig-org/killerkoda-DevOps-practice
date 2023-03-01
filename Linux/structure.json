@@ -1,6 +1,6 @@
 {
   "title" : "Linux administration course",
-  "description" : "Learn how to administer linux hosts"
+  "description" : "Learn how to administer linux hosts",
   "items": [
     { "path": "networking", "title": "Linux networking practice" },
     { "path": "storage", "title": "Linux storage practice" }
