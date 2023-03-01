@@ -10,7 +10,7 @@ Task list:
 
 <details><summary>Hints for the task</summary>
 <pre>
-`k get nodes`{{exec}}
-`k config view`{{exec}}
+$ k get nodes
+$ k config view
 </pre>
 </details>
