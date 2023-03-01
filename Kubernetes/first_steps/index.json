@@ -6,6 +6,10 @@
       {
         "title": "Useful links",
         "text": "links.md"
+      },
+      {
+        "title": "kubectl administartion tool",
+        "text": "kubectl.md"
       }
     ]
   },
