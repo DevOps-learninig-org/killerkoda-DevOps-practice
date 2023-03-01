@@ -1,0 +1,8 @@
+{
+  "title": "GIT practice",
+  "description": "This is the description of DGP",
+  
+  "backend": {
+    "imageid": "ubuntu"
+  }
+}
