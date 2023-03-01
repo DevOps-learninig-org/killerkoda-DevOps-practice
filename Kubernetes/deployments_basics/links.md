@@ -1,2 +1,1 @@
-# Kubernetes official Deployment page
-[Deployments](https://kubernetes.io/docs/concepts/workloads/controllers/deployment/)
+- [Kubernetes official Deployment page](https://kubernetes.io/docs/concepts/workloads/controllers/deployment/)
