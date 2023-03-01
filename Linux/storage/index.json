@@ -1,1 +1,8 @@
-
+{
+  "title": "Linux storage practice",
+  "description": "This is the description of LSP",
+  
+  "backend": {
+    "imageid": "ubuntu"
+  }
+}
