@@ -1,5 +1,6 @@
 {
   "items": [
-    { "path": "networking", "title": "Linux networking practice" }
+    { "path": "networking", "title": "Linux networking practice" },
+    { "path": "storage", "title": "Linux storage practice" }
   ]
 }
