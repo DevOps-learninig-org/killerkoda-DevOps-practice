@@ -1,1 +1,7 @@
-
+{
+  "title": "Linux networking practoce",
+  "description": "This is the description of LNP",
+  "backend": {
+    "imageid": "ubuntu"
+  }
+}
