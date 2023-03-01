@@ -2,6 +2,10 @@
   "title" : "Kubernetes course",
   "description" : "Learn how to use Kubernetes at practice",
   "items": [
-
+    {
+      "path": "deployments_basics",
+      "title": "Deployment basics",
+      "description": "Learn how to create Deployments at different ways"
+    }
   ]
 }
