@@ -1,1 +1,16 @@
+{
+  "title": "Kubernetes first steps",
+  "description": "Make first steps in Kubernetes environment",
+  "details": {
+    "steps": [
+      {
+        "title": "Useful links",
+        "text": "links.md"
+      }
+    ]
+  },
+  "backend": {
+    "imageid": "kubernetes-kubeadm-1node"
+  }
+}
 
