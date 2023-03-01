@@ -9,6 +9,5 @@ And watch come useful videos:
 
 - [Deployments Kubernetes: fast start](https://www.youtube.com/watch?v=Sulw5ndbE88)
 - [Kubernetes Deployments for Beginners](https://www.youtube.com/watch?v=DMpEZEakYVc)
-
 - [Kubernetes Crash Course for Absolute Beginners](https://www.youtube.com/watch?v=s_o8dwzRlu4)
 - [Kubernetes Tutorial for Beginners](https://www.youtube.com/watch?v=X48VuDVv0do)
