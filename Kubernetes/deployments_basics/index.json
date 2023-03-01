@@ -1,0 +1,15 @@
+{
+  "title": "Deployment basics",
+  "description": "Learn how to create Deployments at different ways",
+  "details": {
+    "steps": [
+      {
+        "title": "Useful links",
+        "text": "links.md"
+      }
+    ]
+  },
+  "backend": {
+    "imageid": "ubuntu"
+  }
+}
