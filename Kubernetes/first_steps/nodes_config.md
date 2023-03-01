@@ -8,12 +8,9 @@ Task list:
 - Get list of nodes in Kubernetes cluster
 - Get configuration in yaml format
 
-<details>
-<summary>Hints for the task</summary>
-```
-k get nodes
-```{{exec}}
-```
-k config view
-```{{exec}}
+<details><summary>Hints for the task</summary>
+<pre>
+`k get nodes`{{exec}}
+`k config view`{{exec}}
+</pre>
 </details>
