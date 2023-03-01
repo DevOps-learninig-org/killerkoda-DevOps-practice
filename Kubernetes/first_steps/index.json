@@ -10,6 +10,14 @@
       {
         "title": "kubectl administartion tool",
         "text": "kubectl.md"
+      },
+      {
+        "title": "Cluster nodes and config",
+        "text": "nodes_config.md"
+      },
+      {
+        "title": "Cluster resources",
+        "text": "resources.md"
       }
     ]
   },
