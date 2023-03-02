@@ -4,7 +4,7 @@ First of all - useful links:
 - [Internal Commands and Builtins](https://tldp.org/LDP/abs/html/internal.html)
 
 Task list:
-- Try all bultin variables
+- Try all bultins
 - Read help for all builtin commands
 
 <details><summary>Hints for the task</summary>
