@@ -2,7 +2,25 @@
   "title" : "Linux administration course",
   "description" : "Learn how to administer linux hosts",
   "items": [
-    { "path": "networking", "title": "Linux networking practice" },
-    { "path": "storage", "title": "Linux storage practice" }
+    {
+      "path": "bash",
+      "title": "Introduction to BASH shell",
+      "description" : "Practice with BASH scripting"
+    },
+    {
+      "path": "common",
+      "title": "Common linux utilities",
+      "description" : "Most common linux utilities theory and practice"
+    },
+    { 
+      "path": "networking",
+      "title": "Linux networking practice",
+      "description" : "Practice with linux networking"
+    },
+    { 
+      "path": "storage", 
+      "title": "Linux storage practice",
+      "description" : "Practice with linux storage"
+    }
   ]
 }
