@@ -6,6 +6,10 @@
       {
         "title": "Useful links",
         "text": "links.md"
+      },
+      {
+        "title": "Variables and Variable expansion",
+        "text": "vars_subst.md"
       }
     ]
   },
