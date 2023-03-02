@@ -8,6 +8,10 @@
         "text": "links.md"
       },
       {
+        "title": "BASH builtin commands",
+        "text": "builtins.md"
+      },
+      {
         "title": "Variables and Variable expansion",
         "text": "vars_subst.md"
       }
