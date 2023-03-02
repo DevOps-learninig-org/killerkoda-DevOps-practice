@@ -3,6 +3,7 @@ Read some useful materials before:
 - [Advanced Bash-Scripting Guide](https://tldp.org/LDP/abs/html/)
 - [Bash scripting cheatsheet](https://devhints.io/bash)
 - [RedHat - Bash Commands Cheat Sheet](https://developers.redhat.com/cheat-sheets/bash-shell-cheat-sheet)
+- [Learn BASH in Y minutes](https://learnxinyminutes.com/docs/bash/)
 - `man bash`{{exec}}
 
 And watch come useful videos:
