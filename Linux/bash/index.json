@@ -3,7 +3,10 @@
   "description": "Practice with BASH scripting",
   "details": {
     "steps": [
-      
+      {
+        "title": "Useful links",
+        "text": "links.md"
+      }
     ]
   },
   "backend": {
