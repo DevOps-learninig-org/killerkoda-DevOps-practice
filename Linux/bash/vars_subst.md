@@ -41,7 +41,7 @@ First of all - useful links:
 - $PIPESTATUS	Array variable that holds the exit status values of each command in the most recently executed foreground pipeline.
 </pre>
 </details>
-
+<br>
 Task list:
 - Initiate variable 'string' with value '01234567890abcdefgh'
 - Display values from positions 7 to 9 of a 'string' variable
