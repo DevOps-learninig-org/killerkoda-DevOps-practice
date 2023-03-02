@@ -1,1 +1,12 @@
-
+{
+  "title": "Linux networking practice",
+  "description": "This is the description of LNP",
+  "details": {
+    "steps": [
+      
+    ]
+  },
+  "backend": {
+    "imageid": "ubuntu"
+  }
+}
