@@ -42,6 +42,7 @@ First of all - useful links:
 </pre>
 </details>
 <br>
+
 Task list:
 - Initiate variable 'string' with value '01234567890abcdefgh'
 - Display values from positions 7 to 9 of a 'string' variable
