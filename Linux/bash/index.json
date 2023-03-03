@@ -21,6 +21,10 @@
       {
         "title": "Arrays",
         "text": "arrays.md"
+      },
+      {
+        "title": "The conditional expressions".
+        "text": "condition.md"
       }
     ],
     "finish": {
