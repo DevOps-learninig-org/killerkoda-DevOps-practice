@@ -25,6 +25,10 @@
       {
         "title": "The conditional expressions",
         "text": "conditions.md"
+      },
+      {
+        "title": "Loops",
+        "text": "loops.md"
       }
     ],
     "finish": {
