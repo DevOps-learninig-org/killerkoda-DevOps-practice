@@ -40,7 +40,6 @@ Task list:
 <strong>Task 1:</strong>
   $ read age
   $ read name
-<br>
 <strong>Task 2:</strong>
   $ if [[ "$name" == "Steve" ]] && [[ "$age" -eq 15 ]]; then
   > echo "Hello, Steve!";
