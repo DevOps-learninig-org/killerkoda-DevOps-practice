@@ -4,7 +4,7 @@ This practice lessons created only for my person trainig at [killercoda.com](htt
 
 Thanks for all who make it possible!
 
-# Temlate for all lessons
+# Temlate for all lessons - lesson.md
 ```
 First of all - useful links:
 
@@ -33,4 +33,52 @@ Task list:
   $ string=
 </pre>
 </details>
+```
+# Template for cource index.md
+```
+{
+  "title": "Title of lesson",
+  "details": {
+    "intro": {
+      "text": "intro.md"
+    },
+    "steps": [
+      {
+        "title": "Title of step 1",
+        "text": "step1/text.md",
+        "verify": "step1/verify.sh"
+      },
+      {
+        "title": "Title of step 2",
+        "text": "step2/text.md",
+        "verify": "step2/verify.sh"
+      }
+    ],
+    "finish": {
+      "text": "finish.md"
+    }
+  },
+  "backend": {
+    "imageid": "ubuntu"
+  }
+}
+```
+# Template for cource structure.md
+```
+{
+  "title" : "Name of course",
+  "description" : "Learn how to ....",
+  "items": [
+    {
+      "path": "bash",
+      "title": "Introduction to BASH shell",
+      "description" : "Practice with BASH scripting"
+    },
+    {
+      "path": "common",
+      "title": "Common linux utilities",
+      "description" : "Most common linux utilities theory and practice"
+    }
+  ]
+}
 ```
