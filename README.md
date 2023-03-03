@@ -8,11 +8,12 @@ Thanks for all who make it possible!
 
 First of all - useful links:
 
-- [Name](https://link.org/)
+- [Useful link 1](https://link.org/)
+- [Useful link 2](https://link.org/)
 
 <details><summary>Lesson info and tips</summary>
 <pre>
-
+  Put here some info
 </pre>
 </details>
 <br>
