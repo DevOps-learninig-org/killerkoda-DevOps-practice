@@ -4,8 +4,8 @@ This practice lessons created only for my person trainig at [killercoda.com](htt
 
 Thanks for all who make it possible!
 
-# Temlate for all lessons is
-
+# Temlate for all lessons
+```
 First of all - useful links:
 
 - [Useful link 1](https://link.org/)
@@ -27,11 +27,10 @@ Task list:
 <strong>Task 1:</strong>
   $ cmd1
   $ echo ${string:7:3}
-  
+<br>
 <strong>Task 2:</strong>
   $ echo ${#string}
   $ string=
 </pre>
 </details>
-
-#------------
+```
