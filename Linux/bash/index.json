@@ -14,6 +14,10 @@
       {
         "title": "Variables and Variable expansion",
         "text": "vars_subst.md"
+      },
+      {
+        "title": "Arrays",
+        "text": "arrays.md"
       }
     ]
   },
