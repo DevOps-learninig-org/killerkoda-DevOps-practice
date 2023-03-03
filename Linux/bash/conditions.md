@@ -12,11 +12,11 @@ First of all - useful links:
 Syntax of BASH brancing and test constructions:<br>
 <strong>IF-THEN-ELIF-ELSE construction:</strong><br>
   if [[ -z "$string" ]]; then
-    echo "String is empty"
+    echo "String is empty";
   elif [[ -n "$string" ]]; then
-    echo "String is not empty"
+    echo "String is not empty";
   else
-    echo "This never happens"
+    echo "This never happens";
   fi<br>
 <strong>CASE construction:</strong><br>
   case "$variable" in
@@ -43,7 +43,7 @@ Task list:
 <br>
 <strong>Task 2:</strong>
   $ if [[ "$name" == "Steve" ]] && [[ "$age" -eq 15 ]]; then
-    echo "Hello, Steve!"
+    echo "Hello, Steve!";
     fi
 </pre>
 </details>
