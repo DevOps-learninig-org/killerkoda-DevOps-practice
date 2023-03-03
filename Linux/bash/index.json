@@ -22,11 +22,11 @@
         "title": "Arrays",
         "text": "arrays.md"
       }
-    ]
-  },
-  "finish": {
+    ],
+    "finish": {
       "text": "finish.md"
     }
+  },
   "backend": {
     "imageid": "ubuntu"
   }
