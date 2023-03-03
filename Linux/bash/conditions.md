@@ -43,7 +43,7 @@ Task list:
 <br>
 <strong>Task 2:</strong>
   $ if [[ "$name" == "Steve" ]] && [[ "$age" -eq 15 ]]; then
-    echo "Hello, Steve!";
-    fi
+  > echo "Hello, Steve!";
+  > fi
 </pre>
 </details>
