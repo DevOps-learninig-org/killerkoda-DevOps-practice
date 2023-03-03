@@ -2,6 +2,9 @@
   "title": "Introduction to BASH shell",
   "description": "Practice with BASH scripting",
   "details": {
+    "intro": {
+      "text": "intro.md"
+    },
     "steps": [
       {
         "title": "Useful links",
@@ -21,6 +24,9 @@
       }
     ]
   },
+  "finish": {
+      "text": "finish.md"
+    }
   "backend": {
     "imageid": "ubuntu"
   }
