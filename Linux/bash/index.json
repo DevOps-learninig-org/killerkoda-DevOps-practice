@@ -33,6 +33,10 @@
       {
         "title": "Functions",
         "text": "functions.md"
+      },
+      {
+        "title": "I/O Redirections",
+        "text": "redirections.md"
       }
     ],
     "finish": {
