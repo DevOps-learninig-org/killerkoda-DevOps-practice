@@ -44,3 +44,8 @@ Task list:
   $ kill 10708
 </pre>
 </details>
+<br>
+<details><summary>If You have read all and understood</summary>
+<pre>
+`touch IReadAllAndUndnderstood`{{exec}}
+</pre>
