@@ -33,6 +33,10 @@
       {
         "title": "I/O Redirections",
         "text": "redirections.md"
+      },
+      {
+        "title": "Job Control",
+        "text": "jobs"
       }
     ],
     "finish": {
