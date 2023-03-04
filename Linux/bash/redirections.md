@@ -44,3 +44,8 @@ Task list:
   $ exec 3>&-
 </pre>
 </details>
+<br>
+<details><summary>If You have read all and understood</summary>
+<pre>
+`touch IReadAllAndUndnderstood`{{exec}}
+</pre>
