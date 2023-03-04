@@ -1,6 +1,6 @@
 Welcome to BASH scenario!
 
-Read some useful materials before:
+Read some useful articles before:
 
 - [Bash Guide for Beginners](https://tldp.org/LDP/Bash-Beginners-Guide/html/index.html)
 - [Advanced Bash-Scripting Guide](https://tldp.org/LDP/abs/html/)
@@ -9,10 +9,10 @@ Read some useful materials before:
 - [Learn BASH in Y minutes](https://learnxinyminutes.com/docs/bash/)
 - `man bash`{{exec}}
 
-And watch come useful videos:
+And watch some videos:
 
 - [Bash in 100 Seconds](https://www.youtube.com/watch?v=I4EWvMFj37g)
 - [Advanced Bash Scripting Tutorial](https://www.youtube.com/watch?v=emhouufDnB4)
 - [Introduction to Advanced Bash Usage](https://www.youtube.com/watch?v=uqHjc7hlqd0)
 
-Now, lets begin!
+Now, lets start!
