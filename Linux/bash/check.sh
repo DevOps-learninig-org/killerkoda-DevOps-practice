@@ -1,3 +1,3 @@
 #!/bin/sh
 
-stat IReadAllAndUndnderstood && rm IReadAllAndUndnderstood
+stat IReadAllAndUndnderstood && rm ~/IReadAllAndUndnderstood
