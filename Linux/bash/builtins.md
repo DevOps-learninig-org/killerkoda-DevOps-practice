@@ -69,8 +69,7 @@ Task list:
 <strong>wait</strong>		Wait for a process to exit, then display its return value.
 </pre>
 </details>
-
-
+<br>
 <details><summary>If You have read all and understood</summary>
 <pre>
 set IReadAllAndUndnderstood variable to true
