@@ -1,6 +1,6 @@
 You have finished BASH scenario!
 
-Read again useful materials to consolidate knowledge:
+Read again useful articles to consolidate your knowledge:
 
 - [Bash Guide for Beginners](https://tldp.org/LDP/Bash-Beginners-Guide/html/index.html)
 - [Advanced Bash-Scripting Guide](https://tldp.org/LDP/abs/html/)
