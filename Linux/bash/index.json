@@ -8,7 +8,8 @@
     "steps": [
       {
         "title": "BASH builtin commands",
-        "text": "builtins.md"
+        "text": "builtins.md",
+        "verify": "check.sh"
       },
       {
         "title": "Variables and Variable expansion",
