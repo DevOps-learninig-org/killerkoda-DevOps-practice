@@ -12,6 +12,11 @@
       "title": "Common linux utilities",
       "description" : "Most common linux utilities theory and practice"
     },
+    {
+      "path": "localhost",
+      "title": "Localhost administration",
+      "description": "Learn how to administer localhost"
+    },
     { 
       "path": "networking",
       "title": "Linux networking practice",
