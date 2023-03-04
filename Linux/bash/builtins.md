@@ -72,6 +72,5 @@ Task list:
 <br>
 <details><summary>If You have read all and understood</summary>
 <pre>
-set IReadAllAndUndnderstood variable to true
-$ IReadAllAndUndnderstood=true
+`touch IReadAllAndUndnderstood`{{exec}}
 </pre>
