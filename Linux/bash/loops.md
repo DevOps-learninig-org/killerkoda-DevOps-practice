@@ -54,3 +54,8 @@ Task list:
   > done
 </pre>
 </details>
+<br>
+<details><summary>If You have read all and understood</summary>
+<pre>
+`touch IReadAllAndUndnderstood`{{exec}}
+</pre>
