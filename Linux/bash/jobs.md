@@ -1,7 +1,8 @@
 First of all - useful links:
 
-- [Useful link 1](https://link.org/)
-- [Useful link 2](https://link.org/)
+- [Learn BASH in Y minutes](https://learnxinyminutes.com/docs/bash/)
+- [gnu.org - Job Control](https://www.gnu.org/software/bash/manual/html_node/Job-Control.html)
+- [tldp.org - I/O Redirection](https://tldp.org/LDP/abs/html/io-redirection.html)
 
 <details><summary>Lesson info and tips</summary>
 <pre>
