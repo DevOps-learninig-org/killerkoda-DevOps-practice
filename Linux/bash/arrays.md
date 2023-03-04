@@ -42,3 +42,8 @@ Task list:
   $ echo "${array[@]:3:2}"
 </pre>
 </details>
+<br>
+<details><summary>If You have read all and understood</summary>
+<pre>
+`touch IReadAllAndUndnderstood`{{exec}}
+</pre>
