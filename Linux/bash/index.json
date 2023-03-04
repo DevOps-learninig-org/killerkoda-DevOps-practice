@@ -29,6 +29,10 @@
       {
         "title": "Loops",
         "text": "loops.md"
+      },
+      {
+        "title": "Functions",
+        "text": "functions.md"
       }
     ],
     "finish": {
