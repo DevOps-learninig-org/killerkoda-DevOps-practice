@@ -1,4 +1,3 @@
 #!/bin/sh
 
-[ -z ${IReadAllAndUndnderstood+x} ]
-
+[[ "${IReadAllAndUndnderstood}" == "true" ]]
