@@ -1,6 +1,6 @@
 #!/bin/sh
 
-if [ -z ${IReadAllAndUndestand+x} ]; then
+if [ -z ${IReadAllAndUndnderstood+x} ]; then
   return 1; 
 else 
   return 0; 
