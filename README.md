@@ -34,10 +34,10 @@ Task list:
 </pre>
 </details>
 ```
-# Template for cource index.md
+# Template for scenario index.md
 ```
 {
-  "title": "Title of lesson",
+  "title": "Title of scenario",
   "details": {
     "intro": {
       "text": "intro.md"
