@@ -5,7 +5,7 @@ First of all - useful links:
 - [The conditional expression](https://wiki.bash-hackers.org/syntax/ccmd/conditional_expression)
 - [Introduction to if](https://tldp.org/LDP/Bash-Beginners-Guide/html/sect_07_01.html)
 - [Advanced Bash-Scripting Guide #Testing and Branching](https://tldp.org/LDP/abs/html/testbranch.html)
-- [The classic `test` command](https://wiki.bash-hackers.org/commands/classictest#file_tests)
+- [Differences Between Single and Double Brackets in Bash](https://www.baeldung.com/linux/bash-single-vs-double-brackets)
 
 <details><summary>Lesson info and tips</summary>
 <pre>
