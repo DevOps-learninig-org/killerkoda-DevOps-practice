@@ -1,6 +1,7 @@
 First of all - useful links:
 
 - [Learn BASH in Y minutes](https://learnxinyminutes.com/docs/bash/)
+- [Google - BASH functions examples](https://www.google.com/search?q=bash+functions+example)
 - [Bash scripting cheatsheet #Functions](https://devhints.io/bash#functions)
 - [gnu.org - Shell Functions](https://www.gnu.org/software/bash/manual/html_node/Shell-Functions.html)
 - [tldp.org - Functions](https://tldp.org/LDP/abs/html/functions.html)
