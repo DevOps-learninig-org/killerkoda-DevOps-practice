@@ -7,10 +7,6 @@
     },
     "steps": [
       {
-        "title": "Useful links",
-        "text": "links.md"
-      },
-      {
         "title": "BASH builtin commands",
         "text": "builtins.md"
       },
