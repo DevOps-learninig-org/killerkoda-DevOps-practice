@@ -11,7 +11,7 @@ First of all - useful links:
   0	is stdin
   1	is stdout
   2	is stderr<br>
-<strong>File descriptors:</strong>
+<strong>Redirect operators:</strong>
   M>N
     # "M" is a file descriptor, which defaults to 1, if not explicitly set.
     # "N" is a filename.
