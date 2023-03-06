@@ -6,7 +6,11 @@
       "text": "intro.md"
     },
     "steps": [
-      
+      {
+        "title": "Explore filesystem",
+        "text": "explore_fs.md",
+        "verify": "check.sh"
+      }
     ],
     "finish": {
       "text": "finish.md"
