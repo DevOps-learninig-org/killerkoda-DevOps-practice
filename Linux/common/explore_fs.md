@@ -1,10 +1,10 @@
 First of all - useful links:
 
-- `man pwd`
+- `man pwd`{exec}
 - [opengroup.org - ls](https://link.org/)
 - [man7.org - ls](https://man7.org/linux/man-pages/man1/ls.1.html)
-- `man ls`
-- `man cd`
+- `man ls`{exec}
+- `man cd`{exec}
 
 Task list:
 - Read manual pages for 'ls' and 'cd'
