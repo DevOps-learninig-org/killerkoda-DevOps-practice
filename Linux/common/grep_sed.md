@@ -34,7 +34,7 @@ Task list:
 <strong>Task 1:</strong>
   $ grep -n PasswordAuthentication /etc/ssh/ssh_config
   25:PasswordAuthentication yes
-  $ sed '25c PasswordAuthentication no' /etc/ssh/ssh_config
+  $ sed -i '25c PasswordAuthentication no' /etc/ssh/ssh_config
 </pre>
 </details>
 <br>
