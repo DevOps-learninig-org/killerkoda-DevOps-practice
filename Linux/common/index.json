@@ -10,6 +10,11 @@
         "title": "Explore filesystem",
         "text": "explore_fs.md",
         "verify": "check.sh"
+      },
+      {
+        "title": "find files",
+        "text": "find.md",
+        "verify": "check.sh"
       }
     ],
     "finish": {
