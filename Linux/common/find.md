@@ -17,12 +17,12 @@ First of all - useful links:
   $ find . -type f -name "*.tmp" -exec rm -f {} \;
   $ find / -cmin -60
   $ find / -type f -name *.mp3 -size +10M -size -20M -exec rm {} \;
-  
+<br>
 The find -exec command will take the following format:
   find [path] [arguments] -exec [command] [placeholder] [delimiter]
-
-  '{}' is called a placeholder. This placeholder will hold the result found by find
-  Delimeter may be \; or +
+<br>
+  '{}' is called a placeholder. This placeholder will hold the result found by find<br>
+  Delimeter may be \; or +<br>
   \; will execute command on each result
   +  all results will be passed to command in one line
 </pre>
