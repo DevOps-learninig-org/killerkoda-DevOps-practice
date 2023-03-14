@@ -16,7 +16,6 @@ First of all - useful links:
   Put here some info
 </pre>
 </details>
-<br>
 
 Task list:
 - Task 1
