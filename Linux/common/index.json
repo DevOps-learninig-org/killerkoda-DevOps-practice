@@ -15,6 +15,11 @@
         "title": "find files",
         "text": "find.md",
         "verify": "check.sh"
+      },
+      {
+        "title": "GREP and SED",
+        "text": "grep_sed.md",
+        "verify": "check.sh"
       }
     ],
     "finish": {
