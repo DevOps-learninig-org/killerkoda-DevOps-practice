@@ -23,7 +23,7 @@ First of all - useful links:
   grep [-E|-F] [-c|-l|-q] [-insvx] [-e pattern_list]... -f pattern_file [-f pattern_file]... [file...]
   grep [-E|-F] [-c|-l|-q] [-insvx] pattern_list [file...]
 </pre>
-</details>
+</details><br>
 
 Task list:
 - Use the grep utility to print the line number containing 'PasswordAuthentication' in <b>/etc/ssh/ssh_config</b>
