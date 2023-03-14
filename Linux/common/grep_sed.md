@@ -26,18 +26,15 @@ First of all - useful links:
 </details>
 
 Task list:
-- Task 1
-- Task 2
+- Use the grep utility to print the line number containing 'PasswordAuthentication' in <b>/etc/ssh/ssh_config</b>
+- Reverse the "PasswordAuthentication yes" setting with SED, and uncomment it
 
 <details><summary>Hints for the task</summary>
 <pre>
 <strong>Task 1:</strong>
-  $ cmd1
-  $ echo ${string:7:3}
-<br>
-<strong>Task 2:</strong>
-  $ echo ${#string}
-  $ string=
+  $ grep -n PasswordAuthentication /etc/ssh/ssh_config
+  25:PasswordAuthentication yes
+  $ sed '25c PasswordAuthentication no' /etc/ssh/ssh_config
 </pre>
 </details>
 <br>
