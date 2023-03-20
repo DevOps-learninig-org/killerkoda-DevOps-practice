@@ -8,6 +8,10 @@
       {
         "title": "User management",
         "text": "users.md"
+      },
+      {
+        "title": "Package management",
+        "text": "app_management.md"
       }
     ],
     "finish": {
