@@ -1,27 +1,31 @@
 First of all - useful links:
 
-- [Useful link 1](https://link.org/)
-- [Useful link 2](https://link.org/)
+- `man useradd`{exec}
+- [ubuntu.com - User Management](https://ubuntu.com/server/docs/security-users)
+- [tutorialspoint.com - Linux Admin - User Management](https://www.tutorialspoint.com/linux_admin/linux_admin_user_management.htm)
+- [makeuseof.com - User Management in Linux](https://www.makeuseof.com/user-management-linux-guide/)
 
 <details><summary>Lesson info and tips</summary>
 <pre>
-  Put here some info
+  Most common algorythm of user creation:
+    $ groupadd some_group
+    $ useradd -m -g some_group -G another_group,some_group2 user1
+    $ passwd user1
 </pre>
 </details>
 <br>
 
 Task list:
-- Task 1
-- Task 2
+- Create random group
+- Create some user and add it to previously created group
 
 <details><summary>Hints for the task</summary>
 <pre>
 <strong>Task 1:</strong>
-  $ cmd1
-  $ echo ${string:7:3}
+  $ groupadd random
 <br>
 <strong>Task 2:</strong>
-  $ echo ${#string}
-  $ string=
+  $ useradd -m -g random -G wheel user1
+  $ passwd user1
 </pre>
 </details>
