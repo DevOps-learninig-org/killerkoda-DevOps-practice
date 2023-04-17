@@ -1,27 +1,37 @@
 First of all - useful links:
 
-- [Useful link 1](https://link.org/)
-- [Useful link 2](https://link.org/)
+- [sudo.ws - A Short Introduction](https://www.sudo.ws/about/intro/)
+- [github.com - SUDO project source code](https://github.com/sudo-project/sudo)
+- `man sudoers`{exec}
+- [cheat.sh - SUDO](https://cheat.sh/sudo)
+- [digitalocean.com - How To Edit the Sudoers File](https://www.digitalocean.com/community/tutorials/how-to-edit-the-sudoers-file)
 
 <details><summary>Lesson info and tips</summary>
 <pre>
-  Put here some info
+  List the current user's sudo(8) privileges.
+    $ sudo -l<br>
+  Begin a shell session as the system's `root` user.
+    $ sudo -i<br>
+  Run a command as the superuser
+    $ sudo less /var/log/syslog<br>
+  Run a command as another user and/or group
+    $ sudo --user=user1 --group=group1 id -a<br>
+  Launch the default shell with superuser privileges without changing the environment
+    $ sudo --shell
 </pre>
 </details>
 
 Task list:
-- Task 1
-- Task 2
+- Run `ls -AlF` with superuser priveledges
+- Edit /etc/sudoers with visudo
 
 <details><summary>Hints for the task</summary>
 <pre>
 <strong>Task 1:</strong>
-  $ cmd1
-  $ echo ${string:7:3}
+  $ sudo ls -AlF
 <br>
 <strong>Task 2:</strong>
-  $ echo ${#string}
-  $ string=
+  $ visudo
 </pre>
 </details>
 <br>
