@@ -12,6 +12,10 @@
       {
         "title": "Package management",
         "text": "app_management.md"
+      },
+      {
+        "title": "Working with GRUB2 boot manager",
+        "text": "grub.md"
       }
     ],
     "finish": {
