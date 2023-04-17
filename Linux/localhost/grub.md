@@ -1,27 +1,27 @@
 First of all - useful links:
 
-- [Useful link 1](https://link.org/)
-- [Useful link 2](https://link.org/)
+- [gnu.org - GNU GRUB Manual](https://www.gnu.org/software/grub/manual/grub/grub.html)
+- [wikipedia.org - GRUB](https://www.wikipedia.org/wiki/GNU_GRUB)
+- [wikibooks.org - GRUB2](https://ru.wikibooks.org/wiki/Grub_2)
 
 <details><summary>Lesson info and tips</summary>
 <pre>
-  Put here some info
+  Most common scenario to update grub:
+    - edit /etc/default/grub
+    - edit script in /etc/grub.d/40_custom
+    $ sudo vi /etc/grub.d/40_custom
+    $ sudo update-grub
+    $ sudo reboot
 </pre>
 </details>
 
 Task list:
-- Task 1
-- Task 2
+- Add custom menu to your grub2 config
 
 <details><summary>Hints for the task</summary>
 <pre>
 <strong>Task 1:</strong>
-  $ cmd1
-  $ echo ${string:7:3}
-<br>
-<strong>Task 2:</strong>
-  $ echo ${#string}
-  $ string=
+  $ look for Lesson info and tips above
 </pre>
 </details>
 <br>
