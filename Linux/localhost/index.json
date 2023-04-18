@@ -20,6 +20,10 @@
       {
         "title": "Priveledge escalation with SUDO",
         "text": "sudo.md"
+      },
+      {
+        "title": "System management with SYSTEMD",
+        "text": "systemd.md"
       }
     ],
     "finish": {
