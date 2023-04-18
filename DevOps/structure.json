@@ -1,6 +1,6 @@
 {
-  "title" : "DevOps/SRE course",
-  "description" : "2 - Learn how to use SRE tools at practice",
+  "title" : "2 - DevOps/SRE course",
+  "description" : "Learn how to use SRE tools at practice",
   "items": [
     { "path": "git", "title": "GIT practice" },
     { "path": "ansible", "title": "Ansible practice" },
