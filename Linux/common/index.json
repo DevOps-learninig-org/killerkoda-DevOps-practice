@@ -20,6 +20,11 @@
         "title": "GREP and SED",
         "text": "grep_sed.md",
         "verify": "check.sh"
+      },
+      {
+        "title": "VIM text editor",
+        "text": "vim.md",
+        "verify": "check.sh"
       }
     ],
     "finish": {
