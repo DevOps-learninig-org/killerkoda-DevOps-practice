@@ -6,7 +6,7 @@ First of all - useful links:
 
 <details><summary>Lesson info and tips</summary>
 <pre>
-  Most common scenario to update grub:
+  Most common scenario to update grub:<br>
     - edit /etc/default/grub
     - edit script in /etc/grub.d/40_custom
     $ sudo vi /etc/grub.d/40_custom
