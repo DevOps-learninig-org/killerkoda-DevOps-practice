@@ -38,6 +38,19 @@ Task list:
 `touch IReadAllAndUndnderstood`{{exec}}
 </pre>
 ```
+# Template for intro.md
+```
+Welcome to %SCENARIO_NAME% scenario!
+Read some useful articles before:
+- [Useful link 1](https://link.org/)
+- `some cli command`{{exec}}<br>
+
+And watch some videos:
+- [Useful link 1](https://link.org/)
+- [Useful link 1](https://link.org/)
+
+Now, lets start!
+```
 # Template for scenario index.md
 ```
 {
