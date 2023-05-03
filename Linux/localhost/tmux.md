@@ -4,6 +4,7 @@ First of all - useful links:
 - [readthedocs.io - TMUX guide](https://link.org/)
 - [github.org - tmux shortcuts & cheatsheet](https://gist.github.com/MohamedAlaa/2961058)
 - [opensource.com - Cheatsheet for tmux](https://opensource.com/article/20/7/tmux-cheat-sheet)
+- [gnu.org - GNU screen homepage](https://www.gnu.org/software/screen/)
 
 <details><summary>Lesson info and tips</summary>
 <pre>
@@ -32,6 +33,7 @@ Task list:
     <strong>C-d "</strong> - split vertical 
     <strong>C-d q</strong> - show numbers of panes
     <strong>C-d q 2</strong> - switch to 2 pane
+    <strong>C-d d</strong> - detach session
 <br>
 <strong>Task 2:</strong>
   $ echo ${#string}
