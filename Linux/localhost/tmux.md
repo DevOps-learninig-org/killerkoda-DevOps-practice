@@ -26,8 +26,11 @@ Task list:
 <details><summary>Hints for the task</summary>
 <pre>
 <strong>Task 1:</strong>
-  $ cmd1
-  $ echo ${string:7:3}
+  In tmux type:
+    <strong>C-d %</strong> - split horizontal 
+    <strong>C-d "</strong> - split vertical 
+    <strong>C-d q</strong> - show numbers of panes
+    <strong>C-d q 2</strong> - switch to 2 pane
 <br>
 <strong>Task 2:</strong>
   $ echo ${#string}
