@@ -9,7 +9,7 @@ Thanks for all who make it possible!
 First of all - useful links:
 
 - [Useful link 1](https://link.org/)
-- [Useful link 2](https://link.org/)
+- `some cli command`{{exec}}
 
 <details><summary>Lesson info and tips</summary>
 <pre>
