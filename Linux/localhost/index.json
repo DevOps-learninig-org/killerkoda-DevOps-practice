@@ -28,6 +28,10 @@
       {
         "title": "Working with GRUB2 boot manager",
         "text": "grub.md"
+      },
+      {
+        "title": "Operating system monitoring",
+        "text": "monitoring.md"
       }
     ],
     "finish": {
