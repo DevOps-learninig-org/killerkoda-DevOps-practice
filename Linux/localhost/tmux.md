@@ -12,19 +12,19 @@ First of all - useful links:
 <details><summary>Lesson info and tips</summary>
 <pre>
 Tmux commands:
-  <strong>tmux</strong>          Start tmux
-  <strong>tmux new -s &lt;name&gt;</strong>	Start tmux with <name>
-  <strong>tmux ls</strong>	 Shows the list of sessions
-  <strong>tmux a #</strong>	 Attach the detached-session
-  <strong>tmux a -t &lt;name&gt;</strong>	  Attach the detached-session to <name>
-  <strong>tmux kill-session –t &lt;name&gt;</strong> 	Kill the session <name>
-  <strong>tmux kill-server</strong>	  Kill the tmux server
+  <strong>tmux</strong> Start tmux
+  <strong>tmux new -s &lt;name&gt;</strong> Start tmux with &lt;name&gt;
+  <strong>tmux ls</strong>  Shows the list of sessions
+  <strong>tmux a #</strong> Attach the detached-session
+  <strong>tmux a -t &lt;name&gt;</strong> Attach the detached-session to &lt;name&gt;
+  <strong>tmux kill-session –t &lt;name&gt;</strong>  Kill the session &lt;name&gt;
+  <strong>tmux kill-server</strong> Kill the tmux server
   <br>
 GNU Screen commands:
-  <strong>screen</strong>   Start screen
+  <strong>screen</strong> Start screen
   <strong>screen -S</strong>  Starts a named session
-  <strong>screen -r &lt;name&gt;</strong>	  Reattach to a screen (optionally by name)
-  </strong>screen -ls | --list</strong>	  Returns a list of session ids
+  <strong>screen -r &lt;name&gt;</strong> Reattach to a screen (optionally by name)
+  </strong>screen -ls | --list</strong> Returns a list of session ids
 </pre>
 </details>
 
