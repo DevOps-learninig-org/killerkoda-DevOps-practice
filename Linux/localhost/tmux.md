@@ -3,6 +3,7 @@ First of all - useful links:
 - [github.org - TMUX homepage](https://github.com/tmux/tmux/wiki)
 - [readthedocs.io - TMUX guide](https://link.org/)
 - [github.org - tmux shortcuts & cheatsheet](https://gist.github.com/MohamedAlaa/2961058)
+- [opensource.com - Cheatsheet for tmux](https://opensource.com/article/20/7/tmux-cheat-sheet)
 
 <details><summary>Lesson info and tips</summary>
 <pre>
