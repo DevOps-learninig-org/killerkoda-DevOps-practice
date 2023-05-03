@@ -6,12 +6,12 @@
     },
     "steps": [
       {
-        "title": "User management",
-        "text": "users.md"
+        "title": "Terminal multiplexers",
+        "text": "tmux.md"
       },
       {
-        "title": "Working with GRUB2 boot manager",
-        "text": "grub.md"
+        "title": "User management",
+        "text": "users.md"
       },
       {
         "title": "Package management",
@@ -26,8 +26,8 @@
         "text": "systemd.md"
       },
       {
-        "title": "Terminal multiplexers",
-        "text": "tmux.md"
+        "title": "Working with GRUB2 boot manager",
+        "text": "grub.md"
       }
     ],
     "finish": {
