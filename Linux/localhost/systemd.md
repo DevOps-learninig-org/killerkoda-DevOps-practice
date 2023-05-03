@@ -14,7 +14,7 @@ First of all - useful links:
 
 <details><summary>Lesson info and tips</summary>
 <pre>
-  Most popular systemctl commands:
+  Most popular systemctl commands:<br>
     $ systemctl list-units
     $ systemctl status one-of-this.service
     $ systemctl cat nginx.service
