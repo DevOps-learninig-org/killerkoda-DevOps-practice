@@ -10,11 +10,11 @@ First of all - useful links:
 <pre>
 Tmux commands:
   <strong>tmux</strong>          start tmux
-  <strong>tmux new -s &ltname&qt</strong>	start tmux with <name>
+  <strong>tmux new -s &lt;name&gt;</strong>	start tmux with <name>
   <strong>tmux ls</strong>	 shows the list of sessions
   <strong>tmux a #</strong>	 attach the detached-session
-  <strong>tmux a -t &ltname&qt</strong>	  attach the detached-session to <name>
-  <strong>tmux kill-session –t &ltname&qt</strong> 	kill the session <name>
+  <strong>tmux a -t &lt;name&gt;</strong>	  attach the detached-session to <name>
+  <strong>tmux kill-session –t &lt;name&gt;</strong> 	kill the session <name>
   <strong>tmux kill-server</strong>	  kill the tmux server
   
 
