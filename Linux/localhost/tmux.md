@@ -6,7 +6,7 @@ First of all - useful links:
 - [opensource.com - Cheatsheet for tmux](https://opensource.com/article/20/7/tmux-cheat-sheet)
 - [gnu.org - GNU screen homepage](https://www.gnu.org/software/screen/)
 - [gnu.org - GNU screen manual](https://www.gnu.org/software/screen/manual/screen.html)
-- [devhints.io - Screen cheatsheet](https://devhints.io/screen)
+- [youtube.com - How to use GNU SCREEN](https://www.youtube.com/watch?v=I4xVn6Io5Nw)
 
 <details><summary>Lesson info and tips</summary>
 <pre>
@@ -26,7 +26,7 @@ GNU Screen commands:
 
 Task list:
 - Create new window in tmux then split it horizontaly and verticaly, show numbers of panes, then switch between them
-- Task 2
+- Create new window in screen then split it horizontaly and verticaly, witch between them
 
 <details><summary>Hints for the task</summary>
 <pre>
