@@ -10,16 +10,16 @@
         "text": "tmux.md"
       },
       {
+        "title": "Priveledge escalation with SUDO",
+        "text": "sudo.md"
+      },
+      {
         "title": "User management",
         "text": "users.md"
       },
       {
         "title": "Package management",
         "text": "app_management.md"
-      },
-      {
-        "title": "Priveledge escalation with SUDO",
-        "text": "sudo.md"
       },
       {
         "title": "System management with SYSTEMD",
