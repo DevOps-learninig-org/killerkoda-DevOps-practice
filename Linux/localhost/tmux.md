@@ -5,12 +5,21 @@ First of all - useful links:
 
 <details><summary>Lesson info and tips</summary>
 <pre>
-  Put here some info
+Tmux commands:
+  <strong>tmux</strong>          start tmux
+  <strong>tmux new -s <name></strong>	start tmux with <name>
+  <strong>tmux ls</strong>	 shows the list of sessions
+  <strong>tmux a #</strong>	 attach the detached-session
+  <strong>tmux a -t <name></strong>	  attach the detached-session to <name>
+  <strong>tmux kill-session –t</strong> <name>	kill the session <name>
+  <strong>tmux kill-server</strong>	  kill the tmux server
+  
+
 </pre>
 </details>
 
 Task list:
-- Task 1
+- Create new window in tmux then split it horizontaly and verticaly, show numbers of panes, then switch between them
 - Task 2
 
 <details><summary>Hints for the task</summary>
