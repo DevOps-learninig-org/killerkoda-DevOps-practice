@@ -7,10 +7,10 @@ First of all - useful links:
 
 <details><summary>Lesson info and tips</summary>
 <pre>
-  <b>$ sudo apt install nmap</b>   - Install a Package
-  <b>$ sudo apt remove nmap </b>   - Remove a Package
-  <b>$ sudo apt update</b>         - Update the package index
-  <b>$ sudo apt upgrade </b>       - Upgrade packages
+  <strong>$ sudo apt install nmap</strong>   - Install a Package
+  <strong>$ sudo apt remove nmap </strong>   - Remove a Package
+  <strong>$ sudo apt update</strong>         - Update the package index
+  <strong>$ sudo apt upgrade </strong>       - Upgrade packages
 </pre>
 </details>
 
