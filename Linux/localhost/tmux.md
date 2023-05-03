@@ -20,7 +20,10 @@ Tmux commands:
   <strong>tmux kill-server</strong>	  kill the tmux server
   
 GNU Screen commands:
-  <strong>tmux</strong>
+  <strong>screen</strong> start screen
+  <strong>screen -S</strong> Starts a named session
+  <strong>screen -r &lt;name&gt;</strong>	Reattach to a screen (optionally by name)
+  </strong>screen -ls | --list</strong>	Returns a list of session ids
 </pre>
 </details>
 
