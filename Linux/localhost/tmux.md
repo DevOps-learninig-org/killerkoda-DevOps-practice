@@ -36,20 +36,20 @@ Task list:
 <pre>
 <strong>Task 1:</strong>
   In tmux type:
-    <strong>C-d %</strong> - split horizontal 
-    <strong>C-d "</strong> - split vertical 
-    <strong>C-d q</strong> - show numbers of panes
-    <strong>C-d q 2</strong> - switch to 2 pane
-    <strong>C-d d</strong> - detach session
+    <strong>Ctrl-b %</strong> - split horizontal 
+    <strong>Ctrl-b "</strong> - split vertical 
+    <strong>Ctrl-b q</strong> - show numbers of panes
+    <strong>Ctrl-b q 2</strong> - switch to 2 pane
+    <strong>Ctrl-b d</strong> - detach session
 <br>
 <strong>Task 2:</strong>
   In screen type:
-    <strong>C-a |</strong> - split vertical 
-    <strong>C-a c</strong> - create new window in pane
-    <strong>C-a S</strong> - split horizontal
-    <strong>C-a c 2</strong> - create new window in pane
-    <strong>C-a Tab</strong> - switch between panes
-    <strong>C-a d</strong> - detach session
+    <strong>Ctrl-a |</strong> - split vertical 
+    <strong>Ctrl-a c</strong> - create new window in pane
+    <strong>Ctrl-a S</strong> - split horizontal
+    <strong>Ctrl-a c 2</strong> - create new window in pane
+    <strong>Ctrl-a Tab</strong> - switch between panes
+    <strong>Ctrl-a d</strong> - detach session
 </pre>
 </details>
 <br>
