@@ -9,15 +9,15 @@ First of all - useful links:
 <details><summary>Lesson info and tips</summary>
 <pre>
   List the current user's sudo(8) privileges.
-    $ sudo -l<br>
+    <b>$ sudo -l</b><br>
   Begin a shell session as the system's `root` user.
-    $ sudo -i<br>
+    <b>$ sudo -i</b><br>
   Run a command as the superuser
-    $ sudo less /var/log/syslog<br>
+    <b>$ sudo less /var/log/syslog</b><br>
   Run a command as another user and/or group
-    $ sudo --user=user1 --group=group1 id -a<br>
+    <b>$ sudo --user=user1 --group=group1 id -a</b><br>
   Launch the default shell with superuser privileges without changing the environment
-    $ sudo --shell
+    <b>$ sudo --shell</b>
 </pre>
 </details>
 
