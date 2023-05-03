@@ -2,8 +2,8 @@ First of all - useful links:
 
 - [github.com - System performance tools](https://github.com/sysstat/sysstat)
 - [gnu.org - Accounting Utilities Manual](https://www.gnu.org/software/acct/manual/accounting.html)
-- 
-- `some cli command`{{exec}}
+- `man vmstat`{{exec}}
+- `man ps`{{exec}}
 
 <details><summary>Lesson info and tips</summary>
 <pre>
@@ -18,18 +18,24 @@ First of all - useful links:
 </details>
 
 Task list:
-- Task 1
-- Task 2
+- Install htop into your system and start it
+- Explore hardware in different ways
+- Explore running processes
 
 <details><summary>Hints for the task</summary>
 <pre>
 <strong>Task 1:</strong>
-  $ cmd1
-  $ echo ${string:7:3}
+  $ snap install htop
+  $ htop
 <br>
 <strong>Task 2:</strong>
-  $ echo ${#string}
-  $ string=
+  $ dmesg 
+  $ lscpu && lsusb && lspci
+  $ lshw
+<br>
+<strong>Task 3:</strong>
+  $ sudo apt install sysstat
+  $ pidstat
 </pre>
 </details>
 <br>
