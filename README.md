@@ -52,6 +52,20 @@ And watch some videos:
 
 Now, lets start!
 ```
+# Template for finish.md
+```
+You have finished this scenario!
+
+Read again useful articles to consolidate your knowledge:
+- [Useful link 1](https://link.org/)
+- `some cli command`{{exec}}
+
+And watch some videos:
+- [Useful link 1](https://link.org/)
+- [Useful link 1](https://link.org/)
+
+See you in the [next  scenario](/kodxxl/course/Linux/%LINK_TO_NEXT%)!
+```
 # Template for scenario index.md
 ```
 {
