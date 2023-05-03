@@ -7,7 +7,7 @@ First of all - useful links:
 
 <details><summary>Lesson info and tips</summary>
 <pre>
-  Most common algorythm of user creation:
+  Most common algorythm of user creation:<br>
     $ groupadd some_group
     $ useradd -m -g some_group -G another_group,some_group2 user1
     $ passwd user1
