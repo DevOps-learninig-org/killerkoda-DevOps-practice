@@ -24,6 +24,10 @@
       {
         "title": "System management with SYSTEMD",
         "text": "systemd.md"
+      },
+      {
+        "title": "Terminal multiplexers",
+        "text": "tmux.md"
       }
     ],
     "finish": {
