@@ -1,6 +1,7 @@
 Welcome to Linux Localhost administration scenario!
 
 Read some useful articles before:
+
 - [ubuntu.com - Ubuntu system administration](https://help.ubuntu.com/community/SystemAdministration)
 - [redhat.com - RHEL documentation](https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/9)
 - [fedora.org - FL System Administrator’s Guide](https://docs.fedoraproject.org/en-US/fedora/latest/system-administrators-guide/)
