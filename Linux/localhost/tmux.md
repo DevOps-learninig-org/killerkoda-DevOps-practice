@@ -4,7 +4,7 @@ First of all - useful links:
 - [readthedocs.io - TMUX guide](https://link.org/)
 - [github.org - tmux shortcuts & cheatsheet](https://gist.github.com/MohamedAlaa/2961058)
 - [opensource.com - Cheatsheet for tmux](https://opensource.com/article/20/7/tmux-cheat-sheet)
-- `screen -h`{exec}
+- `screen -h`{{exec}}
 - [gnu.org - GNU screen homepage](https://www.gnu.org/software/screen/)
 - [gnu.org - GNU screen manual](https://www.gnu.org/software/screen/manual/screen.html)
 - [youtube.com - How to use GNU SCREEN](https://www.youtube.com/watch?v=I4xVn6Io5Nw)
