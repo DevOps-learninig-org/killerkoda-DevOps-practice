@@ -14,7 +14,7 @@ Tmux commands:
   <strong>tmux ls</strong>	 shows the list of sessions
   <strong>tmux a #</strong>	 attach the detached-session
   <strong>tmux a -t <name></strong>	  attach the detached-session to <name>
-  <strong>tmux kill-session –t</strong> <name>	kill the session <name>
+  <strong>tmux kill-session –t <name></strong> 	kill the session <name>
   <strong>tmux kill-server</strong>	  kill the tmux server
   
 
