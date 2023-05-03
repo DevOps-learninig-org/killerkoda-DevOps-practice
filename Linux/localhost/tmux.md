@@ -5,6 +5,8 @@ First of all - useful links:
 - [github.org - tmux shortcuts & cheatsheet](https://gist.github.com/MohamedAlaa/2961058)
 - [opensource.com - Cheatsheet for tmux](https://opensource.com/article/20/7/tmux-cheat-sheet)
 - [gnu.org - GNU screen homepage](https://www.gnu.org/software/screen/)
+- [gnu.org - GNU screen manual](https://www.gnu.org/software/screen/manual/screen.html)
+- [devhints.io - Screen cheatsheet](https://devhints.io/screen)
 
 <details><summary>Lesson info and tips</summary>
 <pre>
@@ -17,7 +19,8 @@ Tmux commands:
   <strong>tmux kill-session –t &lt;name&gt;</strong> 	kill the session <name>
   <strong>tmux kill-server</strong>	  kill the tmux server
   
-
+GNU Screen commands:
+  <strong>tmux</strong>
 </pre>
 </details>
 
