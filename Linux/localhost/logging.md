@@ -9,6 +9,11 @@ First of all - useful links:
 - `man rsyslog.conf`{{exec}}
 - `man logger`{{exec}}
 
+Log collectors: rsyslog, Filebeat, Fluentd
+Log processing: Logstash, Graylog, Splunk
+Log storage: ElasticSearch, InfluxDB
+Log visualizer: Kibana, Grafana
+
 Task list:
 - Write message "Hello World directly to journald log"
 - Show latest journald records since 1 minute
