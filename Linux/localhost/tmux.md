@@ -26,7 +26,7 @@ GNU Screen commands:
   <strong>screen -r &lt;name&gt;</strong> &mdash; Reattach to a screen (optionally by name)
   </strong>screen -ls | --list</strong> &mdash; Returns a list of session ids
 </pre>
-</details>
+</details><br>
 
 Task list:
 - Create new window in tmux then split it horizontaly and verticaly, show numbers of panes, then switch between them
