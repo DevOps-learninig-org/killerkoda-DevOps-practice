@@ -15,7 +15,7 @@ First of all - useful links:
 <pre>
   Put here some info
 </pre>
-</details>
+</details><br>
 
 Task list:
 - Task 1
