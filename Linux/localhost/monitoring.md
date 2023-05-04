@@ -15,7 +15,7 @@ First of all - useful links:
   User activity:        <strong>sa | lastcomm | </strong>
   Explore hardware:     <strong>dmesg | lshw | lscpu | lsusb | lspci | lsblk</strong>
 </pre>
-</details>
+</details><br>
 
 Task list:
 - Install htop into your system and start it
