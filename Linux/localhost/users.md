@@ -12,8 +12,7 @@ First of all - useful links:
     $ useradd -m -g some_group -G another_group,some_group2 user1
     $ passwd user1
 </pre>
-</details>
-<br>
+</details><br>
 
 Task list:
 - Create random group
