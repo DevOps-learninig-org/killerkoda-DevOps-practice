@@ -1,7 +1,13 @@
 First of all - useful links:
 
-- [Useful link 1](https://link.org/)
-- `some cli command`{{exec}}
+- [rsyslog.com - The rocket-fast Syslog Server](https://www.rsyslog.com/)
+- [ubuntu.com - Linux Log Files](https://help.ubuntu.com/community/LinuxLogFiles#System_Log)
+- [opensuse.org - Query the systemd journal](https://doc.opensuse.org/documentation/leap/reference/html/book-reference/cha-journalctl.html)
+- [fedoraproject.org - Viewing and Managing Log Files](https://docs.fedoraproject.org/en-US/fedora/latest/system-administrators-guide/monitoring-and-automation/Viewing_and_Managing_Log_Files/)
+- [debian-handbook.info - syslog System Events](https://debian-handbook.info/browse/stable/sect.syslog.html)
+- `man rsyslog.conf`{{exec}}
+- `man logger`{{exec}}
+- `man systemd-journald.service`{{exec}}
 
 <details><summary>Lesson info and tips</summary>
 <pre>
