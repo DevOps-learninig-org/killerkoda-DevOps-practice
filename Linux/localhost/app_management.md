@@ -12,7 +12,7 @@ First of all - useful links:
   <strong>$ sudo apt update</strong>         - Update the package index
   <strong>$ sudo apt upgrade </strong>       - Upgrade packages
 </pre>
-</details>
+</details><br>
 
 Task list:
 - Install nmap
