@@ -9,6 +9,8 @@ First of all - useful links:
 - `man rsyslog.conf`{{exec}}
 - `man logger`{{exec}}
 
+Handy stuff:
+
 - Log collectors: rsyslog, Filebeat, Fluentd
 - Log processing: Logstash, Graylog, Splunk
 - Log storage: ElasticSearch, InfluxDB
