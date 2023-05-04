@@ -26,12 +26,16 @@
         "text": "systemd.md"
       },
       {
-        "title": "Working with GRUB2 boot manager",
-        "text": "grub.md"
-      },
-      {
         "title": "Operating system monitoring",
         "text": "monitoring.md"
+      },
+      {
+        "title": "Viewing and Managing log-files",
+        "text": "logging.md"
+      },
+      {
+        "title": "Working with GRUB2 boot manager",
+        "text": "grub.md"
       }
     ],
     "finish": {
