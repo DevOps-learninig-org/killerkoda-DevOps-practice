@@ -13,7 +13,7 @@ First of all - useful links:
     $ sudo update-grub
     $ sudo reboot
 </pre>
-</details>
+</details><br>
 
 Task list:
 - Add custom menu to your grub2 config
