@@ -19,7 +19,7 @@ First of all - useful links:
   Launch the default shell with superuser privileges without changing the environment
     <strong>$ sudo --shell</strong>
 </pre>
-</details>
+</details><br>
 
 Task list:
 - Run `ls -AlF` with superuser priveledges
