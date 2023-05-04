@@ -23,7 +23,7 @@ First of all - useful links:
     $ journalctl -fk
     $ journalctl -u nginx.service
 </pre>
-</details>
+</details><br>
 
 Task list:
 - List all unit in the system
