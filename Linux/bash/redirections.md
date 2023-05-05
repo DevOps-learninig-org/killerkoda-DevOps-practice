@@ -25,7 +25,7 @@ First of all - useful links:
     # Pipe.
     # General purpose process and command chaining tool
 </pre>
-</details>
+</details><br>
 
 Task list:
 - Write string to "File"
