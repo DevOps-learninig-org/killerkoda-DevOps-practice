@@ -7,19 +7,19 @@
     },
     "steps": [
       {
-        "title": "Explore filesystem",
+        "title": "1/4 Explore filesystem",
         "text": "explore_fs.md",
         "verify": "check.sh"
       },{
-        "title": "find files",
+        "title": "2/4 find files",
         "text": "find.md",
         "verify": "check.sh"
       },{
-        "title": "GREP and SED",
+        "title": "3/4 GREP and SED",
         "text": "grep_sed.md",
         "verify": "check.sh"
       },{
-        "title": "VIM text editor",
+        "title": "4/4 VIM text editor",
         "text": "vim.md",
         "verify": "check.sh"
       }
