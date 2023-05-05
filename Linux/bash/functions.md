@@ -33,14 +33,14 @@ Task list:
 <details><summary>Hints for the task</summary>
 <pre>
 <strong>Task 1:</strong>
-  $ log_cleanup(){
+  $ log_cleanup (){
      if [[ -d "$1" ]]
      then
        logger "[ INFO ] - Running Cleanup On " $1 " Older Logs - 30 days"
        find -name "$1/*.log" -type f -mtime +30 -delete
        logger "[ SUCCESS] - Cleanup Completed"
      else
-       logger "[ ERROR ] - Directory path wrong... Cleanup has not happened..."
+       logger "[ ERROR ] - log_cleanup () : Directory path wrong... Cleanup has not happened..."
        return 1
      fi
    }
