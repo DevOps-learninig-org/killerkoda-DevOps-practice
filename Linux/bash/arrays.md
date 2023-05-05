@@ -2,7 +2,6 @@ First of all - useful links:
 
 - [Learn BASH in Y minutes](https://learnxinyminutes.com/docs/bash/)
 - [Bash scripting cheatsheet #Arrays](https://devhints.io/bash#arrays)
-- [bash-hackers.org - Arrays](https://wiki.bash-hackers.org/syntax/arrays?s[]=arrays)
 - [Advanced Bash-Scripting Guide #Arrays](https://tldp.org/LDP/abs/html/arrays.html)
 
 <details><summary>Lesson info and tips</summary>
