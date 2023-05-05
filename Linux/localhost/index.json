@@ -9,43 +9,35 @@
         "title": "Terminal multiplexers",
         "text": "tmux.md",
         "verify": "check.sh"
-      },
-      {
-        "title": "Priveledge escalation with SUDO",
-        "text": "sudo.md",
-        "verify": "check.sh"
-      },
-      {
+      },{
         "title": "User management",
         "text": "users.md",
         "verify": "check.sh"
-      },
-      {
+      },{
+        "title": "Priveledge escalation with SUDO",
+        "text": "sudo.md",
+        "verify": "check.sh"
+      },{
         "title": "Package management",
         "text": "app_management.md",
         "verify": "check.sh"
-      },
-      {
+      },{
         "title": "System management with SYSTEMD",
         "text": "systemd.md",
         "verify": "check.sh"
-      },
-      {
+      },{
         "title": "Operating system monitoring",
         "text": "monitoring.md",
         "verify": "check.sh"
-      },
-      {
+      },{
         "title": "Viewing and Managing log-files",
         "text": "logging.md",
         "verify": "check.sh"
-      },
-      {
+      },{
         "title": "Working with GRUB2 boot manager",
         "text": "grub.md",
         "verify": "check.sh"
-      },
-      {
+      },{
         "title": "Security and Hardening",
         "text": "security.md",
         "verify": "check.sh"
