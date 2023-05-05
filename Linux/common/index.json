@@ -10,18 +10,15 @@
         "title": "Explore filesystem",
         "text": "explore_fs.md",
         "verify": "check.sh"
-      },
-      {
+      },{
         "title": "find files",
         "text": "find.md",
         "verify": "check.sh"
-      },
-      {
+      },{
         "title": "GREP and SED",
         "text": "grep_sed.md",
         "verify": "check.sh"
-      },
-      {
+      },{
         "title": "VIM text editor",
         "text": "vim.md",
         "verify": "check.sh"
