@@ -7,36 +7,35 @@
     },
     "steps": [
       {
-        "title": "BASH builtin commands",
+        "title": "1/8 BASH builtin commands",
         "text": "builtins.md",
         "verify": "check.sh"
       },{
-        "title": "Variables and Variable expansion",
+        "title": "2/8 Variables and Variable expansion",
         "text": "vars_subst.md",
         "verify": "check.sh"
       },{
-        "title": "Arrays",
+        "title": "3/8 Arrays",
         "text": "arrays.md",
         "verify": "check.sh"
       },{
-        "title": "The conditional expressions",
+        "title": "4/8 The conditional expressions",
         "text": "conditions.md",
         "verify": "check.sh"
       },{
-        "title": "Loops",
+        "title": "5/8 Loops",
         "text": "loops.md",
         "verify": "check.sh"
       },{
-        "title": "Functions",
+        "title": "6/8 Functions",
         "text": "functions.md",
         "verify": "check.sh"
-      },
-      {
-        "title": "I/O Redirections",
+      },{
+        "title": "7/8 I/O Redirections",
         "text": "redirections.md",
         "verify": "check.sh"
       },{
-        "title": "Job Control",
+        "title": "8/8 Job Control",
         "text": "jobs.md",
         "verify": "check.sh"
       }
