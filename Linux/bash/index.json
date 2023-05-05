@@ -10,28 +10,23 @@
         "title": "BASH builtin commands",
         "text": "builtins.md",
         "verify": "check.sh"
-      },
-      {
+      },{
         "title": "Variables and Variable expansion",
         "text": "vars_subst.md",
         "verify": "check.sh"
-      },
-      {
+      },{
         "title": "Arrays",
         "text": "arrays.md",
         "verify": "check.sh"
-      },
-      {
+      },{
         "title": "The conditional expressions",
         "text": "conditions.md",
         "verify": "check.sh"
-      },
-      {
+      },{
         "title": "Loops",
         "text": "loops.md",
         "verify": "check.sh"
-      },
-      {
+      },{
         "title": "Functions",
         "text": "functions.md",
         "verify": "check.sh"
@@ -40,8 +35,7 @@
         "title": "I/O Redirections",
         "text": "redirections.md",
         "verify": "check.sh"
-      },
-      {
+      },{
         "title": "Job Control",
         "text": "jobs.md",
         "verify": "check.sh"
