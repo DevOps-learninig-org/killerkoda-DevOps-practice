@@ -1,29 +1,14 @@
 First of all - useful links:
 
-- [Useful link 1](https://link.org/)
-- `some cli command`{{exec}}
-
-<details><summary>Lesson info and tips</summary>
-<pre>
-  Put here some info
-</pre>
-</details><br>
+- [suse.com - Security and Hardening Guide](https://documentation.suse.com/sles/15-SP2/html/SLES-all/book-security.html)
+- [redhat.com - Security hardening](https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/9/html/security_hardening/index)
+- [github.com - How To Secure A Linux Server](https://github.com/imthenachoman/How-To-Secure-A-Linux-Server)
+- [archlinux.org - Security](https://wiki.archlinux.org/title/security#CPU)
+- [github.com - Awesome Security](https://github.com/decalage2/awesome-security-hardening)
 
 Task list:
-- Task 1
-- Task 2
-
-<details><summary>Hints for the task</summary>
-<pre>
-<strong>Task 1:</strong>
-  $ cmd1
-  $ echo ${string:7:3}
-<br>
-<strong>Task 2:</strong>
-  $ echo ${#string}
-  $ string=
-</pre>
-</details>
+- Learn how to encrease security in Linux
+- Learn different tools like AppArmour and SeLinux
 <br>
 <details><summary>If You have read all and understood</summary>
 <pre>
