@@ -34,16 +34,16 @@ Task list:
 <pre>
 <strong>Task 1:</strong>
   $ log_cleanup(){
-  >   logger "[ INFO ] - Running Cleanup On Older Logs - 30 days"
-  >   if [[ -d "$1" ]]
-  >   then
-  >     find -name "$1/*.log" -type f -mtime +30 -delete
-  >     echo "[ SUCCESS] - Cleanup Completed"
-  >   else
-  >     echo "[ ERROR ] - Directory path wrong... Cleanup has not happened..."
-  >     return 1
-  >   fi
-  > }
+     if [[ -d "$1" ]]
+     then
+       logger "[ INFO ] - Running Cleanup On " $1 " Older Logs - 30 days"
+       find -name "$1/*.log" -type f -mtime +30 -delete
+       echo "[ SUCCESS] - Cleanup Completed"
+     else
+       echo "[ ERROR ] - Directory path wrong... Cleanup has not happened..."
+       return 1
+     fi
+   }
   $ log_cleanup "/home/logs/"
 </pre>
 </details>
