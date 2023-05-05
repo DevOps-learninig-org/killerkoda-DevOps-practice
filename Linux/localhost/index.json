@@ -6,39 +6,39 @@
     },
     "steps": [
       {
-        "title": "Terminal multiplexers",
+        "title": "1/9 Terminal multiplexers",
         "text": "tmux.md",
         "verify": "check.sh"
       },{
-        "title": "User management",
+        "title": "2/9 User management",
         "text": "users.md",
         "verify": "check.sh"
       },{
-        "title": "Priveledge escalation with SUDO",
+        "title": "3/9 Priveledge escalation with SUDO",
         "text": "sudo.md",
         "verify": "check.sh"
       },{
-        "title": "Package management",
+        "title": "4/9 Package management",
         "text": "app_management.md",
         "verify": "check.sh"
       },{
-        "title": "System management with SYSTEMD",
+        "title": "5/9 System management with SYSTEMD",
         "text": "systemd.md",
         "verify": "check.sh"
       },{
-        "title": "Operating system monitoring",
+        "title": "6/9 Operating system monitoring",
         "text": "monitoring.md",
         "verify": "check.sh"
       },{
-        "title": "Viewing and Managing log-files",
+        "title": "7/9 Viewing and Managing log-files",
         "text": "logging.md",
         "verify": "check.sh"
       },{
-        "title": "Working with GRUB2 boot manager",
+        "title": "8/9 Working with GRUB2 boot manager",
         "text": "grub.md",
         "verify": "check.sh"
       },{
-        "title": "Security and Hardening",
+        "title": "9/9 Security and Hardening",
         "text": "security.md",
         "verify": "check.sh"
       }
