@@ -1,9 +1,10 @@
 First of all - useful links:
 
-- [Introduction to Variables and Parameters](https://tldp.org/LDP/abs/html/variables.html)
+- [tldp.org - Introduction to Variables and Parameters](https://tldp.org/LDP/abs/html/variables.html)
 - [gnu.org - Shell Variables](https://www.gnu.org/software/bash/manual/html_node/Shell-Variables.html)
-- [Shell Parameter Expansion](https://www.gnu.org/software/bash/manual/html_node/Shell-Parameter-Expansion.html)
-- [Manipulating Variables](https://tldp.org/LDP/abs/html/manipulatingvars.html)
+- [gnu.org - Shell Parameter Expansion](https://www.gnu.org/software/bash/manual/html_node/Shell-Parameter-Expansion.html)
+- [tldp.org - Parameter Substitution](https://tldp.org/LDP/abs/html/parameter-substitution.html)
+- [tldp.org - Manipulating Variables](https://tldp.org/LDP/abs/html/manipulatingvars.html)
 
 <details><summary>List of builtin variables</summary>
 <pre>
