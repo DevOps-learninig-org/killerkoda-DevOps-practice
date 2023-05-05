@@ -6,39 +6,39 @@
     },
     "steps": [
       {
-        "title": "1/9 Terminal multiplexers",
+        "title": "1/9 Terminal multiplexers [54:00]",
         "text": "tmux.md",
         "verify": "check.sh"
       },{
-        "title": "2/9 User management",
+        "title": "2/9 User management [48:00]",
         "text": "users.md",
         "verify": "check.sh"
       },{
-        "title": "3/9 Priveledge escalation with SUDO",
+        "title": "3/9 Priveledge escalation with SUDO [42:00]",
         "text": "sudo.md",
         "verify": "check.sh"
       },{
-        "title": "4/9 Package management",
+        "title": "4/9 Package management [36:00]",
         "text": "app_management.md",
         "verify": "check.sh"
       },{
-        "title": "5/9 System management with SYSTEMD",
+        "title": "5/9 System management with SYSTEMD [30:00]",
         "text": "systemd.md",
         "verify": "check.sh"
       },{
-        "title": "6/9 Operating system monitoring",
+        "title": "6/9 Operating system monitoring [24:00]",
         "text": "monitoring.md",
         "verify": "check.sh"
       },{
-        "title": "7/9 Viewing and Managing log-files",
+        "title": "7/9 Viewing and Managing log-files [18:00]",
         "text": "logging.md",
         "verify": "check.sh"
       },{
-        "title": "8/9 Working with GRUB2 boot manager",
+        "title": "8/9 Working with GRUB2 boot manager [12:00]",
         "text": "grub.md",
         "verify": "check.sh"
       },{
-        "title": "9/9 Security and Hardening",
+        "title": "9/9 Security and Hardening [00:00]",
         "text": "security.md",
         "verify": "check.sh"
       }
