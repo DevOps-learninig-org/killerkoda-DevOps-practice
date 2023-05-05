@@ -5,7 +5,7 @@ First of all - useful links:
 
 Task list:
 - Try all bultins
-- Read help for all builtin commands
+- Read help for all builtin commands using `help`{{exec}}
 
 <details><summary>Hints for the task</summary>
 <pre>
