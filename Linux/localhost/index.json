@@ -36,6 +36,10 @@
       {
         "title": "Working with GRUB2 boot manager",
         "text": "grub.md"
+      },
+      {
+        "title": "Security and Hardening",
+        "text": "security.md"
       }
     ],
     "finish": {
