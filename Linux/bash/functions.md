@@ -38,9 +38,9 @@ Task list:
      then
        logger "[ INFO ] - Running Cleanup On " $1 " Older Logs - 30 days"
        find -name "$1/*.log" -type f -mtime +30 -delete
-       echo "[ SUCCESS] - Cleanup Completed"
+       logger "[ SUCCESS] - Cleanup Completed"
      else
-       echo "[ ERROR ] - Directory path wrong... Cleanup has not happened..."
+       logger "[ ERROR ] - Directory path wrong... Cleanup has not happened..."
        return 1
      fi
    }
