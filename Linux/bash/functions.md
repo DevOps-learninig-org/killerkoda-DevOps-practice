@@ -34,7 +34,7 @@ Task list:
 <pre>
 <strong>Task 1:</strong>
   $ log_cleanup(){
-  >   echo "[ INFO ] - Running Cleanup On Older Logs - 30 days"
+  >   logger "[ INFO ] - Running Cleanup On Older Logs - 30 days"
   >   if [[ -d "$1" ]]
   >   then
   >     find -name "$1/*.log" -type f -mtime +30 -delete
