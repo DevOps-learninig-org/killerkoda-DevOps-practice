@@ -1,6 +1,6 @@
 First of all - useful links:
 
-- [Learn BASH in Y minutes](https://learnxinyminutes.com/docs/bash/)
+- [learnxinyminutes.com - Learn BASH in Y minutes](https://learnxinyminutes.com/docs/bash/)
 - [gnu.org - Job Control](https://www.gnu.org/software/bash/manual/html_node/Job-Control.html)
 - [tldp.org - Job Control Commands](https://tldp.org/LDP/abs/html/x9644.html)
 
