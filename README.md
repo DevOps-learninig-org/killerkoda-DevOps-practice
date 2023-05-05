@@ -79,8 +79,11 @@ See you in the [next  scenario](/kodxxl/course/Linux/%LINK_TO_NEXT%)!
         "title": "Title of step 1",
         "text": "step1/text.md",
         "verify": "step1/verify.sh"
-      },
-      {
+      },{
+        "title": "Title of step 2",
+        "text": "step2/text.md",
+        "verify": "step2/verify.sh"
+      },{
         "title": "Title of step 2",
         "text": "step2/text.md",
         "verify": "step2/verify.sh"
@@ -105,8 +108,7 @@ See you in the [next  scenario](/kodxxl/course/Linux/%LINK_TO_NEXT%)!
       "path": "bash",
       "title": "Introduction to BASH shell",
       "description" : "Practice with BASH scripting"
-    },
-    {
+    },{
       "path": "common",
       "title": "Common linux utilities",
       "description" : "Most common linux utilities theory and practice"
