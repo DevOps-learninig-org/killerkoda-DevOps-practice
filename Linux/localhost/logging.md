@@ -11,10 +11,10 @@ First of all - useful links:
 
 Handy stuff:
 
-- Log collectors: rsyslog, Filebeat, Fluentd
-- Log processing: Logstash, Graylog, Splunk
-- Log storage: ElasticSearch, InfluxDB
-- Log visualizer: Kibana, Grafana
+- Log collectors: [rsyslog](https://www.rsyslog.com/), [Filebeat](https://www.elastic.co/beats/filebeat), [Fluentd](https://www.fluentd.org/)
+- Log processing: [Logstash](https://www.elastic.co/logstash/), [Graylog](https://www.graylog.org/), [Splunk](https://www.splunk.com/)
+- Log storage: [ElasticSearch](https://www.elastic.co/), [InfluxDB](https://www.influxdata.com/)
+- Log visualizer: [Kibana](https://www.elastic.co/kibana/), [Grafana](https://grafana.com/)
 
 Task list:
 - Write message "Hello World directly to journald log"
