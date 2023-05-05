@@ -1,8 +1,7 @@
 First of all - useful links:
 
-- [Learn BASH in Y minutes](https://learnxinyminutes.com/docs/bash/)
-- [Bash scripting cheatsheet #Loops](https://devhints.io/bash#loops)
-- [bash-hackers.org - Loops](https://wiki.bash-hackers.org/syntax/ccmd/start?q=loop&do=search)
+- [learnxinyminutes.com - Learn BASH in Y minutes](https://learnxinyminutes.com/docs/bash/)
+- [devhints.io - Bash scripting cheatsheet #Loops](https://devhints.io/bash#loops)
 - [gnu.org - Looping Constructs](https://www.gnu.org/software/bash/manual/html_node/Looping-Constructs.html)
 - [tldp.org - Loops](https://tldp.org/LDP/abs/html/loops1.html)
 
