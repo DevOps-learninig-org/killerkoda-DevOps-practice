@@ -56,7 +56,7 @@ First of all - useful links:
 <pre>
   <strong>${#var}</strong> - Number of characters in $var.
   <strong>${#*}</strong> and <strong>${#@}</strong> - Number of positional parameters
-  <strong>$${var#pattern}, ${var##pattern}</strong> - Remove from $var the shortest#/longest## part of $Pattern
+  <strong>${var#pattern}, ${var##pattern}</strong> - Remove from $var the shortest#/longest## part of $Pattern
   <strong>${string%substring}, ${string%%substring}</strong> - Remove shortest%/longest%% match of $substring from back of $string.
   <strong>${string:position}</strong> - Extracts substring from $string at $position as number.
   <strong>${string:position:length}</strong> - Extracts $length characters of substring from $string at $position.
@@ -67,6 +67,7 @@ First of all - useful links:
 </pre>
 </details>
 <br>
+
 Task list:
 - Initiate variable 'string' with value '01234567890abcdefgh'
 - Display values from positions 7 to 9 of a 'string' variable
