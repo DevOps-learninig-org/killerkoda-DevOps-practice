@@ -5,6 +5,7 @@ First of all - useful links:
 - [gnu.org - Shell Parameter Expansion](https://www.gnu.org/software/bash/manual/html_node/Shell-Parameter-Expansion.html)
 - [tldp.org - Parameter Substitution](https://tldp.org/LDP/abs/html/parameter-substitution.html)
 - [tldp.org - Manipulating Variables](https://tldp.org/LDP/abs/html/manipulatingvars.html)
+- [tldp.org - Regular Expressions](https://tldp.org/LDP/abs/html/regexp.html)
 
 <details><summary>List of builtin variables</summary>
 <pre>
