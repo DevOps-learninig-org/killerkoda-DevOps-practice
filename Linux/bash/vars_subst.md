@@ -42,8 +42,30 @@ First of all - useful links:
 <strong>$PIPESTATUS</strong>	Array variable that holds the exit status values of each command in the most recently executed foreground pipeline.
 </pre>
 </details>
+<details><summary>Parameter Substitution</summary>
+<pre>
+  <strong>${parameter}</strong> - Same as $parameter, i.e., value of the variable parameter.
+  <strong>${parameter-default}, ${parameter:-default}</strong> - If parameter not set, use default.
+  <strong>${parameter=default}, ${parameter:=default}</strong> - If parameter not set, set it to default.
+  <strong>${parameter+alt_value}, ${parameter:+alt_value}</strong> - If parameter set, use alt_value, else use null string.
+  <strong>${parameter?err_msg}, ${parameter:?err_msg}</strong> - If parameter set, use it, else print err_msg and abort the script with an exit status of 1.
+</pre>
+</details>
+<details><summary>Manipulating Strings</summary>
+<pre>
+  <strong>${#var}</strong> - Number of characters in $var.
+  <strong>${#*}</strong> and <strong>${#@}</strong> - Number of positional parameters
+  <strong>$${var#Pattern}, ${var##Pattern}</strong> - Remove from $var the shortest#/longest## part of $Pattern
+  <strong></strong> - 
+  <strong></strong> - 
+  <strong></strong> - 
+  <strong></strong> - 
+  <strong></strong> - 
+  <strong></strong> - 
+  <strong></strong> - 
+</pre>
+</details>
 <br>
-
 Task list:
 - Initiate variable 'string' with value '01234567890abcdefgh'
 - Display values from positions 7 to 9 of a 'string' variable
