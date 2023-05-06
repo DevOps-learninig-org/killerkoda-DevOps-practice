@@ -56,13 +56,13 @@ First of all - useful links:
   <strong>${#var}</strong> - Number of characters in $var.
   <strong>${#*}</strong> and <strong>${#@}</strong> - Number of positional parameters
   <strong>$${var#Pattern}, ${var##Pattern}</strong> - Remove from $var the shortest#/longest## part of $Pattern
-  <strong></strong> - 
-  <strong></strong> - 
-  <strong></strong> - 
-  <strong></strong> - 
-  <strong></strong> - 
-  <strong></strong> - 
-  <strong></strong> - 
+  <strong>${string%substring}, ${string%%substring}</strong> - Remove shortest%/longest%% match of $substring from back of $string.
+  <strong>${string:position}</strong> - Extracts substring from $string at $position as number.
+  <strong>${string:position:length}</strong> - Extracts $length characters of substring from $string at $position.
+  <strong>${string/substring/replacement}</strong> - Replace first match of $substring with $replacement.
+  <strong>${string//substring/replacement}</strong> - Replace all matches of $substring with $replacement.
+  <strong>${string/#substring/replacement}</strong> - If $substring matches front end of $string, substitute $replacement for $substring.
+  <strong>${string/%substring/replacement}</strong> - If $substring matches back end of $string, substitute $replacement for $substring.
 </pre>
 </details>
 <br>
