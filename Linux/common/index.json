@@ -7,19 +7,23 @@
     },
     "steps": [
       {
-        "title": "1/4 - Explore filesystem [45:00]",
+        "title": "1/5 - Explore filesystem [48:00]",
         "text": "explore_fs.md",
         "verify": "check.sh"
       },{
-        "title": "2/4 - find files [30:00]",
+        "title": "2/5 - GNU Coreutils[36:00]",
+        "text": "coreutils.md",
+        "verify": "check.sh"
+      },{
+        "title": "3/5 - find files [24:00]",
         "text": "find.md",
         "verify": "check.sh"
       },{
-        "title": "3/4 - GREP and SED [15:00]",
+        "title": "4/5 - GREP and SED [12:00]",
         "text": "grep_sed.md",
         "verify": "check.sh"
       },{
-        "title": "4/4 - VIM text editor [00:00]",
+        "title": "5/5 - VIM text editor [00:00]",
         "text": "vim.md",
         "verify": "check.sh"
       }
