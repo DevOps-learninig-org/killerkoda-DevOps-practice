@@ -7,8 +7,8 @@ First of all - useful links:
 
 <details><summary>Basic 'info' command keys</summary>
 <pre>
-  <strong>H</strong>    - Close this help window.
-  <strong>q</strong>    - Quit Info altogether.
+  <strong>H</strong>    - Open or close help window.
+  <strong>q</strong>    - Quit Info.
   <strong>Home</strong> - Go to the beginning of current node.
   <strong>End</strong>  - Go to the end of current node.
   <strong>TAB</strong>  - Go to the next hypertext link.
