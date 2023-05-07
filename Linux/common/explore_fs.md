@@ -6,7 +6,7 @@ First of all - useful links:
 - [linuxfoundation.org - Filesystem Hierarchy Standard](https://refspecs.linuxfoundation.org/fhs.shtml)
 - `apt install tree -y && man tree`{{exec}}
 
-<details><summary>Filesystem Hierarchy as in FHSv3.0</summary>
+<details><summary>Filesystem Hierarchy as in FHS v3.0</summary>
 <pre>
   <strong>/bin</strong>   - Essential user command binaries (for use by all users)
   <strong>/boot</strong>  - Static files of the boot loader
