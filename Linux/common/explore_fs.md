@@ -4,7 +4,7 @@ First of all - useful links:
 - [opengroup.org - ls](https://link.org/)
 - [man7.org - ls](https://man7.org/linux/man-pages/man1/ls.1.html)
 - `man ls`{{exec}}
-- `man cd`{{exec}}
+- `apt install tree -y && man tree`{{exec}}
 
 Task list:
 - Read manual pages for 'ls' and 'cd'
