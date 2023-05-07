@@ -1,16 +1,18 @@
 First of all - useful links:
 
-- [Useful link 1](https://link.org/)
-- `some cli command`{{exec}}
+- [gnu.org - GNU core utilities top page](https://www.gnu.org/software/coreutils/)
+- [gnu.org - GNU Coreutils inline info](https://www.gnu.org/software/coreutils/manual/html_node/index.html)
+- [github.com - GNU Coreutils source](https://github.com/coreutils/coreutils/blob/master/doc/coreutils.texi)
+- `info coreutils`{{exec}}
 
-<details><summary>Lesson info and tips</summary>
+<details><summary>Basic 'info' command keys</summary>
 <pre>
   Put here some info
 </pre>
 </details><br>
 
 Task list:
-- Task 1
+- Learn more about GNU coreutils
 - Task 2
 
 <details><summary>Hints for the task</summary>
