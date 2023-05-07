@@ -7,18 +7,18 @@ First of all - useful links:
 
 <details><summary>Basic 'info' command keys</summary>
 <pre>
-  <strong>H<strong> - Close this help window.
-  <strong>q<strong> - Quit Info altogether.
-  <strong>Home<strong> - Go to the beginning of current node.
-  <strong>End<strong> - Go to the end of current node.
-  <strong>TAB<strong> - Go to the next hypertext link.
-  <strong>Enter<strong> - Follow the hypertext link under the cursor.
-  <strong>l<strong> - Go back to the last node.
-  <strong>[<strong> - Go to the previous node in the document.
-  <strong>]<strong> - Go to the next node in the document.
-  <strong>t<strong> - Go to the top node of this document.
-  <strong>/<strong> - Read a string and search for it.
-  <strong>Ctrl-x n<strong> - Repeat last search in the same direction.
+  <strong>H</strong> - Close this help window.
+  <strong>q</strong> - Quit Info altogether.
+  <strong>Home</strong> - Go to the beginning of current node.
+  <strong>End</strong> - Go to the end of current node.
+  <strong>TAB</strong> - Go to the next hypertext link.
+  <strong>Enter</strong> - Follow the hypertext link under the cursor.
+  <strong>l</strong> - Go back to the last node.
+  <strong>[</strong> - Go to the previous node in the document.
+  <strong>]</strong> - Go to the next node in the document.
+  <strong>t</strong> - Go to the top node of this document.
+  <strong>/</strong> - Read a string and search for it.
+  <strong>Ctrl-x n</strong> - Repeat last search in the same direction.
 </pre>
 </details><br>
 
