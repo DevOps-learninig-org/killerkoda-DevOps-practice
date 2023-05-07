@@ -4,8 +4,8 @@ First of all - useful links:
 - [wikibooks.org - VIM](https://en.wikibooks.org/wiki/Vim)
 - [devhints.io - VIM Cheatsheet](https://devhints.io/vim)
 - [openvim.com - Interactive VIM tutorial](https://openvim.com/)
-- `man vim`{exec}
-- `vimtutor`{exec}
+- `man vim`{{exec}}
+- `vimtutor`{{exec}}
 
 <details><summary>Lesson info and tips</summary>
 <pre>
