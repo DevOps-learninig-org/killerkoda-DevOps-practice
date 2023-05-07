@@ -1,7 +1,7 @@
 First of all - useful links:
 
 - `man pwd`{{exec}}
-- `man ls`{{exec}}
+- `man ls && man cd`{{exec}}
 - `man file-hierarchy`{{exec}}
 - [linuxfoundation.org - Filesystem Hierarchy Standard](https://refspecs.linuxfoundation.org/fhs.shtml)
 - `apt install tree -y && man tree`{{exec}}
