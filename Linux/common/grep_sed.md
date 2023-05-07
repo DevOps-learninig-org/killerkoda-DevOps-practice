@@ -1,13 +1,13 @@
 First of all - useful links:
 
-- [Learning Sed Is Beneficial For Linux Users](https://www.youtube.com/watch?v=EACe7aiGczw)
-- [Linux Crash Course - The sed Command](https://www.youtube.com/watch?v=nXLnx8ncZyE)
 - [tutorialspoint.com - SED tutorial](https://www.tutorialspoint.com/sed/index.htm)
 - [digitalocean.com - The Basics of Using the Sed](https://www.digitalocean.com/community/tutorials/the-basics-of-using-the-sed-stream-editor-to-manipulate-text-in-linux)
 - [gnu.org - sed, a stream editor](https://www.gnu.org/software/sed/manual/sed.html)
 - [gnu.org - sed commands](https://www.gnu.org/software/sed/manual/html_node/sed-commands-list.html)
 - `man grep`{{exec}}
 - `man sed`{{exec}}
+- [youtube.com - Learning Sed Is Beneficial For Linux Users](https://www.youtube.com/watch?v=EACe7aiGczw)
+- [youtube.com - Linux Crash Course - The sed Command](https://www.youtube.com/watch?v=nXLnx8ncZyE)
 
 <details><summary>Lesson info and tips</summary>
 <pre>
