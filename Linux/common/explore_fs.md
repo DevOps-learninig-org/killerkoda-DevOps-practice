@@ -7,19 +7,19 @@ First of all - useful links:
 - `apt install tree -y && man tree`{{exec}}
 
 Task list:
-- Read manual pages for 'ls' and 'cd'
+- Read manual pages for 'pwd' and 'ls'
 - Install 'tree' utility
 - Explore fs with 'tree'
 
 <details><summary>Hints for the task</summary>
 <pre>
 <strong>Task 1:</strong>
+  $ man pwd
   $ man ls
-  $ man cd
 <br>
 <strong>Task 2:</strong>
   $ sudo apt install tree
-  $ tree -a
+  $ tree -a /
 </pre>
 </details>
 <br>
