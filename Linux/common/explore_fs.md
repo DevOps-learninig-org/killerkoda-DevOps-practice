@@ -1,9 +1,9 @@
 First of all - useful links:
 
-- [linuxfoundation.org - Filesystem Hierarchy Standard](https://refspecs.linuxfoundation.org/fhs.shtml)
 - `man pwd`{{exec}}
-- `man file-hierarchy`{{exec}}
 - `man ls`{{exec}}
+- `man file-hierarchy`{{exec}}
+- [linuxfoundation.org - Filesystem Hierarchy Standard](https://refspecs.linuxfoundation.org/fhs.shtml)
 - `apt install tree -y && man tree`{{exec}}
 
 Task list:
