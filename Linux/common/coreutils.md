@@ -1,7 +1,7 @@
 First of all - useful links:
 
 - [gnu.org - GNU core utilities top page](https://www.gnu.org/software/coreutils/)
-- [gnu.org - GNU Coreutils inline info](https://www.gnu.org/software/coreutils/manual/html_node/index.html)
+- [gnu.org - GNU Coreutils online info](https://www.gnu.org/software/coreutils/manual/html_node/index.html)
 - [github.com - GNU Coreutils sources](https://github.com/coreutils/coreutils/blob/master/doc/coreutils.texi)
 - `info coreutils`{{exec}}
 
