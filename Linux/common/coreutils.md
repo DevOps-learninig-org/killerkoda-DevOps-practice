@@ -20,6 +20,34 @@ First of all - useful links:
   <strong>/</strong>    - Read a string and search for it.
   <strong>Ctrl-x n</strong> - Repeat last search in the same direction.
 </pre>
+</details>
+<details><summary>Sorted list of GNU Coreutils</summary>
+<pre>
+Output of entire files       <strong>cat tac nl od base32 base64</strong>
+Formatting file contents     <strong>fmt pr fold</strong>
+Output of parts of files     <strong>head tail split csplit</strong>
+Summarizing files            <strong>wc sum cksum b2sum md5sum sha1sum sha2</strong>
+Operating on sorted files    <strong>sort shuf uniq comm ptx tsort</strong>
+Operating on fields          <strong>cut paste join</strong>
+Operating on characters      <strong>tr expand unexpand</strong>
+Directory listing            <strong>ls dir vdir dircolors</strong>
+Basic operations             <strong>cp dd install mv rm shred</strong>
+Special file types           <strong>mkdir rmdir unlink mkfifo mknod ln link readlink</strong>
+Changing file attributes     <strong>chgrp chmod chown touch</strong>
+Disk usage                   <strong>df du stat sync truncate</strong>
+Printing text                <strong>echo printf yes</strong>
+Conditions                   <strong>false true test expr</strong>
+Redirection                  <strong>tee</strong>
+File name manipulation       <strong>dirname basename pathchk mktemp realpath</strong>
+Working context              <strong>pwd stty printenv tty</strong>
+User information             <strong>id logname whoami groups users who</strong>
+System context               <strong>date arch nproc uname hostname hostid uptime</strong>
+SELinux context              <strong>chcon runcon</strong>
+Modified command invocation  <strong>chroot env nice nohup stdbuf timeout</strong>
+Process control              <strong>kill</strong>
+Delaying                     <strong>sleep</strong>
+Numeric operations           <strong>factor numfmt seq</strong>
+</pre>
 </details><br>
 
 Task list:
