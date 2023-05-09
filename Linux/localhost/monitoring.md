@@ -8,7 +8,7 @@ First of all - useful links:
 <details><summary>Lesson info and tips</summary>
 <pre>
 <ins>Some useful tools for monitoring:</ins><br>
-  System activity:      <strong>top | htop | atop | btop<strong>
+  System activity:      <strong>top | htop | atop | btop</strong>
   Virtual Memory:       <strong>free | vmstat | sar | sysstat </strong>
   Processes and tasks:  <strong>ps | pidstat</strong>
   Input/Output:         <strong>iostat | lsof | iotop</strong>
