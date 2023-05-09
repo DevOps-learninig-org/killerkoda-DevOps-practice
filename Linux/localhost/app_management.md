@@ -1,9 +1,9 @@
 First of all - useful links:
 
-- [Ubuntu Documentation - Package management](https://ubuntu.com/server/docs/package-management)
-- [Ubuntu man pages - apt(1)](https://manpages.ubuntu.com/manpages/xenial/man8/apt.8.html)
-- [Debian - APT](https://wiki.debian.org/Apt)
-- [dpkg(1) — Linux manual page](https://man7.org/linux/man-pages/man1/dpkg.1.html)
+- [ubuntu.com - Package management](https://ubuntu.com/server/docs/package-management)
+- [debian.org - APT](https://wiki.debian.org/Apt)
+- [debian.org - apt(8)](https://manpages.debian.org/bullseye/apt/apt.8.en.html)
+- [man7.org - dpkg(1)](https://man7.org/linux/man-pages/man1/dpkg.1.html)
 
 <details><summary>Lesson info and tips</summary>
 <pre>
