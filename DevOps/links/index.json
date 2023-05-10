@@ -1,1 +1,11 @@
-
+{
+  "title": "Links to other interesting cources",
+  "details": {
+    "intro": {
+      "text": "intro.md"
+    }
+  },
+  "backend": {
+    "imageid": "ubuntu"
+  }
+}
