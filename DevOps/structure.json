@@ -4,6 +4,7 @@
   "items": [
     { "path": "git", "title": "GIT practice" },
     { "path": "ansible", "title": "Ansible practice" },
-    { "path": "cicd", "title": "CI/CD practice" }
+    { "path": "cicd", "title": "CI/CD practice" },
+    { "path": "links", "title": "Links to other interesting cources" }
   ]
 }
