@@ -6,7 +6,7 @@ First of all - useful links:
 - `man ip`{{exec}}
 - `man ethtool`{{exec}}
 
-<details><summary>Lesson info and tips</summary>
+<details><summary>'ip' objects summary</summary>
 <pre>
   <strong>address</strong>    - protocol (IP or IPv6) address on a device.
   <strong>addrlabel</strong>  - label configuration for protocol address selection.
@@ -29,21 +29,34 @@ First of all - useful links:
   <strong>vrf</strong>        - manage virtual routing and forwarding devices.
   <strong>xfrm</strong>       - manage IPSec policies.
 </pre>
+</details>
+<details><summary>'ethtool' - cheatsheet</summary>
+<pre>
+  <strong>ethtool -S &lt;interface&gt;</strong>     - statistics for the selected interface
+  <strong>ethotool -P &lt;interface&gt;</strong>    - interface permanent address
+  <strong>ethtool -s &lt;interface&gt; [ speed %d ]</strong>        - set interface speed
+  <strong>ethtool -s &lt;interface&gt; [ autoneg on|off ]</strong>  - set interface autonegotiation
+  <strong>ethtool -S &lt;interface&gt; | grep error</strong>        - get interface errors
+  <strong>ethtool &lt;interface&gt;</strong>        - current settings
+  <strong>ethtool --driver &lt;interface&gt;</strong>               - driver information
+  <strong>ethtool --show-features &lt;interface&gt;</strong>        - all supported features
+  <strong>ethtool --statistics &lt;interface&gt;</strong>           - network usage statistics
+  <strong>ethtool --identify &lt;interface&gt; 10</strong>          - blink one or more LEDs on an interface for 10 seconds
+  <strong>ethtool -s eth0 speed 10|100|1000 duplex half|full autoneg on|off</strong> - link speed, duplex mode, and parameter auto-negotiation
+</pre>
 </details><br>
 
 Task list:
-- Task 1
-- Task 2
+- Get list of namespaces in the system
+- Watch interface MAC-address
 
 <details><summary>Hints for the task</summary>
 <pre>
 <strong>Task 1:</strong>
-  $ cmd1
-  $ echo ${string:7:3}
+  $ ip netns list
 <br>
 <strong>Task 2:</strong>
-  $ echo ${#string}
-  $ string=
+  $ ethtool -P &lt;interface&gt;
 </pre>
 </details>
 <br>
