@@ -4,8 +4,8 @@
   "details": {
     "steps": [
       {
-        "title": "Learn how to configure network devices",
-        "text": "net_config.md"
+        "title": "'ip' and 'ethtool' utilities",
+        "text": "ip_ethtool.md"
       },
       {
         "title": "Learn how to monitor network activity",
