@@ -9,12 +9,13 @@
       {
         "title": "'ip' and 'ethtool' utilities",
         "text": "ip_ethtool.md"
-      },
-      {
+      },{
+        "title": "systemd-networkd — Network manager",
+        "text": "networkd.md"
+      },{
         "title": "Learn how to monitor network activity",
         "text": "net_activity.md"
-      },
-      {
+      },{
         "title": "Learn how to analyze network traffic",
         "text": "analyze_traffic.md"
       }
