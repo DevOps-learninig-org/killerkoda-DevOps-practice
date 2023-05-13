@@ -9,6 +9,7 @@ First of all - useful links:
 - [freedesktop.org - Unit configuration](https://www.freedesktop.org/software/systemd/man/systemd.unit.html#)
 - `man systemctl`{{exec}}
 - `man journalctl`{{exec}}
+- `man networkctl`{{exec}}
 - `man resolvectl`{{exec}}
 - [youtube.com - Linux systemd](https://www.youtube.com/watch?v=N1vgvhiyq0E&list=PLtK75qxsQaMKPbuVpGuqUQYRiTwTAmqeI)
 - [youtube.com - Systemd tutorials](https://www.youtube.com/watch?v=KftuGM_ylKg&list=PL6IQ3nFZzWfpKKWfZMRxiuEBwqQBwjzS1)
