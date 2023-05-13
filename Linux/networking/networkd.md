@@ -27,8 +27,9 @@ Task list:
   $ sudo networkctl list
 <br>
 <strong>Task 2:</strong>
-  $ echo ${#string}
-  $ string=
+  $ sudo ip addr add 192.168.1.150/24 dev dummy0
+  $ sudo ip link set dummy0 up
+  $ networkctl list
 </pre>
 </details>
 <br>
