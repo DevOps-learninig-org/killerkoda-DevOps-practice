@@ -6,7 +6,7 @@ First of all - useful links:
 - [freedesktop.org - Network device configuration](https://www.freedesktop.org/software/systemd/man/systemd.link.html#)
 - `man networkctl`{{exec}}
 
-<details><summary>Supported netdev kinds</summary>
+<details><summary>Supported 'netdev' kinds</summary>
 <pre>
   <strong>bond</strong>   - aggregation of all its slave devices. See Linux Ethernet Bonding Driver HOWTO for details.
   <strong>bridge</strong> - software switch, and each of its slave devices and the bridge itself are ports of the switch.
@@ -47,7 +47,7 @@ First of all - useful links:
   <strong>wlan</strong>   - virtual wireless network (WLAN) interface.
 </pre>
 </details>
-<details><summary>networkctl commands</summary>
+<details><summary>'networkctl' commands</summary>
 <pre>
   <strong>list [PATTERN…]</strong>    - Show a list of existing links and their status.
   <strong>status [PATTERN…]</strong>  - Show information about the specified links: type, state, kernel module driver, hardware and IP address, configured DNS servers, etc.
