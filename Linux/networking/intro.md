@@ -15,5 +15,6 @@ And watch some videos:
 - [youtube.com - Network Performance in the Linux Kernel](https://www.youtube.com/watch?v=g4w3ydS62S0)
 - [youtube.com - Linux Networking - eBPF, XDP, DPDK, VPP](https://www.youtube.com/watch?v=hO2tlxURXJ0)
 - [youtube.com - eBPF - Everything You Need to Know in 5 Minutes](https://www.youtube.com/watch?v=KhPrMW5Rbbc)
+- [youtube.com - A Beginner's Guide to eBPF Programming for Networking](https://www.youtube.com/watch?v=0p987hCplbk)
 
 Now, lets start!
