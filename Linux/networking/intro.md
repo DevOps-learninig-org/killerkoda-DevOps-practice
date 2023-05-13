@@ -11,5 +11,6 @@ And watch some videos:
 - [youtube.com - How Linux processes your network packet](https://www.youtube.com/watch?v=3Ij0aZRsw9w)
 - [youtube.com - Kernel-bypass techniques for high-speed network packet processing](https://www.youtube.com/watch?v=MpjlWt7fvrw)
 - [youtube.com - Life of a Packet](https://www.youtube.com/watch?v=0Omvgd7Hg1I)
+- [youtube.com - Network Performance in the Linux Kernel](https://www.youtube.com/watch?v=g4w3ydS62S0)
 
 Now, lets start!
