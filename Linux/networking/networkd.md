@@ -1,8 +1,9 @@
 First of all - useful links:
 
 - [freedesktop.org - systemd-networkd — Network manager](https://www.freedesktop.org/software/systemd/man/systemd-networkd.html#)
+- [freedesktop.org - Virtual Network Device configuration](https://www.freedesktop.org/software/systemd/man/systemd.netdev.html#)
 - [freedesktop.org - Network configuration](https://www.freedesktop.org/software/systemd/man/systemd.network.html#)
-- [freedesktop.org - ](https://www.freedesktop.org/software/systemd/man/systemd-networkd.html#)
+- [freedesktop.org - Network device configuration](https://www.freedesktop.org/software/systemd/man/systemd.link.html#)
 - `man networkctl`{{exec}}
 
 <details><summary>Supported netdev kinds</summary>
@@ -44,6 +45,21 @@ First of all - useful links:
   <strong>batadv</strong> - B.A.T.M.A.N. Advanced is a routing protocol for multi-hop mobile ad-hoc networks which operates on layer 2.
   <strong>ipoib</strong>  - IP over Infiniband subinterface.
   <strong>wlan</strong>   - virtual wireless network (WLAN) interface.
+</pre>
+</details>
+<details><summary>networkctl commands</summary>
+<pre>
+  <strong>list [PATTERN…]</strong>    - Show a list of existing links and their status.
+  <strong>status [PATTERN…]</strong>  - Show information about the specified links: type, state, kernel module driver, hardware and IP address, configured DNS servers, etc.
+  <strong>lldp [PATTERN…]</strong>    - Show discovered LLDP (Link Layer Discovery Protocol) neighbors.
+  <strong>label</strong>              - Show numerical address labels that can be used for address selection.
+  <strong>delete DEVICE…</strong>     - Deletes virtual netdevs. Takes interface name or index number.
+  <strong>up DEVICE…</strong>         - Bring devices up.
+  <strong>down DEVICE…</strong>       - Bring devices down.
+  <strong>renew DEVICE…</strong>      - Renew dynamic configurations e.g. addresses received from DHCP server.
+  <strong>forcerenew DEVICE…</strong> - Send a FORCERENEW message to all connected clients, triggering DHCP reconfiguration.
+  <strong>reconfigure DEVICE…</strong> - Reconfigure network interfaces.
+  <strong>reload</strong>             - Reload .netdev and .network files.
 </pre>
 </details><br>
 
