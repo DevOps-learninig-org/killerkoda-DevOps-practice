@@ -4,6 +4,7 @@ Read some useful articles before:
 - [kernel.org - Linux Networking](https://www.kernel.org/doc/html/latest/networking/index.html)
 - [ubuntu.com - Network configuration](https://ubuntu.com/server/docs/network-configuration)
 - [systemd.io - Predictable Network Interface Names](https://systemd.io/PREDICTABLE_INTERFACE_NAMES/)
+- [ebpf.io - What is eBPF?](https://ebpf.io/what-is-ebpf/)
 - `man systemd.network`{{exec}}
 
 And watch some videos:
@@ -12,5 +13,6 @@ And watch some videos:
 - [youtube.com - Kernel-bypass techniques for high-speed network packet processing](https://www.youtube.com/watch?v=MpjlWt7fvrw)
 - [youtube.com - Life of a Packet](https://www.youtube.com/watch?v=0Omvgd7Hg1I)
 - [youtube.com - Network Performance in the Linux Kernel](https://www.youtube.com/watch?v=g4w3ydS62S0)
+- [youtube.com - Linux Networking - eBPF, XDP, DPDK, VPP](https://www.youtube.com/watch?v=hO2tlxURXJ0)
 
 Now, lets start!
