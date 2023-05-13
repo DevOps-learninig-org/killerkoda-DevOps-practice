@@ -2,6 +2,9 @@
   "title": "Linux networking practice",
   "description": "This is the description of LNP",
   "details": {
+    "intro": {
+      "text": "intro.md"
+    },
     "steps": [
       {
         "title": "'ip' and 'ethtool' utilities",
@@ -15,7 +18,10 @@
         "title": "Learn how to analyze network traffic",
         "text": "analyze_traffic.md"
       }
-    ]
+    ],
+    "finish": {
+      "text": "finish.md"
+    }
   },
   "backend": {
     "imageid": "ubuntu"
