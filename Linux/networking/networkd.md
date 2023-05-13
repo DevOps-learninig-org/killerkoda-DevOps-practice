@@ -1,7 +1,9 @@
 First of all - useful links:
 
-- [Useful link 1](https://link.org/)
-- `some cli command`{{exec}}
+- [freedesktop.org - systemd-networkd — Network manager](https://www.freedesktop.org/software/systemd/man/systemd-networkd.html#)
+- [freedesktop.org - Network configuration](https://www.freedesktop.org/software/systemd/man/systemd.network.html#)
+- [freedesktop.org - ](https://www.freedesktop.org/software/systemd/man/systemd-networkd.html#)
+- `man networkctl`{{exec}}
 
 <details><summary>Lesson info and tips</summary>
 <pre>
@@ -10,14 +12,19 @@ First of all - useful links:
 </details><br>
 
 Task list:
-- Task 1
-- Task 2
+- Create dummy network interface
+- Bring it up and assign IPv4 address
 
 <details><summary>Hints for the task</summary>
 <pre>
 <strong>Task 1:</strong>
-  $ cmd1
-  $ echo ${string:7:3}
+  $ sudo vi /etc/systemd/network/dummy.netdev
+      [NetDev]
+      Name=dummy0
+      Description=Some dummy NetDev
+      Kind=dummy
+  $ sudo networkctl reload
+  $ sudo networkctl list
 <br>
 <strong>Task 2:</strong>
   $ echo ${#string}
