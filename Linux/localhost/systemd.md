@@ -6,6 +6,7 @@ First of all - useful links:
 - [gist.github.org - Linux - Systemd cheatsheet](https://gist.github.com/mbodo/8f87c96ce11e91f80fbf6175412a2206)
 - [freedesktop.org - General syntax of systemd configuration files](https://www.freedesktop.org/software/systemd/man/systemd.syntax.html)
 - [digitalocean.com - Systemd Essentials: Working with Services, Units, and the Journal](https://www.digitalocean.com/community/tutorials/systemd-essentials-working-with-services-units-and-the-journal)
+- [freedesktop.org - Unit configuration](https://www.freedesktop.org/software/systemd/man/systemd.unit.html#)
 - `man systemctl`{{exec}}
 - `man journalctl`{{exec}}
 - `man resolvectl`{{exec}}
