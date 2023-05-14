@@ -6,9 +6,14 @@ First of all - useful links:
 - [vitux.com - Networking on Ubuntu with Netplan](https://vitux.com/how-to-configure-networking-with-netplan-on-ubuntu/)
 - `man netplan`{{exec}}
 
-<details><summary>Lesson info and tips</summary>
+<details><summary>'netplan' tool commands</summary>
 <pre>
-  Put here some info
+  <strong>help</strong>   - Show this help message
+  <strong>apply</strong>  - Apply current netplan config to running system
+  <strong>generate</strong> - Generate backend specific configuration files from /etc/netplan/*.yaml
+  <strong>info</strong>   - Show current netplan version and available features
+  <strong>ip</strong>     - Retrieve IP information from the system
+  <strong>try</strong>    - Try to apply a new netplan config to running system, with automatic rollback
 </pre>
 </details><br>
 
