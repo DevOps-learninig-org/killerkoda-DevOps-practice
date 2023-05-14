@@ -1,7 +1,9 @@
 First of all - useful links:
 
-- [Useful link 1](https://link.org/)
-- `some cli command`{{exec}}
+- [ubuntu.com - Canonical Netplan](https://netplan.io/)
+- [linuxconfig.org - Netplan network configuration tutorial](https://linuxconfig.org/netplan-network-configuration-tutorial-for-beginners)
+- [vitux.com - Networking on Ubuntu with Netplan](https://vitux.com/how-to-configure-networking-with-netplan-on-ubuntu/)
+- `man netplan`{{exec}}
 
 <details><summary>Lesson info and tips</summary>
 <pre>
