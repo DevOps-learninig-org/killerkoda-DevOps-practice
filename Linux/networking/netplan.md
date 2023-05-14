@@ -18,18 +18,31 @@ First of all - useful links:
 </details><br>
 
 Task list:
-- Task 1
-- Task 2
+- Create dummy interface with 'ip' utility
+- Assign address 192.168.50.12/24 to it and default gw 192.168.50.1/24
 
 <details><summary>Hints for the task</summary>
 <pre>
 <strong>Task 1:</strong>
-  $ cmd1
-  $ echo ${string:7:3}
+  $ ip link add dummy0 type dummy
+  $ sudo ip link set dummy0 up
 <br>
 <strong>Task 2:</strong>
-  $ echo ${#string}
-  $ string=
+  $ vi /etc/netplan/10-dummy0.yaml
+    network:
+      version: 2
+      ethernets:
+        dummy0:
+          addresses:
+          - 192.168.50.12/24
+          nameservers:
+            search: [mydomain.local]
+            addresses: [192.168.50.1]
+          routes:
+          - to: default
+            via: 192.168.50.1
+  $ sudo netplan try
+  $ 
 </pre>
 </details>
 <br>
