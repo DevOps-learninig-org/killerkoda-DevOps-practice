@@ -41,8 +41,8 @@ Task list:
           routes:
           - to: default
             via: 192.168.50.1
-  $ sudo netplan try
-  $ 
+  $ sudo netplan generate
+  $ cat /run/systemd/network/10-netplan-dummy0.network
 </pre>
 </details>
 <br>
