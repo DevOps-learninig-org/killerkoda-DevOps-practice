@@ -1,6 +1,7 @@
 First of all - useful links:
 
 - [ubuntu.com - Canonical Netplan](https://netplan.io/)
+- [readthedocs.io - NetPlan YAML config specification](https://netplan.readthedocs.io/en/stable/netplan-yaml/#properties-for-device-type-bridges)
 - [linuxconfig.org - Netplan network configuration tutorial](https://linuxconfig.org/netplan-network-configuration-tutorial-for-beginners)
 - [vitux.com - Networking on Ubuntu with Netplan](https://vitux.com/how-to-configure-networking-with-netplan-on-ubuntu/)
 - `man netplan`{{exec}}
