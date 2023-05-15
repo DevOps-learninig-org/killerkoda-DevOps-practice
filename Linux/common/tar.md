@@ -33,18 +33,19 @@ First of all - useful links:
 </details><br>
 
 Task list:
-- Task 1
-- Task 2
+- Create compressed archive automatically based on result file extension
+- Decompress this archive into the ~/tmp/ folder
 
 <details><summary>Hints for the task</summary>
 <pre>
 <strong>Task 1:</strong>
-  $ cmd1
-  $ echo ${string:7:3}
+  $ for i in {0..10}; do touch file.$i; done
+  $ tar -caf files.xz file.*
+  $ tar -tf files.xz
 <br>
 <strong>Task 2:</strong>
-  $ echo ${#string}
-  $ string=
+  $ mkdir ~/tmp/
+  $ tar -xf files.xz -C ~/tmp/
 </pre>
 </details>
 <br>
