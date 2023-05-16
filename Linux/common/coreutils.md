@@ -53,8 +53,8 @@ Numeric operations           <strong>factor numfmt seq</strong>
 </details><br>
 
 Task list:
-- Learn more about GNU coreutils
-- Try to execute all GNU Coreutils tools
+- Learn more about GNU coreutils and util-linux
+- Try to execute all GNU Coreutils and util-linux tools
 
 <details><summary>Hints for the task</summary>
 <pre>
