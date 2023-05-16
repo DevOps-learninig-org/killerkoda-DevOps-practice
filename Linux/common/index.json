@@ -3,33 +3,34 @@
   "description": "Most common linux utilities theory and practice",
   "details": {
     "intro": {
-      "text": "intro.md"
+      "text": "intro.md",
+      "foreground": "scripts/foreground.sh"
     },
     "steps": [
       {
         "title": "1/6 - Explore filesystem [50:00]",
         "text": "explore_fs.md",
-        "verify": "check.sh"
+        "verify": "scripts/check.sh"
       },{
         "title": "2/6 - GNU Coreutils[40:00]",
         "text": "coreutils.md",
-        "verify": "check.sh"
+        "verify": "scripts/check.sh"
       },{
         "title": "3/6 - find files [30:00]",
         "text": "find.md",
-        "verify": "check.sh"
+        "verify": "scripts/check.sh"
       },{
         "title": "4/6 - GNU tape archiver [20:00]",
         "text": "tar.md",
-        "verify": "check.sh"
+        "verify": "scripts/check.sh"
       },{
         "title": "5/6 - GREP and SED [10:00]",
         "text": "grep_sed.md",
-        "verify": "check.sh"
+        "verify": "scripts/check.sh"
       },{
         "title": "6/6 - VIM text editor [00:00]",
         "text": "vim.md",
-        "verify": "check.sh"
+        "verify": "scripts/check.sh"
       }
     ],
     "finish": {
