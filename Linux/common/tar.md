@@ -41,9 +41,9 @@ Task list:
 <details><summary>Hints for the task</summary>
 <pre>
 <strong>Task 1:</strong>
-  $ for i in {0..10}; do touch file.$i; done
-  $ tar -caf files.xz file.*
-  $ tar -tf files.xz
+  $ echo "Content" | tee file{00..10}.txt
+  $ tar -caf files.xz file??.txt
+  $ tar -tvf files.xz
 <br>
 <strong>Task 2:</strong>
   $ mkdir ~/tmp/
