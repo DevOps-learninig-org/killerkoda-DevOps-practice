@@ -2,7 +2,8 @@
   "title": "Localhost administration",
   "details": {
     "intro": {
-      "text": "intro.md"
+      "text": "intro.md",
+      "foreground" : "scripts/foreground.sh"
     },
     "steps": [
       {
