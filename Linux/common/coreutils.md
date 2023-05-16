@@ -4,6 +4,8 @@ First of all - useful links:
 - [gnu.org - GNU Coreutils online info](https://www.gnu.org/software/coreutils/manual/html_node/index.html)
 - [github.com - GNU Coreutils sources](https://github.com/coreutils/coreutils/blob/master/doc/coreutils.texi)
 - `info coreutils`{{exec}}
+- [github.com - util-linux sources](https://github.com/util-linux/util-linux)
+- [wikipedia.org - util-linux](https://en.wikipedia.org/wiki/Util-linux)
 
 <details><summary>Basic 'info' command keys</summary>
 <pre>
