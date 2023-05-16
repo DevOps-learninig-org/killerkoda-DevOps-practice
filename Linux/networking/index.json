@@ -3,7 +3,8 @@
   "description": "This is the description of LNP",
   "details": {
     "intro": {
-      "text": "intro.md"
+      "text": "intro.md",
+      "foreground": "foreground.sh"
     },
     "steps": [
       {
