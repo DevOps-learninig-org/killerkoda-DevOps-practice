@@ -12,7 +12,7 @@
         "text": "explore_fs.md",
         "verify": "scripts/check.sh"
       },{
-        "title": "2/6 - GNU Coreutils[40:00]",
+        "title": "2/6 - GNU Coreutils & util-linux[40:00]",
         "text": "coreutils.md",
         "verify": "scripts/check.sh"
       },{
