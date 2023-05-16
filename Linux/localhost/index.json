@@ -8,7 +8,7 @@
       {
         "title": "1/9 - Terminal multiplexers [54:00]",
         "text": "tmux.md",
-        "verify": "check.sh"
+        "verify": "scripts/check.sh"
       },{
         "title": "2/9 - User management [48:00]",
         "text": "users.md",
