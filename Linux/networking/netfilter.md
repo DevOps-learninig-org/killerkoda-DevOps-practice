@@ -3,6 +3,7 @@ First of all - useful links:
 - [netfilter.org - Main page](https://www.netfilter.org/)
 - [netfilter.org - Documentation](https://www.netfilter.org/documentation/index.html)
 - [frozentux.net - IPtables tutorial](https://www.frozentux.net/iptables-tutorial/iptables-tutorial.html)
+- [ubuntu.com - Introduction to UFW](https://help.ubuntu.com/community/UFW)
 - `man iptables`{{exec}}
 - `man ufw`{{exec}}
 
