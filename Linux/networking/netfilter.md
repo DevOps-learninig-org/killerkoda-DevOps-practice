@@ -1,8 +1,10 @@
 First of all - useful links:
 
-- [Useful link 1](https://link.org/)
-- 
-- `some cli command`{{exec}}
+- [netfilter.org - Main page](https://www.netfilter.org/)
+- [netfilter.org - Documentation](https://www.netfilter.org/documentation/index.html)
+- [frozentux.net - IPtables tutorial](https://www.frozentux.net/iptables-tutorial/iptables-tutorial.html)
+- `man iptables`{{exec}}
+- `man ufw`{{exec}}
 
 <details><summary>Lesson info and tips</summary>
 <pre>
