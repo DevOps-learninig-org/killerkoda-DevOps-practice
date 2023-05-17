@@ -5,6 +5,7 @@ First of all - useful links:
 - [kernel.org - 'ethtool' Controlling network drivers and hardware](http://www.kernel.org/pub/software/network/ethtool/)
 - `man ip`{{exec}}
 - `man ethtool`{{exec}}
+- [baturin.org - Task-centered iproute2 user guide](https://baturin.org/docs/iproute2/)
 
 <details><summary>'ip' objects summary</summary>
 <pre>
