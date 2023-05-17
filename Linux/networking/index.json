@@ -14,6 +14,12 @@
         "title": "systemd-networkd — Network manager",
         "text": "networkd.md"
       },{
+        "title": "Configuring network with NetPlan",
+        "text": "netplan.md"
+      },{
+        "title": "Packet management with iptables",
+        "text": "netfilter.md"
+      },{
         "title": "Learn how to monitor network activity",
         "text": "net_activity.md"
       },{
