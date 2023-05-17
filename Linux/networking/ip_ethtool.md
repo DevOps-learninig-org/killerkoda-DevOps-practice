@@ -2,10 +2,10 @@ First of all - useful links:
 
 - [github.com - 'ip' source code](https://github.com/shemminger/iproute2/tree/main/ip)
 - [redhat.com - 'ip' cheatsheet](https://access.redhat.com/sites/default/files/attachments/rh_ip_command_cheatsheet_1214_jcs_print.pdf)
+- [baturin.org - Task-centered iproute2 user guide](https://baturin.org/docs/iproute2/)
 - [kernel.org - 'ethtool' Controlling network drivers and hardware](http://www.kernel.org/pub/software/network/ethtool/)
 - `man ip`{{exec}}
 - `man ethtool`{{exec}}
-- [baturin.org - Task-centered iproute2 user guide](https://baturin.org/docs/iproute2/)
 
 <details><summary>'ip' objects summary</summary>
 <pre>
