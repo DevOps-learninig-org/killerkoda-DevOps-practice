@@ -30,49 +30,82 @@ First of all - useful links:
 </details>
 <details><summary>Iptables targets and jumps (-j &lt;TARGET&gt;)</summary>
 <pre>  
-  ACCEPT    - the rule is accepted and will not continue traversing the current chain or any other ones in the same table.
-  CLASSIFY  - used to classify packets in such a way that can be used by a couple of different qdiscs (Queue Disciplines).
-  CLUSTERIP - used to create simple clusters of nodes answering to the same IP and MAC address in a round robin fashion.
-  CONNMARK  - used to set a mark on a whole connection, much the same way as the MARK target does.
-  CONNSECMARK - sets a SELinux security context mark to or from a packet mark.
-  DNAT      - used to do Destination Network Address Translation, which means that it is used to rewrite the Destination IP address of a packet.
-  DROP      - drops packets dead and will not carry out any further processing.
-  DSCP      - changes the DSCP(Differentiated Services Field) marks inside a packet.
-  ECN       - ECN target can be used to reset the ECN bits from the IPv4 header, or to put it correctly, reset them to 0 at least.
-  LOG       - logging detailed information about packets.
-  MARK      - set Netfilter mark values that are associated with specific packets.
-  MASQUERADE - used basically the same as the SNAT target, but it does not require any --to-source option.
-  MIRROR    - is an experimental and demonstration target only, and you are warned against using it, since it may result in really bad loops hence, among other things, resulting in serious Denial of Service.
-  NETMAP    - new implementation of the SNAT and DNAT targets where the host part of the IP address isn't changed.
-  NFQUEUE   - used much the same way as the QUEUE target, and is basically an extension of it.
-  NOTRACK   - used to turn off connection tracking for all packets matching this rule.
-  QUEUE     - used to queue packets to User-land programs and applications.
-  REDIRECT  - used to redirect packets and streams to the machine itself.
-  REJECT    - works basically the same as the DROP target, but it also sends back an error message to the host sending the packet that was blocked.
-  RETURN    - will cause the current packet to stop traveling through the chain where it hit the rule.
-  SAME      - works almost in the same fashion as the SNAT target, but it still differs.
-  SECMARK   - used to set a security context mark on a single packet, as defined by SELinux and security systems.
-  SNAT      - used to do Source Network Address Translation, which means that this target will rewrite the Source IP address in the IP header of the packet.
-  TCPMSS    - can be used to alter the MSS (Maximum Segment Size) value of TCP SYN packets that the firewall sees.
-  TOS       - used to set the Type of Service field within the IP header.
-  TTL       - used to modify the Time To Live field in the IP header.
-  ULOG      - used to provide user-space logging of matching packets.
+  <strong>ACCEPT</strong>    - the rule is accepted and will not continue traversing the current chain or any other ones in the same table.
+  <strong>CLASSIFY</strong>  - used to classify packets in such a way that can be used by a couple of different qdiscs (Queue Disciplines).
+  <strong>CLUSTERIP</strong> - used to create simple clusters of nodes answering to the same IP and MAC address in a round robin fashion.
+  <strong>CONNMARK</strong>  - used to set a mark on a whole connection, much the same way as the MARK target does.
+  <strong>CONNSECMARK</strong> - sets a SELinux security context mark to or from a packet mark.
+  <strong>DNAT</strong>      - used to do Destination Network Address Translation, which means that it is used to rewrite the Destination IP address of a packet.
+  <strong>DROP</strong>      - drops packets dead and will not carry out any further processing.
+  <strong>DSCP</strong>      - changes the DSCP(Differentiated Services Field) marks inside a packet.
+  <strong>ECN</strong>       - ECN target can be used to reset the ECN bits from the IPv4 header, or to put it correctly, reset them to 0 at least.
+  <strong>LOG</strong>       - logging detailed information about packets.
+  <strong>MARK</strong>      - set Netfilter mark values that are associated with specific packets.
+  <strong>MASQUERADE</strong> - used basically the same as the SNAT target, but it does not require any --to-source option.
+  <strong>MIRROR</strong>    - is an experimental and demonstration target only, and you are warned against using it, since it may result in really bad loops hence, among other things, resulting in serious Denial of Service.
+  <strong>NETMAP</strong>    - new implementation of the SNAT and DNAT targets where the host part of the IP address isn't changed.
+  <strong>NFQUEUE</strong>   - used much the same way as the QUEUE target, and is basically an extension of it.
+  <strong>NOTRACK</strong>   - used to turn off connection tracking for all packets matching this rule.
+  <strong>QUEUE</strong>     - used to queue packets to User-land programs and applications.
+  <strong>REDIRECT</strong>  - used to redirect packets and streams to the machine itself.
+  <strong>REJECT</strong>    - works basically the same as the DROP target, but it also sends back an error message to the host sending the packet that was blocked.
+  <strong>RETURN</strong>    - will cause the current packet to stop traveling through the chain where it hit the rule.
+  <strong>SAME</strong>      - works almost in the same fashion as the SNAT target, but it still differs.
+  <strong>SECMARK</strong>   - used to set a security context mark on a single packet, as defined by SELinux and security systems.
+  <strong>SNAT</strong>      - used to do Source Network Address Translation, which means that this target will rewrite the Source IP address in the IP header of the packet.
+  <strong>TCPMSS</strong>    - can be used to alter the MSS (Maximum Segment Size) value of TCP SYN packets that the firewall sees.
+  <strong>TOS</strong>       - used to set the Type of Service field within the IP header.
+  <strong>TTL</strong>       - used to modify the Time To Live field in the IP header.
+  <strong>ULOG</strong>      - used to provide user-space logging of matching packets.
+</pre>
+</details>
+<details><summary>UFW cheatsheet</summary>
+<pre>
+   <strong>enable</strong>        - enables the firewall
+   <strong>disable</strong>       - disables the firewall
+   <strong>default ARG</strong>   - set default policy
+   <strong>logging LEVEL</strong> - set logging to LEVEL
+   <strong>allow ARGS</strong>    - add allow rule
+   <strong>deny ARGS</strong>     - add deny rule
+   <strong>reject ARGS</strong>   - add reject rule
+   <strong>limit ARGS</strong>    - add limit rule
+   <strong>delete RULE|NUM</strong> - delete RULE
+   <strong>insert NUM RULE</strong> - insert RULE at NUM
+   <strong>prepend RULE</strong>  - prepend RULE
+   <strong>route RULE</strong>    - add route RULE
+   <strong>route delete RULE|NUM</strong> - delete route RULE
+   <strong>route insert NUM RULE</strong> - insert route RULE at NUM
+   <strong>reload</strong>        - reload firewall
+   <strong>reset</strong>         - reset firewall
+   <strong>status</strong>        - show firewall status
+   <strong>status numbered</strong> - show firewall status as numbered list of RULES
+   <strong>status verbose</strong>  - show verbose firewall status
+   <strong>show ARG</strong>      - show firewall report
+   <strong>version</strong>       - display version information<br>
+  Application profile commands
+    <strong>app list</strong>           - list application profiles
+    <strong>app info PROFILE</strong>   - show information on PROFILE
+    <strong>app update PROFILE</strong> - update PROFILE
+    <strong>app default ARG</strong>    - set default application policy
 </pre>
 </details><br>
 
 Task list:
-- Task 1
-- Task 2
+- Determine what ttl the packet will have after ping 1.1.1.1
+- Change the TTL of the incoming ICMP packet from 1.1.1.1 to 77
 
 <details><summary>Hints for the task</summary>
 <pre>
 <strong>Task 1:</strong>
-  $ cmd1
-  $ echo ${string:7:3}
+  $ ping 1.1.1.1
+  PING 1.1.1.1 (1.1.1.1) 56(84) bytes of data.
+  64 bytes from 1.1.1.1: icmp_seq=1 <strong>ttl=51</strong> time=1.48 ms
 <br>
 <strong>Task 2:</strong>
-  $ echo ${#string}
-  $ string=
+  $ sudo iptables -t mangle -A PREROUTING -p icmp -j TTL --ttl-set 77
+  $ ping 1.1.1.1
+  PING 1.1.1.1 (1.1.1.1) 56(84) bytes of data.
+  64 bytes from 1.1.1.1: icmp_seq=1 <strong>ttl=77</strong> time=1.56 ms
 </pre>
 </details>
 <br>
