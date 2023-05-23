@@ -20,11 +20,11 @@
         "title": "Packet management with iptables",
         "text": "netfilter.md"
       },{
-        "title": "Learn how to monitor network activity",
-        "text": "net_activity.md"
+        "title": "Monitoring network activity",
+        "text": "activity.md"
       },{
-        "title": "Learn how to analyze network traffic",
-        "text": "analyze_traffic.md"
+        "title": "Analyze network traffic",
+        "text": "traffic.md"
       }
     ],
     "finish": {
