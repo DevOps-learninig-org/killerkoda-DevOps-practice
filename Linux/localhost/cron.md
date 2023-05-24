@@ -4,7 +4,6 @@ First of all - useful links:
 - [wikipedia.org - Cron](https://en.wikipedia.org/wiki/Cron)
 - `man cron`{{exec}}
 - [freedesktop.org - systemd.timer](https://www.freedesktop.org/software/systemd/man/systemd.timer.html#)
-- 
 
 <details><summary>crontab cheatsheet</summary>
 <pre>
