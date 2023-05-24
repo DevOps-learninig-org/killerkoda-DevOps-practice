@@ -1,11 +1,29 @@
 First of all - useful links:
 
-- [Useful link 1](https://link.org/)
-- `some cli command`{{exec}}
+- [wikipedia.org - Iproute2](https://en.wikipedia.org/wiki/Iproute2)
+- [man7.org - SS(8)](https://man7.org/linux/man-pages/man8/ss.8.html)
+- `man ss`{{exec}}
 
-<details><summary>Lesson info and tips</summary>
+<details><summary>'ss' state filter</summary>
 <pre>
-  Put here some info
+  All standard TCP states:
+    <strong>established, listening, closed
+    syn-sent, syn-recv,
+    fin-wait-1, fin-wait-2, time-wait, close-wait,
+    last-ack, closing</strong>
+  <strong>all</strong>          - for all the states
+  <strong>connected</strong>    - all the states except for listening and closed
+  <strong>synchronized</strong> - all the connected states except for syn-sent
+  <strong>bucket</strong>       - states, which are maintained as minisockets, i.e. time-wait and syn-recv
+  <strong>big</strong>          - opposite to bucket
+  Example:
+    <strong>$ ss state listening</strong>
+    <strong>$ ss -tu state established</strong>
+</pre>
+</details>
+<details><summary>'ss' expressions</summary>
+<pre>
+  
 </pre>
 </details><br>
 
