@@ -32,23 +32,21 @@ First of all - useful links:
   <strong>autobound</strong>            - Match if the port or path of the source address was automatically allocated.
   <br>
   Example:
-  <strong>$ </strong>
+  <strong>$ ss -o state established '( dport = :ssh or sport = :ssh )'</strong>
 </pre>
 </details><br>
 
 Task list:
-- Task 1
-- Task 2
+- Get all sockets in listen state.
+- Get all establishet tcp connetctions
 
 <details><summary>Hints for the task</summary>
 <pre>
 <strong>Task 1:</strong>
-  $ cmd1
-  $ echo ${string:7:3}
+  $ ss state listening
 <br>
 <strong>Task 2:</strong>
-  $ echo ${#string}
-  $ string=
+  $ ss -tu state established
 </pre>
 </details>
 <br>
