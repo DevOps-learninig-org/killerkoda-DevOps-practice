@@ -57,11 +57,11 @@ First of all - useful links:
   <br>
   Load path when running in user mode (systemctl --user):
   <br>
+  <strong>$XDG_CONFIG_HOME/systemd/user or $HOME/.config/systemd/user</strong>  - User configuration ($XDG_CONFIG_HOME is used if set, ~/.config otherwise)
   <strong>$XDG_CONFIG_HOME/systemd/user.control or ~/.config/systemd/user.control</strong>  - Persistent and transient configuration created using the dbus API ($XDG_CONFIG_HOME is used if set, ~/.config otherwise)
   <strong>$XDG_RUNTIME_DIR/systemd/user.control</strong>    - Persistent and transient configuration created using the dbus API ($XDG_CONFIG_HOME is used if set, ~/.config otherwise)
   <strong>$XDG_RUNTIME_DIR/systemd/transient</strong>       - Dynamic configuration for transient units
   <strong>$XDG_RUNTIME_DIR/systemd/generator.early</strong> - Generated units with high priority (see early-dir in systemd.generator(7))
-  <strong>$XDG_CONFIG_HOME/systemd/user or $HOME/.config/systemd/user</strong>  - User configuration ($XDG_CONFIG_HOME is used if set, ~/.config otherwise)
   <strong>$XDG_CONFIG_DIRS/systemd/user or /etc/xdg/systemd/user</strong>       - Additional configuration directories as specified by the XDG base directory specification ($XDG_CONFIG_DIRS is used if set, /etc/xdg otherwise)
   <strong>/etc/systemd/user</strong>                        - User units created by the administrator
   <strong>$XDG_RUNTIME_DIR/systemd/user</strong>            - Runtime units (only used when $XDG_RUNTIME_DIR is set)
