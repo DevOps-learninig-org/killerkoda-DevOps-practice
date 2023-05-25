@@ -6,7 +6,7 @@ First of all - useful links:
 - [kernel.org - 'ethtool' Controlling network drivers and hardware](http://www.kernel.org/pub/software/network/ethtool/)
 - `man ip`{{exec}}
 - `man ethtool`{{exec}}
-
+<br>
 <details><summary>'ip' objects summary</summary>
 <pre>
   <strong>address</strong>    - protocol (IP or IPv6) address on a device.
