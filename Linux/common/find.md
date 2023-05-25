@@ -4,7 +4,7 @@ First of all - useful links:
 - [man7.org - find](https://link.org/)
 - [redhat.com - 10 ways to use the Linux 'find'](https://www.redhat.com/sysadmin/linux-find-command)
 - `man find`{{exec}}
-
+<br>
 <details><summary>Lesson info and tips</summary>
 <pre>
   $ find / -name "foo.txt"
