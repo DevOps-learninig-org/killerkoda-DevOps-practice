@@ -11,8 +11,19 @@ First of all - useful links:
 <details><summary>crontab cheatsheet</summary>
 <pre>
   <strong>* * * * *</strong> - every second
-  <strong>minute hour day(of month) month day(of week)</strong>
-  
+  <strong>minute hour day(of month) month day(of week)</strong> 
+</pre>
+</details>
+<details><summary>systemd.time shorthands</summary>
+<pre>
+    minutely → *-*-* *:*:00
+      hourly → *-*-* *:00:00
+       daily → *-*-* 00:00:00
+     monthly → *-*-01 00:00:00
+      weekly → Mon *-*-* 00:00:00
+      yearly → *-01-01 00:00:00
+   quarterly → *-01,04,07,10-01 00:00:00
+semiannually → *-01,07-01 00:00:00
 </pre>
 </details><br>
 
