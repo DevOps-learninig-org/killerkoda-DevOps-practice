@@ -15,7 +15,8 @@ First of all - useful links:
 <pre>
   <strong></strong> -
 </pre>
-</details><br>
+</details>
+<br>
 
 Task list:
 - Task 1
