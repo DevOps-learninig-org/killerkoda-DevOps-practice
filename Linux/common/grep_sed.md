@@ -8,7 +8,7 @@ First of all - useful links:
 - `man sed`{{exec}}
 - [youtube.com - Learning Sed Is Beneficial For Linux Users](https://www.youtube.com/watch?v=EACe7aiGczw)
 - [youtube.com - Linux Crash Course - The sed Command](https://www.youtube.com/watch?v=nXLnx8ncZyE)
-
+<br>
 <details><summary>Lesson info and tips</summary>
 <pre>
   <b>sed</b> - stream editor
