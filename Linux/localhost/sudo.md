@@ -5,7 +5,7 @@ First of all - useful links:
 - `man sudoers`{{exec}}
 - [cheat.sh - SUDO](https://cheat.sh/sudo)
 - [digitalocean.com - How To Edit the Sudoers File](https://www.digitalocean.com/community/tutorials/how-to-edit-the-sudoers-file)
-
+<br>
 <details><summary>Lesson info and tips</summary>
 <pre>
   List the current user's sudo(8) privileges.
