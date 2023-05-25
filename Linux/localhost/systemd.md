@@ -7,15 +7,30 @@ First of all - useful links:
 - [freedesktop.org - General syntax of systemd configuration files](https://www.freedesktop.org/software/systemd/man/systemd.syntax.html)
 - [digitalocean.com - Systemd Essentials: Working with Services, Units, and the Journal](https://www.digitalocean.com/community/tutorials/systemd-essentials-working-with-services-units-and-the-journal)
 - [freedesktop.org - Unit configuration](https://www.freedesktop.org/software/systemd/man/systemd.unit.html#)
-- `man systemctl`{{exec}}
-- `man journalctl`{{exec}}
-- `man networkctl`{{exec}}
-- `man resolvectl`{{exec}}
-- `man timedatectl`{{exec}}
-- `man loginctl`{{exec}}
+
 - [youtube.com - Linux systemd](https://www.youtube.com/watch?v=N1vgvhiyq0E&list=PLtK75qxsQaMKPbuVpGuqUQYRiTwTAmqeI)
 - [youtube.com - Systemd tutorials](https://www.youtube.com/watch?v=KftuGM_ylKg&list=PL6IQ3nFZzWfpKKWfZMRxiuEBwqQBwjzS1)
 
+<details><summary>Systemd controllers</summary>
+<pre>
+  <a href="https://www.freedesktop.org/software/systemd/man/bootctl.html">bootctl</a>     — Control EFI firmware boot settings and manage boot loader
+  <a href="https://www.freedesktop.org/software/systemd/man/busctl.html">busctl</a>      — Introspect the bus
+  <a href="https://www.freedesktop.org/software/systemd/man/coredumpctl.html">coredumpctl</a> — Retrieve and process saved core dumps and metadata
+  <a href="https://www.freedesktop.org/software/systemd/man/homectl.html">homectl</a>     — Create, remove, change or inspect home directories
+  <a href="https://www.freedesktop.org/software/systemd/man/hostnamectl.html">hostnamectl</a> — Control the system hostname
+  <a href="https://www.freedesktop.org/software/systemd/man/journalctl.html">journalctl</a>  — Print log entries from the systemd journal
+  <a href="https://www.freedesktop.org/software/systemd/man/localectl.html">localectl</a>   — Control the system locale and keyboard layout settings
+  <a href="https://www.freedesktop.org/software/systemd/man/loginctl.html">loginctl</a>    — Control the systemd login manager
+  <a href="https://www.freedesktop.org/software/systemd/man/machinectl.html">machinectl</a>  — Control the systemd machine manager
+  <a href="https://www.freedesktop.org/software/systemd/man/networkctl.html">networkctl</a>  — Query the status of network links
+  <a href="https://www.freedesktop.org/software/systemd/man/oomctl.html">oomctl</a>      — Analyze the state stored in systemd-oomd
+  <a href="https://www.freedesktop.org/software/systemd/man/portablectl.html">portablectl</a> — Attach, detach or inspect portable service images
+  <a href="https://www.freedesktop.org/software/systemd/man/resolvectl.html">resolvectl</a>  — Resolve domain names, IPV4 and IPv6 addresses, DNS resource records, and services; introspect and reconfigure the DNS resolver
+  <a href="https://www.freedesktop.org/software/systemd/man/systemctl.html">systemctl</a>   — Control the systemd system and service manager
+  <a href="https://www.freedesktop.org/software/systemd/man/timedatectl.html">timedatectl</a> — Control the system time and date
+  <a href="https://www.freedesktop.org/software/systemd/man/userdbctl.html">userdbctl</a>   — Inspect users, groups and group memberships
+</pre>
+</details>
 <details><summary>Systemd unit types</summary>
 <pre>
   <strong>Service units</strong>  - start and control daemons and the processes they consist of. More details in <strong>systemd.service(5)</strong>.
