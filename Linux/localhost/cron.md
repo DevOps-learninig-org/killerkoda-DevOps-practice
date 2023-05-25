@@ -33,13 +33,32 @@ Task list:
 <br>
 <strong>Task 3:</strong>
   $ mkdir -p ${XDG_CONFIG_HOME:-~/.config}/systemd/user/
-  $ vi ${XDG_CONFIG_HOME:-~/.config}/systemd/user/ping-1-1-1-1.service
-  
-  # only under dockerized env ----
+  <br>
+  $ vi ping-1-1-1-1.service
+    [Unit]
+      Description=Small test ping 1.1.1.1 service
+    [Service]
+      Type=oneshot
+      ExecStart=ping-1-1-1-1.sh
+    [Install]
+      RequiredBy=ping-1-1-1-1.timer
+  <br>
+  $ vi ping-1-1-1-1.timer
+    [Unit]
+    [Timer]
+      OnCalendar=minutely
+      Persistent=true
+    [Install]
+      WantedBy=timers.target
+  <br>
+  // only under dockerized env ----
   $ loginctl enable-linger root
-  $ XDG_RUNTIME_DIR=/run/user/$(id -u root) systemctl --user enable ~/.config/systemd/user/ping-1-1-1-1.service
-  # only under dockerized env ----
-  
+  $ XDG_RUNTIME_DIR=/run/user/$(id -u root) systemctl --user enable ping-1-1-1-1.timer
+  $ XDG_RUNTIME_DIR=/run/user/$(id -u root) systemctl --user enable ping-1-1-1-1.service
+  // only under dockerized env ----
+  <br>
+  $ systemctl --user enable ping-1-1-1-1.timer
+  $ systemctl --user enable ping-1-1-1-1.service
   
 </pre>
 </details>
