@@ -10,7 +10,7 @@ First of all - useful links:
 
 - [youtube.com - Linux systemd](https://www.youtube.com/watch?v=N1vgvhiyq0E&list=PLtK75qxsQaMKPbuVpGuqUQYRiTwTAmqeI)
 - [youtube.com - Systemd tutorials](https://www.youtube.com/watch?v=KftuGM_ylKg&list=PL6IQ3nFZzWfpKKWfZMRxiuEBwqQBwjzS1)
-
+<br>
 <details><summary>Systemd controllers</summary>
 <pre>
   <a href="https://www.freedesktop.org/software/systemd/man/bootctl.html">bootctl</a>     — Control EFI firmware boot settings and manage boot loader
