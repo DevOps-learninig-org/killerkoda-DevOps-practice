@@ -7,7 +7,7 @@ First of all - useful links:
 - [freedesktop.org - systemd.time](https://www.freedesktop.org/software/systemd/man/systemd.time.html#)
 - `man systemd.timer`{{exec}}
 - `man systemd.time`{{exec}}
-
+<br>
 <details><summary>crontab cheatsheet</summary>
 <pre>
   <strong>* * * * *</strong> - every second
