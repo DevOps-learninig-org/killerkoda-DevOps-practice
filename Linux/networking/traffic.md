@@ -10,6 +10,7 @@ First of all - useful links:
 - [nmap.org - Documentation](https://nmap.org/docs.html)
 - [tutorialspoint.com - 'nmap' cheatsheet](https://www.tutorialspoint.com/nmap-cheat-sheet)
 - `apt install nmap -y && man nmap`{{exec}}
+- `nmap --script-help all | less`{{exec}}
 
 Task list:
 - Explote what traffic goes onto your host
