@@ -4,7 +4,7 @@ First of all - useful links:
 - [ubuntu.com - User Management](https://ubuntu.com/server/docs/security-users)
 - [tutorialspoint.com - Linux Admin - User Management](https://www.tutorialspoint.com/linux_admin/linux_admin_user_management.htm)
 - [makeuseof.com - User Management in Linux](https://www.makeuseof.com/user-management-linux-guide/)
-
+<br>
 <details><summary>Lesson info and tips</summary>
 <pre>
   Most common algorythm of user creation:<br>
