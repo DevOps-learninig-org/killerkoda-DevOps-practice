@@ -10,7 +10,7 @@ First of all - useful links:
 
 - [Useful link 1](https://link.org/)
 - `some cli command`{{exec}}
-
+<br>
 <details><summary>Lesson info and tips</summary>
 <pre>
   <strong></strong> -
