@@ -40,6 +40,41 @@ First of all - useful links:
     $ journalctl -fk
     $ journalctl -u nginx.service
 </pre>
+</details>
+<details><summary>Unit fiile search paths</summary>
+<pre>
+  Load path when running in system mode (systemctl --system):
+  <br>
+  <strong>/etc/systemd/system.control</strong>  - Persistent and transient configuration created using the dbus API
+  <strong>/run/systemd/system.control</strong>  - Persistent and transient configuration created using the dbus API
+  <strong>/run/systemd/transient</strong>       - Dynamic configuration for transient units
+  <strong>/run/systemd/generator.early</strong> - Generated units with high priority (see early-dir in systemd.generator(7))
+  <strong>/etc/systemd/system</strong>          - System units created by the administrator
+  <strong>/run/systemd/system</strong>          - Runtime units
+  <strong>/run/systemd/generator</strong>       - Generated units with medium priority (see normal-dir in systemd.generator(7))
+  <strong>/usr/local/lib/systemd/system</strong> - System units installed by the administrator
+  <strong>/usr/lib/systemd/system</strong>      - System units installed by the distribution package manager
+  <strong>/run/systemd/generator.late</strong>  - Generated units with low priority (see late-dir in systemd.generator(7))
+  <br>
+  Load path when running in user mode (systemctl --user):
+  <br>
+  <strong>$XDG_CONFIG_HOME/systemd/user.control or ~/.config/systemd/user.control</strong>  - Persistent and transient configuration created using the dbus API ($XDG_CONFIG_HOME is used if set, ~/.config otherwise)
+  <strong>$XDG_RUNTIME_DIR/systemd/user.control</strong>    - Persistent and transient configuration created using the dbus API ($XDG_CONFIG_HOME is used if set, ~/.config otherwise)
+  <strong>$XDG_RUNTIME_DIR/systemd/transient</strong>       - Dynamic configuration for transient units
+  <strong>$XDG_RUNTIME_DIR/systemd/generator.early</strong> - Generated units with high priority (see early-dir in systemd.generator(7))
+  <strong>$XDG_CONFIG_HOME/systemd/user or $HOME/.config/systemd/user</strong>  - User configuration ($XDG_CONFIG_HOME is used if set, ~/.config otherwise)
+  <strong>$XDG_CONFIG_DIRS/systemd/user or /etc/xdg/systemd/user</strong>       - Additional configuration directories as specified by the XDG base directory specification ($XDG_CONFIG_DIRS is used if set, /etc/xdg otherwise)
+  <strong>/etc/systemd/user</strong>                        - User units created by the administrator
+  <strong>$XDG_RUNTIME_DIR/systemd/user</strong>            - Runtime units (only used when $XDG_RUNTIME_DIR is set)
+  <strong>/run/systemd/user</strong>                        - Runtime units
+  <strong>$XDG_RUNTIME_DIR/systemd/generator</strong>       - Generated units with medium priority (see normal-dir in systemd.generator(7))
+  <strong>$XDG_DATA_HOME/systemd/user or $HOME/.local/share/systemd/user</strong>                           - Units of packages that have been installed in the home directory ($XDG_DATA_HOME is used if set, ~/.local/share otherwise)
+  <strong>$XDG_DATA_DIRS/systemd/user or /usr/local/share/systemd/user and /usr/share/systemd/user</strong> - Additional data directories as specified by the XDG base directory specification ($XDG_DATA_DIRS is used if set, /usr/local/share and /usr/share otherwise)
+  <strong>$dir/systemd/user</strong>                        - for each $dir in $XDG_DATA_DIRS	Additional locations for installed user units, one for each entry in $XDG_DATA_DIRS
+  <strong>/usr/local/lib/systemd/user</strong>              - User units installed by the administrator
+  <strong>/usr/lib/systemd/user</strong>                    - User units installed by the distribution package manager
+  <strong>$XDG_RUNTIME_DIR/systemd/generator.late</strong>  - Generated units with low priority (see late-dir in systemd.generator(7))
+</pre>
 </details><br>
 
 Task list:
