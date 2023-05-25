@@ -4,7 +4,7 @@ First of all - useful links:
 - [debian.org - APT](https://wiki.debian.org/Apt)
 - [debian.org - apt(8)](https://manpages.debian.org/bullseye/apt/apt.8.en.html)
 - [man7.org - dpkg(1)](https://man7.org/linux/man-pages/man1/dpkg.1.html)
-
+<br>
 <details><summary>Lesson info and tips</summary>
 <pre>
   <strong>$ sudo apt install nmap</strong>   - Install a Package
