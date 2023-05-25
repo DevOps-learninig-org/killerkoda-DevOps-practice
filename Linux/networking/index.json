@@ -17,7 +17,7 @@
         "title": "Configuring network with NetPlan",
         "text": "netplan.md"
       },{
-        "title": "Packet management with iptables",
+        "title": "Firewall, NAT and packet mangling",
         "text": "netfilter.md"
       },{
         "title": "Monitoring network activity",
