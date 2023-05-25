@@ -8,7 +8,6 @@ First of all - useful links:
 - [digitalocean.com - Systemd Essentials: Working with Services, Units, and the Journal](https://www.digitalocean.com/community/tutorials/systemd-essentials-working-with-services-units-and-the-journal)
 - [freedesktop.org - Unit configuration](https://www.freedesktop.org/software/systemd/man/systemd.unit.html#)
 - `man systemctl`{{exec}}
-- `man systemctl`{{exec}}
 - `man journalctl`{{exec}}
 - `man networkctl`{{exec}}
 - `man resolvectl`{{exec}}
