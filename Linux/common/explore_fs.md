@@ -6,7 +6,7 @@ First of all - useful links:
 - `man file-hierarchy`{{exec}}
 - [linuxfoundation.org - Filesystem Hierarchy Standard](https://refspecs.linuxfoundation.org/fhs.shtml)
 - `apt install tree -y && man tree`{{exec}}
-
+<br>
 <details><summary>Filesystem Hierarchy as in FHS v3.0</summary>
 <pre>
   <strong>/bin</strong>   - Essential user command binaries (for use by all users)
