@@ -46,24 +46,24 @@ First of all - useful links:
 <details><summary>Parameter Substitution</summary>
 <pre>
   <strong>${parameter}</strong> - Same as $parameter, i.e., value of the variable parameter.
-  <strong>${parameter-default}, ${parameter:-default}</strong> - If parameter not set, use default.
-  <strong>${parameter=default}, ${parameter:=default}</strong> - If parameter not set, set it to default.
-  <strong>${parameter+alt_value}, ${parameter:+alt_value}</strong> - If parameter set, use alt_value, else use null string.
-  <strong>${parameter?err_msg}, ${parameter:?err_msg}</strong> - If parameter set, use it, else print err_msg and abort the script with an exit status of 1.
+  <strong>${parameter-default}, ${parameter:-default}</strong>      - If parameter not set, use default.
+  <strong>${parameter=default}, ${parameter:=default}</strong>      - If parameter not set, set it to default.
+  <strong>${parameter+alt_value}, ${parameter:+alt_value}</strong>  - If parameter set, use alt_value, else use null string.
+  <strong>${parameter?err_msg}, ${parameter:?err_msg}</strong>      - If parameter set, use it, else print err_msg and abort the script with an exit status of 1.
 </pre>
 </details>
 <details><summary>Manipulating Strings</summary>
 <pre>
-  <strong>${#var}</strong> - Number of characters in $var.
-  <strong>${#*}</strong> and <strong>${#@}</strong> - Number of positional parameters
-  <strong>${var#pattern}, ${var##pattern}</strong> - Remove from $var the shortest#/longest## part of $Pattern
+  <strong>${#var}</strong>                            - Number of characters in $var.
+  <strong>${#*}</strong> and <strong>${#@}</strong>   - Number of positional parameters
+  <strong>${var#pattern}, ${var##pattern}</strong>    - Remove from $var the shortest#/longest## part of $Pattern
   <strong>${string%substring}, ${string%%substring}</strong> - Remove shortest%/longest%% match of $substring from back of $string.
-  <strong>${string:position}</strong> - Extracts substring from $string at $position as number.
-  <strong>${string:position:length}</strong> - Extracts $length characters of substring from $string at $position.
-  <strong>${string/substring/replacement}</strong> - Replace first match of $substring with $replacement.
-  <strong>${string//substring/replacement}</strong> - Replace all matches of $substring with $replacement.
-  <strong>${string/#substring/replacement}</strong> - If $substring matches front end of $string, substitute $replacement for $substring.
-  <strong>${string/%substring/replacement}</strong> - If $substring matches back end of $string, substitute $replacement for $substring.
+  <strong>${string:position}</strong>                 - Extracts substring from $string at $position as number.
+  <strong>${string:position:length}</strong>          - Extracts $length characters of substring from $string at $position.
+  <strong>${string/substring/replacement}</strong>    - Replace first match of $substring with $replacement.
+  <strong>${string//substring/replacement}</strong>   - Replace all matches of $substring with $replacement.
+  <strong>${string/#substring/replacement}</strong>   - If $substring matches front end of $string, substitute $replacement for $substring.
+  <strong>${string/%substring/replacement}</strong>   - If $substring matches back end of $string, substitute $replacement for $substring.
 </pre>
 </details>
 <br>
