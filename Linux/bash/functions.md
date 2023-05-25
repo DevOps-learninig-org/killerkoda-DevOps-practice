@@ -5,7 +5,7 @@ First of all - useful links:
 - [devhints.io - Bash scripting cheatsheet #Functions](https://devhints.io/bash#functions)
 - [gnu.org - Shell Functions](https://www.gnu.org/software/bash/manual/html_node/Shell-Functions.html)
 - [tldp.org - Functions](https://tldp.org/LDP/abs/html/functions.html)
-
+<br>
 <details><summary>Lesson info and tips</summary>
 <pre>
 <strong>Syntax:</strong>
