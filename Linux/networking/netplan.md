@@ -5,7 +5,7 @@ First of all - useful links:
 - [linuxconfig.org - Netplan network configuration tutorial](https://linuxconfig.org/netplan-network-configuration-tutorial-for-beginners)
 - [vitux.com - Networking on Ubuntu with Netplan](https://vitux.com/how-to-configure-networking-with-netplan-on-ubuntu/)
 - `man netplan`{{exec}}
-
+<br>
 <details><summary>'netplan' tool commands</summary>
 <pre>
   <strong>help</strong>   - Show this help message
