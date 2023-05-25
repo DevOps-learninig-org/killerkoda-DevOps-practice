@@ -3,7 +3,7 @@
   "description": "Practice with BASH scripting",
   "details": {
     "intro": {
-      "text": "intro.md"
+      "text": "service/intro.md"
     },
     "steps": [
       {
@@ -41,7 +41,7 @@
       }
     ],
     "finish": {
-      "text": "finish.md"
+      "text": "service/finish.md"
     }
   },
   "backend": {
