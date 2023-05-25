@@ -11,6 +11,7 @@ First of all - useful links:
 - `man journalctl`{{exec}}
 - `man networkctl`{{exec}}
 - `man resolvectl`{{exec}}
+- `man timedatectl`{{exec}}
 - `man loginctl`{{exec}}
 - [youtube.com - Linux systemd](https://www.youtube.com/watch?v=N1vgvhiyq0E&list=PLtK75qxsQaMKPbuVpGuqUQYRiTwTAmqeI)
 - [youtube.com - Systemd tutorials](https://www.youtube.com/watch?v=KftuGM_ylKg&list=PL6IQ3nFZzWfpKKWfZMRxiuEBwqQBwjzS1)
