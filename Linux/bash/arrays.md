@@ -4,7 +4,7 @@ First of all - useful links:
 - [devhints.io - Bash scripting cheatsheet #Arrays](https://devhints.io/bash#arrays)
 - [tldp.org - Scripting Guide #Arrays](https://tldp.org/LDP/abs/html/arrays.html)
 - [gnu.org - Arrays](https://www.gnu.org/software/bash/manual/html_node/Arrays.html)
-
+<br>
 <details><summary>Lesson info and tips</summary>
 <pre>
   Defining arrays:
