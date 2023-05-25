@@ -3,7 +3,7 @@
   "description": "Most common linux utilities theory and practice",
   "details": {
     "intro": {
-      "text": "intro.md",
+      "text": "service/intro.md",
       "foreground": "scripts/foreground.sh"
     },
     "steps": [
@@ -34,7 +34,7 @@
       }
     ],
     "finish": {
-      "text": "finish.md"
+      "text": "service/finish.md"
     }
   },
   "backend": {
