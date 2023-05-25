@@ -5,7 +5,7 @@ First of all - useful links:
 - [cheat.sh - Tar cheatsheet](https://cheat.sh/tar)
 - `tar --help`{{exec}}
 - `man tar`{{exec}}
-
+<br>
 <details><summary>TAR command syntax</summary>
 <pre>tar [-options] &lt;name of the tar archive&gt; [files or directories which to add into archive]
   <strong>-A, --catenate, --concatenate</strong> — append tar files to an archive
