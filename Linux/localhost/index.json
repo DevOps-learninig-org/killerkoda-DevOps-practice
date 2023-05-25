@@ -7,39 +7,43 @@
     },
     "steps": [
       {
-        "title": "1/9 - Terminal multiplexers [54:00]",
+        "title": "1/10 - Terminal multiplexers [54:00]",
         "text": "tmux.md",
         "verify": "scripts/check.sh"
       },{
-        "title": "2/9 - User management [48:00]",
+        "title": "2/10 - User management [48:00]",
         "text": "users.md",
         "verify": "scripts/check.sh"
       },{
-        "title": "3/9 - Priveledge escalation with SUDO [42:00]",
+        "title": "3/10 - Cron and systemd.timers [48:00]",
+        "text": "cron.md",
+        "verify": "scripts/check.sh"
+      },{
+        "title": "4/10 - Priveledge escalation with SUDO [42:00]",
         "text": "sudo.md",
         "verify": "scripts/check.sh"
       },{
-        "title": "4/9 - Package management [36:00]",
+        "title": "5/10 - Package management [36:00]",
         "text": "app_management.md",
         "verify": "scripts/check.sh"
       },{
-        "title": "5/9 - System management with SYSTEMD [30:00]",
+        "title": "6/10 - System management with SYSTEMD [30:00]",
         "text": "systemd.md",
         "verify": "scripts/check.sh"
       },{
-        "title": "6/9 - Operating system monitoring [24:00]",
+        "title": "7/10 - Operating system monitoring [24:00]",
         "text": "monitoring.md",
         "verify": "scripts/check.sh"
       },{
-        "title": "7/9 - Viewing and Managing log-files [18:00]",
+        "title": "8/10 - Viewing and Managing log-files [18:00]",
         "text": "logging.md",
         "verify": "scripts/check.sh"
       },{
-        "title": "8/9 - Working with GRUB2 boot manager [12:00]",
+        "title": "9/10 - Working with GRUB2 boot manager [12:00]",
         "text": "grub.md",
         "verify": "scripts/check.sh"
       },{
-        "title": "9/9 - Security and Hardening [00:00]",
+        "title": "10/10 - Security and Hardening [00:00]",
         "text": "security.md",
         "verify": "scripts/check.sh"
       }
