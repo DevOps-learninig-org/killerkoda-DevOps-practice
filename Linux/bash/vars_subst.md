@@ -6,7 +6,7 @@ First of all - useful links:
 - [tldp.org - Parameter Substitution](https://tldp.org/LDP/abs/html/parameter-substitution.html)
 - [tldp.org - Manipulating Variables](https://tldp.org/LDP/abs/html/manipulatingvars.html)
 - [tldp.org - Regular Expressions](https://tldp.org/LDP/abs/html/regexp.html)
-
+<br>
 <details><summary>List of builtin variables</summary>
 <pre>
 <strong>$* / $@</strong>		Function/script positional parameters (arguments). Expand as follows:
