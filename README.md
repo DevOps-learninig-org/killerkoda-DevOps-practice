@@ -13,7 +13,7 @@ First of all - useful links:
 
 <details><summary>Lesson info and tips</summary>
 <pre>
-  Put here some info
+  <strong></strong> -
 </pre>
 </details><br>
 
