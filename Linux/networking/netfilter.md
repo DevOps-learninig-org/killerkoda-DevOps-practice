@@ -6,7 +6,7 @@ First of all - useful links:
 - [ubuntu.com - Introduction to UFW](https://help.ubuntu.com/community/UFW)
 - `man iptables`{{exec}}
 - `man ufw`{{exec}}
-
+<br>
 <details><summary>IPtables tables and chains</summary>
 <pre>
   <strong>RAW</strong> - Used to set NOTRACK packet mark
