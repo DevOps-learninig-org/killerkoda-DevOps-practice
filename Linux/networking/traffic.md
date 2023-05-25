@@ -1,7 +1,12 @@
 First of all - useful links:
 
-- [Useful link 1](https://link.org/)
-- `some cli command`{{exec}}
+- [tcpdump.org - Main page](https://www.tcpdump.org/)
+- [github.com - 'tcpdump' source code](https://github.com/the-tcpdump-group/libpcap)
+- [gist.github.com - 'tcpdump' cheapsheet](https://gist.github.com/jforge/27962c52223ea9b8003b22b8189d93fb)
+- [tcpdump.org - tcpdump(1) man page](https://www.tcpdump.org/manpages/tcpdump.1.html)
+- `man tcpdump`{{exec}}
+- []()
+
 <br>
 <details><summary>Lesson info and tips</summary>
 <pre>
