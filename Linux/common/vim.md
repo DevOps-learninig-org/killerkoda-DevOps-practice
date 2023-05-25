@@ -17,7 +17,7 @@ First of all - useful links:
     $ cat filename
 </pre>
 </details>
-
+<br>
 Task list:
 - Edit /etc/sshd_config
 - Find 'PermitRootLogin yes' and repalce it to 'PermitRootLogin no'
