@@ -25,6 +25,9 @@
       },{
         "title": "Analyze network traffic",
         "text": "traffic.md"
+      },{
+        "title": "Tuning QoS",
+        "text": "qos.md"
       }
     ],
     "finish": {
