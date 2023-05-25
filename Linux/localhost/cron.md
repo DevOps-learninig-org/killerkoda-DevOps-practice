@@ -57,11 +57,13 @@ Task list:
   $ loginctl enable-linger root
   $ XDG_RUNTIME_DIR=/run/user/$(id -u root) systemctl --user enable ping-1-1-1-1.timer
   $ XDG_RUNTIME_DIR=/run/user/$(id -u root) systemctl --user enable ping-1-1-1-1.service
+  $ XDG_RUNTIME_DIR=/run/user/$(id -u root) systemctl --user start ping-1-1-1-1.timer
   // only under dockerized env ----
   <br>
   $ systemctl --user enable ping-1-1-1-1.timer
   $ systemctl --user enable ping-1-1-1-1.service
-  
+  $ systemctl --user start ping-1-1-1-1.timer
+  $ systemctl --user status ping-1-1-1-1.timer
 </pre>
 </details>
 <br>
