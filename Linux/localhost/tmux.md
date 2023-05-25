@@ -8,7 +8,7 @@ First of all - useful links:
 - [gnu.org - GNU screen homepage](https://www.gnu.org/software/screen/)
 - [gnu.org - GNU screen manual](https://www.gnu.org/software/screen/manual/screen.html)
 - [youtube.com - How to use GNU SCREEN](https://www.youtube.com/watch?v=I4xVn6Io5Nw)
-
+<br>
 <details><summary>Lesson info and tips</summary>
 <pre>
 Tmux commands:
