@@ -5,7 +5,7 @@ First of all - useful links:
 - [freedesktop.org - Network configuration](https://www.freedesktop.org/software/systemd/man/systemd.network.html#)
 - [freedesktop.org - Network device configuration](https://www.freedesktop.org/software/systemd/man/systemd.link.html#)
 - `man networkctl`{{exec}}
-
+<br>
 <details><summary>Supported 'netdev' kinds</summary>
 <pre>
   <strong>bond</strong>   - aggregation of all its slave devices. See Linux Ethernet Bonding Driver HOWTO for details.
