@@ -67,31 +67,32 @@ And watch some videos:
 
 See you in the [next  scenario](/kodxxl/course/Linux/%LINK_TO_NEXT%)!
 ```
-# Template for scenario index.md
+# Template for scenario index.json
 ```
 {
   "title": "Title of scenario",
   "details": {
     "intro": {
-      "text": "intro.md"
+      "foreground": "scripts/foreground.sh"
+      "text": "service/intro.md"
     },
     "steps": [
       {
-        "title": "1/3 Title of step 1",
+        "title": "1/3 Title of step 1 [40:00]",
         "text": "step1/text.md",
-        "verify": "step1/verify.sh"
+        "verify": "scripts/verify.sh"
       },{
-        "title": "2/3 Title of step 2",
-        "text": "step2/text.md",
-        "verify": "step2/verify.sh"
+        "title": "2/3 Title of step 2 [20:00]",
+        "text": "step2_text.md",
+        "verify": "scripts/verify.sh"
       },{
-        "title": "3/3 Title of step 3",
-        "text": "step2/text.md",
-        "verify": "step2/verify.sh"
+        "title": "3/3 Title of step 3 [00:00]",
+        "text": "step2_text.md",
+        "verify": "scripts/verify.sh"
       }
     ],
     "finish": {
-      "text": "finish.md"
+      "text": "service/finish.md"
     }
   },
   "backend": {
