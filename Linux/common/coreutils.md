@@ -6,7 +6,7 @@ First of all - useful links:
 - `info coreutils`{{exec}}
 - [github.com - util-linux sources](https://github.com/util-linux/util-linux)
 - [wikipedia.org - util-linux](https://en.wikipedia.org/wiki/Util-linux)
-
+<br>
 <details><summary>Basic 'info' command keys</summary>
 <pre>
   <strong>H</strong>    - Open or close help window.
