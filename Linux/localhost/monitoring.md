@@ -4,7 +4,7 @@ First of all - useful links:
 - [gnu.org - Accounting Utilities Manual](https://www.gnu.org/software/acct/manual/accounting.html)
 - `man vmstat`{{exec}}
 - `man ps`{{exec}}
-
+<br>
 <details><summary>Lesson info and tips</summary>
 <pre>
 <ins>Some useful tools for monitoring:</ins><br>
