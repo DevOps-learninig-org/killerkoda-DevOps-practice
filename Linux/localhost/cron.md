@@ -24,6 +24,8 @@ Task list:
   $ vi /usr/local/sbin/ping-1-1-1-1.sh
     #!/bin/sh
     ping -c 1 1.1.1.1 > ~/results.ping
+  <br>
+  $ chmod +x /usr/local/sbin/ping-1-1-1-1.sh
 <br>
 <strong>Task 2:</strong>
   $ systemctl status cron.service
