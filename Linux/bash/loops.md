@@ -4,7 +4,7 @@ First of all - useful links:
 - [devhints.io - Bash scripting cheatsheet #Loops](https://devhints.io/bash#loops)
 - [gnu.org - Looping Constructs](https://www.gnu.org/software/bash/manual/html_node/Looping-Constructs.html)
 - [tldp.org - Loops](https://tldp.org/LDP/abs/html/loops1.html)
-
+<br>
 <details><summary>Lesson info and tips</summary>
 <pre>
 <strong>UNTIL construction:</strong>
