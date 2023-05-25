@@ -32,7 +32,9 @@ Task list:
   $ journalctl _SYSTEMD_UNIT=cron.service
 <br>
 <strong>Task 3:</strong>
-  $ 
+  $ mkdir -p ${XDG_CONFIG_HOME:-~/.config}/systemd/user/
+  $ vi ${XDG_CONFIG_HOME:-~/.config}/systemd/user/ping-1-1-1-1.service
+  
 </pre>
 </details>
 <br>
