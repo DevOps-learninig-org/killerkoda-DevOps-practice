@@ -35,6 +35,12 @@ Task list:
   $ mkdir -p ${XDG_CONFIG_HOME:-~/.config}/systemd/user/
   $ vi ${XDG_CONFIG_HOME:-~/.config}/systemd/user/ping-1-1-1-1.service
   
+  # only under dockerized env ----
+  $ loginctl enable-linger root
+  $ XDG_RUNTIME_DIR=/run/user/$(id -u root) systemctl --user enable ~/.config/systemd/user/ping-1-1-1-1.service
+  # only under dockerized env ----
+  
+  
 </pre>
 </details>
 <br>
