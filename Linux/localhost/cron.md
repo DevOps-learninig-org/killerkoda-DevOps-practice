@@ -22,12 +22,14 @@ Task list:
 <pre>
 <strong>Task 1:</strong>
   $ vi /usr/local/sbin/ping-1-1-1-1.sh
-  #!/bin/sh
-  ping -c 1 1.1.1.1 > ~/results.ping
+    #!/bin/sh
+    ping -c 1 1.1.1.1 > ~/results.ping
 <br>
 <strong>Task 2:</strong>
+  $ systemctl status cron.service
   $ crontab -e
-  * * * * * ping-1-1-1-1.sh 2>&1
+    * * * * * ping-1-1-1-1.sh 2>&1
+  $ journalctl _SYSTEMD_UNIT=cron.service
 <br>
 <strong>Task 3:</strong>
   $ 
