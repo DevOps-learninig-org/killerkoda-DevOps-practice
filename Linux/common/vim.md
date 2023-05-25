@@ -6,7 +6,7 @@ First of all - useful links:
 - [openvim.com - Interactive VIM tutorial](https://openvim.com/)
 - `man vim`{{exec}}
 - `vimtutor`{{exec}}
-
+<br>
 <details><summary>Lesson info and tips</summary>
 <pre>
   This is most common scenario for using VIM
