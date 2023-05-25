@@ -3,7 +3,7 @@ First of all - useful links:
 - [gnu.org - GNU GRUB Manual](https://www.gnu.org/software/grub/manual/grub/grub.html)
 - [wikipedia.org - GRUB](https://www.wikipedia.org/wiki/GNU_GRUB)
 - [wikibooks.org - GRUB2](https://ru.wikibooks.org/wiki/Grub_2)
-
+<br>
 <details><summary>Lesson info and tips</summary>
 <pre>
   Most common scenario to update grub:<br>
