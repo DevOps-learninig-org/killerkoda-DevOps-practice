@@ -36,7 +36,7 @@ Task list:
 <strong>Task 3:</strong>
   $ mkdir -p ${XDG_CONFIG_HOME:-~/.config}/systemd/user/
   <br>
-  $ vi ping-1-1-1-1.service
+  $ vi ${XDG_CONFIG_HOME:-~/.config}/systemd/user/ping-1-1-1-1.service
     [Unit]
       Description=Small test ping 1.1.1.1 service
     [Service]
@@ -45,7 +45,7 @@ Task list:
     [Install]
       RequiredBy=ping-1-1-1-1.timer
   <br>
-  $ vi ping-1-1-1-1.timer
+  $ vi ${XDG_CONFIG_HOME:-~/.config}/systemd/user/ping-1-1-1-1.timer
     [Unit]
     [Timer]
       OnCalendar=minutely
