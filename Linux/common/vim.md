@@ -1,6 +1,6 @@
 First of all - useful links:
 
-- [vim.org - VIM documentation]([https://link.org/](https://www.vim.org/docs.php))
+- [vim.org - VIM documentation](https://www.vim.org/docs.php)
 - [wikibooks.org - VIM](https://en.wikibooks.org/wiki/Vim)
 - [devhints.io - VIM Cheatsheet](https://devhints.io/vim)
 - [openvim.com - Interactive VIM tutorial](https://openvim.com/)
