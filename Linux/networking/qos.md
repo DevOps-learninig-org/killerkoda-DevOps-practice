@@ -3,9 +3,14 @@ First of all - useful links:
 - [tldp.org - Traffic Control HOWTO](https://tldp.org/HOWTO/Traffic-Control-HOWTO/overview.html)
 - `some cli command`{{exec}}
 <br>
-<details><summary>Lesson info and tips</summary>
+<details><summary>Correlation between TC elements and Linux components</summary>
 <pre>
-  <strong></strong> -
+  <strong>shaping</strong>      - The class offers shaping capabilities.
+  <strong>scheduling</strong>   - A qdisc is a scheduler. Schedulers can be simple such as the FIFO or complex, containing classes and other qdiscs, such as HTB.
+  <strong>classifying</strong>  - The filter object performs the classification through the agency of a classifier object. Strictly speaking, Linux classifiers cannot exist outside of a filter.
+  <strong>policing</strong>     - A policer exists in the Linux traffic control implementation only as part of a filter.
+  <strong>dropping</strong>     - To drop traffic requires a filter with a policer which uses "drop" as an action.
+  <strong>marking</strong>      - The dsmark qdisc is used for marking.
 </pre>
 </details>
 <br>
