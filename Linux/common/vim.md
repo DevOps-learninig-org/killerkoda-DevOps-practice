@@ -12,9 +12,9 @@ First of all - useful links:
 <pre>
   This is most common scenario for using VIM
     $ vim filename
-    i
-    Some test
-    :wq
+      i
+      Some test
+      :wq
     $ cat filename
 </pre>
 </details>
