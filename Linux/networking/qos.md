@@ -1,7 +1,8 @@
 First of all - useful links:
 
 - [tldp.org - Traffic Control HOWTO](https://tldp.org/HOWTO/Traffic-Control-HOWTO/overview.html)
-- `some cli command`{{exec}}
+- `man tc`{{exec}}
+- [youtube.com - Shaping Linux Traffic with tc](https://www.youtube.com/watch?v=Ylf4J736JIg)
 <br>
 <details><summary>Correlation between TC elements and Linux components</summary>
 <pre>
@@ -11,6 +12,13 @@ First of all - useful links:
   <strong>policing</strong>     - A 'policer' exists in the Linux traffic control implementation only as part of a filter.
   <strong>dropping</strong>     - To drop traffic requires a 'filter' with a 'policer' which uses "drop" as an action.
   <strong>marking</strong>      - The 'dsmark qdisc' is used for marking.
+</pre>
+</details>
+<details><summary>What is QDISC</summary>
+<pre>
+  QDISC is short for 'queueing discipline' and it is elementary to understanding traffic control.
+  Whenever the kernel needs to send a packet to an interface, it is enqueued to the qdisc configured for that interface.
+  Immediately afterwards, the kernel tries to get as many packets as possible from the qdisc, for giving them to the network adaptor driver.
 </pre>
 </details>
 <br>
