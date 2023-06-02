@@ -2,6 +2,7 @@ First of all - useful links:
 
 - [tldp.org - Traffic Control HOWTO](https://tldp.org/HOWTO/Traffic-Control-HOWTO/overview.html)
 - [lartc.org - Linux Advanced Routing & Traffic Control](https://lartc.org/)
+- [lartc.org - Classful Queueing Disciplines](https://lartc.org/howto/lartc.qdisc.classful.html)
 - `man tc`{{exec}}
 - [youtube.com - Shaping Linux Traffic with tc](https://www.youtube.com/watch?v=Ylf4J736JIg)
 <br>
