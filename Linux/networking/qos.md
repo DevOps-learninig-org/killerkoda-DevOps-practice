@@ -5,8 +5,8 @@ First of all - useful links:
 - [lartc.org - Classful Queueing Disciplines](https://lartc.org/howto/lartc.qdisc.classful.html)
 - `man tc`{{exec}}
 - `tc help`{{exec}}
-- `tc qdisc help && tc class help && tc filter help`{{exec}}
-- `tc exec help && tc action help `{{exec}}
+- `tc qdisc help && echo && tc class help && echo && tc filter help`{{exec}}
+- `tc exec help && echo && tc action help `{{exec}}
 - [youtube.com - Shaping Linux Traffic with tc](https://www.youtube.com/watch?v=Ylf4J736JIg)
 <br>
 <details><summary>Correlation between TC elements and Linux components</summary>
