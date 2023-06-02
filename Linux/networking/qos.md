@@ -4,9 +4,9 @@ First of all - useful links:
 - [lartc.org - Linux Advanced Routing & Traffic Control](https://lartc.org/)
 - [lartc.org - Classful Queueing Disciplines](https://lartc.org/howto/lartc.qdisc.classful.html)
 - `man tc`{{exec}}
-- `tc help && 
-   tc qdisc help && tc class help && tc filter help &&
-   tc chain help && tc action help && tc monitor help && tc exec help`{{exec}}
+- `tc help`{{exec}}
+- `tc qdisc help && tc class help && tc filter help`{{exec}}
+- `tc chain help && tc action help && tc monitor help && tc exec help`{{exec}}
 - [youtube.com - Shaping Linux Traffic with tc](https://www.youtube.com/watch?v=Ylf4J736JIg)
 <br>
 <details><summary>Correlation between TC elements and Linux components</summary>
