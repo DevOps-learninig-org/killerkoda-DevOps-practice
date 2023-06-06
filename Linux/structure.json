@@ -26,6 +26,10 @@
       "path": "storage", 
       "title": "Linux storage practice",
       "description" : "Practice with linux storage"
-    }
+    },
+    {
+      "path": "services",
+      "title": "Enterprice services",
+      "description": "Most popular services and applications"
   ]
 }
