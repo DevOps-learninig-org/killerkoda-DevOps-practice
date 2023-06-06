@@ -1,5 +1,6 @@
 {
   "title": "Localhost administration",
+  "description": "Learn how to administer localhost",
   "details": {
     "intro": {
       "text": "service/intro.md",
