@@ -73,7 +73,7 @@ See you in the [next  scenario](/kodxxl/course/Linux/%LINK_TO_NEXT%)!
   "title": "Title of scenario",
   "details": {
     "intro": {
-      "foreground": "scripts/foreground.sh"
+      "foreground": "scripts/foreground.sh",
       "text": "service/intro.md"
     },
     "steps": [
