@@ -48,8 +48,8 @@ Read some useful articles before:
 - `some cli command`{{exec}}
 
 And watch some videos:
-- [Useful link 1](https://link.org/)
-- [Useful link 1](https://link.org/)
+- [youtube.com - ](https://link.org/)
+- [youtube.com - ](https://link.org/)
 
 Now, lets start!
 ```
@@ -62,8 +62,8 @@ Read again useful articles to consolidate your knowledge:
 - `some cli command`{{exec}}
 
 And watch some videos:
-- [Useful link 1](https://link.org/)
-- [Useful link 1](https://link.org/)
+- [youtube.com - ](https://link.org/)
+- [youtube.com - ](https://link.org/)
 
 See you in the [next  scenario](/kodxxl/course/Linux/%LINK_TO_NEXT%)!
 ```
