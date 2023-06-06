@@ -80,15 +80,15 @@ See you in the [next  scenario](/kodxxl/course/Linux/%LINK_TO_NEXT%)!
       {
         "title": "1/3 Title of step 1 [40:00]",
         "text": "step1/text.md",
-        "verify": "scripts/verify.sh"
+        "verify": "scripts/check.sh"
       },{
         "title": "2/3 Title of step 2 [20:00]",
         "text": "step2_text.md",
-        "verify": "scripts/verify.sh"
+        "verify": "scripts/check.sh"
       },{
         "title": "3/3 Title of step 3 [00:00]",
         "text": "step2_text.md",
-        "verify": "scripts/verify.sh"
+        "verify": "scripts/check.sh"
       }
     ],
     "finish": {
