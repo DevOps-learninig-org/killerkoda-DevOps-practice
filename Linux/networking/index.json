@@ -1,6 +1,6 @@
 {
   "title": "Linux networking practice",
-  "description": "This is the description of LNP",
+  "description": "Practice with linux networking",
   "details": {
     "intro": {
       "text": "service/intro.md",
