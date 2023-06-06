@@ -7,17 +7,26 @@
     },
     "steps": [
       {
-        "title": "1/3 Title of step 1 [40:00]",
-        "text": "step1/text.md",
-        "verify": "scripts/check.sh"
+        "title": "1/7 DNS server [52:00]",
+        "text": "dns.md"
       },{
-        "title": "2/3 Title of step 2 [20:00]",
-        "text": "step2_text.md",
-        "verify": "scripts/check.sh"
+        "title": "2/7 DHCP, NTP and TFTP [44:00]",
+        "text": "dhcp_ntp_tftp.md"
       },{
-        "title": "3/3 Title of step 3 [00:00]",
-        "text": "step2_text.md",
-        "verify": "scripts/check.sh"
+        "title": "3/7 LDAP and Diameter [36:00]",
+        "text": "ldap_diameter.md"
+      },{
+        "title": "4/7 NFS, Samba and iSCSI [28:00]",
+        "text": "nfs_samba_iscsi.md"
+      },{
+        "title": "5/7 Web server or Load Balancer [20:00]",
+        "text": "web.md"
+      },{
+        "title": "6/7 PostgreSQL, MariaDB [12:00]",
+        "text": "postgresql_mariadb.md"
+      },{
+        "title": "7/7 Voice over IP [00:00]",
+        "text": "voip.md"
       }
     ],
     "finish": {
