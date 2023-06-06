@@ -2,7 +2,7 @@
   "title": "Title of scenario",
   "details": {
     "intro": {
-      "foreground": "scripts/foreground.sh"
+      "foreground": "scripts/foreground.sh",
       "text": "service/intro.md"
     },
     "steps": [
