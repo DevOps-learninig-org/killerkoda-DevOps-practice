@@ -1,7 +1,24 @@
 {
   "title": "Linux storage practice",
   "description": "This is the description of LSP",
-  
+  "details": {
+    "intro": {
+      "foreground": "scripts/foreground.sh",
+      "text": "service/intro.md"
+    },
+    "steps": [
+      {
+        "title": "1/2 Title [00:00]",
+        "text": "lvm.md",
+      },{
+        "title": "2/2 Title [00:00]",
+        "text": "lvm.md",
+      }
+    ],
+    "finish": {
+      "text": "service/finish.md"
+    }
+  },
   "backend": {
     "imageid": "ubuntu"
   }
