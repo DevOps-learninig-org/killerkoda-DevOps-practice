@@ -20,7 +20,7 @@
         "text": "nfs_samba_iscsi.md"
       },{
         "title": "5/7 Web server or Load Balancer [20:00]",
-        "text": "web.md"
+        "text": "web_lb.md"
       },{
         "title": "6/7 PostgreSQL, MariaDB [12:00]",
         "text": "postgresql_mariadb.md"
