@@ -1,5 +1,6 @@
 {
   "title": "Most popular enterprice services",
+  "description": "Most popular services and applications",
   "details": {
     "intro": {
       "foreground": "scripts/foreground.sh",
