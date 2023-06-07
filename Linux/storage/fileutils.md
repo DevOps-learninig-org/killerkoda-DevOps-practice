@@ -58,18 +58,27 @@ First of all - useful links:
 <br>
 
 Task list:
-- Task 1
-- Task 2
+- Create loopback device with size of 512Mb
+- Make GPT partition table on it
+- Create 2 partitions and mount them into different folders
 
 <details><summary>Hints for the task</summary>
 <pre>
 <strong>Task 1:</strong>
-  $ cmd1
-  $ echo ${string:7:3}
+  $ dd if=/dev/zero of=myffs bs=1M count=512
+  $ MYFFS=$(losetup --find --show myffs)
 <br>
 <strong>Task 2:</strong>
-  $ echo ${#string}
-  $ string=
+  $ parted ${MYFFS} mktable gpt
+<br>
+<strong>Task 3:</strong>
+  $ parted ${MYFFS} -- mkpart primary ext4 12MiB 252MiB
+  $ parted ${MYFFS} -- mkpart primary btrfs 252MiB -34s
+  $ parted ${MYFFS} -- print
+  $ mkfs.ext4 ${MYFFS}p1
+  $ mkfs.btrfs ${MYFFS}p2
+  $ fsck ${MYFFS}p1
+  $ btrfsck ${MYFFS}p2
 </pre>
 </details>
 <br>
