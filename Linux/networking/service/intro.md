@@ -2,6 +2,7 @@ Welcome to Linux Networking scenario!
 
 Read some useful articles before:
 - [kernel.org - Linux Networking](https://www.kernel.org/doc/html/latest/networking/index.html)
+- [kernelnewbies.org - Linux Protocol Stack](https://kernelnewbies.org/Documents/LinuxIPNetworking)
 - [ubuntu.com - Network configuration](https://ubuntu.com/server/docs/network-configuration)
 - [systemd.io - Predictable Network Interface Names](https://systemd.io/PREDICTABLE_INTERFACE_NAMES/)
 - [ebpf.io - What is eBPF?](https://ebpf.io/what-is-ebpf/)
