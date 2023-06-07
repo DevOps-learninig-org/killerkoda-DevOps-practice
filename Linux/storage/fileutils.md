@@ -75,10 +75,20 @@ Task list:
   $ parted ${MYFFS} -- mkpart primary ext4 12MiB 252MiB
   $ parted ${MYFFS} -- mkpart primary btrfs 252MiB -34s
   $ parted ${MYFFS} -- print
+<br>
   $ mkfs.ext4 ${MYFFS}p1
   $ mkfs.btrfs ${MYFFS}p2
+<br>
   $ fsck ${MYFFS}p1
   $ btrfsck ${MYFFS}p2
+<br>
+  $ mkdir mnt.ext4
+  $ mkdir mnt.btrfs
+  $ mount ${MYFFS}p1 mnt.ext4/
+  $ mount ${MYFFS}p2 mnt.btrfs/
+<br>
+  $ findmnt mnt.ext4/
+  $ findmnt mnt.btrfs/  
 </pre>
 </details>
 <br>
