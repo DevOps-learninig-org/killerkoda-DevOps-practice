@@ -51,12 +51,12 @@ Task list:
 <pre>
 <strong>Task 1 - 2:</strong>
   $ dd if=/dev/zero of=myffs bs=1M count=512
-  $ losetup -fP myffs
-  $ mkfs.ext4 $(losetup --find --show myffs)
+  $ MYFFS=$(losetup --find --show myffs)
+  $ mkfs.ext4 ${MYFFS}
 <br>
 <strong>Task 2:</strong>
   $ mkdir ~/mnt/
-  $ mount $(losetup --find --show myffs) ~/mnt/
+  $ mount ${MYFFS} ~/mnt/
   $ touch ~/mnt/test
   $ umount ~/mnt/
 </pre>
