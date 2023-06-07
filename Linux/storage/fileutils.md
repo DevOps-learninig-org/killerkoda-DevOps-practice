@@ -1,5 +1,6 @@
 First of all - useful links:
 
+- [gnu.org - File space usage](https://www.gnu.org/software/coreutils/manual/html_node/File-space-usage.html)
 - `man mount`{{exec}}
 - `man fsck`{{exec}}
 - [gnu.org - Parted User’s Manual](https://www.gnu.org/software/parted/manual/parted.html)
