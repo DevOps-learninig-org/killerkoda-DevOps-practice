@@ -13,9 +13,30 @@ First of all - useful links:
 - [youtube.com - ZFS on Linux the Billion dollar file system](https://www.youtube.com/watch?v=n0Uskl9fcKI)
 - [youtube.com - Best Filesystem of 2023](https://www.youtube.com/watch?v=O9QZVzq-rX4)
 <br>
-<details><summary>Lesson info and tips</summary>
+<details><summary>/etc/fstab</summary>
 <pre>
-  <strong></strong> -
+  /etc/fstab - static information about the filesystems
+  &lt;device-spec&gt; &lt;mount-point&gt; &lt;fs-type&gt; &lt;options&gt; &lt;dump&gt; &lt;pass&gt;
+  <strong>device-spec</strong> – The device name, label, UUID, or other means of specifying the partition or data source this entry refers to.
+  <strong>mount-point</strong> – Where the contents of the device may be accessed after mounting; for swap partitions or files, this is set to none.
+  <strong>fs-type</strong> – The type of file system to be mounted.
+  <strong>options</strong> – Options describing various other aspects of the file system.
+  <strong>dump</strong> – A number indicating whether and how often the file system should be backed up by the dump program; a zero indicates the file system will never be automatically backed up.
+  <strong>pass</strong> – A number indicating the order in which the fsck program will check the devices for errors at boot time
+</pre>
+</details>
+<details><summary>/etc/fstab fs options</summary>
+<pre>
+  <strong>auto / noauto</strong> - device will be mounted automatically at bootup or when the mount -a command is issued.
+  <strong>dev / nodev</strong> - controls behavior of the interpretation of block special devices on the filesystem.
+  <strong>exec / noexec</strong> - lets binaries that are on the partition be executed, whereas noexec is the opposite.
+  <strong>rw / ro</strong> - mount the filesystem in either read write or read only mode.
+  <strong>sync / async</strong> - how the input and output to the filesystem should be done.
+  <strong>suid / nosuid</strong> - controls the behavior of the operation of suid, and sgid bits.
+  <strong>user / users / nouser</strong> - permits any user to mount the filesystem.
+  <strong>defaults</strong> - use default settings. For ext3 file systems is equivalent to rw,suid,dev,exec,auto,nouser,async.
+  <strong>owner (Linux-specific)</strong> - permit the owner of device to mount.
+  <strong>atime / noatime / relatime / strictatime (Linux-specific)</strong> - The Unix stat structure records when files are last accessed (atime), modified (mtime), and changed (ctime).
 </pre>
 </details>
 <br>
