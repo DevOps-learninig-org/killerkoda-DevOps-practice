@@ -3,6 +3,7 @@ First of all - useful links:
 - `man mount`{{exec}}
 - `man fsck`{{exec}}
 - `man parted`{{exec}}
+- `man fdisk`{{exec}}
 <br>
 <details><summary>Util-linux filesystem tools</summary>
 <pre>
