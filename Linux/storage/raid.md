@@ -1,7 +1,10 @@
 First of all - useful links:
 
-- [Useful link 1](https://link.org/)
-- `some cli command`{{exec}}
+- [redhat.com - Managing RAID](https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/9/html/managing_storage_devices/managing-raid_managing-storage-devices)
+- [tldp.org - The Software-RAID HOWTO](https://tldp.org/HOWTO/html_single/Software-RAID-HOWTO/)
+- [archlinux.org - RAID](https://wiki.archlinux.org/title/RAID)
+- [kernel.org - Linux Raid](https://raid.wiki.kernel.org/index.php/Linux_Raid)
+- `man mdadm`{{exec}}
 <br>
 <details><summary>Lesson info and tips</summary>
 <pre>
