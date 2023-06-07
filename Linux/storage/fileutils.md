@@ -2,6 +2,7 @@ First of all - useful links:
 
 - `man mount`{{exec}}
 - `man fsck`{{exec}}
+- [gnu.org - Parted User’s Manual](https://www.gnu.org/software/parted/manual/parted.html)
 - `man parted`{{exec}}
 - `man fdisk`{{exec}}
 <br>
