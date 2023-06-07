@@ -1,7 +1,7 @@
 First of all - useful links:
 
 - [Useful link 1](https://link.org/)
-- `some cli command`{{exec}}
+- `man fs`{{exec}}
 <br>
 <details><summary>Lesson info and tips</summary>
 <pre>
