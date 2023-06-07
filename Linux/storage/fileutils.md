@@ -1,7 +1,8 @@
 First of all - useful links:
 
-- [Useful link 1](https://link.org/)
-- `some cli command`{{exec}}
+- `man mount`{{exec}}
+- `man fsck`{{exec}}
+- `man parted`{{exec}}
 <br>
 <details><summary>Util-linux filesystem tools</summary>
 <pre>
