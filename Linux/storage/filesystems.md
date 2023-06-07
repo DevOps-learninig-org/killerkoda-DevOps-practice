@@ -50,11 +50,12 @@ Task list:
 <pre>
 <strong>Task 1 - 2:</strong>
   $ dd if=/dev/zero of=myffs bs=1M count=512
-  $ mkfs.ext4 myffs
+  $ losetup -fP myffs
+  $ mkfs.ext4 $(losetup --find --show r1)
 <br>
 <strong>Task 2:</strong>
   $ mkdir ~/mnt/
-  $ mount -o loop myffs ~/mnt/
+  $ mount /dev/loop3 ~/mnt/
   $ touch ~/mnt/test
   $ umount ~/mnt/
 </pre>
