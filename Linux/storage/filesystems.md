@@ -2,11 +2,11 @@ First of all - useful links:
 
 - [kernel.org - Overview of the Linux Virtual File System](https://www.kernel.org/doc/html/next/filesystems/vfs.html)
 - [tldp.org - The File system](https://tldp.org/LDP/tlk/fs/filesystem.html)
+- [kernel.org - FS tree of kernel](https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/tree/fs)
 - [kernel.org - ext4 Filesystem](https://www.kernel.org/doc/html/v4.19/filesystems/ext4/index.html)
 - `man ext4`{{exec}}
 - [readthedocs.io - BTRFS documentation](https://btrfs.readthedocs.io/en/latest/)
 - [kernel.org - BTRFS](https://docs.kernel.org/filesystems/btrfs.html)
-- [kernel.org - FS tree of kernel](https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/tree/fs)
 - [github.io - OpenZFS Documentation](https://openzfs.org/wiki/Documentation)
 - `man fs`{{exec}}
 - `man fstab`{{exec}}
