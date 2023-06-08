@@ -38,6 +38,19 @@ First of all - useful links:
   <strong>Auto-detect</strong> - This mode does not act on a specific device or array, but rather it requests the Linux Kernel to activate any auto-detected arrays.
 </pre>
 </details>
+<details><summary>Key features of the Linux software RAID stack</summary>
+<pre>
+  Multithreaded design
+  Portability of arrays between Linux machines without reconstruction
+  Backgrounded array reconstruction using idle system resources
+  Hot-swap drive support
+  Automatic CPU detection to take advantage of certain CPU features such as streaming Single Instruction Multiple Data (SIMD) support.
+  Automatic correction of bad sectors on disks in an array.
+  Regular consistency checks of RAID data to ensure the health of the array.
+  Proactive monitoring of arrays with email alerts sent to a designated email address on important events.
+  Write-intent bitmaps, which drastically increase the speed of resync events by allowing the kernel to know precisely which portions of a disk need to be resynced instead of having to resync the entire array after a system crash.
+</pre>
+</details>
 <br>
 
 Task list:
