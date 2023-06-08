@@ -6,6 +6,7 @@ First of all - useful links:
 - `man ext4`{{exec}}
 - [readthedocs.io - BTRFS documentation](https://btrfs.readthedocs.io/en/latest/)
 - [kernel.org - BTRFS](https://docs.kernel.org/filesystems/btrfs.html)
+- [kernel.org - FS tree of kernel](https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/tree/fs)
 - [github.io - OpenZFS Documentation](https://openzfs.org/wiki/Documentation)
 - `man fs`{{exec}}
 - `man fstab`{{exec}}
