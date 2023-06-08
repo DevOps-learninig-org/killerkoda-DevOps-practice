@@ -25,7 +25,7 @@ First of all - useful links:
   <strong>RAID-5R</strong> - RAID-5 with parity rotated after a configured number of stripes 
 </pre>
 </details>
-<details><summary>Primary RAID LevelsRAID Level Qualifiers</summary>
+<details><summary>MDADM modes</summary>
 <pre>
   <strong></strong> -
 </pre>
