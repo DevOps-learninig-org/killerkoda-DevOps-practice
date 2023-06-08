@@ -27,7 +27,15 @@ First of all - useful links:
 </details>
 <details><summary>MDADM modes</summary>
 <pre>
-  <strong></strong> -
+  <strong>Assemble</strong> - Assemble  the  components  of a previously created array into an active array.
+  <strong>Build</strong>    - Build an array that doesn't have per-device metadata (superblocks). 
+  <strong>Create</strong>   - Create a new array with per-device metadata (superblocks).
+  <strong>Follow or Monitor</strong> - Monitor one or more md devices and act on any state changes.
+  <strong>Grow</strong>     - Grow (or shrink) an array, or otherwise reshape it in some way.
+  <strong>Incremental Assembly</strong> - Add  a  single device to an appropriate array.
+  <strong>Manage</strong>   - This is for doing things to specific components of an array such as adding new spares and removing faulty devices.
+  <strong>Misc</strong>     - This  is an 'everything else' mode that supports operations on active arrays, operations on component devices such as erasing old superblocks, operations.
+  <strong>Auto-detect</strong> - This mode does not act on a specific device or array, but rather it requests the Linux Kernel to activate any auto-detected arrays.
 </pre>
 </details>
 <br>
