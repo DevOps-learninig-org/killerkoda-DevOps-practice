@@ -25,19 +25,6 @@ First of all - useful links:
   <strong>RAID-5R</strong> - RAID-5 with parity rotated after a configured number of stripes 
 </pre>
 </details>
-<details><summary>MDADM modes</summary>
-<pre>
-  <strong>Assemble</strong> - Assemble  the  components  of a previously created array into an active array.
-  <strong>Build</strong>    - Build an array that doesn't have per-device metadata (superblocks). 
-  <strong>Create</strong>   - Create a new array with per-device metadata (superblocks).
-  <strong>Follow or Monitor</strong> - Monitor one or more md devices and act on any state changes.
-  <strong>Grow</strong>     - Grow (or shrink) an array, or otherwise reshape it in some way.
-  <strong>Incremental Assembly</strong> - Add  a  single device to an appropriate array.
-  <strong>Manage</strong>   - This is for doing things to specific components of an array such as adding new spares and removing faulty devices.
-  <strong>Misc</strong>     - This  is an 'everything else' mode that supports operations on active arrays, operations on component devices such as erasing old superblocks, operations.
-  <strong>Auto-detect</strong> - This mode does not act on a specific device or array, but rather it requests the Linux Kernel to activate any auto-detected arrays.
-</pre>
-</details>
 <details><summary>Key features of the Linux software RAID stack</summary>
 <pre>
   - Multithreaded design
@@ -49,6 +36,19 @@ First of all - useful links:
   - Regular consistency checks of RAID data to ensure the health of the array.
   - Proactive monitoring of arrays with email alerts sent to a designated email address on important events.
   - Write-intent bitmaps, which drastically increase the speed of resync events by allowing the kernel to know precisely which portions of a disk need to be resynced instead of having to resync the entire array after a system crash.
+</pre>
+</details>
+<details><summary>MDADM modes</summary>
+<pre>
+  <strong>Assemble</strong> - Assemble  the  components  of a previously created array into an active array.
+  <strong>Build</strong>    - Build an array that doesn't have per-device metadata (superblocks). 
+  <strong>Create</strong>   - Create a new array with per-device metadata (superblocks).
+  <strong>Follow or Monitor</strong> - Monitor one or more md devices and act on any state changes.
+  <strong>Grow</strong>     - Grow (or shrink) an array, or otherwise reshape it in some way.
+  <strong>Incremental Assembly</strong> - Add  a  single device to an appropriate array.
+  <strong>Manage</strong>   - This is for doing things to specific components of an array such as adding new spares and removing faulty devices.
+  <strong>Misc</strong>     - This  is an 'everything else' mode that supports operations on active arrays, operations on component devices such as erasing old superblocks, operations.
+  <strong>Auto-detect</strong> - This mode does not act on a specific device or array, but rather it requests the Linux Kernel to activate any auto-detected arrays.
 </pre>
 </details>
 <br>
