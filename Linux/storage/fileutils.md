@@ -51,9 +51,9 @@ First of all - useful links:
 </details>
 <details><summary>Filesystem monitoring tools</summary>
 <pre>
-  <strong>iwatch<strong> - realtime filesystem monitoring program using inotify
-  <strong>iostat<strong> - input/output statistics for devices and partitions
-  <strong>iotop<strong>  - simple top-like I/O monitor
+  <strong>iwatch</strong> - realtime filesystem monitoring program using inotify
+  <strong>iostat</strong> - input/output statistics for devices and partitions
+  <strong>iotop</strong>  - simple top-like I/O monitor
 </pre>
 </details>
 <br>
