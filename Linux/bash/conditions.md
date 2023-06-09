@@ -6,10 +6,8 @@ First of all - useful links:
 - [tldp.org - Advanced Bash-Scripting Guide #Testing and Branching](https://tldp.org/LDP/abs/html/testbranch.html)
 - [baeldung.com - Differences Between Single and Double Brackets in Bash](https://www.baeldung.com/linux/bash-single-vs-double-brackets)
 <br>
-<details><summary>Lesson info and tips</summary>
+<details><summary>IF-THEN-ELIF-ELSE construction</summary>
 <pre>
-Syntax of BASH brancing and test constructions:<br>
-<strong>IF-THEN-ELIF-ELSE construction:</strong><br>
   if [[ -z "$string" ]]; then
     echo "String is empty";
   elif [[ -n "$string" ]]; then
@@ -17,7 +15,10 @@ Syntax of BASH brancing and test constructions:<br>
   else
     echo "This never happens";
   fi<br>
-<strong>CASE construction:</strong><br>
+</pre>
+</details>
+<details><summary>CASE construction</summary>
+<pre>
   case "$variable" in
     "$condition1" )
       command...
