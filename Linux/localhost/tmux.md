@@ -9,9 +9,8 @@ First of all - useful links:
 - [gnu.org - GNU screen manual](https://www.gnu.org/software/screen/manual/screen.html)
 - [youtube.com - How to use GNU SCREEN](https://www.youtube.com/watch?v=I4xVn6Io5Nw)
 <br>
-<details><summary>Lesson info and tips</summary>
+<details><summary>Tmux commands</summary>
 <pre>
-Tmux commands:
   <strong>tmux</strong> &mdash; Start tmux
   <strong>tmux new -s &lt;name&gt;</strong> &mdash; Start tmux with &lt;name&gt;
   <strong>tmux ls</strong>  &mdash; Shows the list of sessions
@@ -19,8 +18,10 @@ Tmux commands:
   <strong>tmux a -t &lt;name&gt;</strong> &mdash; Attach the detached-session to &lt;name&gt;
   <strong>tmux kill-session –t &lt;name&gt;</strong>  &mdash; Kill the session &lt;name&gt;
   <strong>tmux kill-server</strong> &mdash; Kill the tmux server
-  <br>
-GNU Screen commands:
+</pre>
+</details>
+<details><summary>GNU Screen commands</summary>
+<pre>
   <strong>screen</strong> &mdash; Start screen
   <strong>screen -S</strong>  &mdash; Starts a named session
   <strong>screen -r &lt;name&gt;</strong> &mdash; Reattach to a screen (optionally by name)
