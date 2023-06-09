@@ -5,9 +5,8 @@ First of all - useful links:
 - [tutorialspoint.com - Linux Admin - User Management](https://www.tutorialspoint.com/linux_admin/linux_admin_user_management.htm)
 - [makeuseof.com - User Management in Linux](https://www.makeuseof.com/user-management-linux-guide/)
 <br>
-<details><summary>Lesson info and tips</summary>
+<details><summary>Most common algorythm of user creation</summary>
 <pre>
-  Most common algorythm of user creation:<br>
     $ groupadd some_group
     $ useradd -m -g some_group -G another_group,some_group2 user1
     $ passwd user1
