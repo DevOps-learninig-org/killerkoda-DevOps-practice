@@ -34,6 +34,7 @@ First of all - useful links:
 </pre>
 </details>
 <br>
+
 Task list:
 - Declare an array with 6 elements
 - Print all elements each of them on new line with different loop styles
