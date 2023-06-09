@@ -6,6 +6,7 @@ First of all - useful links:
 - [tldp.org - The Software-RAID HOWTO](https://tldp.org/HOWTO/html_single/Software-RAID-HOWTO/)
 - [archlinux.org - RAID](https://wiki.archlinux.org/title/RAID)
 - [kernel.org - Linux Raid](https://raid.wiki.kernel.org/index.php/Linux_Raid)
+- [kernel.org - A guide to mdadm](https://raid.wiki.kernel.org/index.php/A_guide_to_mdadm)
 - `man mdadm`{{exec}}
 <br>
 <details><summary>Primary RAID Levels</summary>
