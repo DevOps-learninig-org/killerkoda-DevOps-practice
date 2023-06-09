@@ -6,9 +6,8 @@ First of all - useful links:
 - [gnu.org - Shell Functions](https://www.gnu.org/software/bash/manual/html_node/Shell-Functions.html)
 - [tldp.org - Functions](https://tldp.org/LDP/abs/html/functions.html)
 <br>
-<details><summary>Lesson info and tips</summary>
+<details><summary>FUNCTION syntax</summary>
 <pre>
-<strong>Syntax:</strong>
   function NAME {
     commands;
   }
