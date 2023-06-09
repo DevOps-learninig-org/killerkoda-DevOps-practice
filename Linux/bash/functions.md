@@ -11,10 +11,12 @@ First of all - useful links:
   function NAME {
     commands;
   }
+<br>
 <strong>Or:</strong>
   NAME () {
     commands;
   }
+<br>
 <strong>Call:</strong>
   NAME arg1 arg2<br>
 <strong>Arguments:</strong>
