@@ -32,6 +32,7 @@ First of all - useful links:
 </pre>
 </details>
 <br>
+
 Task list:
 - Write string to "File"
 - Open "File" and assign fd 3 to it
