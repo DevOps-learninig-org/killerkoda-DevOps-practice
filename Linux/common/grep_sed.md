@@ -9,22 +9,23 @@ First of all - useful links:
 - [youtube.com - Learning Sed Is Beneficial For Linux Users](https://www.youtube.com/watch?v=EACe7aiGczw)
 - [youtube.com - Linux Crash Course - The sed Command](https://www.youtube.com/watch?v=nXLnx8ncZyE)
 <br>
-<details><summary>Lesson info and tips</summary>
+<details><summary><b>sed</b> - stream editor</summary>
 <pre>
-  <b>sed</b> - stream editor
 <u>SYNOPSIS:</u>
   sed [-n] script [file...]
   sed [-n] -e script [-e script]... [-f script_file]... [file...]
   sed [-n] [-e script]... -f script_file [-f script_file]... [file...]
-<br>
-  <b>grep</b> - search a file for a pattern
+</pre>
+</details>
+<details><summary><b>grep</b> - search a file for a pattern</summary>
+<pre>
 <u>SYNOPSIS:</u>
   grep [-E|-F] [-c|-l|-q] [-insvx] -e pattern_list [-e pattern_list]... [-f pattern_file]... [file...]
   grep [-E|-F] [-c|-l|-q] [-insvx] [-e pattern_list]... -f pattern_file [-f pattern_file]... [file...]
   grep [-E|-F] [-c|-l|-q] [-insvx] pattern_list [file...]
 </pre>
-</details><br>
-
+</details>
+<br>
 Task list:
 - Use the grep utility to print the line number containing 'PasswordAuthentication' in <b>/etc/ssh/ssh_config</b>
 - Reverse the "PasswordAuthentication yes" setting with SED, and uncomment it
