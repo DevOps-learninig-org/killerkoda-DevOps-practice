@@ -5,27 +5,35 @@ First of all - useful links:
 - [gnu.org - Looping Constructs](https://www.gnu.org/software/bash/manual/html_node/Looping-Constructs.html)
 - [tldp.org - Loops](https://tldp.org/LDP/abs/html/loops1.html)
 <br>
-<details><summary>Lesson info and tips</summary>
+<details><summary>UNTIL construction</summary>
 <pre>
-<strong>UNTIL construction:</strong>
   until CONDITION; do
     consequent-commands;
-  done<br>
-<strong>WHILE construction:</strong>
+  done
+</pre>
+</details>
+<details><summary>WHILE construction</summary>
+<pre>
   while CONDITION; do
     consequent-commands;
-  done<br>
-<strong>FOR-IN construction:</strong>
+  done
+</pre>
+</details>
+<details><summary>FOR-IN construction</summary>
+<pre>
   for VARIABLE in […] ; do
     commands;
-  done<br>
-<strong>C-FOR construction:</strong>
+  done
+</pre>
+</details>
+<details><summary>C-FOR construction</summary>
+<pre>
   for (( INIT ; CONDITION ; INCREMENT )) ; do
     commands;
   done
 </pre>
 </details>
-
+<br>
 Task list:
 - Declare an array with 6 elements
 - Print all elements each of them on new line with different loop styles
