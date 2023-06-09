@@ -18,7 +18,7 @@ First of all - useful links:
       Wait until the child process specified by each process ID pid or job specification jobspec exits and return the exit status of the last command waited for. 
   <strong>disown [-ar] [-h] [jobspec … | pid … ]</strong>
       Remove each jobspec from the table of active jobs. 
-  suspend [-f]
+  <strong>suspend [-f]</strong>
 </pre>
 </details>
 <br>
