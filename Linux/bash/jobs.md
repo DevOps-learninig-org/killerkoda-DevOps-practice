@@ -4,9 +4,8 @@ First of all - useful links:
 - [gnu.org - Job Control](https://www.gnu.org/software/bash/manual/html_node/Job-Control.html)
 - [tldp.org - Job Control Commands](https://tldp.org/LDP/abs/html/x9644.html)
 <br>
-<details><summary>Lesson info and tips</summary>
+<details><summary>Job Control Builtins</summary>
 <pre>
-Job Control Builtins:
   bg [jobspec …]
       Resume each suspended job jobspec in the background.
   fg [jobspec]
