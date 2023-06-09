@@ -6,17 +6,17 @@ First of all - useful links:
 <br>
 <details><summary>Job Control Builtins</summary>
 <pre>
-  bg [jobspec …]
+  <strong>bg [jobspec …]</strong>
       Resume each suspended job jobspec in the background.
-  fg [jobspec]
+  <strong>fg [jobspec]</strong>
       Resume the job jobspec in the foreground and make it the current job. 
-  jobs
+  <strong>jobs</strong>
       Lists the active jobs.
-  kill [-s sigspec] [-n signum] [-sigspec] jobspec or pid
+  <strong>kill [-s sigspec] [-n signum] [-sigspec] jobspec or pid</strong>
       Send a signal specified by sigspec or signum to the process named by job 
-  wait [-fn] [-p varname] [jobspec or pid …]
+  <strong>wait [-fn] [-p varname] [jobspec or pid …]</strong>
       Wait until the child process specified by each process ID pid or job specification jobspec exits and return the exit status of the last command waited for. 
-  disown [-ar] [-h] [jobspec … | pid … ]
+  <strong>disown [-ar] [-h] [jobspec … | pid … ]</strong>
       Remove each jobspec from the table of active jobs. 
   suspend [-f]
 </pre>
