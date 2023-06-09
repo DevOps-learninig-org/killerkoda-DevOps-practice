@@ -4,9 +4,8 @@ First of all - useful links:
 - [wikipedia.org - GRUB](https://www.wikipedia.org/wiki/GNU_GRUB)
 - [wikibooks.org - GRUB2](https://ru.wikibooks.org/wiki/Grub_2)
 <br>
-<details><summary>Lesson info and tips</summary>
+<details><summary>Most common scenario to update grub</summary>
 <pre>
-  Most common scenario to update grub:<br>
     - edit /etc/default/grub
     - edit script in /etc/grub.d/40_custom
     $ sudo vi /etc/grub.d/40_custom
