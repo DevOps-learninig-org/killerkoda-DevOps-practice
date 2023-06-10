@@ -55,18 +55,33 @@ First of all - useful links:
 <br>
 
 Task list:
-- Task 1
-- Task 2
+- Create RAID5 array from 3 devices with DDF metadata
+- Make 1 of disks faulty and remove it
+- Repair RAID5 array
 
 <details><summary>Hints for the task</summary>
 <pre>
 <strong>Task 1:</strong>
-  $ cmd1
-  $ echo ${string:7:3}
+  $ dd if=/dev/zero bs=1M count=256 | tee raid{1..3}
+  $ sudo losetup -Pf raid1
+  $ sudo losetup -Pf raid2
+  $ sudo losetup -Pf raid3
+  $ losetup
+  <br>
+  $ sudo mdadm --create /dev/md/ddf1 --metadata=ddf --raid-disks=3 /dev/loop{0..2}
+  $ sudo mdadm --create /dev/md0 --level=5 -n3 /dev/md/ddf1
+  <br>
+  $ sudo mdadm --detail /dev/md/ddf1 
+  $ sudo mdadm --detail /dev/md0
 <br>
 <strong>Task 2:</strong>
-  $ echo ${#string}
-  $ string=
+  $ sudo mdadm --manage /dev/md0 --fail /dev/loop0
+  $ sudo mdadm --manage /dev/md/ddf1 --remove /dev/loop0
+  $ sudo mdadm --detail /dev/md0
+<br>
+<strong>Task 3:</strong>
+  $ sudo mdadm --manage /dev/md/ddf1 --add /dev/loop0
+  $ sudo mdadm --detail /dev/md0
 </pre>
 </details>
 <br>
