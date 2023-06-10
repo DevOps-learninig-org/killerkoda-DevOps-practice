@@ -82,6 +82,10 @@ Task list:
 <strong>Task 3:</strong>
   $ sudo mdadm --manage /dev/md/ddf1 --add /dev/loop0
   $ sudo mdadm --detail /dev/md0
+  <>
+  $ sudo mdadm --stop /dev/md0
+  $ sudo mdadm --stop /dev/md/ddf1
+  $ sudo losetup -D
 </pre>
 </details>
 <br>
