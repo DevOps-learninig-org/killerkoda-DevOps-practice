@@ -7,6 +7,23 @@ First of all - useful links:
 - [archlinux.org - LVM](https://wiki.archlinux.org/title/LVM) 
 - `man lvm`{{exec}}
 <br>
+<details><summary>lvm2 built-in commands</summary>
+<pre>
+The following commands are built into lvm without links
+  <strong>config</strong>        The same as lvmconfig(8) below.
+  <strong>devtypes</strong>      Display the recognised built-in block device types.
+  <strong>dumpconfig</strong>    The same as lvmconfig(8) below.
+  <strong>formats</strong>       Display recognised metadata formats.
+  <strong>fullreport</strong>    Report  information  about  PVs,  PV segments, VGs, LVs and LV segments, all at once.
+  <strong>help</strong>          Display the help text.
+  <strong>lastlog</strong>       Display log report of last command run in LVM shell if command log reporting is enabled.
+  <strong>lvpoll</strong>        Complete lvmpolld operations (Internal command).
+  <strong>segtypes</strong>      Display recognised Logical Volume segment types.
+  <strong>systemid</strong>      Display any system ID currently set on this host.
+  <strong>tags</strong>          Display any tags defined on this host.
+  <strong>version</strong>       Display version information.
+</pre>
+</details>
 <details><summary>lvm2 commands</summary>
 <pre>
   <strong>pvchange</strong>      Change attributes of a Physical Volume.
