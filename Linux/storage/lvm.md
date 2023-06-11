@@ -9,7 +9,7 @@ First of all - useful links:
 <br>
 <details><summary>lvm2 built-in commands</summary>
 <pre>
-The following commands are built into lvm without links
+The following commands are built into lvm without links<br>
   <strong>config</strong>        The same as lvmconfig(8) below.
   <strong>devtypes</strong>      Display the recognised built-in block device types.
   <strong>dumpconfig</strong>    The same as lvmconfig(8) below.
@@ -34,8 +34,7 @@ The following commands are built into lvm without links
   <strong>pvremove</strong>      Remove a Physical Volume.
   <strong>pvresize</strong>      Resize a disk or partition in use by LVM2.
   <strong>pvs</strong>           Report information about Physical Volumes.
-  <strong>pvscan</strong>        Scan all disks for Physical Volumes.
-  <br>
+  <strong>pvscan</strong>        Scan all disks for Physical Volumes.<br>
   <strong>vgcfgbackup</strong>   Backup Volume Group descriptor area.
   <strong>vgcfgrestore</strong>  Restore Volume Group descriptor area.
   <strong>vgchange</strong>      Change attributes of a Volume Group.
@@ -54,8 +53,7 @@ The following commands are built into lvm without links
   <strong>vgrename</strong>      Rename a Volume Group.
   <strong>vgs</strong>           Report information about Volume Groups.
   <strong>vgscan</strong>        Scan all disks for Volume Groups and rebuild caches.
-  <strong>vgsplit</strong>       Split a Volume Group into two, moving any logical volumes from one Volume Group to another by moving entire Physical Volumes.
-  <br>
+  <strong>vgsplit</strong>       Split a Volume Group into two, moving any logical volumes from one Volume Group to another by moving entire Physical Volumes.<br>
   <strong>lvchange</strong>      Change attributes of a Logical Volume.
   <strong>lvconvert</strong>     Convert a Logical Volume from linear to mirror or snapshot.
   <strong>lvcreate</strong>      Create a Logical Volume in an existing Volume Group.
@@ -75,18 +73,37 @@ The following commands are built into lvm without links
 <br>
 
 Task list:
-- Task 1
-- Task 2
+- Create 3 loopback devices 256Mb each
+- Create 'testvg' lvm2 volume group from this devices
+- Create 'testlv1' and 'testlv2' lvm2 logical volumes belongs 'testvg'
+- Format 'testlv1' with EXT4 and 'testlv1' with BTRFS
+- Delete all created instances
 
 <details><summary>Hints for the task</summary>
 <pre>
 <strong>Task 1:</strong>
-  $ cmd1
-  $ echo ${string:7:3}
-<br>
+  $ dd if=/dev/zero bs=1M count=256 | tee ld{0..2}
+  $ losetup -Pf ld0
+  $ losetup -Pf ld1
+  $ losetup -Pf ld2
+  $ losetup<br>
 <strong>Task 2:</strong>
-  $ echo ${#string}
-  $ string=
+  $ lvm vgcreate testvg /dev/loop0 /dev/loop1 /dev/loop2
+  $ lvm pvscan
+  $ lvm vgs<br>
+<strong>Task 3:</strong>  
+  $ lvm lvcreate -n testlv1 -L 300M testvg
+  $ lvm lvs
+  $ lvm vgs<br>
+<strong>Task 4:</strong>
+  $ mkfs.ext4 /dev/testvg/testlv1
+  $ mkfs.btrfs /dev/testvg/testlv2<br>
+<strong>Task 5:</strong>
+  $ lvm lvremove testvg/testlv1
+  $ lvm lvremove testvg/testlv2
+  $ lvm vgremove testvg
+  $ lvm pvremove /dev/loop0 /dev/loop1 /dev/loop2
+  $ losetup -D
 </pre>
 </details>
 <br>
