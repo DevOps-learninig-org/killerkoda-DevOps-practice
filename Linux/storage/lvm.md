@@ -7,9 +7,52 @@ First of all - useful links:
 - [archlinux.org - LVM](https://wiki.archlinux.org/title/LVM) 
 - `man lvm`{{exec}}
 <br>
-<details><summary>Lesson info and tips</summary>
+<details><summary>lvm2 commands</summary>
 <pre>
-  <strong></strong> -
+  <strong>pvchange</strong>      Change attributes of a Physical Volume.
+  <strong>pvck</strong>          Check Physical Volume metadata.
+  <strong>pvcreate</strong>      Initialize a disk or partition for use by LVM.
+  <strong>pvdisplay</strong>     Display attributes of a Physical Volume.
+  <strong>pvmove</strong>        Move Physical Extents.
+  <strong>pvremove</strong>      Remove a Physical Volume.
+  <strong>pvresize</strong>      Resize a disk or partition in use by LVM2.
+  <strong>pvs</strong>           Report information about Physical Volumes.
+  <strong>pvscan</strong>        Scan all disks for Physical Volumes.
+  <br>
+  <strong>vgcfgbackup</strong>   Backup Volume Group descriptor area.
+  <strong>vgcfgrestore</strong>  Restore Volume Group descriptor area.
+  <strong>vgchange</strong>      Change attributes of a Volume Group.
+  <strong>vgck</strong>          Check Volume Group metadata.
+  <strong>vgconvert</strong>     Convert Volume Group metadata format.
+  <strong>vgcreate</strong>      Create a Volume Group.
+  <strong>vgdisplay</strong>     Display attributes of Volume Groups.
+  <strong>vgexport</strong>      Make volume Groups unknown to the system.
+  <strong>vgextend</strong>      Add Physical Volumes to a Volume Group.
+  <strong>vgimport</strong>      Make exported Volume Groups known to the system.
+  <strong>vgimportclone</strong> Import  and  rename  duplicated  Volume Group (e.g. a hardware snapshot).
+  <strong>vgmerge</strong>       Merge two Volume Groups.
+  <strong>vgmknodes</strong>     Recreate Volume Group directory  and  Logical  Volume  specialfiles
+  <strong>vgreduce</strong>      Reduce  a  Volume  Group by removing one or more Physical Volumes.
+  <strong>vgremove</strong>      Remove a Volume Group.
+  <strong>vgrename</strong>      Rename a Volume Group.
+  <strong>vgs</strong>           Report information about Volume Groups.
+  <strong>vgscan</strong>        Scan all disks for Volume Groups and rebuild caches.
+  <strong>vgsplit</strong>       Split a Volume Group into two, moving any logical volumes from one Volume Group to another by moving entire Physical Volumes.
+  <br>
+  <strong>lvchange</strong>      Change attributes of a Logical Volume.
+  <strong>lvconvert</strong>     Convert a Logical Volume from linear to mirror or snapshot.
+  <strong>lvcreate</strong>      Create a Logical Volume in an existing Volume Group.
+  <strong>lvdisplay</strong>     Display attributes of a Logical Volume.
+  <strong>lvextend</strong>      Extend the size of a Logical Volume.
+  <strong>lvmconfig</strong>     Display    the   configuration   information   after   loading lvm.conf(5) and any other configuration files.
+  <strong>lvmdiskscan</strong>   Scan for all devices visible to LVM2.
+  <strong>lvmdump</strong>       Create lvm2 information dumps for diagnostic purposes.
+  <strong>lvreduce</strong>      Reduce the size of a Logical Volume.
+  <strong>lvremove</strong>      Remove a Logical Volume.
+  <strong>lvrename</strong>      Rename a Logical Volume.
+  <strong>lvresize</strong>      Resize a Logical Volume.
+  <strong>lvs</strong>           Report information about Logical Volumes.
+  <strong>lvscan</strong>        Scan (all disks) for Logical Volumes.
 </pre>
 </details>
 <br>
