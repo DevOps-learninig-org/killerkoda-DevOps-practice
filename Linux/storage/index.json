@@ -8,11 +8,20 @@
     },
     "steps": [
       {
-        "title": "1/2 Filesystems [00:00]",
+        "title": "1/5 Filesystems [00:00]",
+        "text": "filesystems.md"
+      },{
+        "title": "2/5 Filesystem utilities [00:00]",
+        "text": "fileutils.md"
+      },{
+        "title": "3/5 Software RAID [00:00]",
+        "text": "raid.md"
+      },{
+        "title": "4/5 Logical Volume Manager [00:00]",
         "text": "lvm.md"
       },{
-        "title": "2/2 Title [00:00]",
-        "text": "lvm.md"
+        "title": "4/5 Storage Area Network [00:00]",
+        "text": "san.md"
       }
     ],
     "finish": {
