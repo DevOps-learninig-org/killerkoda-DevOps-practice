@@ -403,6 +403,7 @@ Task list:
 - Install and configure 'bind9' DNS-server
 - Configure 'example.com' forward and reverce zone
 - Make request to 'named' server with 'dig' or 'nslookup'
+- Dynamically update 'example.com' with 'rndc'
 
 <details><summary>If You have read all and understood</summary>
 <pre>
