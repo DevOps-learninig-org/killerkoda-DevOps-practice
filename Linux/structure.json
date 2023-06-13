@@ -4,33 +4,33 @@
   "items": [
     {
       "path": "bash",
-      "title": "Introduction to BASH shell - MON",
-      "description" : "Practice with BASH scripting"
+      "title": "Introduction to BASH shell",
+      "description" : "MON - Practice with BASH scripting"
     },
     {
       "path": "common",
-      "title": "Common linux utilities - TUE",
-      "description" : "Most common linux utilities theory and practice"
+      "title": "Common linux utilities",
+      "description" : "TUE - Most common linux utilities theory and practice"
     },
     {
       "path": "localhost",
-      "title": "Localhost administration - WED",
-      "description": "Learn how to administer localhost"
+      "title": "Localhost administration",
+      "description": "WED - Learn how to administer localhost"
     },
     { 
       "path": "networking",
-      "title": "Linux networking practice - THU",
-      "description" : "Practice with linux networking"
+      "title": "Linux networking practice",
+      "description" : "THU - Practice with linux networking"
     },
     { 
       "path": "storage", 
-      "title": "Linux storage practice - FRI",
-      "description" : "Practice with linux storage"
+      "title": "Linux storage practice",
+      "description" : "FRI - Practice with linux storage"
     },
     {
       "path": "services",
-      "title": "Enterprice services - SAT",
-      "description": "Most popular services and applications" 
+      "title": "Enterprice services",
+      "description": "SAT - Most popular services and applications" 
     }
   ]
 }
