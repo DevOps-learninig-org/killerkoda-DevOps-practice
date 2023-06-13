@@ -3,25 +3,31 @@
   "description": "This is the description of LSP",
   "details": {
     "intro": {
+      "text": "service/intro.md",
       "foreground": "scripts/foreground.sh",
-      "text": "service/intro.md"
+      "background": "scripts/background.sh"
     },
     "steps": [
       {
         "title": "1/5 Filesystems [00:00]",
-        "text": "filesystems.md"
+        "text": "filesystems.md",
+        "verify": "scripts/check.sh"
       },{
         "title": "2/5 Filesystem utilities [00:00]",
-        "text": "fileutils.md"
+        "text": "fileutils.md",
+        "verify": "scripts/check.sh"
       },{
         "title": "3/5 Software RAID [00:00]",
-        "text": "raid.md"
+        "text": "raid.md",
+        "verify": "scripts/check.sh"
       },{
         "title": "4/5 Logical Volume Manager [00:00]",
-        "text": "lvm.md"
+        "text": "lvm.md",
+        "verify": "scripts/check.sh"
       },{
         "title": "4/5 Storage Area Network [00:00]",
-        "text": "san.md"
+        "text": "san.md",
+        "verify": "scripts/check.sh"
       }
     ],
     "finish": {
