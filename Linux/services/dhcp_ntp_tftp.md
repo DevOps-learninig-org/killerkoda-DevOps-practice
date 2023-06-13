@@ -4,7 +4,9 @@ First of all - useful links:
 - [isc.org - Kea DHCP](https://www.isc.org/kea/)
 - [ntpsec.org - Network Time Protocol (NTP) Daemon](https://docs.ntpsec.org/latest/ntpd.html)
 - [redhat.com - Configuring NTP Using ntpd](https://access.redhat.com/documentation/ru-ru/red_hat_enterprise_linux/7/html/system_administrators_guide/ch-configuring_ntp_using_ntpd)
-- `some cli command`{{exec}}
+- [github.com - NetKit TFTPd](https://github.com/ClausKlein/netkit-tftp)
+- `man xinetd`{{exec}}
+- `man systemd-timesyncd`{{exec}}
 <br>
 <details><summary>Kea Software</summary>
 <pre>
@@ -18,6 +20,27 @@ First of all - useful links:
   <strong>kea-netconf</strong>  — kea-netconf is an agent that provides a YANG/NETCONF interface for configuring Kea.
   <strong>kea-shell</strong>    — This simple text client uses the REST interface to connect to the Kea Control Agent.
   <strong>perfdhcp</strong>     — This is a DHCP benchmarking tool which simulates multiple clients to test both DHCPv4 and DHCPv6 server performance.
+</pre>
+</details>
+<details><summary>NTPd manual pages</summary>
+<pre>
+  <strong>ntp.conf(5)</strong>  - ntpd Configuration File
+  <strong>ntp.keys(5)</strong>  - NTP symmetric key file format
+  <strong>ntpd(8)</strong>      - Network Time Protocol (NTP) daemon
+  <strong>ntpdig(1)</strong>    - Simple Network Time Protocol (SNTP) client
+  <strong>ntpfrob(8)</strong>   - frob the local clock hardware
+  <strong>ntpkeygen(8)</strong> - generate public and private keys
+  <strong>ntpleapfetch(8)</strong> - fetch and manage leap-offset file
+  <strong>ntploggps(1)</strong>   - log gpsd data for use by ntpviz
+  <strong>ntplogtemp(1)</strong>  - log system temperature data for use by ntpviz
+  <strong>ntpmon(1)</strong>      - real-time NTP status monitor
+  <strong>ntpq(1)</strong>      - standard NTP query program
+  <strong>ntpsnmp(1)</strong>   - an AgentX Simple Network Management Protocol sub-agent [experimental]
+  <strong>ntpsweep(1)</strong>  - print information about given NTP servers
+  <strong>ntptime(8)</strong>   - read and set kernel time variables
+  <strong>ntptrace(1)</strong>  - trace a chain of NTP servers back to the primary source
+  <strong>ntpviz(1)</strong>    - make offset, jitter, and other plots from logfiles
+  <strong>ntpwait(8)</strong>   - wait until ntpd is in synchronized state
 </pre>
 </details>
 <br>
