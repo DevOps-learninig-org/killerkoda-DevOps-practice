@@ -43,6 +43,25 @@ First of all - useful links:
   <strong>ntpwait(8)</strong>   - wait until ntpd is in synchronized state
 </pre>
 </details>
+<details><summary>Configuring the 'tftpd' with 'xinetd'</summary>
+<pre>
+# in /etc/xinetd.d/tftp
+service tftp
+{
+	socket_type   = dgram
+	protocol      = udp
+	wait          = yes
+	user          = root
+	server        = /usr/sbin/in.tftpd
+	server_args   = -s /tftpboot
+	disable       = no
+	per_source    = 11
+	cps           = 100 2
+	flags         = IPv4
+}
+# systemctl restart xinetd
+</pre>
+</details>
 <br>
 
 Task list:
