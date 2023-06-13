@@ -3,6 +3,7 @@ First of all - useful links:
 - [ietf.org - RFC1034 DOMAIN NAMES - CONCEPTS AND FACILITIES](https://datatracker.ietf.org/doc/html/rfc1034)
 - [readthedocs.io - BIND 9 Administrator Reference Manual](https://bind9.readthedocs.io/en/stable/)
 - [digitalocean.com - How To Configure BIND as a Private Network DNS Server](https://www.digitalocean.com/community/tutorials/how-to-configure-bind-as-a-private-network-dns-server-on-ubuntu-18-04)
+- [sbarjatiya.com - Configuring IPv6 and IPv4, forward and reverse DNS](https://www.sbarjatiya.com/notes_wiki/index.php/Configuring_IPv6_and_IPv4,_forward_and_reverse_DNS)
 - [debian.org - BIND9](https://wiki.debian.org/Bind9)
 - `man named`{{exec}}
 - `man rndc`{{exec}}
@@ -374,6 +375,7 @@ $TTL    3600
 @       IN      NS      ns1.example.com.
 @       IN      NS      ns2.example.com.
 @       IN      MX      10 www.example.com.<br>
+@       IN      AAAA    ::1
 www     IN      A       192.168.0.1
 ns1    	IN      A       192.168.0.2
 ns2    	IN      A       192.168.0.3<br>
@@ -381,7 +383,7 @@ pop     IN      CNAME   www
 mail    IN      CNAME   www
 </pre>
 </details>
-<details><summary>RR for inverse name resolution (zone "0.168.192.in-addr.arpa")</summary>
+<details><summary>RR for reverse name resolution (zone "0.168.192.in-addr.arpa")</summary>
 <pre>
 @       IN      SOA     www.example.com. root.example.com. (
                    2007010401           ; Serial
@@ -398,21 +400,10 @@ mail    IN      CNAME   www
 <br>
 
 Task list:
-- Task 1
-- Task 2
+- Install and configure 'bind9' DNS-server
+- Configure 'example.com' forward and reverce zone
+- Make request to 'named' server with 'dig' or 'nslookup'
 
-<details><summary>Hints for the task</summary>
-<pre>
-<strong>Task 1:</strong>
-  $ cmd1
-  $ echo ${string:7:3}
-<br>
-<strong>Task 2:</strong>
-  $ echo ${#string}
-  $ string=
-</pre>
-</details>
-<br>
 <details><summary>If You have read all and understood</summary>
 <pre>
 `touch IReadAllAndUndnderstood`{{exec}}
