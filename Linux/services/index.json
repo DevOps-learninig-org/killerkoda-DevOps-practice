@@ -5,7 +5,7 @@
     "intro": {
       "text": "service/intro.md",
       "foreground": "scripts/foreground.sh",
-      "bsckground": "scripts/bsckground.sh"
+      "background": "scripts/background.sh"
     },
     "steps": [
       {
