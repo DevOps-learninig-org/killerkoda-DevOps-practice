@@ -3,7 +3,8 @@
   "description": "Practice with BASH scripting",
   "details": {
     "intro": {
-      "text": "service/intro.md"
+      "text": "service/intro.md",
+      "background": "scripts/background.sh"
     },
     "steps": [
       {
