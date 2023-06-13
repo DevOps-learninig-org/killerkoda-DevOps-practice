@@ -23,7 +23,7 @@ First of all - useful links:
   <strong>zone</strong>     - Defines a zone.
 </pre>
 </details>
-<details><summary>Zone block definition</summary>
+<details><summary>Primary zone block definition</summary>
 <pre>
 zone &lt;string&gt; [ &lt;class&gt; ] {
 	type primary;
