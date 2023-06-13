@@ -6,6 +6,7 @@ First of all - useful links:
 - [sbarjatiya.com - Configuring IPv6 and IPv4, forward and reverse DNS](https://www.sbarjatiya.com/notes_wiki/index.php/Configuring_IPv6_and_IPv4,_forward_and_reverse_DNS)
 - [debian.org - BIND9](https://wiki.debian.org/Bind9)
 - `man named`{{exec}}
+- `man systemd-resolve`{{exec}}
 - `man rndc`{{exec}}
 - `man dig`{{exec}}
 <br>
