@@ -1,7 +1,12 @@
 First of all - useful links:
 
-- [Useful link 1](https://link.org/)
-- `some cli command`{{exec}}
+- [ietf.org - RFC1034 DOMAIN NAMES - CONCEPTS AND FACILITIES](https://datatracker.ietf.org/doc/html/rfc1034)
+- [readthedocs.io - BIND 9 Administrator Reference Manual](https://bind9.readthedocs.io/en/stable/)
+- [digitalocean.com - How To Configure BIND as a Private Network DNS Server](https://www.digitalocean.com/community/tutorials/how-to-configure-bind-as-a-private-network-dns-server-on-ubuntu-18-04)
+- [debian.org - BIND9](https://wiki.debian.org/Bind9)
+- `man named`{{exec}}
+- `man rndc`{{exec}}
+- `man dig`{{exec}}
 <br>
 <details><summary>BIND 9 configuration blocks</summary>
 <pre>
@@ -23,7 +28,7 @@ First of all - useful links:
   <strong>zone</strong>     - Defines a zone.
 </pre>
 </details>
-<details><summary>Options Block Grammar</summary>
+<details><summary>Options Block Grammar ( /etc/bind/named.conf.options )</summary>
 <pre>
 options {
 	allow-new-zones &lt;boolean&gt;;
@@ -355,6 +360,39 @@ zone &lt;string&gt; [ &lt;class&gt; ] {
 	zero-no-soa-ttl &lt;boolean&gt;;
 	zone-statistics ( full | terse | none | &lt;boolean&gt; );
 };
+</pre>
+</details>
+<details><summary>Recource Record for name resolution (zone "www.example.com")</summary>
+<pre>
+$TTL    3600
+@       IN      SOA     www.example.com. root.example.com. (
+                   2007010401           ; Serial
+                         3600           ; Refresh [1h]
+                          600           ; Retry   [10m]
+                        86400           ; Expire  [1d]
+                          600 )         ; Negative Cache TTL [1h]<br>
+@       IN      NS      ns1.example.com.
+@       IN      NS      ns2.example.com.
+@       IN      MX      10 www.example.com.<br>
+www     IN      A       192.168.0.1
+ns1    	IN      A       192.168.0.2
+ns2    	IN      A       192.168.0.3<br>
+pop     IN      CNAME   www
+mail    IN      CNAME   www
+</pre>
+</details>
+<details><summary>RR for inverse name resolution (zone "0.168.192.in-addr.arpa")</summary>
+<pre>
+@       IN      SOA     www.example.com. root.example.com. (
+                   2007010401           ; Serial
+                         3600           ; Refresh [1h]
+                          600           ; Retry   [10m]
+                        86400           ; Expire  [1d]
+                          600 )         ; Negative Cache TTL [1h]<br>
+@       IN      NS      www.example.com.<br>
+1       IN      PTR     www.example.com.
+2       IN      PTR     ns1.example.com.
+3	IN	PTR	ns2.example.com.
 </pre>
 </details>
 <br>
