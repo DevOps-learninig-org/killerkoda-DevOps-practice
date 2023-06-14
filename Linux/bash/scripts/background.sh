@@ -1,2 +1,2 @@
 #!/bin/bash
-alias }='touch IReadAllAndUndnderstood'
+echo "alias }='touch IReadAllAndUndnderstood'" >> /etc/bash.bashrc
