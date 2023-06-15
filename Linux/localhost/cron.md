@@ -29,7 +29,7 @@ semiannually → *-01,07-01 00:00:00
 
 Task list:
 - Create script, that ping host 1.1.1.1 one time and write 'results.ping' into users folder
-- Create cron job, thar runs script every 1 minute
+- Create cron job, that runs script every 1 minute
 - Make the same with systemd.timer
 
 <details><summary>Hints for the task</summary>
