@@ -42,7 +42,6 @@ Task list:
   
 <details><summary>Hints for the task</summary>
 <pre>
-<strong>Task 1:</strong>
   $ echo 1234567890 > File
   $ exec 3<> File
   $ read -n 4 <&3
