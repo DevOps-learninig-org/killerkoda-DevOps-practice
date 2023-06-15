@@ -48,15 +48,15 @@ Task list:
   $ until [ $c -eq ${#array[@]} ]; do
   > echo ${array[$c]};
   > ((c++));
-  > done
+  > done<br>
   $ c=0
   $ while [ $c -lt ${#array[@]} ]; do
   > echo ${array[$c]};
   > ((c++));
-  > done
+  > done<br>
   $ for item in "${array[@]}"; do
   > echo "$item";
-  > done
+  > done<br>
   $ for (( c=0 ; c < ${#array[@]} ; c++ )); do 
   > echo ${array[$c]};
   > done
