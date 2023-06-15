@@ -24,11 +24,11 @@ First of all - useful links:
 <details><summary>Basic usage</summary>
 <pre> 
   <strong>$ tar -cvf archive.tar README.txt src</strong>
-      Create an archive file archive.tar from the file README.txt and directory src.
+      Create an archive file archive.tar from the file README.txt and directory src.<br>
   <strong>$ tar -xvf archive.tar</strong>
-      Extract contents for the archive.tar into the current directory.
+      Extract contents for the archive.tar into the current directory.<br>
   <strong>$ tar -cavf archive.tar.gz README.txt src</strong>
-      Create an archive file archive.tar.gz from the file README.txt and directory src and compress it with gzip.
+      Create an archive file archive.tar.gz from the file README.txt and directory src and compress it with gzip.<br>
   <strong>$ tar -xvf archive.tar.gz</strong>
       Extract contents for the archive.tar.gz into the current directory.
 </pre>
