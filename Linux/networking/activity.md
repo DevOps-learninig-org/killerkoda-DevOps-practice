@@ -10,7 +10,7 @@ First of all - useful links:
     <strong>established, listening, closed
     syn-sent, syn-recv,
     fin-wait-1, fin-wait-2, time-wait, close-wait,
-    last-ack, closing</strong>
+    last-ack, closing</strong><br>
   <strong>all</strong>          - for all the states
   <strong>connected</strong>    - all the states except for listening and closed
   <strong>synchronized</strong> - all the connected states except for syn-sent
