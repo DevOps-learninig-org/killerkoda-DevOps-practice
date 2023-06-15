@@ -8,7 +8,7 @@ First of all - useful links:
 - `man vim`{{exec}}
 - `vimtutor`{{exec}}
 <br>
-<details><summary>Lesson info and tips</summary>
+<details><summary>Most common scenario for using VIM</summary>
 <pre>
   This is most common scenario for using VIM
     $ vim filename
