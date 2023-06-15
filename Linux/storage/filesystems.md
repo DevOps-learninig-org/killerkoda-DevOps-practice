@@ -17,8 +17,8 @@ First of all - useful links:
 <br>
 <details><summary>/etc/fstab</summary>
 <pre>
-  /etc/fstab - static information about the filesystems
-  &lt;device-spec&gt; &lt;mount-point&gt; &lt;fs-type&gt; &lt;options&gt; &lt;dump&gt; &lt;pass&gt;
+  /etc/fstab - static information about the filesystems<br>
+  &lt;device-spec&gt; &lt;mount-point&gt; &lt;fs-type&gt; &lt;options&gt; &lt;dump&gt; &lt;pass&gt;<br>
   <strong>device-spec</strong> – The device name, label, UUID, or other means of specifying the partition or data source this entry refers to.
   <strong>mount-point</strong> – Where the contents of the device may be accessed after mounting; for swap partitions or files, this is set to none.
   <strong>fs-type</strong> – The type of file system to be mounted.
