@@ -14,7 +14,7 @@ First of all - useful links:
 </details><br>
 
 Task list:
-- Create random group
+- Create 'random' group
 - Create some user and add it to previously created group
 
 <details><summary>Hints for the task</summary>
