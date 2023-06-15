@@ -5,7 +5,7 @@ First of all - useful links:
 - [redhat.com - 10 ways to use the Linux 'find'](https://www.redhat.com/sysadmin/linux-find-command)
 - `man find`{{exec}}
 <br>
-<details><summary>Lesson info and tips</summary>
+<details><summary>Most useful 'find' scenarios</summary>
 <pre>
   $ find / -name "foo.txt"
   $ find / -iname "*foo*txt"
@@ -17,7 +17,10 @@ First of all - useful links:
   $ find . -type f -name "*.tmp" -exec rm -f {} \;
   $ find / -cmin -60
   $ find / -type f -name *.mp3 -size +10M -size -20M -exec rm {} \;
-<br>
+</pre>
+</details>
+<details><summary>The find -exec command format</summary>
+<pre>
 The find -exec command will take the following format:
   find [path] [arguments] -exec [command] [placeholder] [delimiter]
 <br>
