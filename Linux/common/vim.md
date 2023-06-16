@@ -5,6 +5,8 @@ First of all - useful links:
 - [devhints.io - VIM Cheatsheet](https://devhints.io/vim)
 - [openvim.com - Interactive VIM tutorial](https://openvim.com/)
 - [danielmiessler.com - Learn Vim For the Last Time](https://danielmiessler.com/study/vim/)
+- [learnxinyminutes.com - Vim](https://learnxinyminutes.com/docs/vim/)
+- [learnxinyminutes.com - VimL aka Vim script](https://learnxinyminutes.com/docs/vimscript/)
 - `man vim`{{exec}}
 - `vimtutor`{{exec}}
 <br>
