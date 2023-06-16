@@ -8,6 +8,7 @@ First of all - useful links:
 - [readthedocs.io - BTRFS documentation](https://btrfs.readthedocs.io/en/latest/)
 - [kernel.org - BTRFS](https://docs.kernel.org/filesystems/btrfs.html)
 - [github.io - OpenZFS Documentation](https://openzfs.org/wiki/Documentation)
+- [learnxinyminutes.com - ZFS](https://learnxinyminutes.com/docs/zfs/)
 - `man fs`{{exec}}
 - `man fstab`{{exec}}
 - `man mount`{{exec}}
