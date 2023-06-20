@@ -6,6 +6,7 @@ First of all - useful links:
 - [mit.edu - Kerberos: The Network Authentication Protocol](https://web.mit.edu/kerberos/)
 - [opensuse.org - Network authentication with Kerberos](https://doc.opensuse.org/documentation/leap/security/html/book-security/cha-security-kerberos.html)
 - [redhat.com - Configuring authentication and authorization in RHEL](https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/9/html/configuring_authentication_and_authorization_in_rhel/index)
+- [](https://en.wikipedia.org/wiki/Diameter_(protocol))
 <br>
 <details><summary>LDAP RFC`s</summary>
 <pre>
@@ -23,24 +24,26 @@ First of all - useful links:
   <a href="https://datatracker.ietf.org/doc/html/rfc4521">RFC 4521</a> (aka BCP 118) — Considerations for Lightweight Directory Access Protocol (LDAP): Extension
 </pre>
 </details>
-<br>
-
-Task list:
-- Task 1
-- Task 2
-
-<details><summary>Hints for the task</summary>
+<details><summary>Diameter RFC`s</summary>
 <pre>
-<strong>Task 1:</strong>
-  $ cmd1
-  $ echo ${string:7:3}
-<br>
-<strong>Task 2:</strong>
-  $ echo ${#string}
-  $ string=
+  <a href="https://datatracker.ietf.org/doc/html/rfc6733">RFC 6733</a> — Diameter Base Protocol.
+  <a href="https://datatracker.ietf.org/doc/html/rfc3589">RFC 3589</a> — Diameter Command Codes for Third Generation Partnership Project (3GPP) Release 5.		
+  <a href="https://datatracker.ietf.org/doc/html/rfc4004">RFC 4004</a> — Diameter Mobile IPv4 Application.	
+  <a href="https://datatracker.ietf.org/doc/html/rfc4072">RFC 4072</a> — Diameter Extensible Authentication Protocol (EAP) Application.
+  <a href="https://datatracker.ietf.org/doc/html/rfc4740">RFC 4740</a> — Diameter Session Initiation Protocol (SIP) Application. M.
+  <a href="https://datatracker.ietf.org/doc/html/rfc5224">RFC 5224</a> — Diameter Policy Processing Application.
+  <a href="https://datatracker.ietf.org/doc/html/rfc5431">RFC 5431</a> — Diameter ITU-T Rw Policy Enforcement Interface Application.
+  <a href="https://datatracker.ietf.org/doc/html/rfc5447">RFC 5447</a> — Diameter Mobile IPv6: Support for Network Access Server to Diameter Server Interaction.
+  <a href="https://datatracker.ietf.org/doc/html/rfc5516">RFC 5516</a> — Diameter Command Code Registration for the Third Generation Partnership Project (3GPP) Evolved Packet System (EPS).
+  <a href="https://datatracker.ietf.org/doc/html/rfc5624">RFC 5624</a> — Quality of Service Parameters for Usage with Diameter.
+  <a href="https://datatracker.ietf.org/doc/html/rfc6737">RFC 6737</a> — The Diameter Capabilities Update Application.
+  <a href="https://datatracker.ietf.org/doc/html/rfc7155">RFC 7155</a> — Diameter Network Access Server Application.
+  <a href="https://datatracker.ietf.org/doc/html/rfc8506">RFC 8506</a> — Diameter Credit-Control Application.
 </pre>
 </details>
+RFC 8506	Diameter Credit-Control Application.	March 2019			
 <br>
+
 <details><summary>If You have read all and understood</summary>
 <pre>
 `touch IReadAllAndUndnderstood`{{exec}}
