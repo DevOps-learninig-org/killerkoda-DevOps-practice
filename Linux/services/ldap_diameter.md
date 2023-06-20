@@ -41,7 +41,6 @@ First of all - useful links:
   <a href="https://datatracker.ietf.org/doc/html/rfc8506">RFC 8506</a> — Diameter Credit-Control Application.
 </pre>
 </details>
-RFC 8506	Diameter Credit-Control Application.	March 2019			
 <br>
 
 <details><summary>If You have read all and understood</summary>
