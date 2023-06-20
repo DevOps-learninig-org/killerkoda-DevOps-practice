@@ -7,6 +7,7 @@ First of all - useful links:
 - [opensuse.org - Network authentication with Kerberos](https://doc.opensuse.org/documentation/leap/security/html/book-security/cha-security-kerberos.html)
 - [redhat.com - Configuring authentication and authorization in RHEL](https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/9/html/configuring_authentication_and_authorization_in_rhel/index)
 - [wikipedia.org - Diameter](https://en.wikipedia.org/wiki/Diameter_(protocol))
+- [github.com - freeDiameter](https://github.com/freeDiameter/freeDiameter)
 <br>
 <details><summary>LDAP RFC`s</summary>
 <pre>
@@ -42,6 +43,13 @@ First of all - useful links:
 </pre>
 </details>
 <br>
+
+Task list:
+
+- Read all documentation on the links above
+- Practice installing and configuring LDAP services
+- Practice installing and configuring Kerberos services
+- Practice installing and configuring freeDiameter
 
 <details><summary>If You have read all and understood</summary>
 <pre>
