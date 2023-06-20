@@ -6,7 +6,7 @@ First of all - useful links:
 - [mit.edu - Kerberos: The Network Authentication Protocol](https://web.mit.edu/kerberos/)
 - [opensuse.org - Network authentication with Kerberos](https://doc.opensuse.org/documentation/leap/security/html/book-security/cha-security-kerberos.html)
 - [redhat.com - Configuring authentication and authorization in RHEL](https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/9/html/configuring_authentication_and_authorization_in_rhel/index)
-- [](https://en.wikipedia.org/wiki/Diameter_(protocol))
+- [wikipedia.org - Diameter](https://en.wikipedia.org/wiki/Diameter_(protocol))
 <br>
 <details><summary>LDAP RFC`s</summary>
 <pre>
