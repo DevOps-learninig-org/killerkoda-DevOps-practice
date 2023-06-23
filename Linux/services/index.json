@@ -33,7 +33,7 @@
         "text": "ssh_vpn.md",
         "verify": "scripts/check.sh"
       },{
-        "title": "6/7 SSH and Virtual Private Networks [10:00]",
+        "title": "6/7 SSH and Virtual Private Networks [05:00]",
         "text": "postgresql_mariadb.md",
         "verify": "scripts/check.sh"
       },{
