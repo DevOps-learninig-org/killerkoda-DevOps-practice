@@ -21,7 +21,7 @@
         "text": "ldap_diameter.md",
         "verify": "scripts/check.sh"
       },{
-        "title": "4/7 NFS, Samba and iSCSI [28:00]",
+        "title": "4/7 NFS, Samba [28:00]",
         "text": "nfs_samba.md",
         "verify": "scripts/check.sh"
       },{
