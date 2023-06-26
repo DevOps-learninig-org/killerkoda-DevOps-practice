@@ -2,6 +2,8 @@ First of all - useful links:
 
 - [microsoft.com - Microsoft SMB Protocol and CIFS Protocol Overview](https://learn.microsoft.com/en-us/windows/win32/fileio/microsoft-smb-protocol-and-cifs-protocol-overview)
 - [samba.org - Samba Wiki](https://wiki.samba.org/index.php/Main_Page)
+- [ubuntu.com - NFS](https://ubuntu.com/server/docs/service-nfs)
+- [linuxhint.com - ](https://linuxhint.com/install-and-configure-nfs-server-ubuntu-22-04/)
 - [digitalocean.com - How To Set Up an NFS Mount on Ubuntu](https://www.digitalocean.com/community/tutorials/how-to-set-up-an-nfs-mount-on-ubuntu-20-04)
 - [youtube.com - NFS vs. CIFS vs. SMB: File Sharing Protocols Compared](https://www.youtube.com/watch?v=k3RxOqftzsU)
 - [youtube.com - Visuality Systems SMB protocol](https://www.youtube.com/playlist?list=PLyOlunpO5LG1W1SgFGDUAlCTSz9j9zBax)
@@ -69,6 +71,38 @@ First of all - useful links:
   <a href="https://datatracker.ietf.org/doc/html/rfc8797">RFC 8797</a> - Remote Direct Memory Access - Connection Manager (RDMA-CM) Private Data for RPC-over-RDMA Version 1
   <a href="https://datatracker.ietf.org/doc/html/rfc8881">RFC 8881</a> - Network File System (NFS) Version 4 Minor Version 1 Protocol
   <a href="https://datatracker.ietf.org/doc/html/rfc9289">RFC 9289</a> - Towards Remote Procedure Call Encryption by Default
+</pre>
+</details>
+<details><summary>List of NFS RFC's</summary>
+<pre>
+Options supported by all versions of Linux NFS
+<br>
+  <strong>soft / hard</strong>  - Determines the recovery behavior of the NFS client after an NFS request times out. If neither option is specified (or if the hard option is specified), NFS requests are retried indefinitely. 
+  <strong>timeo=n</strong>      - The time in deciseconds (tenths of a second) the NFS client waits for a response before it retries an NFS request.
+  <strong>retrans=n</strong>    - The number of times the NFS client retries a request before it attempts further recovery action.
+  <strong>rsize=n</strong>      - The maximum number of bytes in each network READ request that the NFS client can receive when reading data from a file on an NFS server.
+  <strong>wsize=n</strong>      - The maximum number of bytes per network WRITE request that the NFS client can send when writing data to a file on an NFS server.
+  <strong>ac / noac</strong>    - Selects whether the client may cache file attributes. If neither option is specified (or if ac is specified), the client caches file attributes.
+  <strong>acregmin=n</strong>  - The minimum time (in seconds) that the NFS client caches attributes of a regular file before it requests fresh attribute information from a server.
+  <strong>acregmax=n</strong>  - The maximum time (in seconds) that the NFS client caches attributes of a regular file before it requests fresh attribute information from a server.
+  <strong>acdirmin=n</strong>  - The minimum time (in seconds) that the NFS client caches attributes of a directory before it requests fresh attribute information from a server.
+  <strong>acdirmax=n</strong>  - The maximum time (in seconds) that the NFS client caches attributes of a directory before it requests fresh attribute information from a server.
+  <strong>actimeo=n</strong>   - Using actimeo sets all of acregmin, acregmax, acdirmin, and acdirmax to the same value.
+  <strong>bg / fg</strong>     - Determines how the mount(8) command behaves if an attempt to mount an export fails.
+  <strong>retry=n</strong>      - The number of minutes that the mount(8) command retries an NFS mount operation in the foreground or background before giving up.
+  <strong>sec=mode</strong>    - The RPCGSS security flavor to use for accessing files on this mount point.
+  <strong>sharecache / nosharecache</strong>  - Determines how the client's data cache and attribute cache are shared when mounting the same export more than once concurrently.
+  <strong>resvport / noresvport</strong>      - Specifies whether the NFS client should use a privileged source port when communicating with an NFS server for this mount point.
+  <strong>lookupcache=mode</strong> - Specifies how the kernel manages its cache of directory entries for a given mount point. Mode can be one of all, none, pos, or positive.
+<br>
+Options for NFS version 4 only
+<br>
+  <strong>minorversion=n</strong>     - Specifies the protocol minor version number. NFSv4 introduces "minor versioning," where NFS protocol enhancements can be introduced without bumping the NFS protocol version number.
+  <strong>proto=netid</strong>        - The transport protocol name and protocol family the NFS client uses to transmit requests to the NFS server for this mount point.
+  <strong>port=n</strong>             - The numeric value of the server's NFS service port. If the server's NFS service is not available on the specified port, the mount request fails.
+  <strong>intr / nointr</strong>      - Selects whether to allow signals to interrupt file operations on this mount point.
+  <strong>cto / nocto</strong>        - Selects whether to use close-to-open cache coherence semantics for NFS directories on this mount point.
+  <strong>clientaddr=n.n.n.n</strong> - Specifies a single IPv4 address (in dotted-quad form), or a non-link-local IPv6 address, that the NFS client advertises to allow servers to perform NFS version 4 callback requests against files on this mount point.
 </pre>
 </details>
 <br>
