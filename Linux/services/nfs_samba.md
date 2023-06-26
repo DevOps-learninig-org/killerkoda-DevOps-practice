@@ -1,7 +1,7 @@
 First of all - useful links:
 
 - [microsoft.com - Microsoft SMB Protocol and CIFS Protocol Overview](https://learn.microsoft.com/en-us/windows/win32/fileio/microsoft-smb-protocol-and-cifs-protocol-overview)
-- [samba.or - Samba Wiki](https://wiki.samba.org/index.php/Main_Page)
+- [samba.org - Samba Wiki](https://wiki.samba.org/index.php/Main_Page)
 - [youtube.com - NFS vs. CIFS vs. SMB: File Sharing Protocols Compared](https://www.youtube.com/watch?v=k3RxOqftzsU)
 - [youtube.com - Visuality Systems SMB protocol](https://www.youtube.com/playlist?list=PLyOlunpO5LG1W1SgFGDUAlCTSz9j9zBax)
 <br>
