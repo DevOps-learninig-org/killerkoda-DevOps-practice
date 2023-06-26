@@ -1,8 +1,9 @@
-![image](https://github.com/DevOps-learninig-org/killerkoda-DevOps-practice/assets/111854579/afaade6a-2d22-4696-a1ba-de960278c402)First of all - useful links:
+First of all - useful links:
 
 - [microsoft.com - Microsoft SMB Protocol and CIFS Protocol Overview](https://learn.microsoft.com/en-us/windows/win32/fileio/microsoft-smb-protocol-and-cifs-protocol-overview)
 - `some cli command`{{exec}}
 - [youtube.com - NFS vs. CIFS vs. SMB: File Sharing Protocols Compared](https://www.youtube.com/watch?v=k3RxOqftzsU)
+- [youtube.com - Visuality Systems SMB protocol](https://www.youtube.com/playlist?list=PLyOlunpO5LG1W1SgFGDUAlCTSz9j9zBax)
 <br>
 <details><summary>Lesson info and tips</summary>
 <pre>
