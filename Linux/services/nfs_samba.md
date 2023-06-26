@@ -1,6 +1,6 @@
 First of all - useful links:
 
-- [Useful link 1](https://link.org/)
+- [microsoft.com - Microsoft SMB Protocol and CIFS Protocol Overview](https://learn.microsoft.com/en-us/windows/win32/fileio/microsoft-smb-protocol-and-cifs-protocol-overview)
 - `some cli command`{{exec}}
 <br>
 <details><summary>Lesson info and tips</summary>
