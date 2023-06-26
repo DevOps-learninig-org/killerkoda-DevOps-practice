@@ -23,7 +23,7 @@ First of all - useful links:
   </ul>
 </pre>
 </details>
-<details><summary>Samba v4.0 features</summary>
+<details><summary>List of NFS RFC's</summary>
 <pre>
   <a href="https://datatracker.ietf.org/doc/html/rfc4510">RFC 2623</a> - NFS Version 2 and Version 3 Security Issues and the NFS Protocol's Use of RPCSEC_GSS and Kerberos V5
   <a href="https://datatracker.ietf.org/doc/html/rfc4510">RFC 2624</a> - NFS Version 4 Design Considerations
