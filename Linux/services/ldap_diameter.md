@@ -47,7 +47,7 @@ First of all - useful links:
 
 Task list:
 
-- Read all documentation on the links above
+- Read ALL documentation on the links above
 - Practice installing and configuring LDAP services
 - Practice installing and configuring Kerberos services
 - Practice installing and configuring freeDiameter
