@@ -5,7 +5,7 @@ First of all - useful links:
 - [youtube.com - NFS vs. CIFS vs. SMB: File Sharing Protocols Compared](https://www.youtube.com/watch?v=k3RxOqftzsU)
 - [youtube.com - Visuality Systems SMB protocol](https://www.youtube.com/playlist?list=PLyOlunpO5LG1W1SgFGDUAlCTSz9j9zBax)
 <br>
-<details><summary>Samba v4.0 eatures</summary>
+<details><summary>Samba v4.0 features</summary>
 <pre>
   <ul>
   <li>NetBIOS over TCP/IP (NBT)</li>
