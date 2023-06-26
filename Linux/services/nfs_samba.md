@@ -2,6 +2,7 @@ First of all - useful links:
 
 - [microsoft.com - Microsoft SMB Protocol and CIFS Protocol Overview](https://learn.microsoft.com/en-us/windows/win32/fileio/microsoft-smb-protocol-and-cifs-protocol-overview)
 - [samba.org - Samba Wiki](https://wiki.samba.org/index.php/Main_Page)
+- [digitalocean.com - How To Set Up an NFS Mount on Ubuntu](https://www.digitalocean.com/community/tutorials/how-to-set-up-an-nfs-mount-on-ubuntu-20-04)
 - [youtube.com - NFS vs. CIFS vs. SMB: File Sharing Protocols Compared](https://www.youtube.com/watch?v=k3RxOqftzsU)
 - [youtube.com - Visuality Systems SMB protocol](https://www.youtube.com/playlist?list=PLyOlunpO5LG1W1SgFGDUAlCTSz9j9zBax)
 <br>
