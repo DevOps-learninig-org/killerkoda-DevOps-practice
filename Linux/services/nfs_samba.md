@@ -73,10 +73,9 @@ First of all - useful links:
   <a href="https://datatracker.ietf.org/doc/html/rfc9289">RFC 9289</a> - Towards Remote Procedure Call Encryption by Default
 </pre>
 </details>
-<details><summary>List of NFS RFC's</summary>
+<details><summary>/etc/fstab options for NFS mountpoints</summary>
 <pre>
-Options supported by all versions of Linux NFS
-<br>
+Options supported by all versions of Linux NFS<br>
   <strong>soft / hard</strong>  - Determines the recovery behavior of the NFS client after an NFS request times out. If neither option is specified (or if the hard option is specified), NFS requests are retried indefinitely. 
   <strong>timeo=n</strong>      - The time in deciseconds (tenths of a second) the NFS client waits for a response before it retries an NFS request.
   <strong>retrans=n</strong>    - The number of times the NFS client retries a request before it attempts further recovery action.
@@ -93,16 +92,18 @@ Options supported by all versions of Linux NFS
   <strong>sec=mode</strong>    - The RPCGSS security flavor to use for accessing files on this mount point.
   <strong>sharecache / nosharecache</strong>  - Determines how the client's data cache and attribute cache are shared when mounting the same export more than once concurrently.
   <strong>resvport / noresvport</strong>      - Specifies whether the NFS client should use a privileged source port when communicating with an NFS server for this mount point.
-  <strong>lookupcache=mode</strong> - Specifies how the kernel manages its cache of directory entries for a given mount point. Mode can be one of all, none, pos, or positive.
-<br>
-Options for NFS version 4 only
-<br>
+  <strong>lookupcache=mode</strong> - Specifies how the kernel manages its cache of directory entries for a given mount point. Mode can be one of all, none, pos, or positive.<br>
+Options for NFS version 4 only<br>
   <strong>minorversion=n</strong>     - Specifies the protocol minor version number. NFSv4 introduces "minor versioning," where NFS protocol enhancements can be introduced without bumping the NFS protocol version number.
   <strong>proto=netid</strong>        - The transport protocol name and protocol family the NFS client uses to transmit requests to the NFS server for this mount point.
   <strong>port=n</strong>             - The numeric value of the server's NFS service port. If the server's NFS service is not available on the specified port, the mount request fails.
   <strong>intr / nointr</strong>      - Selects whether to allow signals to interrupt file operations on this mount point.
   <strong>cto / nocto</strong>        - Selects whether to use close-to-open cache coherence semantics for NFS directories on this mount point.
-  <strong>clientaddr=n.n.n.n</strong> - Specifies a single IPv4 address (in dotted-quad form), or a non-link-local IPv6 address, that the NFS client advertises to allow servers to perform NFS version 4 callback requests against files on this mount point.
+  <strong>clientaddr=n.n.n.n</strong> - Specifies a single IPv4 address (in dotted-quad form), or a non-link-local IPv6 address, that the NFS client advertises to allow servers to perform NFS version 4 callback requests against files on this mount point.<br>
+Examples:<br>
+  server:/export  /mnt  nfs4  sec=krb5  0 0
+  [fe80::215:c5ff:fb3e:e2b1%eth0]:/export  /mnt  nfs  defaults  0 0
+  server:/export  /usr  nfs  ro,nolock,nocto,actimeo=3600  0 0
 </pre>
 </details>
 <br>
