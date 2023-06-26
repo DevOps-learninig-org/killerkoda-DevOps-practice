@@ -4,6 +4,7 @@ First of all - useful links:
 - [openldap.org - OpenLDAP oficial site](https://www.openldap.org/)
 - [sssd.io - Client for Enterprise Identity Management](https://sssd.io/)
 - [mit.edu - Kerberos: The Network Authentication Protocol](https://web.mit.edu/kerberos/)
+- [github.com - Heimdal wiki](https://github.com/heimdal/heimdal/wiki)
 - [opensuse.org - Network authentication with Kerberos](https://doc.opensuse.org/documentation/leap/security/html/book-security/cha-security-kerberos.html)
 - [redhat.com - Configuring authentication and authorization in RHEL](https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/9/html/configuring_authentication_and_authorization_in_rhel/index)
 - [wikipedia.org - Diameter](https://en.wikipedia.org/wiki/Diameter_(protocol))
