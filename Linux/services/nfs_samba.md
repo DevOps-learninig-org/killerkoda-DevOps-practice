@@ -109,7 +109,7 @@ Examples:<br>
 <br>
 
 Task list:
-- Read All documentation on the links above
+- Read ALL documentation on the links above
 
 <pre>
 `touch IReadAllAndUndnderstood`{{exec}}
