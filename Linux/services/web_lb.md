@@ -11,6 +11,7 @@ First of all - useful links:
 - [youtube.com - Is this the BEST Reverse Proxy for Docker? // Traefik Tutorial](https://www.youtube.com/watch?v=wLrmmh1eI94)
 - [youtube.com - HAProxy playlist](https://www.youtube.com/playlist?list=PLQnljOFTspQUhgfvpgfxc-uFlWElKIBr-)
 <br>
+
 Task list:
 - Read ALL documentation on the links above and watch videos
 - Play with Envoy
