@@ -12,7 +12,7 @@ First of all - useful links:
 - [youtube.com - HAProxy playlist](https://www.youtube.com/playlist?list=PLQnljOFTspQUhgfvpgfxc-uFlWElKIBr-)
 <br>
 Task list:
-- Read ALL documentation on the links above
+- Read ALL documentation on the links above and watch videos
 - Play with Envoy
 - Play with nginx
 - Play with HAProxy
