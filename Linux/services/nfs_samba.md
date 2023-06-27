@@ -110,6 +110,8 @@ Examples:<br>
 
 Task list:
 - Read ALL documentation on the links above
+- Play with Samba installation and different modes
+- Practice with NFS mounting
 
 <pre>
 `touch IReadAllAndUndnderstood`{{exec}}
