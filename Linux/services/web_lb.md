@@ -5,6 +5,8 @@ First of all - useful links:
 - [traefik.io - Traefic Proxy documentation](https://doc.traefik.io/traefik/)
 - [haproxy.org - HAProxy Documentation](http://docs.haproxy.org/)
 - [apache.org - Apache HTTP Server Documentation](https://httpd.apache.org/docs/)
+  
+Interesting video tutorials:
 - [youtube.com - The NGINX Crash Course](https://www.youtube.com/watch?v=7VAI73roXaY)
 - [youtube.com - Envoy Proxy Crash Course](https://www.youtube.com/watch?v=40gKzHQWgP0)
 - [youtube.com - Envoy Internals Deep Dive - Matt Klein, Lyft (Advanced Skill Level)](https://www.youtube.com/watch?v=gQF23Vw0keg)
