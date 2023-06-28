@@ -9,7 +9,7 @@ Read some useful articles before:
 - [Learn BASH in Y minutes](https://learnxinyminutes.com/docs/bash/)
 - `man bash`{{exec}}
 
-And watch some videos:
+And watch some video tutorials:
 
 - [Bash in 100 Seconds](https://www.youtube.com/watch?v=I4EWvMFj37g)
 - [Advanced Bash Scripting Tutorial](https://www.youtube.com/watch?v=emhouufDnB4)
