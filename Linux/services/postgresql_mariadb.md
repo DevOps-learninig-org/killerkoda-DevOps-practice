@@ -1,5 +1,6 @@
 First of all - useful links:
 
+- [digitalocean.com - How To Install MariaDB on Ubuntu 22.04](https://www.digitalocean.com/community/tutorials/how-to-install-mariadb-on-ubuntu-22-04)
 - [mariadb.com - Training & Tutorials](https://mariadb.com/kb/en/training-tutorials/)
 - [mariadb.com - SQL Statements](https://mariadb.com/kb/en/sql-statements/)
 - `some cli command`{{exec}}
