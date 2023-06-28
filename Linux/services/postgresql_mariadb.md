@@ -11,6 +11,10 @@ PostgreSQL:
 - [postgresql.org - Documentation](https://www.postgresql.org/docs/)
 - [postgresql.org - SQL Commands](https://www.postgresql.org/docs/current/sql-commands.html)
 - [postgresql.org - Wiki:Administration](https://wiki.postgresql.org/wiki/Category:Administration)
+
+Interesting video tutorials:
+- [youtube.com - MySQL Administration](https://www.youtube.com/playlist?list=PLPAVdwmqFr64vyY3u28Is_cPcuxvzXerQ)
+- [youtube.com - PostgreSQL Administration](https://www.youtube.com/playlist?list=PLwxrtuGg5dNGv4jvDY3TEddn2HIn4-uF9)
 <br>
 
 Task list:
