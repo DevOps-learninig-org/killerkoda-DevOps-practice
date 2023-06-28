@@ -21,11 +21,14 @@ Task list:
 <pre>
 <strong>Task 1:</strong>
   $ sudo apt update -y
-  $ sudo apt install mariadb-server mariadb-client -y
+  $ sudo apt install mariadb-server mariadb-client -y<br>
   $ systemctl status mariadb
-  $ sudo mysql_secure_installation
-  $ mysql -h localhost -u root -p
+  $ mysql_secure_installation
+  $ mysql -h localhost -u root -p<br>
+  ]> status
+  ]> CREATE DATABASE IF NOT EXISTS db_test;
   ]> show databases;
+  ]> use db_test;
 <br>
 <strong>Task 2:</strong>
   $ echo ${#string}
