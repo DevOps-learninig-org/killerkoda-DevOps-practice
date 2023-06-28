@@ -7,7 +7,7 @@ MariaDB:
 - [mariadb.com - SQL Statements](https://mariadb.com/kb/en/sql-statements/)
 
 PostgreSQL:
-- [digitalocean.com](https://www.digitalocean.com/community/tutorials/how-to-install-postgresql-on-ubuntu-22-04-quickstart)
+- [digitalocean.com - How To Install PostgreSQL on Ubuntu 22.04](https://www.digitalocean.com/community/tutorials/how-to-install-postgresql-on-ubuntu-22-04-quickstart)
 - [postgresql.org - Documentation](https://www.postgresql.org/docs/)
 - [postgresql.org - SQL Commands](https://www.postgresql.org/docs/current/sql-commands.html)
 - [postgresql.org - Wiki:Administration](https://wiki.postgresql.org/wiki/Category:Administration)
