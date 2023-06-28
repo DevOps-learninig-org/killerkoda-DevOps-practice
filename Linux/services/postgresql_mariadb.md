@@ -20,8 +20,12 @@ Task list:
 <details><summary>Hints for the task</summary>
 <pre>
 <strong>Task 1:</strong>
-  $ cmd1
-  $ echo ${string:7:3}
+  $ sudo apt update -y
+  $ sudo apt install mariadb-server mariadb-client -y
+  $ systemctl status mariadb
+  $ sudo mysql_secure_installation
+  $ mysql -h localhost -u root -p
+  ]> show databases;
 <br>
 <strong>Task 2:</strong>
   $ echo ${#string}
