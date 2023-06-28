@@ -8,6 +8,8 @@ First of all - useful links:
 - `screen -h`{{exec}}
 - [gnu.org - GNU screen homepage](https://www.gnu.org/software/screen/)
 - [gnu.org - GNU screen manual](https://www.gnu.org/software/screen/manual/screen.html)
+
+Interesting video tutorials:
 - [youtube.com - How to use GNU SCREEN](https://www.youtube.com/watch?v=I4xVn6Io5Nw)
 <br>
 <details><summary>Tmux commands</summary>
