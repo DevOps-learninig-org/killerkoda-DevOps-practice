@@ -36,8 +36,10 @@ Task list:
   ]> use db_test;
 <br>
 <strong>Task 2:</strong>
-  $ echo ${#string}
-  $ string=
+  $ sudo apt install postgresql<br>
+  $ sudo -u postgres createuser --interactive 
+  $ sudo -u postgres createdb db_test
+  $ sudo -u postgres psql -d postgres
 </pre>
 </details>
 <br>
