@@ -1,6 +1,7 @@
 First of all - useful links:
 
-- [Useful link 1](https://link.org/)
+- [mariadb.com - Training & Tutorials](https://mariadb.com/kb/en/training-tutorials/)
+- [mariadb.com - SQL Statements](https://mariadb.com/kb/en/sql-statements/)
 - `some cli command`{{exec}}
 <br>
 <details><summary>Lesson info and tips</summary>
