@@ -12,8 +12,9 @@ First of all - useful links:
 <br>
 
 Task list:
-- Task 1
-- Task 2
+- Read ALL documentation on the links above
+- Install MariaDB, create new user, database and empty table.
+- Install PostgreSQL, create new user, database and empty table.
 
 <details><summary>Hints for the task</summary>
 <pre>
