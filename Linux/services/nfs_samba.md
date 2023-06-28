@@ -5,6 +5,8 @@ First of all - useful links:
 - [ubuntu.com - NFS](https://ubuntu.com/server/docs/service-nfs)
 - [linuxhint.com - How to Install and Configure an NFS Server on Ubuntu 22.04](https://linuxhint.com/install-and-configure-nfs-server-ubuntu-22-04/)
 - [digitalocean.com - How To Set Up an NFS Mount on Ubuntu](https://www.digitalocean.com/community/tutorials/how-to-set-up-an-nfs-mount-on-ubuntu-20-04)
+  
+Interesting video tutorials:
 - [youtube.com - NFS vs. CIFS vs. SMB: File Sharing Protocols Compared](https://www.youtube.com/watch?v=k3RxOqftzsU)
 - [youtube.com - Visuality Systems SMB protocol](https://www.youtube.com/playlist?list=PLyOlunpO5LG1W1SgFGDUAlCTSz9j9zBax)
 <br>
