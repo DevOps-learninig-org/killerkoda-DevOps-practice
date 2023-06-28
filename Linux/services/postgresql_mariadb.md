@@ -6,7 +6,7 @@ MariaDB:
 
 PostgreSQL:
 - [digitalocean.com](https://www.digitalocean.com/community/tutorials/how-to-install-postgresql-on-ubuntu-22-04-quickstart)
-- [postgresql.org - ](https://www.postgresql.org/docs/)
+- [postgresql.org - Documentation](https://www.postgresql.org/docs/)
 - [postgresql.org - Wiki:Administration](https://wiki.postgresql.org/wiki/Category:Administration)
 <br>
 
