@@ -12,6 +12,8 @@ First of all - useful links:
 - `man fs`{{exec}}
 - `man fstab`{{exec}}
 - `man mount`{{exec}}
+
+Interesting video tutorials:
 - [youtube.com - Linux Internals: Virtual File System (VFS)](https://www.youtube.com/watch?v=J4qWNNISdJk)
 - [youtube.com - ZFS on Linux the Billion dollar file system](https://www.youtube.com/watch?v=n0Uskl9fcKI)
 - [youtube.com - Best Filesystem of 2023](https://www.youtube.com/watch?v=O9QZVzq-rX4)
