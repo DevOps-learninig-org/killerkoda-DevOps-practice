@@ -6,6 +6,8 @@ First of all - useful links:
 - [gnu.org - sed commands](https://www.gnu.org/software/sed/manual/html_node/sed-commands-list.html)
 - `man grep`{{exec}}
 - `man sed`{{exec}}
+
+Interesting video tutorials:
 - [youtube.com - Learning Sed Is Beneficial For Linux Users](https://www.youtube.com/watch?v=EACe7aiGczw)
 - [youtube.com - Linux Crash Course - The sed Command](https://www.youtube.com/watch?v=nXLnx8ncZyE)
 <br>
