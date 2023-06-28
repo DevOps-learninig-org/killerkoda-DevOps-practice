@@ -7,6 +7,8 @@ First of all - useful links:
 - `tc help`{{exec}}
 - `tc qdisc help && echo && tc class help && echo && tc filter help`{{exec}}
 - `tc exec help && echo && tc action help `{{exec}}
+
+Interesting video tutorials:
 - [youtube.com - Shaping Linux Traffic with tc](https://www.youtube.com/watch?v=Ylf4J736JIg)
 <br>
 <details><summary>Correlation between TC elements and Linux components</summary>
