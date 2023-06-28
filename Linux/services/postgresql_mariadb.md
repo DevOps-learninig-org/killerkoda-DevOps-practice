@@ -3,6 +3,7 @@ First of all - useful links:
 MariaDB:
 - [digitalocean.com - How To Install MariaDB on Ubuntu 22.04](https://www.digitalocean.com/community/tutorials/how-to-install-mariadb-on-ubuntu-22-04)
 - [mariadb.com - Training & Tutorials](https://mariadb.com/kb/en/training-tutorials/)
+- [mariadb.com - MariaDB Administration](https://mariadb.com/kb/en/mariadb-administration/)
 - [mariadb.com - SQL Statements](https://mariadb.com/kb/en/sql-statements/)
 
 PostgreSQL:
