@@ -1,6 +1,11 @@
 First of all - useful links:
 
-- [Useful link 1](https://link.org/)
+- [ssh.com - SSH Protocol](https://www.ssh.com/academy/ssh/protocol)
+- [redhat.com - OpenSSH](https://access.redhat.com/documentation/ru-ru/red_hat_enterprise_linux/7/html/system_administrators_guide/ch-openssh)
+- [itsfoss.com - Complete Guide to Configuring SSH in Ubuntu](https://itsfoss.com/set-up-ssh-ubuntu/)
+- [digitalocean.com - How to Set Up SSH Keys on Ubuntu 22.04](https://www.digitalocean.com/community/tutorials/how-to-set-up-ssh-keys-on-ubuntu-22-04)
+
+Manual pages:
 - `man ssh`{{exec}}
 - `man ssh_config`{{exec}}
 - `man sshd_config`{{exec}}
