@@ -21,7 +21,7 @@ Manual pages:
 </pre>
 </details>
 <details><summary>SSH-based Virtual Private Networks</summary>
-<pre><br>
+<pre>
 The following example would connect client network 10.0.50.0/24 with remote network 10.0.99.0/24
 using a point-to-point connection from 10.1.1.1 to 10.1.1.2:<br>
   10.0.50.0/24 <-> 10.1.1.1 <-=| 192.168.1.15 |=-> 10.1.1.2 <-> 10.0.99.0/24<br>
