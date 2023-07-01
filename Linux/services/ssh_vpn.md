@@ -12,16 +12,10 @@ First of all - useful links:
   <a href="https://datatracker.ietf.org/doc/html/rfc4253">RFC 4253</a> — The Secure Shell (SSH) Transport Layer Protocol
   <a href="https://datatracker.ietf.org/doc/html/rfc4254">RFC 4254</a> — The Secure Shell (SSH) Connection Protocol
   <a href="https://datatracker.ietf.org/doc/html/rfc4716">RFC 4254</a> — The Secure Shell (SSH) Public Key File Format
-  <strong></strong> -
 </pre>
 </details>
 <details><summary>Secure SH RFC's</summary>
 <pre>
-  <a href="https://datatracker.ietf.org/doc/html/rfc4251">RFC 4251</a> — The Secure Shell (SSH) Protocol Architecture
-  <a href="https://datatracker.ietf.org/doc/html/rfc4252">RFC 4252</a> — The Secure Shell (SSH) Authentication Protocol
-  <a href="https://datatracker.ietf.org/doc/html/rfc4253">RFC 4253</a> — The Secure Shell (SSH) Transport Layer Protocol
-  <a href="https://datatracker.ietf.org/doc/html/rfc4254">RFC 4254</a> — The Secure Shell (SSH) Connection Protocol
-  <a href="https://datatracker.ietf.org/doc/html/rfc4716">RFC 4254</a> — The Secure Shell (SSH) Public Key File Format
   <strong></strong> -
 </pre>
 </details>
