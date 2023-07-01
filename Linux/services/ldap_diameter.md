@@ -12,7 +12,7 @@ First of all - useful links:
 <br>
 <details><summary>LDAP RFC`s</summary>
 <pre>
-  <a href="https://datatracker.ietf.org/doc/html/rfc4510">RFC 4510</a> — Lightweight Directory Access Protocol (LDAP): Technical Specification Roadmap (заменяет RFC 3377)
+  <a href="https://datatracker.ietf.org/doc/html/rfc4510">RFC 4510</a> — Lightweight Directory Access Protocol (LDAP): Technical Specification Roadmap (obsoletes RFC 3377)
   <a href="https://datatracker.ietf.org/doc/html/rfc4511">RFC 4511</a> — Lightweight Directory Access Protocol (LDAP): The Protocol
   <a href="https://datatracker.ietf.org/doc/html/rfc4512">RFC 4512</a> — Lightweight Directory Access Protocol (LDAP): Directory Information Models
   <a href="https://datatracker.ietf.org/doc/html/rfc4513">RFC 4513</a> — Lightweight Directory Access Protocol (LDAP): Authentication Methods and Security Mechanisms
