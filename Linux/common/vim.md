@@ -7,6 +7,8 @@ First of all - useful links:
 - [danielmiessler.com - Learn Vim For the Last Time](https://danielmiessler.com/study/vim/)
 - [learnxinyminutes.com - Vim](https://learnxinyminutes.com/docs/vim/)
 - [learnxinyminutes.com - VimL aka Vim script](https://learnxinyminutes.com/docs/vimscript/)
+
+Manual pages:
 - `man vim`{{exec}}
 - `vimtutor`{{exec}}
 <br>
