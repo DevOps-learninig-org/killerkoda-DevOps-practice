@@ -11,10 +11,10 @@ First of all - useful links:
 - []()
 
 Interesting video tutorials:
-- []()
+- [youtube.com - ]()
 
 Manual pages:
-- `some cli command`{{exec}}
+- `man `{{exec}}
 <br>
 <details><summary>Lesson info and tips</summary>
 <pre>
