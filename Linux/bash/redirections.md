@@ -5,30 +5,27 @@ First of all - useful links:
 - [gnu.org - Redirections](https://www.gnu.org/software/bash/manual/html_node/Redirections.html)
 - [tldp.org - I/O Redirection](https://tldp.org/LDP/abs/html/io-redirection.html)
 <br>
-<details><summary>File descriptors</summary>
+<details open><summary>File descriptors</summary>
 <pre>
   0	is stdin
   1	is stdout
   2	is stderr
 </pre>
 </details>
-<details><summary>Redirect operators</summary>
+<details open><summary>Redirect operators</summary>
 <pre>
-  M>N
-    # "M" is a file descriptor, which defaults to 1, if not explicitly set.
-    # "N" is a filename.
-    # File descriptor "M" is redirect to file "N."
-  <br>
-  M>&N
-    # "M" is a file descriptor, which defaults to 1, if not set.
-    # "N" is another file descriptor.
-  <br>
-  < FILENAME
-    # Accept input from a file.
-  <br>
-  |
-    # Pipe.
-    # General purpose process and command chaining tool
+  <strong>M&gt;N</strong>
+    - "M" is a file descriptor, which defaults to 1, if not explicitly set.
+    - "N" is a filename.
+    - File descriptor "M" is redirect to file "N."<br>
+  <strong>M&gt;&N</strong>
+    - "M" is a file descriptor, which defaults to 1, if not set.
+    - "N" is another file descriptor.<br>
+  <strong>&lt; FILENAME</strong>
+    - Accept input from a file. <br>
+  <strong>CMD | CMD</strong>
+    - Pipe.
+    - General purpose process and command chaining tool
 </pre>
 </details>
 <br>
