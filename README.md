@@ -8,7 +8,12 @@ Thanks for all who make it possible!
 ```
 First of all - useful links:
 
-- [Useful link 1](https://link.org/)
+- []()
+
+Interesting video tutorials:
+- []()
+
+Manual pages:
 - `some cli command`{{exec}}
 <br>
 <details><summary>Lesson info and tips</summary>
