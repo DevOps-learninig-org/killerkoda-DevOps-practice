@@ -9,7 +9,7 @@ Manual pages:
 - `man iptables`{{exec}}
 - `man ufw`{{exec}}
 <br>
-<details><summary>IPtables tables and chains</summary>
+<details open><summary>IPtables tables and chains</summary>
 <pre>
   <strong>RAW</strong> - Used to set NOTRACK packet mark
     - <strong>PREROUTING</strong> - Handle packets before the connection tracking takes place.
