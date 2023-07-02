@@ -15,4 +15,4 @@ And watch some videos:
 - [youtube.com - Network Performance in the Linux Kernel](https://www.youtube.com/watch?v=g4w3ydS62S0)
 - [youtube.com - Linux Networking - eBPF, XDP, DPDK, VPP](https://www.youtube.com/watch?v=hO2tlxURXJ0)
 
-See you in the [NEXT SCENARIO](/kodxxl/course/Linux/storage)!
+Pass this steps [ONE MORE TIME](/kodxxl/course/Linux/networking) or see you in the [NEXT SCENARIO](/kodxxl/course/Linux/storage)!
