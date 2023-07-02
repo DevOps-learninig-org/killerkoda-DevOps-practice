@@ -4,6 +4,8 @@ First of all - useful links:
 - [digitalocean.com - The Basics of Using the Sed](https://www.digitalocean.com/community/tutorials/the-basics-of-using-the-sed-stream-editor-to-manipulate-text-in-linux)
 - [gnu.org - sed, a stream editor](https://www.gnu.org/software/sed/manual/sed.html)
 - [gnu.org - sed commands](https://www.gnu.org/software/sed/manual/html_node/sed-commands-list.html)
+
+Manual pages:
 - `man grep`{{exec}}
 - `man sed`{{exec}}
 
