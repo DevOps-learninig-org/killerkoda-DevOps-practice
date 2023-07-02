@@ -8,7 +8,7 @@ First of all - useful links:
 Manual pages:
 - `man sudoers`{{exec}}
 <br>
-<details><summary>Most common scenarios</summary>
+<details open><summary>Most common scenarios</summary>
 <pre>
   List the current user's sudo(8) privileges.
     <strong>$ sudo -l</strong><br>
