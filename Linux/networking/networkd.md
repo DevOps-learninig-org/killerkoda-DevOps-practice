@@ -49,7 +49,7 @@ Manual pages:
   <strong>wlan</strong>   - virtual wireless network (WLAN) interface.
 </pre>
 </details>
-<details><summary>'networkctl' commands</summary>
+<details open><summary>'networkctl' commands</summary>
 <pre>
   <strong>list [PATTERN…]</strong>    - Show a list of existing links and their status.
   <strong>status [PATTERN…]</strong>  - Show information about the specified links: type, state, kernel module driver, hardware and IP address, configured DNS servers, etc.
