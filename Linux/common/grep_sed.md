@@ -13,7 +13,7 @@ Interesting video tutorials:
 - [youtube.com - Learning Sed Is Beneficial For Linux Users](https://www.youtube.com/watch?v=EACe7aiGczw)
 - [youtube.com - Linux Crash Course - The sed Command](https://www.youtube.com/watch?v=nXLnx8ncZyE)
 <br>
-<details><summary><b>sed</b> - stream editor</summary>
+<details open><summary><b>sed</b> - stream editor</summary>
 <pre>
 <u>SYNOPSIS:</u>
   sed [-n] script [file...]
@@ -21,7 +21,7 @@ Interesting video tutorials:
   sed [-n] [-e script]... -f script_file [-f script_file]... [file...]
 </pre>
 </details>
-<details><summary><b>grep</b> - search a file for a pattern</summary>
+<details open><summary><b>grep</b> - search a file for a pattern</summary>
 <pre>
 <u>SYNOPSIS:</u>
   grep [-E|-F] [-c|-l|-q] [-insvx] -e pattern_list [-e pattern_list]... [-f pattern_file]... [file...]
