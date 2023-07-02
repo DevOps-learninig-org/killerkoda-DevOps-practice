@@ -10,14 +10,12 @@ First of all - useful links:
 <pre>
   function NAME {
     commands;
-  }
-<br>
+  }<br>
 <strong>Or:</strong>
   NAME () {
     commands;
-  }
-<br>
-<strong>Call:</strong>
+  }<br>
+<strong>Call declared function:</strong>
   NAME arg1 arg2<br>
 <strong>Arguments:</strong>
   <strong>$#</strong>	Number of arguments
