@@ -24,7 +24,11 @@ Wireguard VPN:
 - []()
 
 Interesting video tutorials:
-- []()
+- [youtube.com - Full Course about SSH](https://www.youtube.com/watch?v=HCxAbC7Xui0)
+- [youtube.com - IP Sec VPN Fundamentals](https://www.youtube.com/watch?v=15amNny_kKI)
+- [youtube.com - IPsec Site to Site VPN Tunnels Explained](https://www.youtube.com/watch?v=CuxyZiSCSfc)
+- [youtube.com - VPN Everything! OpenVPN Gateway Tutorial](https://www.youtube.com/watch?v=xFficDCEv3c)
+- [youtube.com - WireGuard installation and configuration](https://www.youtube.com/watch?v=bVKNSf1p1d0)
 <br>
 <details><summary>Secure SH RFC's</summary>
 <pre>
