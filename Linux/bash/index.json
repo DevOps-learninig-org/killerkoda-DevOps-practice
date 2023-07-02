@@ -1,6 +1,6 @@
 {
   "title": "Introduction to BASH shell",
-  "description": "Practice with BASH scripting",
+  "description": "Learn and practice with BASH scripting",
   "details": {
     "intro": {
       "text": "service/intro.md",
