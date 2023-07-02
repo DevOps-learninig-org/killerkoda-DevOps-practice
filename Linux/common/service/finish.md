@@ -14,5 +14,5 @@ And watch some videos:
 - [The 50 Most Popular Linux & Terminal Commands](https://www.youtube.com/watch?v=ZtqBQ68cfJc)
 - [5 Linux Terminal Applications You Need to know](https://www.youtube.com/watch?v=E8Ww39z_28A)
 
-See you in the [next  scenario](/kodxxl/course/Linux/localhost)!
+See you in the [NEXT SCENARIO](/kodxxl/course/Linux/localhost)!
 
