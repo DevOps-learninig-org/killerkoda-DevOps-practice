@@ -21,6 +21,11 @@ Manual pages:
   <strong></strong> -
 </pre>
 </details>
+<details><summary>Other tips</summary>
+<pre>
+  <strong></strong> -
+</pre>
+</details>
 <br>
 
 Task list:
