@@ -11,7 +11,7 @@ First of all - useful links:
 Manual pages:
 - `man mdadm`{{exec}}
 <br>
-<details><summary>Primary RAID Levels</summary>
+<details open><summary>Primary RAID Levels</summary>
 <pre>
   <strong>RAID-0</strong> - Striped array with no parity
   <strong>RAID-1</strong> - Mirrored array
