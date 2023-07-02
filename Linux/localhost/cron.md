@@ -5,6 +5,8 @@ First of all - useful links:
 - `man cron`{{exec}}
 - [freedesktop.org - systemd.timer](https://www.freedesktop.org/software/systemd/man/systemd.timer.html#)
 - [freedesktop.org - systemd.time](https://www.freedesktop.org/software/systemd/man/systemd.time.html#)
+
+Manual pages:
 - `man systemd.timer`{{exec}}
 - `man systemd.time`{{exec}}
 <br>
