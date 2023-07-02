@@ -3,6 +3,8 @@ First of all - useful links:
 - [gnu.org - GNU Tar](https://www.gnu.org/software/tar/)
 - [gnu.org - GNU tar: an archiver tool](https://www.gnu.org/software/tar/manual/tar.html)
 - [cheat.sh - Tar cheatsheet](https://cheat.sh/tar)
+
+Manual pages:
 - `tar --help`{{exec}}
 - `man tar`{{exec}}
 <br>
