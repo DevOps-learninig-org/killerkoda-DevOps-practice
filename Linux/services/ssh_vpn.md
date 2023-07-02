@@ -18,10 +18,14 @@ IP Security - IPSec:
 - [strongswan.org - strongSwan Documentation](https://docs.strongswan.org/docs/5.9/index.html)
 
 OpenVPN:
-- []()
+- [openvpn.net - Community Resources](https://openvpn.net/community-resources/)
+- [opensource.com - Configure your OpenVPN server](https://opensource.com/article/21/7/openvpn-firewall)
+- [digitalocean.com - How To Set Up and Configure an OpenVPN Server on Ubuntu 22.04](https://www.digitalocean.com/community/tutorials/how-to-set-up-and-configure-an-openvpn-server-on-ubuntu-22-04)
 
 Wireguard VPN:
-- []()
+- [wireguard.com - Main page](https://www.wireguard.com/)
+- [wireguard.com - Quick Start](https://www.wireguard.com/quickstart/)
+- [digitalocean.com - How To Set Up WireGuard on Ubuntu 22.04](https://www.digitalocean.com/community/tutorials/how-to-set-up-wireguard-on-ubuntu-22-04)
 
 Interesting video tutorials:
 - [youtube.com - Full Course about SSH](https://www.youtube.com/watch?v=HCxAbC7Xui0)
