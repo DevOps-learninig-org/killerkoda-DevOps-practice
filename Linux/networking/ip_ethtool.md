@@ -33,7 +33,7 @@ Manual pages:
   <strong>xfrm</strong>       - manage IPSec policies.
 </pre>
 </details>
-<details><summary>'ethtool' - cheatsheet</summary>
+<details open><summary>'ethtool' - cheatsheet</summary>
 <pre>
   <strong>ethtool -S &lt;interface&gt;</strong>     - statistics for the selected interface
   <strong>ethotool -P &lt;interface&gt;</strong>    - interface permanent address
