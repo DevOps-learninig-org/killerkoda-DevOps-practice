@@ -42,7 +42,7 @@ Manual pages:
   <strong>wipefs</strong>     - wipe a signature from a device
 </pre>
 </details>
-<details><summary>Coreutils filesystem tools</summary>
+<details open><summary>Coreutils filesystem tools</summary>
 <pre>
   <strong>df</strong>       - report file system disk space usage
   <strong>du</strong>       - estimate file space usage
@@ -51,7 +51,7 @@ Manual pages:
   <strong>truncate</strong> - shrink or extend the size of a file to the specified size
 </pre>
 </details>
-<details><summary>Filesystem monitoring tools</summary>
+<details open><summary>Filesystem monitoring tools</summary>
 <pre>
   <strong>iwatch</strong> - realtime filesystem monitoring program using inotify
   <strong>iostat</strong> - input/output statistics for devices and partitions
