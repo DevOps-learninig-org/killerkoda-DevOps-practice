@@ -7,7 +7,7 @@ First of all - useful links:
 Manual pages:
 - `man find`{{exec}}
 <br>
-<details><summary>Most useful 'find' scenarios</summary>
+<details open><summary>Most useful 'find' scenarios</summary>
 <pre>
   $ find / -name "foo.txt"
   $ find / -iname "*foo*txt"
@@ -21,7 +21,7 @@ Manual pages:
   $ find / -type f -name *.mp3 -size +10M -size -20M -exec rm {} \;
 </pre>
 </details>
-<details><summary>The find -exec command format</summary>
+<details open><summary>The find -exec command format</summary>
 <pre>
 The find -exec command will take the following format:<br>
   <strong>find [path] [arguments] -exec [command] [placeholder] [delimiter]</strong><br>
