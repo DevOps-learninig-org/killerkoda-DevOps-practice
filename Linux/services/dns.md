@@ -5,6 +5,8 @@ First of all - useful links:
 - [digitalocean.com - How To Configure BIND as a Private Network DNS Server](https://www.digitalocean.com/community/tutorials/how-to-configure-bind-as-a-private-network-dns-server-on-ubuntu-18-04)
 - [sbarjatiya.com - Configuring IPv6 and IPv4, forward and reverse DNS](https://www.sbarjatiya.com/notes_wiki/index.php/Configuring_IPv6_and_IPv4,_forward_and_reverse_DNS)
 - [debian.org - BIND9](https://wiki.debian.org/Bind9)
+
+Manual pages:
 - `man named`{{exec}}
 - `man systemd-resolve`{{exec}}
 - `man rndc`{{exec}}
