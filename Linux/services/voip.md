@@ -22,6 +22,7 @@ Interesting video tutorials:
 - [youtube.com - Official Asterisk YouTube Channel](https://www.youtube.com/asteriskvideos)
 - [youtube.com - Kamailio & Asterisk: What, Why & How](https://www.youtube.com/watch?v=NbsP4u6T8bs)
 - [youtube.com - When Should You Use Kamailio?](https://www.youtube.com/watch?v=IaYOboZQEw0)
+- [youtube.com - Using Kamailio for Scalability](https://www.youtube.com/watch?v=54qQewLEb3E)
 - [youtube.com - Asynchronicity in VoIP and OpenSIPs](https://www.youtube.com/watch?v=gbBh6I48vv0)
 - [youtube.com - FreeSWITCH Playlist](https://www.youtube.com/playlist?list=PLcrU7LQXdqpezY3jiVuKMQhbd0Brafz1D)
 
