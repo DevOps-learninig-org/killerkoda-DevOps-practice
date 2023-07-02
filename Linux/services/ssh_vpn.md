@@ -1,5 +1,6 @@
 First of all - useful links:
 
+Secure Socket Shell:
 - [ssh.com - SSH Protocol](https://www.ssh.com/academy/ssh/protocol)
 - [redhat.com - OpenSSH](https://access.redhat.com/documentation/ru-ru/red_hat_enterprise_linux/7/html/system_administrators_guide/ch-openssh)
 - [itsfoss.com - Complete Guide to Configuring SSH in Ubuntu](https://itsfoss.com/set-up-ssh-ubuntu/)
@@ -10,6 +11,17 @@ Manual pages:
 - `man ssh`{{exec}}
 - `man ssh_config`{{exec}}
 - `man sshd_config`{{exec}}
+
+IP Security - IPSec:
+- [wikipedia.org - IPsec](https://en.wikipedia.org/wiki/IPsec)
+- [unixwiz.net - An Illustrated Guide to IPsec](http://unixwiz.net/techtips/iguide-ipsec.html)
+- [strongswan.org - strongSwan Documentation](https://docs.strongswan.org/docs/5.9/index.html)
+
+OpenVPN:
+- []()
+
+Wireguard VPN:
+- []()
 <br>
 <details><summary>Secure SH RFC's</summary>
 <pre>
