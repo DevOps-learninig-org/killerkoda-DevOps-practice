@@ -16,3 +16,5 @@ And watch this videos:
 - [Introduction to Advanced Bash Usage](https://www.youtube.com/watch?v=uqHjc7hlqd0)
 
 See you in the [NEXT SCENARIO](/kodxxl/course/Linux/common)!
+or
+Pass this scenario [ONE MORE TIME](/kodxxl/course/Linux/bash)!
