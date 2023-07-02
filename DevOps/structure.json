@@ -9,19 +9,19 @@
     },{
       "path": "build",
       "title": "2 - The Build phase of DevOps pipeline",
-      "description" : "Most common linux utilities theory and practice"
+      "description" : "Build tools"
     },{
       "path": "test",
       "title": "3 - The Test phase of DevOps pipeline",
-      "description" : "Most common linux utilities theory and practice"
+      "description" : "Testing and bug fixing utilities"
     },{
       "path": "deploy",
       "title": "4 - The Deploy phase of DevOps pipeline",
-      "description" : "Most common linux utilities theory and practice"
+      "description" : "Most common deployment practices"
     },{
       "path": "monitor",
       "title": "5 - The Monitor phase of DevOps pipeline",
-      "description" : "Most common linux utilities theory and practice"
+      "description" : "Popular monitoring tools"
     }
   ]
 }
