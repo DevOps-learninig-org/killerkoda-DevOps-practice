@@ -4,6 +4,8 @@ First of all - useful links:
 - [redhat.com - 'ip' cheatsheet](https://access.redhat.com/sites/default/files/attachments/rh_ip_command_cheatsheet_1214_jcs_print.pdf)
 - [baturin.org - Task-centered iproute2 user guide](https://baturin.org/docs/iproute2/)
 - [kernel.org - 'ethtool' Controlling network drivers and hardware](http://www.kernel.org/pub/software/network/ethtool/)
+
+Manual pages:
 - `man ip`{{exec}}
 - `man ethtool`{{exec}}
 <br>
