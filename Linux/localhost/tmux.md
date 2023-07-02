@@ -12,7 +12,7 @@ First of all - useful links:
 Interesting video tutorials:
 - [youtube.com - How to use GNU SCREEN](https://www.youtube.com/watch?v=I4xVn6Io5Nw)
 <br>
-<details><summary>Tmux commands</summary>
+<details open><summary>Tmux commands</summary>
 <pre>
   <strong>tmux</strong> &mdash; Start tmux
   <strong>tmux new -s &lt;name&gt;</strong> &mdash; Start tmux with &lt;name&gt;
@@ -23,7 +23,7 @@ Interesting video tutorials:
   <strong>tmux kill-server</strong> &mdash; Kill the tmux server
 </pre>
 </details>
-<details><summary>GNU Screen commands</summary>
+<details open><summary>GNU Screen commands</summary>
 <pre>
   <strong>screen</strong> &mdash; Start screen
   <strong>screen -S</strong>  &mdash; Starts a named session
