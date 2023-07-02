@@ -7,6 +7,8 @@ First of all - useful links:
 - [archlinux.org - RAID](https://wiki.archlinux.org/title/RAID)
 - [kernel.org - Linux Raid](https://raid.wiki.kernel.org/index.php/Linux_Raid)
 - [kernel.org - A guide to mdadm](https://raid.wiki.kernel.org/index.php/A_guide_to_mdadm)
+
+Manual pages:
 - `man mdadm`{{exec}}
 <br>
 <details><summary>Primary RAID Levels</summary>
