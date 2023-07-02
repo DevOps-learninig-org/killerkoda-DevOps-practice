@@ -3,6 +3,8 @@ First of all - useful links:
 - [opengroup.org - find](https://link.org/)
 - [man7.org - find](https://link.org/)
 - [redhat.com - 10 ways to use the Linux 'find'](https://www.redhat.com/sysadmin/linux-find-command)
+
+Manual pages:
 - `man find`{{exec}}
 <br>
 <details><summary>Most useful 'find' scenarios</summary>
