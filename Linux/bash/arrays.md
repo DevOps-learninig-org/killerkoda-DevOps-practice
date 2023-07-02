@@ -5,15 +5,14 @@ First of all - useful links:
 - [tldp.org - Scripting Guide #Arrays](https://tldp.org/LDP/abs/html/arrays.html)
 - [gnu.org - Arrays](https://www.gnu.org/software/bash/manual/html_node/Arrays.html)
 <br>
-<details><summary>Lesson info and tips</summary>
+<details open><summary>Lesson info and tips</summary>
 <pre>
   Defining arrays:
     Fruits=('Apple' 'Banana' 'Orange')
   Or:
     Fruits[0]="Apple"
     Fruits[1]="Banana"
-    Fruits[2]="Orange"
-<br>
+    Fruits[2]="Orange"<br>
   Destruction:
     unset -v ARRAY
     unset -v ARRAY[@]
