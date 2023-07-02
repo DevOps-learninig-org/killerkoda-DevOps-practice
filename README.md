@@ -16,12 +16,12 @@ Interesting video tutorials:
 Manual pages:
 - `man `{{exec}}
 <br>
-<details><summary>Lesson info and tips</summary>
+<details open><summary>Lesson info and tips</summary>
 <pre>
   <strong></strong> -
 </pre>
 </details>
-<details><summary>Other tips</summary>
+<details open><summary>Other tips</summary>
 <pre>
   <strong></strong> -
 </pre>
