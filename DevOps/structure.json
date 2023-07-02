@@ -12,7 +12,7 @@
       "description" : "The Build phase of DevOps pipeline."
     },{
       "path": "test",
-      "title": "3 - Teste",
+      "title": "3 - Test",
       "description" : "Testing and bug fixing utilities."
     },{
       "path": "deploy",
