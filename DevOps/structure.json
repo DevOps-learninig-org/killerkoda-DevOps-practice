@@ -1,6 +1,6 @@
 {
-  "title" : "Name of course",
-  "description" : "Learn how to ....",
+  "title" : "DevOps/SRE course",
+  "description" : "Learn how to use DevOps/SRE tools at practice",
   "items": [
     {
       "path": "plan",
