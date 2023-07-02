@@ -26,7 +26,7 @@ First of all - useful links:
   <strong>$1</strong>	First argument and so on
   <strong>$_</strong>	Last argument of the previous command
 </pre>
-</details>
+</details><br>
 
 Task list:
 - Write a function that cleans log files in a given directory older than 30 days and gives an error if the directory does not exist
