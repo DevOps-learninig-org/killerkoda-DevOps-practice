@@ -4,6 +4,8 @@ First of all - useful links:
 - [netfilter.org - Documentation](https://www.netfilter.org/documentation/index.html)
 - [frozentux.net - IPtables tutorial](https://www.frozentux.net/iptables-tutorial/iptables-tutorial.html)
 - [ubuntu.com - Introduction to UFW](https://help.ubuntu.com/community/UFW)
+
+Manual pages:
 - `man iptables`{{exec}}
 - `man ufw`{{exec}}
 <br>
