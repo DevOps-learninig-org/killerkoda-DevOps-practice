@@ -23,7 +23,7 @@ Manual pages:
   <strong>-v, --verbose</strong>        — show a list of processed files
 </pre>
 </details>  
-<details><summary>Basic usage</summary>
+<details open><summary>Basic usage</summary>
 <pre> 
   <strong>$ tar -cvf archive.tar README.txt src</strong>
       Create an archive file archive.tar from the file README.txt and directory src.<br>
