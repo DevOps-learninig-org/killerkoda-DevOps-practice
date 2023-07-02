@@ -40,7 +40,7 @@ Task list:
 <br>
 <strong>Task 2:</strong>
   $ sudo apt install tree
-  $ tree -a /
+  $ tree -a / | less
 </pre>
 </details>
 <br>
