@@ -2,6 +2,7 @@ First of all - useful links:
 
 - [gnu.org - Bourne Shell Builtins](https://www.gnu.org/savannah-checkouts/gnu/bash/manual/bash.html#Bourne-Shell-Builtins)
 - [tldp.org - Internal Commands and Builtins](https://tldp.org/LDP/abs/html/internal.html)
+- `help`{{exec}}
 <br>
 
 Task list:
