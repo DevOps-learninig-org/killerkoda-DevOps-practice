@@ -5,28 +5,28 @@ First of all - useful links:
 - [gnu.org - Looping Constructs](https://www.gnu.org/software/bash/manual/html_node/Looping-Constructs.html)
 - [tldp.org - Loops](https://tldp.org/LDP/abs/html/loops1.html)
 <br>
-<details><summary>UNTIL construction</summary>
+<details open><summary>UNTIL construction</summary>
 <pre>
   until CONDITION; do
     consequent-commands;
   done
 </pre>
 </details>
-<details><summary>WHILE construction</summary>
+<details open><summary>WHILE construction</summary>
 <pre>
   while CONDITION; do
     consequent-commands;
   done
 </pre>
 </details>
-<details><summary>FOR-IN construction</summary>
+<details open><summary>FOR-IN construction</summary>
 <pre>
   for VARIABLE in […] ; do
     commands;
   done
 </pre>
 </details>
-<details><summary>C-FOR construction</summary>
+<details open><summary>C-FOR construction</summary>
 <pre>
   for (( INIT ; CONDITION ; INCREMENT )) ; do
     commands;
