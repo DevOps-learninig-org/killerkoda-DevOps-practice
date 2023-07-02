@@ -29,6 +29,7 @@ Manual pages:
 <br>
 
 Task list:
+- Read ALL documentation on the links above and watch videos
 - Task 1
 - Task 2
 
