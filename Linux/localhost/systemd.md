@@ -48,7 +48,7 @@ Interesting video tutorials:
   <strong>Scope units</strong>    - manage foreign processes instead of starting them as well. More details in <strong>systemd.scope(5)</strong>.
 </pre>
 </details>
-<details><summary>Most popular systemctl commands</summary>
+<details open><summary>Most popular systemctl commands</summary>
 <pre>
     $ systemctl list-units
     $ systemctl status one-of-this.service
