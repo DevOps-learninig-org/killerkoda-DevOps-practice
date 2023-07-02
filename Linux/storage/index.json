@@ -9,19 +9,19 @@
     },
     "steps": [
       {
-        "title": "1/5 Filesystems [00:00]",
+        "title": "1/5 Filesystems [48:00]",
         "text": "filesystems.md",
         "verify": "scripts/check.sh"
       },{
-        "title": "2/5 Filesystem utilities [00:00]",
+        "title": "2/5 Filesystem utilities [36:00]",
         "text": "fileutils.md",
         "verify": "scripts/check.sh"
       },{
-        "title": "3/5 Software RAID [00:00]",
+        "title": "3/5 Software RAID [24:00]",
         "text": "raid.md",
         "verify": "scripts/check.sh"
       },{
-        "title": "4/5 Logical Volume Manager [00:00]",
+        "title": "4/5 Logical Volume Manager [12:00]",
         "text": "lvm.md",
         "verify": "scripts/check.sh"
       },{
