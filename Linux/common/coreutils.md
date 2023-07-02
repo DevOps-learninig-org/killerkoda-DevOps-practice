@@ -7,7 +7,7 @@ First of all - useful links:
 - [github.com - util-linux sources](https://github.com/util-linux/util-linux)
 - [wikipedia.org - util-linux](https://en.wikipedia.org/wiki/Util-linux)
 <br>
-<details><summary>Basic 'info' command keys</summary>
+<details open><summary>Basic 'info' command keys</summary>
 <pre>
   <strong>H</strong>    - Open or close help window.
   <strong>q</strong>    - Quit Info.
@@ -23,7 +23,7 @@ First of all - useful links:
   <strong>Ctrl-x n</strong> - Repeat last search in the same direction.
 </pre>
 </details>
-<details><summary>Sorted list of GNU Coreutils</summary>
+<details open><summary>Sorted list of GNU Coreutils</summary>
 <pre>
 Output of entire files       <strong>cat tac nl od base32 base64</strong>
 Formatting file contents     <strong>fmt pr fold</strong>
