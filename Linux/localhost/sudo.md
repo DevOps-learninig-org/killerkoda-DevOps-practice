@@ -2,9 +2,11 @@ First of all - useful links:
 
 - [sudo.ws - A Short Introduction](https://www.sudo.ws/about/intro/)
 - [github.com - SUDO project source code](https://github.com/sudo-project/sudo)
-- `man sudoers`{{exec}}
 - [cheat.sh - SUDO](https://cheat.sh/sudo)
 - [digitalocean.com - How To Edit the Sudoers File](https://www.digitalocean.com/community/tutorials/how-to-edit-the-sudoers-file)
+
+Manual pages:
+- `man sudoers`{{exec}}
 <br>
 <details><summary>Most common scenarios</summary>
 <pre>
