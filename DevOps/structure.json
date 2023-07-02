@@ -4,24 +4,24 @@
   "items": [
     {
       "path": "plan",
-      "title": "1 - The Plan phase of DevOps pipeline",
-      "description" : "Is where the enhancements, changes, bug fixes, or new features are set up"
+      "title": "1 - Plan",
+      "description" : "The Plan phase of DevOps pipeline. Is where the enhancements, changes, bug fixes, or new features are set up."
     },{
       "path": "build",
-      "title": "2 - The Build phase of DevOps pipeline",
-      "description" : "Build tools"
+      "title": "2 - Build",
+      "description" : "The Build phase of DevOps pipeline."
     },{
       "path": "test",
-      "title": "3 - The Test phase of DevOps pipeline",
-      "description" : "Testing and bug fixing utilities"
+      "title": "3 - Teste",
+      "description" : "Testing and bug fixing utilities."
     },{
       "path": "deploy",
-      "title": "4 - The Deploy phase of DevOps pipeline",
-      "description" : "Most common deployment practices"
+      "title": "4 - Deploy",
+      "description" : "Most common deployment practices."
     },{
       "path": "monitor",
-      "title": "5 - The Monitor phase of DevOps pipeline",
-      "description" : "Popular monitoring tools"
+      "title": "5 - Monitor",
+      "description" : "Popular monitoring tools."
     }
   ]
 }
