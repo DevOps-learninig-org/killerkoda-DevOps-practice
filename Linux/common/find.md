@@ -25,7 +25,7 @@ Manual pages:
 <pre>
 The find -exec command will take the following format:<br>
   <strong>find [path] [arguments] -exec [command] [placeholder] [delimiter]</strong><br>
-  '{}' is called a placeholder. This placeholder replaced by the current filename result found by find.<br>
+  {} in placeholder replaced by the current filename result found by find.<br>
   Delimeter may be <strong>\;</strong> or <strong>+</strong>
     <strong>\;</strong> will execute command on each result
     <strong>+</strong>  all results will be passed to command in one line
