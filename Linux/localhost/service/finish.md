@@ -7,4 +7,4 @@ Read again useful articles to consolidate your knowledge:
 - [suse.com - SLES Administration Guide](https://documentation.suse.com/sles/15-SP4/html/SLES-all/book-administration.html)
 - [debian.org - The Debian Administrator's Handbook](https://debian-handbook.info/browse/stable/)
 
-See you in the [NEXT SCENARIO](/kodxxl/course/Linux/networking)!
+Pass this steps [ONE MORE TIME](/kodxxl/course/Linux/localhost) or see you in the [NEXT SCENARIO](/kodxxl/course/Linux/networking)!
