@@ -1,9 +1,11 @@
 First of all - useful links:
 
-- `man useradd`{{exec}}
 - [ubuntu.com - User Management](https://ubuntu.com/server/docs/security-users)
 - [tutorialspoint.com - Linux Admin - User Management](https://www.tutorialspoint.com/linux_admin/linux_admin_user_management.htm)
 - [makeuseof.com - User Management in Linux](https://www.makeuseof.com/user-management-linux-guide/)
+
+Manual pages:
+- `man useradd`{{exec}}
 <br>
 <details><summary>Most common algorythm of user creation</summary>
 <pre>
