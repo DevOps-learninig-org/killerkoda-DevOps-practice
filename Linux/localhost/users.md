@@ -7,7 +7,7 @@ First of all - useful links:
 Manual pages:
 - `man useradd`{{exec}}
 <br>
-<details><summary>Most common algorythm of user creation</summary>
+<details open><summary>Most common algorythm of user creation</summary>
 <pre>
     $ groupadd some_group
     $ useradd -m -g some_group -G another_group,some_group2 user1
