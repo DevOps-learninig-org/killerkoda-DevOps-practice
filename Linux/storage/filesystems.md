@@ -4,14 +4,16 @@ First of all - useful links:
 - [tldp.org - The File system](https://tldp.org/LDP/tlk/fs/filesystem.html)
 - [kernel.org - FS tree of kernel](https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/tree/fs)
 - [kernel.org - ext4 Filesystem](https://www.kernel.org/doc/html/v4.19/filesystems/ext4/index.html)
-- `man ext4`{{exec}}
 - [readthedocs.io - BTRFS documentation](https://btrfs.readthedocs.io/en/latest/)
 - [kernel.org - BTRFS](https://docs.kernel.org/filesystems/btrfs.html)
 - [github.io - OpenZFS Documentation](https://openzfs.org/wiki/Documentation)
 - [learnxinyminutes.com - ZFS](https://learnxinyminutes.com/docs/zfs/)
+
+Manual pages:
 - `man fs`{{exec}}
 - `man fstab`{{exec}}
 - `man mount`{{exec}}
+- `man ext4`{{exec}}
 
 Interesting video tutorials:
 - [youtube.com - Linux Internals: Virtual File System (VFS)](https://www.youtube.com/watch?v=J4qWNNISdJk)
