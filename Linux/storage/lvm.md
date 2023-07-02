@@ -4,7 +4,9 @@ First of all - useful links:
 - [tldp.org - LVM HOWTO](https://tldp.org/HOWTO/LVM-HOWTO/)
 - [debian.org - LVM](https://wiki.debian.org/LVM)
 - [suse.com - LVM Configuration](https://documentation.suse.com/sles/15-SP1/html/SLES-all/cha-lvm.html)
-- [archlinux.org - LVM](https://wiki.archlinux.org/title/LVM) 
+- [archlinux.org - LVM](https://wiki.archlinux.org/title/LVM)
+
+Manual pages:
 - `man lvm`{{exec}}
 <br>
 <details><summary>lvm2 built-in commands</summary>
