@@ -9,7 +9,7 @@ First of all - useful links:
 Manual pages:
 - `man lvm`{{exec}}
 <br>
-<details><summary>lvm2 built-in commands</summary>
+<details open><summary>lvm2 built-in commands</summary>
 <pre>
 The following commands are built into lvm without links<br>
   <strong>config</strong>        The same as lvmconfig(8) below.
