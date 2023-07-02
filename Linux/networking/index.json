@@ -9,31 +9,31 @@
     },
     "steps": [
       {
-        "title": "'ip' and 'ethtool' utilities",
+        "title": "1/7 'ip' and 'ethtool' utilities",
         "text": "ip_ethtool.md",
         "verify": "scripts/check.sh"
       },{
-        "title": "systemd-networkd — Network manager",
+        "title": "2/7 systemd-networkd — Network manager",
         "text": "networkd.md",
         "verify": "scripts/check.sh"
       },{
-        "title": "Configuring network with NetPlan",
+        "title": "3/7 Configuring network with NetPlan",
         "text": "netplan.md",
         "verify": "scripts/check.sh"
       },{
-        "title": "Firewall, NAT and packet mangling",
+        "title": "4/7 Firewall, NAT and packet mangling",
         "text": "netfilter.md",
         "verify": "scripts/check.sh"
       },{
-        "title": "Monitoring network activity",
+        "title": "5/7 Monitoring network activity",
         "text": "activity.md",
         "verify": "scripts/check.sh"
       },{
-        "title": "Analyze network traffic",
+        "title": "6/7 Analyze network traffic",
         "text": "traffic.md",
         "verify": "scripts/check.sh"
       },{
-        "title": "Tuning QoS",
+        "title": "7/7 Tuning QoS",
         "text": "qos.md",
         "verify": "scripts/check.sh"
       }
