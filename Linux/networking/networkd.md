@@ -4,6 +4,8 @@ First of all - useful links:
 - [freedesktop.org - Virtual Network Device configuration](https://www.freedesktop.org/software/systemd/man/systemd.netdev.html#)
 - [freedesktop.org - Network configuration](https://www.freedesktop.org/software/systemd/man/systemd.network.html#)
 - [freedesktop.org - Network device configuration](https://www.freedesktop.org/software/systemd/man/systemd.link.html#)
+
+Manual pages:
 - `man networkctl`{{exec}}
 <br>
 <details><summary>Supported 'netdev' kinds</summary>
