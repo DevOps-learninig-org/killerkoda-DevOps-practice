@@ -8,7 +8,7 @@ First of all - useful links:
 Manual pages:
 - `man netplan`{{exec}}
 <br>
-<details><summary>'netplan' tool commands</summary>
+<details open><summary>'netplan' tool commands</summary>
 <pre>
   <strong>help</strong>   - Show this help message
   <strong>apply</strong>  - Apply current netplan config to running system
