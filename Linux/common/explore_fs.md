@@ -8,7 +8,7 @@ Manual pages:
 - `man file-hierarchy`{{exec}}
 - `apt install tree -y && man tree`{{exec}}
 <br>
-<details><summary>Filesystem Hierarchy as in FHS v3.0</summary>
+<details open><summary>Filesystem Hierarchy as in FHS v3.0</summary>
 <pre>
   <strong>/bin</strong>   - Essential user command binaries (for use by all users)
   <strong>/boot</strong>  - Static files of the boot loader
