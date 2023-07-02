@@ -5,10 +5,12 @@ First of all - useful links:
 - [gist.github.com - 'tcpdump' cheapsheet](https://gist.github.com/jforge/27962c52223ea9b8003b22b8189d93fb)
 - [packetlife.net - 'tcpdump' cheapsheet](https://packetlife.net/media/library/12/tcpdump.pdf)
 - [tcpdump.org - tcpdump(1) man page](https://www.tcpdump.org/manpages/tcpdump.1.html)
-- `man tcpdump`{{exec}}
 - [nmap.org - Main page](https://nmap.org/)
 - [nmap.org - Documentation](https://nmap.org/docs.html)
 - [tutorialspoint.com - 'nmap' cheatsheet](https://www.tutorialspoint.com/nmap-cheat-sheet)
+
+Manual pages:
+- `man tcpdump`{{exec}}
 - `apt install nmap -y && man nmap`{{exec}}
 - `nmap --script-help all | less`{{exec}}
 
