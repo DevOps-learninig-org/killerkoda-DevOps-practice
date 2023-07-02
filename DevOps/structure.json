@@ -1,10 +1,27 @@
 {
-  "title" : "2 - DevOps/SRE course",
-  "description" : "Learn how to use SRE tools at practice",
+  "title" : "Name of course",
+  "description" : "Learn how to ....",
   "items": [
-    { "path": "git", "title": "GIT practice" },
-    { "path": "ansible", "title": "Ansible practice" },
-    { "path": "cicd", "title": "CI/CD practice" },
-    { "path": "links", "title": "Links to other interesting cources" }
+    {
+      "path": "plan",
+      "title": "1 - The Plan phase of DevOps pipeline",
+      "description" : "Is where the enhancements, changes, bug fixes, or new features are set up"
+    },{
+      "path": "build",
+      "title": "2 - The Build phase of DevOps pipeline",
+      "description" : "Most common linux utilities theory and practice"
+    },{
+      "path": "test",
+      "title": "3 - The Test phase of DevOps pipeline",
+      "description" : "Most common linux utilities theory and practice"
+    },{
+      "path": "deploy",
+      "title": "4 - The Deploy phase of DevOps pipeline",
+      "description" : "Most common linux utilities theory and practice"
+    },{
+      "path": "monitor",
+      "title": "5 - The Monitor phase of DevOps pipeline",
+      "description" : "Most common linux utilities theory and practice"
+    }
   ]
 }
