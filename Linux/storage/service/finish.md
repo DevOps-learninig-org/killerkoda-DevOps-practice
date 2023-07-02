@@ -11,4 +11,4 @@ And watch some videos:
 - [youtube.com - Introduction to the Linux Block I/O Layer](https://www.youtube.com/watch?v=ebHINEF6PDk)
 - [youtube.com - Linux Internals: Storage](https://www.youtube.com/watch?v=jzcMOObRtLo)
 
-See you in the [next  scenario](/kodxxl/course/Linux/services)!
+See you in the [NEXT SCENARIO](/kodxxl/course/Linux/services)!
