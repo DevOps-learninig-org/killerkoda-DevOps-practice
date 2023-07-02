@@ -10,4 +10,4 @@ Read again useful articles to consolidate your knowledge:
 - [wikipedia.org - Virtual private network](https://en.wikipedia.org/wiki/Virtual_private_network)
 - [wikipedia.org - Comparison of VoIP software](https://en.wikipedia.org/wiki/Comparison_of_VoIP_software#Server_software)
 
-For better assimilation of the material, [take the course again](/kodxxl/course/Linux/bash)!
+For better assimilation of the material, [TAKE THIS COURSE AGAIN](/kodxxl/course/Linux/bash)!
