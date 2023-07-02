@@ -15,6 +15,4 @@ And watch this videos:
 - [Advanced Bash Scripting Tutorial](https://www.youtube.com/watch?v=emhouufDnB4)
 - [Introduction to Advanced Bash Usage](https://www.youtube.com/watch?v=uqHjc7hlqd0)
 
-See you in the [NEXT SCENARIO](/kodxxl/course/Linux/common)!
-or
-Pass this scenario [ONE MORE TIME](/kodxxl/course/Linux/bash)!
+Pass this steps [ONE MORE TIME](/kodxxl/course/Linux/bash) or see you in the [NEXT SCENARIO](/kodxxl/course/Linux/common)!
