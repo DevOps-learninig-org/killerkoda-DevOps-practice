@@ -9,6 +9,7 @@ Manual pages:
 - `apt install tree -y && man tree`{{exec}}
 <br>
 <details open><summary>Filesystem Hierarchy as in FHS v3.0</summary>
+
 <pre>
   <strong>/bin</strong>   - Essential user command binaries (for use by all users)
   <strong>/boot</strong>  - Static files of the boot loader
@@ -25,6 +26,7 @@ Manual pages:
   <strong>/srv</strong>   - Data for services provided by this system
   <strong>/tmp</strong>   - Temporary files
 </pre>
+
 </details><br>
 
 Task list:
