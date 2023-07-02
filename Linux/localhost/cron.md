@@ -10,13 +10,13 @@ Manual pages:
 - `man systemd.timer`{{exec}}
 - `man systemd.time`{{exec}}
 <br>
-<details><summary>crontab cheatsheet</summary>
+<details open><summary>crontab cheatsheet</summary>
 <pre>
   <strong>* * * * *</strong> - every second
   <strong>minute hour day(of month) month day(of week)</strong> 
 </pre>
 </details>
-<details><summary>systemd.time shorthands</summary>
+<details open><summary>systemd.time shorthands</summary>
 <pre>
     minutely → *-*-* *:*:00
       hourly → *-*-* *:00:00
