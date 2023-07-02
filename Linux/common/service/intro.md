@@ -6,7 +6,6 @@ Read some useful articles before:
 - [kernel.org - Linux MAN pages](https://www.kernel.org/doc/man-pages/)
 - [man7.org - intro(1) Introduction to user commands](https://man7.org/linux/man-pages/man1/intro.1.html)
 
-
 And watch some videos:
 
 - [The 50 Most Popular Linux & Terminal Commands](https://www.youtube.com/watch?v=ZtqBQ68cfJc)
