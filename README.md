@@ -76,7 +76,7 @@ And watch some videos:
 - [youtube.com - ](https://link.org/)
 - [youtube.com - ](https://link.org/)
 
-See you in the [next  scenario](/kodxxl/course/Linux/%LINK_TO_NEXT%)!
+See you in the [NEXT SCENARIO](/kodxxl/course/Linux/%LINK_TO_NEXT%)!
 ```
 # Template for scenario index.json
 ```
