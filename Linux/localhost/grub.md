@@ -4,7 +4,7 @@ First of all - useful links:
 - [wikipedia.org - GRUB](https://www.wikipedia.org/wiki/GNU_GRUB)
 - [wikibooks.org - GRUB2](https://ru.wikibooks.org/wiki/Grub_2)
 <br>
-<details><summary>Most common scenario to update grub</summary>
+<details open><summary>Most common scenario to update grub</summary>
 <pre>
     - edit /etc/default/grub
     - edit script in /etc/grub.d/40_custom
