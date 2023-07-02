@@ -4,20 +4,20 @@ First of all - useful links:
 - [gnu.org - Job Control](https://www.gnu.org/software/bash/manual/html_node/Job-Control.html)
 - [tldp.org - Job Control Commands](https://tldp.org/LDP/abs/html/x9644.html)
 <br>
-<details><summary>Job Control Builtins</summary>
+<details open><summary>Job Control Builtins</summary>
 <pre>
   <strong>bg [jobspec …]</strong>
-      Resume each suspended job jobspec in the background.
+      Resume each suspended job jobspec in the background.<br>
   <strong>fg [jobspec]</strong>
-      Resume the job jobspec in the foreground and make it the current job. 
+      Resume the job jobspec in the foreground and make it the current job. <br>
   <strong>jobs</strong>
-      Lists the active jobs.
+      Lists the active jobs.<br>
   <strong>kill [-s sigspec] [-n signum] [-sigspec] jobspec or pid</strong>
-      Send a signal specified by sigspec or signum to the process named by job 
+      Send a signal specified by sigspec or signum to the process named by job <br>
   <strong>wait [-fn] [-p varname] [jobspec or pid …]</strong>
-      Wait until the child process specified by each process ID pid or job specification jobspec exits and return the exit status of the last command waited for. 
+      Wait until the child process specified by each process ID pid or job specification jobspec exits and return the exit status of the last command waited for. <br>
   <strong>disown [-ar] [-h] [jobspec … | pid … ]</strong>
-      Remove each jobspec from the table of active jobs. 
+      Remove each jobspec from the table of active jobs. <br>
   <strong>suspend [-f]</strong>
 </pre>
 </details>
