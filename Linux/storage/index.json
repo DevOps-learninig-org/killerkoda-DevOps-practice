@@ -1,6 +1,6 @@
 {
   "title": "Linux storage practice",
-  "description": "This is the description of LSP",
+  "description": "Linux storage subsystem theory and practice",
   "details": {
     "intro": {
       "text": "service/intro.md",
