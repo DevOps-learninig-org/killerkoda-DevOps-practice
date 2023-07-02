@@ -5,6 +5,8 @@ First of all - useful links:
 - [ntpsec.org - Network Time Protocol (NTP) Daemon](https://docs.ntpsec.org/latest/ntpd.html)
 - [redhat.com - Configuring NTP Using ntpd](https://access.redhat.com/documentation/ru-ru/red_hat_enterprise_linux/7/html/system_administrators_guide/ch-configuring_ntp_using_ntpd)
 - [github.com - NetKit TFTPd](https://github.com/ClausKlein/netkit-tftp)
+
+Manual pages:
 - `man xinetd`{{exec}}
 - `man systemd-timesyncd`{{exec}}
 <br>
