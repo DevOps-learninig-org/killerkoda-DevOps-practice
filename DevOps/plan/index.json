@@ -8,7 +8,7 @@
     },
     "steps": [
       {
-        "title": "1/5 Time management [00:00]",
+        "title": "1/5 Time management and collaboration [00:00]",
         "text": "time.md",
         "verify": "scripts/check.sh"
       },{
