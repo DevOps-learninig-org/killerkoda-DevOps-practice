@@ -1,7 +1,42 @@
 {
   "title": "1 - Plan",
   "description": "The Plan phase of DevOps pipeline",
-  
+  "details": {
+    "intro": {
+      "foreground": "scripts/foreground.sh",
+      "text": "service/intro.md"
+    },
+    "steps": [
+      {
+        "title": "1/5 Time management [00:00]",
+        "text": "time.md",
+        "verify": "scripts/check.sh"
+      },{
+        "title": "2/5 Kanban [00:00]",
+        "text": "kanban.md",
+        "verify": "scripts/check.sh"
+      },{
+        "title": "3/5 Messengers [00:00]",
+        "text": "messengers.md",
+        "verify": "scripts/check.sh"
+      },{
+        "title": "4/5 Documentation [00:00]",
+        "text": "documentation.md",
+        "verify": "scripts/check.sh"
+      },{
+        "title": "5/5 UML [00:00]",
+        "text": "uml.md",
+        "verify": "scripts/check.sh"
+      }
+    ],
+    "finish": {
+      "text": "service/finish.md"
+    }
+  },
+  "backend": {
+    "imageid": "ubuntu"
+  }
+}
   "backend": {
     "imageid": "ubuntu"
   }
