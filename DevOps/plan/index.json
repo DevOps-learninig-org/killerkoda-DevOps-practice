@@ -1,6 +1,6 @@
 {
-  "title": "Ansible practice",
-  "description": "This is the description of DAP",
+  "title": "1 - Plan",
+  "description": "The Plan phase of DevOps pipeline",
   
   "backend": {
     "imageid": "ubuntu"
