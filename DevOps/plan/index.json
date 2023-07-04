@@ -8,12 +8,12 @@
     },
     "steps": [
       {
-        "title": "1/5 Time management and collaboration [00:00]",
-        "text": "time.md",
+        "title": "1/5 Development methodologies [00:00]",
+        "text": "methodologies.md",
         "verify": "scripts/check.sh"
       },{
-        "title": "2/5 Kanban [00:00]",
-        "text": "kanban.md",
+        "title": "2/5 Development process Management tools [00:00]",
+        "text": "management_tools.md",
         "verify": "scripts/check.sh"
       },{
         "title": "3/5 Messengers [00:00]",
