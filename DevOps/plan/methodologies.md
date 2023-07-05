@@ -1,7 +1,9 @@
 First of all - useful links:
 
 - [redhat.com - Understanding DevOps](https://www.redhat.com/en/topics/devops)
-- [atlassian.com - ](https://www.atlassian.com/agile)
+- [atlassian.com - What is the Agile methodology?](https://www.atlassian.com/agile)
+- [redhat.com - What is SRE (site reliability engineering)?](https://www.redhat.com/en/topics/devops/what-is-sre)
+- 
 
 Interesting video tutorials:
 - [youtube.com - ]()
