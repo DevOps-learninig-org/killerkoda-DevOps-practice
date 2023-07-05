@@ -1,6 +1,7 @@
 First of all - useful links:
 
-- []()
+- [redhat.com - Understanding DevOps](https://www.redhat.com/en/topics/devops)
+- [atlassian.com - ](https://www.atlassian.com/agile)
 
 Interesting video tutorials:
 - [youtube.com - ]()
