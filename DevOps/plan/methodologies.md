@@ -1,9 +1,11 @@
 First of all - useful links:
 
-- [redhat.com - Understanding DevOps](https://www.redhat.com/en/topics/devops)
+- [tatvasoft.com - TOP 12 Software Development methodologies](https://www.tatvasoft.com/blog/top-12-software-development-methodologies-and-its-advantages-disadvantages/)
 - [atlassian.com - What is the Agile methodology?](https://www.atlassian.com/agile)
+- [redhat.com - Understanding DevOps](https://www.redhat.com/en/topics/devops)
 - [redhat.com - What is SRE (site reliability engineering)?](https://www.redhat.com/en/topics/devops/what-is-sre)
-- 
+- [atlassian.com - What is scrum?](https://www.atlassian.com/agile/scrum)
+- [atlassian.com - What is kanban?](https://www.atlassian.com/agile/kanban)
 
 Interesting video tutorials:
 - [youtube.com - ]()
