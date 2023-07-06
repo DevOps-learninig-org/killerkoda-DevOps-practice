@@ -1,6 +1,7 @@
 First of all - useful links:
 
 - [tatvasoft.com - TOP 12 Software Development methodologies](https://www.tatvasoft.com/blog/top-12-software-development-methodologies-and-its-advantages-disadvantages/)
+- [tutorialspoint.com - SDLC Tutorial](https://www.tutorialspoint.com/sdlc/index.htm)
 - [atlassian.com - What is the Agile methodology?](https://www.atlassian.com/agile)
 - [redhat.com - Understanding DevOps](https://www.redhat.com/en/topics/devops)
 - [redhat.com - What is SRE (site reliability engineering)?](https://www.redhat.com/en/topics/devops/what-is-sre)
