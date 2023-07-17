@@ -10,10 +10,10 @@ Agile methodology:
 - [redhat.com - What is SRE (site reliability engineering)?](https://www.redhat.com/en/topics/devops/what-is-sre)
 - [atlassian.com - What is scrum?](https://www.atlassian.com/agile/scrum)
 - [atlassian.com - What is kanban?](https://www.atlassian.com/agile/kanban)
-- [scrumguides.org - ](https://scrumguides.org/scrum-guide.html)
+- [scrumguides.org - The 2020 Scrum Guide](https://scrumguides.org/scrum-guide.html)
 
 
-- [](https://www.geeksforgeeks.org/software-engineering-classical-waterfall-model/)
+- [geeksforgeeks.org - Classical waterfall model](https://www.geeksforgeeks.org/software-engineering-classical-waterfall-model/)
 
 Interesting video tutorials:
 - [youtube.com - ]()
