@@ -42,7 +42,7 @@ First of all - useful links:
 <strong>$REPLY</strong>		Variable used by read by default when no variable is specified. Also used by select to return the user-supplied value
 <strong>$PIPESTATUS</strong>	Array variable that holds the exit status values of each command in the most recently executed foreground pipeline.
 </pre>
-</details>
+</details><br>
 <details open><summary>Parameter Substitution</summary>
 <pre>
   <strong>${parameter}</strong> - Same as $parameter, i.e., value of the variable parameter.
@@ -51,7 +51,7 @@ First of all - useful links:
   <strong>${parameter+alt_value}, ${parameter:+alt_value}</strong>  - If parameter set, use alt_value, else use null string.
   <strong>${parameter?err_msg}, ${parameter:?err_msg}</strong>      - If parameter set, use it, else print err_msg and abort the script with an exit status of 1.
 </pre>
-</details>
+</details><br>
 <details open><summary>Manipulating Strings</summary>
 <pre>
   <strong>${#var}</strong>                            - Number of characters in $var.
