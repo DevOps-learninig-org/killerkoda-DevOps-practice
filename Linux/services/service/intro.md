@@ -1,4 +1,4 @@
-Welcome to Enterprice services scenario!
+Welcome to Enterprise services scenario!
 
 Read some useful articles before:
 - [wikipedia.org - Comparison of DNS server software](https://en.wikipedia.org/wiki/Comparison_of_DNS_server_software)
