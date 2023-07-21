@@ -9,7 +9,7 @@ First of all - useful links:
 Interesting video tutorials:
 - [youtube.com - The NGINX Crash Course](https://www.youtube.com/watch?v=7VAI73roXaY)
 - [youtube.com - Envoy Proxy Crash Course](https://www.youtube.com/watch?v=40gKzHQWgP0)
-- [youtube.com - Envoy Internals Deep Dive - Matt Klein, Lyft (Advanced Skill Level)](https://www.youtube.com/watch?v=gQF23Vw0keg)
+- [youtube.com - Envoy Internals Deep Dive - Matt Klein, Lyft](https://www.youtube.com/watch?v=gQF23Vw0keg)
 - [youtube.com - Is this the BEST Reverse Proxy for Docker?](https://www.youtube.com/watch?v=wLrmmh1eI94)
 - [youtube.com - HAProxy playlist](https://www.youtube.com/playlist?list=PLQnljOFTspQUhgfvpgfxc-uFlWElKIBr-)
 <br>
