@@ -2,6 +2,10 @@
 
 This practice lessons created only for my personal trainig at [killercoda.com](https://killercoda.com)
 
+[1 - Linux administration course](https://killercoda.com/kodxxl/course/Linux) - Realized
+2 - DevOps/SRE course - Under construction
+3 - Kubernetes course - Under construction
+
 Thanks for all who make it possible!
 
 # Temlate for all lessons - lesson.md
