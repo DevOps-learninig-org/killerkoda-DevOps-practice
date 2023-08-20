@@ -1,6 +1,6 @@
 {
-  "title" : "3 - Application",
-  "description" : "High loaded and scalable application",
+  "title" : "3 - Backend",
+  "description" : "High loaded and scalable backend",
   "items": [
     {
       "path": "architecture",
