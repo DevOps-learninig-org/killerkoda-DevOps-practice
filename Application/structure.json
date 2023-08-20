@@ -3,11 +3,35 @@
   "description" : "High loaded and scalable application",
   "items": [
     {
-      "path": "bash",
+      "path": "architecture",
       "title": "1 - Introduction to BASH shell",
       "description" : "Practice with BASH scripting"
     },{
-      "path": "common",
+      "path": "gateway",
+      "title": "2 - Common linux utilities",
+      "description" : "Most common linux utilities theory and practice"
+    },{
+      "path": "security",
+      "title": "2 - Common linux utilities",
+      "description" : "Most common linux utilities theory and practice"
+    },{
+      "path": "ipc",
+      "title": "2 - Common linux utilities",
+      "description" : "Most common linux utilities theory and practice"
+    },{
+      "path": "storage",
+      "title": "2 - Common linux utilities",
+      "description" : "Most common linux utilities theory and practice"
+    },{
+      "path": "cache",
+      "title": "2 - Common linux utilities",
+      "description" : "Most common linux utilities theory and practice"
+    },{
+      "path": "search",
+      "title": "2 - Common linux utilities",
+      "description" : "Most common linux utilities theory and practice"
+    },{
+      "path": "monitoring",
       "title": "2 - Common linux utilities",
       "description" : "Most common linux utilities theory and practice"
     }
