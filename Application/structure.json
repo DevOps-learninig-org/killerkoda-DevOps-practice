@@ -4,35 +4,35 @@
   "items": [
     {
       "path": "architecture",
-      "title": "1 - Introduction to BASH shell",
+      "title": "1 - Architecture of scalable applications",
       "description" : "Practice with BASH scripting"
     },{
       "path": "gateway",
-      "title": "2 - Common linux utilities",
+      "title": "2 - API gateway",
       "description" : "Most common linux utilities theory and practice"
     },{
       "path": "security",
-      "title": "2 - Common linux utilities",
+      "title": "3 - Authentication, authorization and security",
       "description" : "Most common linux utilities theory and practice"
     },{
       "path": "ipc",
-      "title": "2 - Common linux utilities",
+      "title": "4 - Interprocess communication",
       "description" : "Most common linux utilities theory and practice"
     },{
       "path": "storage",
-      "title": "2 - Common linux utilities",
+      "title": "5 - Storage and databases",
       "description" : "Most common linux utilities theory and practice"
     },{
       "path": "cache",
-      "title": "2 - Common linux utilities",
+      "title": "6 - Caching subsystem",
       "description" : "Most common linux utilities theory and practice"
     },{
       "path": "search",
-      "title": "2 - Common linux utilities",
+      "title": "7 - Fulltext search and indexing",
       "description" : "Most common linux utilities theory and practice"
     },{
       "path": "monitoring",
-      "title": "2 - Common linux utilities",
+      "title": "2 - Monitoring and service-mesh",
       "description" : "Most common linux utilities theory and practice"
     }
   ]
