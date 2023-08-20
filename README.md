@@ -4,7 +4,7 @@ This practice lessons created only for my personal trainig at [killercoda.com](h
 
 - [1 - Linux administration course @killercoda.com](https://killercoda.com/kodxxl/course/Linux) - Realized
 - 2 - DevOps/SRE course @killercoda.com - Under construction
-- 3 - Kubernetes course @killercoda.com - Under construction
+- 3 - Application course @killercoda.com - Under construction
 
 Thanks for all who make it possible!
 
