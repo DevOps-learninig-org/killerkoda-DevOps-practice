@@ -1,1 +1,15 @@
-
+{
+  "title" : "Application",
+  "description" : "High loaded and scalable application",
+  "items": [
+    {
+      "path": "bash",
+      "title": "1 - Introduction to BASH shell",
+      "description" : "Practice with BASH scripting"
+    },{
+      "path": "common",
+      "title": "2 - Common linux utilities",
+      "description" : "Most common linux utilities theory and practice"
+    }
+  ]
+}
