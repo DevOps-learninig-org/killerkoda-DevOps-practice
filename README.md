@@ -111,7 +111,7 @@ Pass this steps [ONE MORE TIME](/kodxxl/course/Linux/%LINK_TO_THIS%) or see you 
   }
 }
 ```
-# Template for cource structure.md
+# Template for cource structure.json
 ```
 {
   "title" : "Name of course",
