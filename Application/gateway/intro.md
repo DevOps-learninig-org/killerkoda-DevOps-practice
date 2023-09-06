@@ -7,7 +7,9 @@ Read some useful articles before:
 - [cncf.io - API Gateways](https://landscape.cncf.io/card-mode?category=api-gateway&grouping=category)
 
 And watch some videos:
-- [youtube.com - What is API Gateway?](https://www.youtube.com/watch?v=6ULyxuHKxg8)
-- [youtube.com - ](https://link.org/)
+- [youtube.com - What is API Gateway? ByteByteGo](https://www.youtube.com/watch?v=6ULyxuHKxg8)
+- [youtube.com - What is an API Gateway? IBM](https://www.youtube.com/watch?v=hWRRdICvMNs)
+- [youtube.com - What is an API Gateway? Defog Tech](https://www.youtube.com/watch?v=vHQqQBYJtLI)
+- [youtube.com - API Gateway explained](https://www.youtube.com/watch?v=8WuVBbXsHzg)
 
 Now, lets start!
