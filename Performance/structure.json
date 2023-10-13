@@ -1,1 +1,47 @@
+{
+  "title" : "2 - Linux System Perfomance",
+  "description" : "Covers concepts, strategy, tools, and tuning for operating system",
+  "items": [
+    {
+      "path": "OS theory",
+      "title": "OS theory",
+      "description": "Operating Systems common theory"
+    },
+    {
+      "path": "Observability Tools",
+      "title": "Observability Tools",
+      "description": "The most popular monitoring utilities"
+    },
+    {
+      "path": "CPU",
+      "title": "CPUs",
+      "description": "Deep dive into CPU perfomance tuning"
+    },
+    { 
+      "path": "Memory",
+      "title": "RAM and VM",
+      "description": "Looking at memory performance"
+    },
+    { 
+      "path": "FS", 
+      "title": "File Systems",
+      "description": "Looking at memory performance"
+    },
+    {
+      "path": "Disks",
+      "title": "Persistent memory devices",
+      "description": "Monitoring and tuning storage device performance"
+    },
+    {
+      "path": "Network",
+      "title": "Network",
+      "description": "Network Performance Theory and Practice" 
+    },
+    {
+      "path": "SAR perf Ftrace",
+      "title": "SAR, perf, Ftrace",
+      "description": "Learn powerful tools" 
+    }
+  ]
+}
 
