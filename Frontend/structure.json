@@ -1,0 +1,10 @@
+{
+  "title" : "5 - Frontend",
+  "description" : "Learn, how to develope frontend application",
+  "items": [
+    {
+      "path": "FO theory",
+      "title": "Frontend theory",
+      "description": "Frontend development theory"
+    }
+}
