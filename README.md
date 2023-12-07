@@ -10,7 +10,7 @@ This practice lessons created only for my personal trainig at [killercoda.com](h
 
 Thanks for all who make it possible!
 
-# Temlate for all lessons - lesson.md
+# Template for all lessons - lesson.md
 ```
 First of all - useful links:
 
