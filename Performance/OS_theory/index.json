@@ -1,22 +1,26 @@
 {
-  "title": "",
-  "description": "",
+  "title": "Title of scenario",
   "details": {
     "intro": {
-      "text": "",
-      "background": ""
+      "text": "service/intro.md",
+      "background": "scripts/background.sh"
     },
     "steps": [
       {
-        "title": "",
-        "text": "",
-        "verify": ""
-      },
-      {
-        "title": "",
-        "text": "",
-        "verify": ""
+        "title": "1/2 Title [00:00]",
+        "text": "step1_text.md",
+        "verify": "scripts/check.sh"
+      },{
+        "title": "2/2 Title [00:00]",
+        "text": "step2_text.md",
+        "verify": "scripts/check.sh"
       }
-    ]
+    ],
+    "finish": {
+      "text": "service/finish.md"
+    }
+  },
+  "backend": {
+    "imageid": "ubuntu"
   }
 }
