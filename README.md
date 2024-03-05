@@ -90,8 +90,8 @@ Pass this steps [ONE MORE TIME](/kodxxl/course/Linux/%LINK_TO_THIS%) or see you 
   "title": "Title of scenario",
   "details": {
     "intro": {
-      "foreground": "scripts/foreground.sh",
-      "text": "service/intro.md"
+      "text": "service/intro.md",
+      "background": "scripts/background.sh"
     },
     "steps": [
       {
