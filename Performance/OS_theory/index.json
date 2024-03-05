@@ -1,7 +1,21 @@
 {
-  "title": "Introduction to BASH shell",
-  "description": "Learn and practice with BASH scripting",
+  "title": "",
+  "description": "",
   "details": {
-    
+    "intro": {
+      "text": "",
+      "background": ""
+    },
+    "steps": [
+      {
+        "title": "",
+        "text": "",
+        "verify": ""
+      },
+      {
+        "title": "",
+        "text": "",
+        "verify": ""
+      }
   }
 }
