@@ -3,12 +3,12 @@
   "description" : "Covers concepts, strategy, tools, and tuning for operating system",
   "items": [
     {
-      "path": "OS theory",
+      "path": "OS_theory",
       "title": "OS theory",
       "description": "Operating Systems common theory"
     },
     {
-      "path": "Observability Tools",
+      "path": "Observability_Tools",
       "title": "Observability Tools",
       "description": "The most popular monitoring utilities"
     },
@@ -38,7 +38,7 @@
       "description": "Network Performance Theory and Practice" 
     },
     {
-      "path": "SAR perf Ftrace",
+      "path": "SAR_perf_Ftrace",
       "title": "SAR, perf, Ftrace",
       "description": "Learn powerful tools" 
     }
