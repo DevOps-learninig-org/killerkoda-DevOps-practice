@@ -5,35 +5,35 @@
     {
       "path": "architecture",
       "title": "1 - Architecture",
-      "description" : "Architecture of scalable applications"
+      "description" : "Architecture of scalable applications."
     },{
       "path": "gateway",
       "title": "2 - API gateway",
-      "description" : "API gateway - entry point"
+      "description" : "API gateway - entry point."
     },{
       "path": "security",
       "title": "3 - Security",
-      "description" : "Authentication, authorization and security"
+      "description" : "Authentication, authorization and security."
     },{
       "path": "ipc",
       "title": "4 - IPC",
-      "description" : "Interprocess communication"
+      "description" : "Interprocess communication."
     },{
       "path": "storage",
       "title": "5 - Storage",
-      "description" : "Storage and databases"
+      "description" : "Storage and databases."
     },{
       "path": "cache",
       "title": "6 - Cache",
-      "description" : "Caching subsystem"
+      "description" : "Caching subsystem."
     },{
       "path": "search",
       "title": "7 - Search",
-      "description" : "Fulltext search and indexing"
+      "description" : "Fulltext search and indexing."
     },{
       "path": "monitoring",
       "title": "8 - Monitoring",
-      "description" : "Monitoring and service-mesh"
+      "description" : "Monitoring and service-mesh."
     }
   ]
 }
