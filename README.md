@@ -3,7 +3,7 @@
 This practice lessons created only for my personal trainig at [killercoda.com](https://killercoda.com)
 
 - [1 - Linux administration course @killercoda.com](https://killercoda.com/kodxxl/course/Linux) - Realized
-- 2 - Linux System Perfomance @killerkoda - Under construction
+- [2 - Linux System Perfomance @killerkoda](https://killercoda.com/kodxxl/course/Performance) - Under construction
 - 3 - DevOps/SRE course @killercoda.com - Under construction
 - 4 - Backend course @killercoda.com - Under construction
 - 5 - Frontend cource @killerkoda - Under construction
