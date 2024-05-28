@@ -4,6 +4,8 @@ Read some useful articles before:
 
 - [tutorialspoint.com - Operating System Tutorial](https://www.tutorialspoint.com/operating_system/index.htm)
 - [kernel.org - Kernel subsystem documentation](https://docs.kernel.org/subsystem-apis.html)
+- [intel.com - Software Developer Manuals](https://www.intel.com/content/www/us/en/developer/articles/technical/intel-sdm.html)
+- [amd.com - Architecture Programmer's Manual, Volume 2 PDF](https://www.amd.com/content/dam/amd/en/documents/processor-tech-docs/programmer-references/24593.pdf)
 - `man boot`{{exec}}
 
 And watch some video tutorials:
