@@ -7,16 +7,28 @@
     },
     "steps": [
       {
-        "title": "1/2 Boot process [00:00]",
+        "title": "1/6 Boot process [00:00]",
         "text": "1_boot.md",
         "verify": "scripts/check.sh"
       },{
-        "title": "2/2 Title [00:00]",
+        "title": "2/6 Alternative BIOS [00:00]",
         "text": "2_alter_bios.md",
         "verify": "scripts/check.sh"
       },{
-        "title": "2/2 Title [00:00]",
-        "text": "3_kernel.md",
+        "title": "3/6 Kernel subsystems [00:00]",
+        "text": "3_kernel_subsystems.md",
+        "verify": "scripts/check.sh"
+      },{
+        "title": "4/6 Scheduler [00:00]",
+        "text": "4_scheduler.md",
+        "verify": "scripts/check.sh"
+      },{
+        "title": "5/6 Storage subsystem [00:00]",
+        "text": "5_storage_subsystem.md",
+        "verify": "scripts/check.sh"
+      },{
+        "title": "6/6 Network subsystem [00:00]",
+        "text": "6_network_subsystem.md",
         "verify": "scripts/check.sh"
       }
     ],
