@@ -1,12 +1,18 @@
 First of all - useful links:
 
-- []()
+- [wikipedia.org - Booting process of Linux](https://en.wikipedia.org/wiki/Booting_process_of_Linux)
+- [suse.com - Introduction to the boot process](https://documentation.suse.com/ru-ru/sles/15-SP5/html/SLES-all/cha-boot.html)
+- [freecodecamp.org - Linux Boot Process](https://www.freecodecamp.org/news/linux-boot-process-in-rhel/)
+- [baeldung.com - Guide to the Boot Process of a Linux System](https://www.baeldung.com/linux/boot-process)
+- [gnu.org - GNU GRUB Manual](https://www.gnu.org/software/grub/manual/grub/html_node/index.html)
+- [freedesktop.org - systemd-boot UEFI Boot Manager](https://www.freedesktop.org/wiki/Software/systemd/systemd-boot/)
 
 Interesting video tutorials:
-- [youtube.com - ]()
+- [youtube.com - How Does Linux Boot Process Work?](https://www.youtube.com/watch?v=XpFsMB6FoOs)
 
 Manual pages:
-- `man `{{exec}}
+- `info grub-install` {{exec}}
+- `man initrd`{{exec}}
 <br>
 <details open><summary>Lesson info and tips</summary>
 <pre>
