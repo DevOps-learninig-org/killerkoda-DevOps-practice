@@ -3,6 +3,11 @@ First of all - useful links:
 - [gnu.org - File space usage](https://www.gnu.org/software/coreutils/manual/html_node/File-space-usage.html)
 - [gnu.org - Parted User’s Manual](https://www.gnu.org/software/parted/manual/parted.html)
 
+Source code:
+
+- [util-linux disk-utils](https://github.com/util-linux/util-linux/tree/master/disk-utils)
+- [parted](https://github.com/Distrotech/parted)
+
 Manual pages:
 - `man parted`{{exec}}
 - `man fdisk`{{exec}}
