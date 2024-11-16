@@ -5,9 +5,11 @@ First of all - useful links:
 - `info coreutils`{{exec}}
 - [wikipedia.org - util-linux](https://en.wikipedia.org/wiki/Util-linux)
 <br>
+
 Source code:
 - [util-linux](https://github.com/util-linux/util-linux)
 - [GNU Coreutils](https://github.com/coreutils/coreutils)
+
 <br>
 <details open><summary>Basic 'info' command keys</summary>
 <pre>
