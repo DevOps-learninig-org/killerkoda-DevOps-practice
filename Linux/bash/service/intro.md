@@ -10,6 +10,10 @@ Read some useful articles before:
 - [learnxinyminutes.com - Learn BASH in Y minutes](https://learnxinyminutes.com/docs/bash/)
 - `man bash`{{exec}}
 
+Get source code:
+
+- [gnu bash](https://git.savannah.gnu.org/cgit/bash.git/)
+
 And watch some video tutorials:
 
 - [youtube.com - Bash in 100 Seconds](https://www.youtube.com/watch?v=I4EWvMFj37g)
