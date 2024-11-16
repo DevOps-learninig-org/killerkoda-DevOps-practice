@@ -2,10 +2,12 @@ First of all - useful links:
 
 - [gnu.org - GNU core utilities top page](https://www.gnu.org/software/coreutils/)
 - [gnu.org - GNU Coreutils online info](https://www.gnu.org/software/coreutils/manual/html_node/index.html)
-- [github.com - GNU Coreutils sources](https://github.com/coreutils/coreutils/blob/master/doc/coreutils.texi)
 - `info coreutils`{{exec}}
-- [github.com - util-linux sources](https://github.com/util-linux/util-linux)
 - [wikipedia.org - util-linux](https://en.wikipedia.org/wiki/Util-linux)
+<br>
+Source code:
+- [util-linux](https://github.com/util-linux/util-linux)
+- [GNU Coreutils](https://github.com/coreutils/coreutils)
 <br>
 <details open><summary>Basic 'info' command keys</summary>
 <pre>
