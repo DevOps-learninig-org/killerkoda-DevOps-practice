@@ -4,6 +4,10 @@ First of all - useful links:
 - [man7.org - find](https://link.org/)
 - [redhat.com - 10 ways to use the Linux 'find'](https://www.redhat.com/sysadmin/linux-find-command)
 
+Source code:
+
+- [findutils](https://git.savannah.gnu.org/cgit/findutils.git/)
+
 Manual pages:
 - `man find`{{exec}}
 <br>
