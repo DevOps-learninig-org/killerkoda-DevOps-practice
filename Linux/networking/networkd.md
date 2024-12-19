@@ -47,6 +47,8 @@ Manual pages:
   <strong>batadv</strong> - B.A.T.M.A.N. Advanced is a routing protocol for multi-hop mobile ad-hoc networks which operates on layer 2.
   <strong>ipoib</strong>  - IP over Infiniband subinterface.
   <strong>wlan</strong>   - virtual wireless network (WLAN) interface.
+  <br>
+  GoTo <a href="https://docs.kernel.org/networking/index.html">Linux Networking subsystem documentation</a> for more information.
 </pre>
 </details>
 <details open><summary>'networkctl' commands</summary>
