@@ -9,31 +9,35 @@
     },
     "steps": [
       {
-        "title": "1/7 'ip' and 'ethtool' utilities [51:30]",
+        "title": "1/8 'ip' and 'ethtool' utilities [52:30]",
         "text": "ip_ethtool.md",
         "verify": "scripts/check.sh"
       },{
-        "title": "2/7 systemd-networkd — Network manager [43:00]",
+        "title": "2/8 systemd-networkd — Network manager [45:00]",
         "text": "networkd.md",
         "verify": "scripts/check.sh"
       },{
-        "title": "3/7 Configuring network with NetPlan [34:30]",
+        "title": "3/8 Configuring network with NetPlan [37:30]",
         "text": "netplan.md",
         "verify": "scripts/check.sh"
       },{
-        "title": "4/7 Firewall, NAT and packet mangling [26:00]",
+        "title": "4/8 Firewall, NAT and packet mangling [30:00]",
         "text": "netfilter.md",
         "verify": "scripts/check.sh"
       },{
-        "title": "5/7 Monitoring network activity [17:30]",
+        "title": "5/8 Monitoring network activity [22:30]",
         "text": "activity.md",
         "verify": "scripts/check.sh"
       },{
-        "title": "6/7 Analyze network traffic [09:00]",
+        "title": "6/8 Analyze network traffic [15:00]",
         "text": "traffic.md",
         "verify": "scripts/check.sh"
       },{
-        "title": "7/7 Tuning QoS [00:00]",
+        "title": "7/8 Dynamic routing [07:30]",
+        "text": "qos.md",
+        "verify": "scripts/check.sh"
+      },{
+        "title": "8/8 Tuning QoS [00:00]",
         "text": "qos.md",
         "verify": "scripts/check.sh"
       }
