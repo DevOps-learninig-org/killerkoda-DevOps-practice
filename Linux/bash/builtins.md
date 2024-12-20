@@ -2,8 +2,12 @@ First of all - useful links:
 
 - [gnu.org - Bourne Shell Builtins](https://www.gnu.org/savannah-checkouts/gnu/bash/manual/bash.html#Bourne-Shell-Builtins)
 - [tldp.org - Internal Commands and Builtins](https://tldp.org/LDP/abs/html/internal.html)
+- [learnxinyminutes.com - Learn BASH in Y seconds](https://learnxinyminutes.com/docs/bash/)
 - execute `help`{{exec}} command
-<br>
+  
+Source:
+- [savannah.gnu.org - BASH source](http://git.savannah.gnu.org/cgit/bash.git/tree/)
+- [github.com - BASH source](https://github.com/bminor/bash)
 
 Task list:
 - Try all bultins
