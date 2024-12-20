@@ -17,22 +17,22 @@ First of all - useful links:
 <br>
 <details><summary>OSPF References</summary>
 <pre>
-  - <a href="https://en.wikipedia.org/wiki/Open_Shortest_Path_First">wikipedia.org - Open Shortest Path First</a>
-  - <a href="https://datatracker.ietf.org/doc/html/rfc2328.html">ietf.org - rfc2328 OSPFv2</a>
-  - <a href="https://datatracker.ietf.org/doc/html/rfc5340.html">ietf.org - rfc5340 OSPFv3 for IPv6</a>
-  - <a href="https://docs.frrouting.org/en/latest/ospfd.html">frrouting.org - OSPFv2</a>
-  - <a href="https://docs.frrouting.org/en/latest/ospf6d.html">frrouting.org - OSPFv3</a>
-  - <a href="https://bird.network.cz/?get_doc&v=30&f=bird-6.html#ss6.11">bird.network.cz - OSPF</a>
-  - <a href="https://man.openbsd.org/ospfd">openbsd.org - ospfd(8)</a>
+  - <a href="https://en.wikipedia.org/wiki/Open_Shortest_Path_First" target="_blank">wikipedia.org - Open Shortest Path First</a>
+  - <a href="https://datatracker.ietf.org/doc/html/rfc2328.html" target="_blank">ietf.org - rfc2328 OSPFv2</a>
+  - <a href="https://datatracker.ietf.org/doc/html/rfc5340.html" target="_blank">ietf.org - rfc5340 OSPFv3 for IPv6</a>
+  - <a href="https://docs.frrouting.org/en/latest/ospfd.html" target="_blank">frrouting.org - OSPFv2</a>
+  - <a href="https://docs.frrouting.org/en/latest/ospf6d.html" target="_blank">frrouting.org - OSPFv3</a>
+  - <a href="https://bird.network.cz/?get_doc&v=30&f=bird-6.html#ss6.11" target="_blank">bird.network.cz - OSPF</a>
+  - <a href="https://man.openbsd.org/ospfd" target="_blank">openbsd.org - ospfd(8)</a>
 </pre>
 </details>
 <details><summary>BGP References</summary>
 <pre>
-  - <a href="https://en.wikipedia.org/wiki/Border_Gateway_Protocol">wikipedia.org - Border Gateway Protocol</a>
-  - <a href="https://datatracker.ietf.org/doc/html/rfc4271.html">ietf.org - rfc4271 A Border Gateway Protocol 4 (BGP-4)</a>
-  - <a href="https://docs.frrouting.org/en/latest/bgp.html">frrouting.org - BGP</a>
-  - <a href="https://bird.network.cz/?get_doc&v=30&f=bird-6.html#ss6.4">bird.network.cz - BGP</a>
-  - <a href="https://www.openbgpd.org/manual.html">openbgpd.org - OpenBGPd Manual pages</a>
+  - <a href="https://en.wikipedia.org/wiki/Border_Gateway_Protocol" target="_blank">wikipedia.org - Border Gateway Protocol</a>
+  - <a href="https://datatracker.ietf.org/doc/html/rfc4271.html" target="_blank">ietf.org - rfc4271 A Border Gateway Protocol 4 (BGP-4)</a>
+  - <a href="https://docs.frrouting.org/en/latest/bgp.html" target="_blank">frrouting.org - BGP</a>
+  - <a href="https://bird.network.cz/?get_doc&v=30&f=bird-6.html#ss6.4" target="_blank">bird.network.cz - BGP</a>
+  - <a href="https://www.openbgpd.org/manual.html" target="_blank">openbgpd.org - OpenBGPd Manual pages</a>
 </pre>
 </details><br>
 
@@ -44,8 +44,8 @@ Task list:
 <details><summary>Hints for the task</summary>
 <pre>
 <strong>Task 1:</strong>
-Look at <a href="https://docs.frrouting.org/en/latest/basics.html">FRR basics</a>
-and <a href="https://gitlab.nic.cz/labs/bird/-/wikis/Examples">BIRD examples</a>
+Look at <a href="https://docs.frrouting.org/en/latest/basics.html" target="_blank">FRR basics</a>
+and <a href="https://gitlab.nic.cz/labs/bird/-/wikis/Examples" target="_blank">BIRD examples</a>
 </pre>
 </details>
 <br>
