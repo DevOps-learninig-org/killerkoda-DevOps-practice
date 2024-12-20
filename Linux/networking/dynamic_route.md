@@ -1,27 +1,29 @@
 First of all - useful links:
 
-- [Useful link 1](https://link.org/)
-- `some cli command`{{exec}}
+- [frrouting.org - FRRouting User Guide](https://docs.frrouting.org/en/latest/)
+- [github.com - FRR source code](https://github.com/FRRouting/frr)
+- [network.cz - The BIRD Internet Routing Daemon](https://bird.network.cz/)
+- [github.com - BIRD source code](https://github.com/CZ-NIC/bird)
+- [github.com - Dynamips](https://github.com/GNS3/dynamips)
+- []
 <br>
 <details><summary>Lesson info and tips</summary>
 <pre>
-  Put here some info
+  - FRR is a fully featured, high performance, free software IP routing suite. It implements all standard routing protocols such as BGP, RIP, OSPF, IS-IS and more
+  - The BIRD project aims to develop a fully functional dynamic IP routing daemon primarily targeted on (but not limited to) Linux, FreeBSD and other UNIX-like systems and distributed under the GNU General Public License.
 </pre>
 </details><br>
 
 Task list:
-- Task 1
-- Task 2
+- Install FRR daemon at the 1 node
+- Install BIRD daemon at the 2 node
+- Try to connect this daemons via RIP, OSPF and BGP
 
 <details><summary>Hints for the task</summary>
 <pre>
 <strong>Task 1:</strong>
-  $ cmd1
-  $ echo ${string:7:3}
-<br>
-<strong>Task 2:</strong>
-  $ echo ${#string}
-  $ string=
+Look at [FRR basics](https://docs.frrouting.org/en/latest/basics.html)
+and [BIRD examples](https://gitlab.nic.cz/labs/bird/-/wikis/Examples)
 </pre>
 </details>
 <br>
