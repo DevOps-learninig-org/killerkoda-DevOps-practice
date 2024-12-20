@@ -18,8 +18,8 @@ First of all - useful links:
 <details><summary>OSPF References</summary>
 <pre>
   - <a href="https://en.wikipedia.org/wiki/Open_Shortest_Path_First">wikipedia.org - Open Shortest Path First</a>
-  - <a href="https://www.rfc-editor.org/rfc/rfc2328.html">rfc-editor.org - rfc2328 OSPFv2</a>
-  - <a href="https://www.rfc-editor.org/rfc/rfc5340.html">rfc-editor.org - rfc5340 OSPFv3 for IPv6</a>
+  - <a href="https://datatracker.ietf.org/doc/html/rfc2328.html">ietf.org - rfc2328 OSPFv2</a>
+  - <a href="https://datatracker.ietf.org/doc/html/rfc5340.html">ietf.org - rfc5340 OSPFv3 for IPv6</a>
   - <a href="https://docs.frrouting.org/en/latest/ospfd.html">frrouting.org - OSPFv2</a>
   - <a href="https://docs.frrouting.org/en/latest/ospf6d.html">frrouting.org - OSPFv3</a>
   - <a href="https://bird.network.cz/?get_doc&v=30&f=bird-6.html#ss6.11">bird.network.cz - OSPF</a>
@@ -28,7 +28,11 @@ First of all - useful links:
 </details>
 <details><summary>BGP References</summary>
 <pre>
-  
+  - <a href="https://en.wikipedia.org/wiki/Border_Gateway_Protocol">wikipedia.org - Border Gateway Protocol</a>
+  - <a href="https://datatracker.ietf.org/doc/html/rfc4271.html">ietf.org - rfc4271 A Border Gateway Protocol 4 (BGP-4)</a>
+  - <a href="https://docs.frrouting.org/en/latest/bgp.html">frrouting.org - BGP</a>
+  - <a href="https://bird.network.cz/?get_doc&v=30&f=bird-6.html#ss6.4">bird.network.cz - BGP</a>
+  - <a href="https://www.openbgpd.org/manual.html">openbgpd.org - OpenBGPd Manual pages</a>
 </pre>
 </details><br>
 
