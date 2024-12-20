@@ -5,7 +5,7 @@ First of all - useful links:
 - [network.cz - The BIRD Internet Routing Daemon](https://bird.network.cz/)
 - [github.com - BIRD source code](https://github.com/CZ-NIC/bird)
 - [github.com - Dynamips](https://github.com/GNS3/dynamips)
-- []
+- [eve-ng.net - EVE NG Documentation](https://www.eve-ng.net/index.php/documentation/)
 <br>
 <details><summary>Lesson info and tips</summary>
 <pre>
