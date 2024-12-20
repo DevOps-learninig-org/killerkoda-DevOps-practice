@@ -23,6 +23,7 @@ First of all - useful links:
   - <a href="https://docs.frrouting.org/en/latest/ospfd.html">frrouting.org - OSPFv2</a>
   - <a href="https://docs.frrouting.org/en/latest/ospf6d.html">frrouting.org - OSPFv3</a>
   - <a href="https://bird.network.cz/?get_doc&v=30&f=bird-6.html#ss6.11">bird.network.cz - OSPF</a>
+  - <a href="https://man.openbsd.org/ospfd">openbsd.org - ospfd(8)</a>
 </pre>
 </details>
 <details><summary>BGP References</summary>
