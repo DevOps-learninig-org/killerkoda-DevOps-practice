@@ -22,8 +22,8 @@ Task list:
 <details><summary>Hints for the task</summary>
 <pre>
 <strong>Task 1:</strong>
-Look at [FRR basics](https://docs.frrouting.org/en/latest/basics.html)
-and [BIRD examples](https://gitlab.nic.cz/labs/bird/-/wikis/Examples)
+Look at <a href="https://docs.frrouting.org/en/latest/basics.html">FRR basics</a>
+and <a href="https://gitlab.nic.cz/labs/bird/-/wikis/Examples">BIRD examples</a>
 </pre>
 </details>
 <br>
