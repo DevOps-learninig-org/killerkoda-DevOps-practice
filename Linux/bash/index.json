@@ -1,6 +1,6 @@
 {
   "title": "Introduction to BASH shell",
-  "description": "Learn and practice with BASH scripting",
+  "description": "Learn and practice with BASH scripting<br>https://github.com/DevOps-learninig-org/killerkoda-DevOps-practice/tree/main/Linux",
   "details": {
     "intro": {
       "text": "service/intro.md",
