@@ -1,3 +1,4 @@
+#----------------------------------------------------------------------------------
 ubuntu:~$
 ubuntu:~$ dpkg -l iproute2
 ii  iproute2       6.1.0-1ubuntu6 amd64        networking and traffic control tools
@@ -19,4 +20,10 @@ where  OBJECT := { address | addrlabel | amt | fou | help | ila | ioam | l2tp |
                     -rc[vbuf] [size] | -n[etns] name | -N[umeric] | -a[ll] |
                     -c[olor]}
 
+#----------------------------------------------------------------------------------
 
+ubuntu:~$ ls --version
+ls (GNU coreutils) 9.4
+
+ubuntu:~$ ls --version
+ls (GNU coreutils) 9.4
