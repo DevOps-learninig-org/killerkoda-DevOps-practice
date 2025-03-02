@@ -25,10 +25,81 @@ Examples:
   cat f - g  Output f's contents, then standard input, then g's contents.
   cat        Copy standard input to standard output.
 
-GNU coreutils online help: <https://www.gnu.org/software/coreutils/>
-Report any translation bugs to <https://translationproject.org/team/>
-Full documentation <https://www.gnu.org/software/coreutils/cat>
-or available locally via: info '(coreutils) cat invocation'
+#------------------------------------------------------------------------------GREP
+ubuntu:~$ grep -V    
+grep (GNU grep) 3.11
+
+ubuntu:~$ grep --help
+Usage: grep [OPTION]... PATTERNS [FILE]...
+Search for PATTERNS in each FILE.
+Example: grep -i 'hello world' menu.h main.c
+PATTERNS can contain multiple patterns separated by newlines.
+
+Pattern selection and interpretation:
+  -E, --extended-regexp     PATTERNS are extended regular expressions
+  -F, --fixed-strings       PATTERNS are strings
+  -G, --basic-regexp        PATTERNS are basic regular expressions
+  -P, --perl-regexp         PATTERNS are Perl regular expressions
+  -e, --regexp=PATTERNS     use PATTERNS for matching
+  -f, --file=FILE           take PATTERNS from FILE
+  -i, --ignore-case         ignore case distinctions in patterns and data
+      --no-ignore-case      do not ignore case distinctions (default)
+  -w, --word-regexp         match only whole words
+  -x, --line-regexp         match only whole lines
+  -z, --null-data           a data line ends in 0 byte, not newline
+
+Miscellaneous:
+  -s, --no-messages         suppress error messages
+  -v, --invert-match        select non-matching lines
+  -V, --version             display version information and exit
+      --help                display this help text and exit
+
+Output control:
+  -m, --max-count=NUM       stop after NUM selected lines
+  -b, --byte-offset         print the byte offset with output lines
+  -n, --line-number         print line number with output lines
+      --line-buffered       flush output on every line
+  -H, --with-filename       print file name with output lines
+  -h, --no-filename         suppress the file name prefix on output
+      --label=LABEL         use LABEL as the standard input file name prefix
+  -o, --only-matching       show only nonempty parts of lines that match
+  -q, --quiet, --silent     suppress all normal output
+      --binary-files=TYPE   assume that binary files are TYPE;
+                            TYPE is 'binary', 'text', or 'without-match'
+  -a, --text                equivalent to --binary-files=text
+  -I                        equivalent to --binary-files=without-match
+  -d, --directories=ACTION  how to handle directories;
+                            ACTION is 'read', 'recurse', or 'skip'
+  -D, --devices=ACTION      how to handle devices, FIFOs and sockets;
+                            ACTION is 'read' or 'skip'
+  -r, --recursive           like --directories=recurse
+  -R, --dereference-recursive  likewise, but follow all symlinks
+      --include=GLOB        search only files that match GLOB (a file pattern)
+      --exclude=GLOB        skip files that match GLOB
+      --exclude-from=FILE   skip files that match any file pattern from FILE
+      --exclude-dir=GLOB    skip directories that match GLOB
+  -L, --files-without-match  print only names of FILEs with no selected lines
+  -l, --files-with-matches  print only names of FILEs with selected lines
+  -c, --count               print only a count of selected lines per FILE
+  -T, --initial-tab         make tabs line up (if needed)
+  -Z, --null                print 0 byte after FILE name
+
+Context control:
+  -B, --before-context=NUM  print NUM lines of leading context
+  -A, --after-context=NUM   print NUM lines of trailing context
+  -C, --context=NUM         print NUM lines of output context
+  -NUM                      same as --context=NUM
+      --group-separator=SEP  print SEP on line between matches with context
+      --no-group-separator  do not print separator for matches with context
+      --color[=WHEN],
+      --colour[=WHEN]       use markers to highlight the matching strings;
+                            WHEN is 'always', 'never', or 'auto'
+  -U, --binary              do not strip CR characters at EOL (MSDOS/Windows)
+
+When FILE is '-', read standard input.  With no FILE, read '.' if
+recursive, '-' otherwise.  With fewer than two FILEs, assume -h.
+Exit status is 0 if any line is selected, 1 otherwise;
+if any error occurs and -q is not given, the exit status is 2.
 
 #------------------------------------------------------------------------------FIND
 ubuntu:~$ find --version
@@ -74,12 +145,6 @@ Other common options:
 Valid arguments for -D:
 exec, opt, rates, search, stat, time, tree, all, help
 Use '-D help' for a description of the options, or see find(1)
-
-Please see also the documentation at https://www.gnu.org/software/findutils/.
-You can report (and track progress on fixing) bugs in the "find"
-program via the GNU findutils bug-reporting page at
-https://savannah.gnu.org/bugs/?group=findutils or, if
-you have no web access, by sending email to <bug-findutils@gnu.org>.
 
 #--------------------------------------------------------------------------------LS
 ubuntu:~$ ls --version
@@ -220,11 +285,6 @@ Exit status:
  0  if OK,
  1  if minor problems (e.g., cannot access subdirectory),
  2  if serious trouble (e.g., cannot access command-line argument).
-
-GNU coreutils online help: <https://www.gnu.org/software/coreutils/>
-Report any translation bugs to <https://translationproject.org/team/>
-Full documentation <https://www.gnu.org/software/coreutils/ls>
-or available locally via: info '(coreutils) ls invocation'
 
 #--------------------------------------------------------------------------------LSHW
 ubuntu:~$ lshw --help
@@ -581,9 +641,6 @@ ubuntu:~$ lsof --help
 lsof: illegal option character: -
 lsof: -e not followed by a file system path: "lp"
 lsof 4.95.0
- latest revision: https://github.com/lsof-org/lsof
- latest FAQ: https://github.com/lsof-org/lsof/blob/master/00FAQ
- latest (non-formatted) man page: https://github.com/lsof-org/lsof/blob/master/Lsof.8
  usage: [-?abhKlnNoOPRtUvVX] [+|-c c] [+|-d s] [+D D] [+|-E] [+|-e s] [+|-f[gG]]
  [-F [f]] [-g [s]] [-i [i]] [+|-L [l]] [+m [m]] [+|-M] [-o [o]] [-p s]
  [+|-r [t]] [-s [p:s]] [-S [t]] [-T [t]] [-u s] [+|-w] [-x [fl]] [--] [names]
@@ -697,6 +754,90 @@ Summary columns (--global):
 
 For more details see lsipc(1).
 
+#--------------------------------------------------------------------------------PS
+ubuntu:~$ ps --help all
+
+Usage:
+ ps [options]
+
+Basic options:
+ -A, -e               all processes
+ -a                   all with tty, except session leaders
+  a                   all with tty, including other users
+ -d                   all except session leaders
+ -N, --deselect       negate selection
+  r                   only running processes
+  T                   all processes on this terminal
+  x                   processes without controlling ttys
+
+Selection by list:
+ -C <command>         command name
+ -G, --Group <GID>    real group id or name
+ -g, --group <group>  session or effective group name
+ -p, p, --pid <PID>   process id
+        --ppid <PID>  parent process id
+ -q, q, --quick-pid <PID>
+                      process id (quick mode)
+ -s, --sid <session>  session id
+ -t, t, --tty <tty>   terminal
+ -u, U, --user <UID>  effective user id or name
+ -U, --User <UID>     real user id or name
+
+  The selection options take as their argument either:
+    a comma-separated list e.g. '-u root,nobody' or
+    a blank-separated list e.g. '-p 123 4567'
+
+Output formats:
+ -D <format>          date format for lstart
+ -F                   extra full
+ -f                   full-format, including command lines
+  f, --forest         ascii art process tree
+ -H                   show process hierarchy
+ -j                   jobs format
+  j                   BSD job control format
+ -l                   long format
+  l                   BSD long format
+ -M, Z                add security data (for SELinux)
+ -O <format>          preloaded with default columns
+  O <format>          as -O, with BSD personality
+ -o, o, --format <format>
+                      user-defined format
+  -P                  add psr column
+  s                   signal format
+  u                   user-oriented format
+  v                   virtual memory format
+  X                   register format
+ -y                   do not show flags, show rss vs. addr (used with -l)
+     --context        display security context (for SELinux)
+     --headers        repeat header lines, one per page
+     --no-headers     do not print header at all
+     --cols, --columns, --width <num>
+                      set screen width
+     --rows, --lines <num>
+                      set screen height
+     --signames       display signal masks using signal names
+
+Show threads:
+  H                   as if they were processes
+ -L                   possibly with LWP and NLWP columns
+ -m, m                after processes
+ -T                   possibly with SPID column
+
+Miscellaneous options:
+ -c                   show scheduling class with -l option
+  c                   show true command name
+  e                   show the environment after command
+  k,    --sort        specify sort order as: [+|-]key[,[+|-]key[,...]]
+  L                   show format specifiers
+  n                   display numeric uid and wchan
+  S,    --cumulative  include some dead child process data
+ -y                   do not show flags, show rss (only with -l)
+ -V, V, --version     display version information and exit
+ -w, w                unlimited output width
+
+        --help <simple|list|output|threads|misc|all>
+                      display help and exit
+
 #--------------------------------------------------------------------------------IP
 ubuntu:~$
 ubuntu:~$ dpkg -l iproute2
@@ -710,6 +851,30 @@ where  OBJECT := { address | addrlabel | amt | fou | help | ila | ioam | l2tp |
                    neighbor | neighbour | netconf | netns | nexthop | ntable |
                    ntbl | route | rule | sr | tap | tcpmetrics |
                    token | tunnel | tuntap | vrf | xfrm }
+ OBJECT
+       address - protocol (IP or IPv6) address on a device.
+       addrlabel - label configuration for protocol address selection.
+       ioam   - manage IOAM namespaces and IOAM schemas.
+       l2tp   - tunnel ethernet over IP (L2TPv3).
+       link   - network device.
+       maddress - multicast address.
+       monitor - watch for netlink messages.
+       mptcp  - manage MPTCP path manager.
+       mroute - multicast routing cache entry.
+       mrule  - rule in multicast routing policy database.
+       neighbour - manage ARP or NDISC cache entries.
+       netns  - manage network namespaces.
+       ntable - manage the neighbor cache's operation.
+       route  - routing table entry.
+       rule   - rule in routing policy database.
+       stats  - manage and show interface statistics.
+       tcp_metrics/tcpmetrics - manage TCP Metrics
+       token  - manage tokenized interface identifiers.
+       tunnel - tunnel over IP.
+       tuntap - manage TUN/TAP devices.
+       vrf    - manage virtual routing and forwarding devices.
+       xfrm   - manage IPSec policies.
+
        OPTIONS := { -V[ersion] | -s[tatistics] | -d[etails] | -r[esolve] |
                     -h[uman-readable] | -iec | -j[son] | -p[retty] |
                     -f[amily] { inet | inet6 | mpls | bridge | link } |
@@ -1084,3 +1249,20 @@ FLAGS:
         --debug MASK    turn on debugging messages
         --json          enable JSON output format (not supported by all commands)
         -I|--include-statistics         request device statistics related to the command (not supported by all commands)
+
+#--------------------------------------------------------------------------------TCPDUMP
+ubuntu:~$ tcpdump --help
+tcpdump version 4.99.4
+libpcap version 1.10.4 (with TPACKET_V3)
+OpenSSL 3.0.13 30 Jan 2024
+Usage: tcpdump [-AbdDefhHIJKlLnNOpqStuUvxX#] [ -B size ] [ -c count ] [--count]
+                [ -C file_size ] [ -E algo:secret ] [ -F file ] [ -G seconds ]
+                [ -i interface ] [ --immediate-mode ] [ -j tstamptype ]
+                [ -M secret ] [ --number ] [ --print ] [ -Q in|out|inout ]
+                [ -r file ] [ -s snaplen ] [ -T type ] [ --version ]
+                [ -V file ] [ -w file ] [ -W filecount ] [ -y datalinktype ]
+                [ --time-stamp-precision precision ] [ --micro ] [ --nano ]
+                [ -z postrotate-command ] [ -Z user ] [ expression ]
+ubuntu:~$ man tcpdump
+# For expression syntax look at
+ubuntu:~$ man pcap-filter
