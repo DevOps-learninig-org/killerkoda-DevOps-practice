@@ -1,0 +1,168 @@
+====/proc====
+1/
+9/
+acpi/	
+bus/
+driver/
+dynamic_debug/
+fs/
+irq/
+net@
+pressure/
+scsi/
+self@
+sys/
+sysvipc/
+thread-self@
+tty/
+bootconfig
+buddyinfo
+cgroups
+cmdline
+consoles
+cpuinfo
+crypto
+devices
+diskstats
+dma
+execdomains
+fb
+filesystems
+interrupts
+iomem
+ioports
+kallsyms
+kcore
+key-users
+keys
+kmsg
+kpagecgroup
+kpagecount
+kpageflags
+latency_stats
+loadavg
+locks
+mdstat
+meminfo
+misc
+modules
+mounts@
+mtrr
+pagetypeinfo
+partitions
+schedstat
+slabinfo
+softirqs
+stat
+swaps
+sysrq-trigger
+timer_list
+uptime
+version
+version_signature
+vmallocinfo
+vmstat
+zoneinfo
+====/proc/9====
+attr/  	apparmor  current  exec  fscreate  keycreate  prev  smack  sockcreate
+cwd@
+fd/  		0  1  2  3  4  5  6  7  8  9
+fdinfo/  	0  1  2  3  4  5  6  7  8  9
+map_files/  	563ed3610000-563ed3626000  7860a467b000-7860a4680000  7860a47bb000-7860a47f6000  7860a4afd000-7860a4afe000
+net/  	anycast6   dev_mcast     icmp      igmp6          ip_mr_cache        ip_tables_targets  netfilter  protocols  raw6       rt_cache  sockstat6     tcp6     udplite6  xfrm_stat
+	arp        dev_snmp6     icmp6     ip6_flowlabel  ip_mr_vif          ipv6_route         netlink    psched     route      snmp      softnet_stat  udp      unix
+	connector  fib_trie      if_inet6  ip6_mr_cache   ip_tables_matches  mcfilter           netstat    ptype      rt6_stats  snmp6     stat          udp6     vlan
+	dev        fib_triestat  igmp      ip6_mr_vif     ip_tables_names    mcfilter6          packet     raw        rt_acct    sockstat  tcp           udplite  wireless
+ns/  	cgroup  ipc  mnt  net  pid  pid_for_children  time  time_for_children  user  uts
+root@
+task/	9
+arch_status
+autogroup
+auxv
+cgroup
+clear_refs
+cmdline
+comm
+coredump_filter
+cpu_resctrl_groups
+cpuset
+environ
+exe@
+gid_map
+io
+ksm_merging_pages
+ksm_stat
+latency
+limits
+loginuid
+maps
+mem
+mountinfo
+mounts
+mountstats
+numa_maps
+oom_adj
+oom_score
+oom_score_adj
+pagemap
+patch_state
+personality
+projid_map
+sched
+schedstat
+sessionid
+setgroups
+smaps
+smaps_rollup
+stack
+stat
+statm
+status
+syscall
+timens_offsets
+timers
+timerslack_ns
+uid_map
+wchan
+====/sys====
+block/	loop0  loop1  loop2  loop3  loop4  loop5  loop6  loop7  vda
+bus/	acpi/         clocksource/  dax/   event_source/  isa/           memory/          mmc/   nvmem/    pci_express/  rapidio/  serial/       soc/  virtio/     xen/
+	auxiliary/    container/    edac/  gpio/          machinecheck/  memory_tiering/  nd/    pci/      platform/     scsi/     serial-base/  spi/  vme/        xen-backend/
+	clockevents/  cpu/          eisa/  i2c/           mdio_bus/      mipi-dsi/        node/  pci-epf/  pnp/          sdio/     serio/        usb/  workqueue/
+class/	accel/       bdi/          devfreq-event/  drm/       hwmon/          iommu/     mmc_host/  pci_epc/       pps/           remoteproc/   scsi_generic/  tpm/       vc/
+	ata_device/  block/        devlink/        extcon/    i2c-adapter/    leds/      msr/       phy/           ptp/           rfkill/       scsi_host/     tpmrm/     virtio-ports/
+	ata_link/    bsg/          dma/            firmware/  i2c-dev/        mdio_bus/  nd/        power_supply/  pwm/           rtc/          spi_master/    tty/       vtconsole/
+	ata_port/    devcoredump/  dma_heap/       gpio/      input/          mem/       net/       powercap/      rapidio_port/  scsi_device/  spi_slave/     usb_role/  wakeup/
+	backlight/   devfreq/      dmi/            graphics/  intel_scu_ipc/  misc/      pci_bus/   ppp/           regulator/     scsi_disk/    thermal/       usbmisc/   watchdog/
+dev/	block/  char/
+devices/	LNXSYSTM:00/  breakpoint/  isa/  kprobe/  msr/  pci0000:00/  platform/  pnp0/  software/  system/  tracepoint/  uprobe/  virtual/
+firmware/	acpi/  dmi/  memmap/
+fs/		bpf/  btrfs/  cgroup/  ecryptfs/  ext4/  fuse/  pstore/
+hypervisor/	
+kernel/		boot_params/  config/        irq/        reboot/    software_nodes/  cpu_byteorder          kexec_crash_loaded  notes       rcu_expedited  uevent_seqnum
+		btf/          debug/         livepatch/  security/  tracing/         crash_elfcorehdr_size  kexec_crash_size    oops_count  rcu_normal     vmcoreinfo
+		cgroup/       iommu_groups/  mm/         slab/      address_bits     fscaps                 kexec_loaded        profiling   uevent_helper  warn_count
+module/		8021q/              br_netfilter/      drm_kms_helper/       joydev/          nf_conntrack_netlink/  processor/     spurious/               virtio_scsi/
+		8250/               bridge/            dynamic_debug/        kdb/             nf_defrag_ipv4/        psmouse/       sr_mod/                 virtual_root/
+		acpi/               btrfs/             edac_core/            kernel/          nf_defrag_ipv6/        pstore/        srcutree/               vt/
+		acpi_cpufreq/       button/            edd/                  keyboard/        nf_nat/                raid0/         stp/                    watchdog/
+		acpiphp/            clocksource/       efi_pstore/           kfence/          nf_tables/             raid1/         suspend/                workqueue/
+		aesni_intel/        configfs/          ehci_hcd/             kgdb_nmi/        nfnetlink/             raid10/        sysrq/                  x_tables/
+		ahci/               cpufreq/           eisa_bus/             kgdboc/          nft_chain_nat/         raid456/       tcp_cubic/              xen/
+		apparmor/           cpuidle/           fb/                   libahci/         nft_compat/            raid6_pq/      thermal/                xen_acpi_processor/
+		async_memcpy/       crc32_pclmul/      firmware_class/       libata/          nls_iso8859_1/         random/        tpm/                    xen_blkfront/
+		async_pq/           crc64_rocksoft/    fscrypto/             libcrc32c/       nmi_backtrace/         rcupdate/      tpm_crb/                xen_netfront/
+		async_raid6_recov/  crc_t10dif/        fuse/                 libnvdimm/       overlay/               rcutree/       tpm_tis/                xfrm_algo/
+		async_tx/           crct10dif_pclmul/  garp/                 llc/             page_alloc/            rfkill/        tpm_tis_core/           xfrm_user/
+		async_xor/          cryptd/            ghash_clmulni_intel/  loop/            page_reporting/        rng_core/      udmabuf/                xhci_hcd/
+		ata_generic/        crypto_simd/       gpiolib_acpi/         md_mod/          pata_sis/              rtc_cmos/      uhci_hcd/               xor/
+		ata_piix/           cryptomgr/         grant_table/          memory_hotplug/  pcc_cpufreq/           sch_fq_codel/  usbcore/                xt_MASQUERADE/
+		utofs4/            debug_core/        haltpoll/             microcode/       pci_hotplug/           scsi_mod/      uv_nmi/                 xt_addrtype/
+		battery/            device_hmem/       i8042/                module/          pcie_aspm/             secretmem/     virtio_blk/             xt_conntrack/
+		binfmt_misc/        dm_mod/            ima/                  mousedev/        pciehp/                serio_raw/     virtio_mmio/            xz_dec/
+		blake2b_generic/    dm_multipath/      input_leds/           mrp/             polyval_clmulni/       sg/            virtio_net/             zswap/
+		blk_cgroup/         dmi_sysfs/         intel_idle/           msr/             polyval_generic/       sha1_ssse3/    virtio_pci/             compression
+		blk_crypto/         dns_resolver/      ip_tables/            netpoll/         ppp_generic/           sha256_ssse3/  virtio_pci_legacy_dev/
+		block/              drm/               ipv6/                 nf_conntrack/    printk/                shpchp/        virtio_pci_modern_dev/
+power/	suspend_stats/  image_size  pm_async           pm_freeze_timeout  pm_test   pm_trace_dev_match  reserved_size  resume_offset  sync_on_suspend  wake_unlock
+	disk            mem_sleep   pm_debug_messages  pm_print_times     pm_trace  pm_wakeup_irq       resume         state          wake_lock        wakeup_count
