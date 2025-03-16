@@ -1,3 +1,5 @@
+echo -e "set nu\nsyntax off\nset expandtab\nset shiftwidth=2" | tee ~/.vimrc ~/.virc
+
 w    : jump by start of words (punctuation considered words)
 W    : jump by words (spaces separate words)
 
