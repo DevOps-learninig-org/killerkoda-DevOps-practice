@@ -1,4 +1,6 @@
 Install:
   rpm -i *.rpm
+List:
+  rpm -qlp package.rpm
 Unpack:
   rpm2cpio *.rpm | cpio -idmv
