@@ -1,1 +1,4 @@
-rpm2cpio *.rpm | cpio -idmv
+Install:
+  rpm -i *.rpm
+Unpack:
+  rpm2cpio *.rpm | cpio -idmv
