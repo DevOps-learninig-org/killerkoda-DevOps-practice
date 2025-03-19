@@ -1,1 +1,1 @@
-
+rpm2cpio *.rpm | cpio -idmv
