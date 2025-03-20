@@ -1,4 +1,4 @@
-echo -e "set nu\nsyntax off\nset expandtab\nset shiftwidth=2" | tee ~/.vimrc ~/.virc
+echo -e "set nu\nsyntax off\nset expandtab\nset shiftwidth=2" | tee ~user/.vimrc ~user/.virc  ### change ~user
 
 ~    : Changes the case of current character
 guu  : Change current line from upper to lower.
