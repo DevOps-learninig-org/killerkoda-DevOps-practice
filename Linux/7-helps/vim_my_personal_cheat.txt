@@ -1,4 +1,4 @@
-echo -e "set nu\nsyntax off\nset expandtab\nset shiftwidth=2" | tee ~user/.vimrc ~user/.virc  ### change ~user
+echo -e "set nu\nsyntax off\nset expandtab\nset shiftwidth=2" | sudo -u user tee ~user/.vimrc ~user/.virc  ### change ~user
 
 bash$ echo grep less vi ls cat
 
