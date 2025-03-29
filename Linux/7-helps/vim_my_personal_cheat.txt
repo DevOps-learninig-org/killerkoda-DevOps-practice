@@ -30,12 +30,16 @@ gUw  : Change to end of current WORD from lower to upper.
 \L  non-lowercase character         \u  uppercase character	
 ------------------------------------------------------------
 
-Quantifier
+# Quantifier
 ------------------------------------------------------------
-*       matches 0 or more of the preceding characters, ranges or metacharacters .* matches everything including empty line
+*       matches 0 or more of the preceding characters, ranges or 
+        metacharacters .* matches everything including empty line
 \+      matches 1 or more of the preceding characters...
 \=      matches 0 or 1 more of the preceding characters...
 \{n,m}  matches from n to m of the preceding characters...
 \{n}    matches exactly n times of the preceding characters...
 \{,m}   matches at most m (from 0 to m) of the preceding characters...
-\{n,}   matches at least n of of the preceding characters... where n and m are positive integers (>0)
+\{n,}   matches at least n of of the preceding characters... 
+        where n and m are positive integers (>0)
+------------------------------------------------------------
+
