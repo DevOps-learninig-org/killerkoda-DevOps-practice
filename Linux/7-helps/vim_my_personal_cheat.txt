@@ -12,5 +12,5 @@ gUw  : Change to end of current WORD from lower to upper.
 
 :6,9 s/\s\+$// : Trim spaces to end of lines range
 :6,9 s/\s\+\S\+$// : Delete latest word and trim spaces of lines range
-
+:6,9 s/\(\S\+\)$/&\t\1/ : Copy each latest word to the end of its own string after \tab
 
