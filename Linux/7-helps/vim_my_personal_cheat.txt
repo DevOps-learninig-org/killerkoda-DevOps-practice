@@ -8,3 +8,9 @@ gUU  : Change current LINE from lower to upper.
 guw  : Change to end of current WORD from upper to lower.
 guaw : Change all of current WORD to lower.
 gUw  : Change to end of current WORD from lower to upper.
+
+
+:6,9 s/\s\+$// : Trim spaces to end of lines range
+:6,9 s/\s\+\S\+$// : Delete latest word and trim spaces of lines range
+
+
