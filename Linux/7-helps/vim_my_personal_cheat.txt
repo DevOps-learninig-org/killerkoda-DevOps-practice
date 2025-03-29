@@ -19,7 +19,7 @@ gUw  : Change to end of current WORD from lower to upper.
 # Matching
 ------------------------------------------------------------
 . any character except new line	    \U  non-uppercase character
-\s  whitespace character	          \d  digit	
+\s  whitespace character	    \d  digit	
 \D  non-digit                       \x  hex digit	
 \X  non-hex digit                   \o  octal digit	
 \O  non-octal digit                 \h  head of word character (a,b,c...z,A,B,C...Z and _)	
@@ -48,3 +48,19 @@ gUw  : Change to end of current WORD from lower to upper.
         where n and m are positive integers (>0)
 ------------------------------------------------------------
 
+Grouping and Backreferences
+------------------------------------------------------------
+&       the whole matched pattern	
+\L      the following characters are made lowercase
+\0      the whole matched pattern	
+\U      the following characters are made uppercase
+\1      the matched pattern in the first pair of \(\)	
+\E      end of \U and \L
+\2      the matched pattern in the second pair of \(\)	
+\e      end of \U and \L
+\r      split line in two at this point
+\9      the matched pattern in the ninth pair of \(\)	
+\l      next character made lowercase
+~       the previous substitute string	
+\u      next character made uppercase
+------------------------------------------------------------
