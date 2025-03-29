@@ -48,6 +48,14 @@ gUw    ###  Change to end of current WORD from lower to upper.
         where n and m are positive integers (>0)
 ------------------------------------------------------------
 
+grouping
+------------------------------------------------------------
+\( \)                 grouping
+\=,\+,*,\{n} etc.     quantifiers
+abc\t\.\w             sequence of characters/ metacharacters, 
+                      not containing quantifiers or grouping operators
+\|                    alternation
+
 Grouping and Backreferences
 ------------------------------------------------------------
 &       the whole matched pattern	
