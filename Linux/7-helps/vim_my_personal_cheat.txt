@@ -1,6 +1,6 @@
 echo -e "set nu\nsyntax off\nset expandtab\nset shiftwidth=2" | sudo -u user tee ~user/.vimrc ~user/.virc  ### change ~user
 
-bash$ echo grep less vi ls cat
+bash$ echo grep less vi ls cat sed awk tr lvm lsblk file cp mv
 
 ~    : Changes the case of current character
 guu  : Change current line from upper to lower.
@@ -10,7 +10,9 @@ guaw : Change all of current WORD to lower.
 gUw  : Change to end of current WORD from lower to upper.
 
 
-:6,9 s/\s\+$// : Trim spaces to end of lines range
-:6,9 s/\s\+\S\+$// : Delete latest word and trim spaces of lines range
-:6,9 s/\(\S\+\)$/&\t\1/ : Copy each latest word of range to the end of its own string after \tab
+: 6,9 s/\s\+$// : Trim spaces to end of lines range
+: 6,9 s/\s\+\S\+$// : Delete latest word and trim spaces of lines range
+: 6,9 s/\(\S\+\)$/&\t\1/ : Copy each latest word of range to the end of its own string after \tab
 
+: 6,9 s/words words//g
+:6, 9 s/word/\/opt\/decoder\/conf/g  : paste '/opt/decoder' instaead of 'word'
