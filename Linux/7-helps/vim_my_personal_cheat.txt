@@ -19,7 +19,7 @@ gUw    ###  Change to end of current WORD from lower to upper.
 : 6,9 s/\s\+\S\+$//       ### Delete latest word and trim spaces of lines range
 : 6,9 s/\(\S\+\)$/&\t\1/  ### Copy each latest word of range to the end of its own string after \tab
 
-(^v)e3w3jd        ### Goto VISUAL, select 3 words, select the same words onto 3 lines after and delete them
+(^v)e 3w 3j d        ### Goto VISUAL, select 3 words, select the same words onto 3 lines after and delete them
 
 : 6,9 s/words words//g
 : 6,9 s/word/\/opt\/decoder\/conf/g  ### paste '/opt/decoder' instaead of 'word'
