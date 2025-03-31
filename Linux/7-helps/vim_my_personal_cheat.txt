@@ -4,7 +4,7 @@ echo grep less vi ls cat sed awk tr lvm lsblk file cp mv
 
 ~      ### Changes the case of current character
 guu    ### Change current line from upper to lower.
-gUU    ### Change current LINE from lower to upper.
+gU7U   ### Change 7 lines from current to UPPER.
 guw    ### Change to end of current WORD from upper to lower.
 guaw   ### Change all of current WORD to lower.
 gUw    ###  Change to end of current WORD from lower to upper.
