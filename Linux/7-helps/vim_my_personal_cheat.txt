@@ -10,6 +10,7 @@ guaw   ### Change all of current WORD to lower.
 gUw    ###  Change to end of current WORD from lower to upper.
 
 5GgU10G        ### GoTo 5 line and change to UPPER whole lines until 10
+: 5,7 norm gUU ### Change to UPPER case in range from 5 to 7 line
 
 (^a)           ### Increment selected digit
 7(^a)          ### Add 7 to selected digit
