@@ -12,6 +12,7 @@ gUw    ###  Change to end of current WORD from lower to upper.
 5GgU10G        ### GoTo 5 line and change to UPPER whole lines until 10
 
 (^a)           ### Increment selected digit
+7(^a)          ### Add 7 to selected digit
 (^x)           ### Decrement selected digit
 : echo 21 - 7  ### Echo result of expression
 
