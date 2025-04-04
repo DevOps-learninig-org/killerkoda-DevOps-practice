@@ -120,17 +120,17 @@ Task list:
   $
   $ ip netns exec Isolated3 ip addr add 192.168.23.2/24 dev vvegh32
   $ ip netns exec Isolated3 ip link set dev vvegh32 up
-  $ ip netns exec Isolated3 ip addr add 172.16.30.1/16 dev lo
+  $ ip netns exec Isolated3 ip addr add 172.16.30.1/24 dev lo
   $ 
   $ ip route add 172.16.30.1 via 192.168.1.2
   $ ip netns exec Isolated1 ip route add default via 192.168.1.1
-  $ ip netns exec Isolated1 ip route add 172.16.30.1 via 192.168.12.2
+  $ ip netns exec Isolated1 ip route add 172.16.30.0/24 via 192.168.12.2
   $ ip netns exec Isolated2 ip route add default via 192.168.12.1
-  $ ip netns exec Isolated2 ip route add 172.16.30.1 via 192.168.23.2
+  $ ip netns exec Isolated2 ip route add 172.16.30.0/24 via 192.168.23.2
   $ ip netns exec Isolated3 ip route add default via 192.168.23.1
   $ 
   $ # ping 172.16.30.1
-  $ ip netns exec Isolated3 ip addr add 172.16.30.2/16 dev lo
+  $ ip netns exec Isolated3 ip addr add 172.16.30.2/24 dev lo
   $ # ping 172.16.30.1
   $ # ping 172.16.30.2
 
