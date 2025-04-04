@@ -83,11 +83,11 @@ Task list:
   $ sudo networkctl reload
   $ sudo networkctl list
 <br>
-<br>
 <strong>Task 2:</strong>
   $ sudo ip addr add 192.168.1.150/24 dev dummy0
   $ sudo ip link set dummy0 up
   $ networkctl list
+<br>
 <strong>Task 3:</strong>
   $ sudo ip netns add Isolated1
   $ sudo ip netns add Isolated2
@@ -98,12 +98,29 @@ Task list:
   $ sudo ip link add vvegh2 type veth peer name vvegh02
   $ sudo ip link add vvegh3 type veth peer name vvegh03
   $
-  $ sudo ip link set vvegh1 netns Isolated1
-  $ sudo ip link set vvegh2 netns Isolated2 
-  $ sudo ip link set vvegh3 netns Isolated3
-  $
-  $ 
+  $ sudo ip link set vvegh01 netns Isolated1
+  $ sudo ip link set vvegh02 netns Isolated2 
+  $ sudo ip link set vvegh03 netns Isolated3
+  $  
+  $ ip addr add 192.168.1.1/24 dev vvegh1
+  $ ip link set dev vvegh1 up
+  $ ip netns exec Isolated1 ip addr add 192.168.1.2/24 dev vvegh01
+  $ ip netns exec Isolated1 ip link set dev vvegh01 up
+  $ # ping 192.168.1.2
+  $  
+  $ ip addr add 192.168.2.1/24 dev vvegh2
+  $ ip link set dev vvegh2 up
+  $ ip netns exec Isolated2 ip addr add 192.168.2.2/24 dev vvegh02
+  $ ip netns exec Isolated2 ip link set dev vvegh02 up
+  $ # ping 192.168.2.2
+  $  
+  $ ip addr add 192.168.3.1/24 dev vvegh3
+  $ ip link set dev vvegh3 up
+  $ ip netns exec Isolated3 ip addr add 192.168.3.2/24 dev vvegh03
+  $ ip netns exec Isolated3 ip link set dev vvegh03 up
+  $ # ping 192.168.3.2
   
+
 </pre>
 </details>
 <br>
