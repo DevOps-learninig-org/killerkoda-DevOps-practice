@@ -122,12 +122,18 @@ Task list:
   $ ip netns exec Isolated3 ip link set dev vvegh32 up
   $ ip netns exec Isolated3 ip addr add 172.16.30.1/24 dev lo
   $ 
-  $ ip route add 172.16.30.1 via 192.168.1.2
+  $ ip route add 172.16.30.0/24 via 192.168.1.2
   $ ip netns exec Isolated1 ip route add default via 192.168.1.1
   $ ip netns exec Isolated1 ip route add 172.16.30.0/24 via 192.168.12.2
   $ ip netns exec Isolated2 ip route add default via 192.168.12.1
   $ ip netns exec Isolated2 ip route add 172.16.30.0/24 via 192.168.23.2
   $ ip netns exec Isolated3 ip route add default via 192.168.23.1
+  $
+  $ ip route add 192.168.23.0/24 via 192.168.1.2
+  $ ip netns exec Isolated1 ip route add 192.168.23.0/24 via 192.168.12.2
+  $
+  $ echo 1 > /proc/sys/net/ipv4/ip_forward
+  $ iptables -t nat -A POSTROUTING -o enp1s0 -j MASQUERADE
   $ 
   $ # ping 172.16.30.1
   $ ip netns exec Isolated3 ip addr add 172.16.30.2/24 dev lo
