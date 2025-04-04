@@ -137,6 +137,8 @@ Task list:
   $ 
   $ # ping 172.16.30.1
   $ ip netns exec Isolated3 ip addr add 172.16.30.2/24 dev lo
+  $ ip netns exec Isolated3 ping 8.8.8.8
+  $ 
   $ # ping 172.16.30.1
   $ # ping 172.16.30.2
 
