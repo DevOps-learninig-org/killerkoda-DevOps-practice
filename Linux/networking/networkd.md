@@ -70,6 +70,7 @@ Manual pages:
 Task list:
 - Create dummy network interface
 - Bring it up and assign IPv4 address
+- Create 3 processes with isolated network 
 
 <details><summary>Hints for the task</summary>
 <pre>
@@ -82,10 +83,27 @@ Task list:
   $ sudo networkctl reload
   $ sudo networkctl list
 <br>
+<br>
 <strong>Task 2:</strong>
   $ sudo ip addr add 192.168.1.150/24 dev dummy0
   $ sudo ip link set dummy0 up
   $ networkctl list
+<strong>Task 3:</strong>
+  $ sudo ip netns add Isolated1
+  $ sudo ip netns add Isolated2
+  $ sudo ip netns add Isolated3
+  $ sudo ip netns
+  $
+  $ sudo ip link add vvegh1 type veth peer name vvegh01
+  $ sudo ip link add vvegh2 type veth peer name vvegh02
+  $ sudo ip link add vvegh3 type veth peer name vvegh03
+  $
+  $ sudo ip link set vvegh1 netns Isolated1
+  $ sudo ip link set vvegh2 netns Isolated2 
+  $ sudo ip link set vvegh3 netns Isolated3
+  $
+  $ 
+  
 </pre>
 </details>
 <br>
