@@ -93,33 +93,36 @@ Task list:
   $ sudo ip netns add Isolated2
   $ sudo ip netns add Isolated3
   $ sudo ip netns
-  $
+  $ # 0------1--------2--------3
+  $ # 1 <--> 01-12 <--> 21-23 <--> 32-lo  
   $ sudo ip link add vvegh1 type veth peer name vvegh01
-  $ sudo ip link add vvegh2 type veth peer name vvegh02
-  $ sudo ip link add vvegh3 type veth peer name vvegh03
+  $ sudo ip link add vvegh12 type veth peer name vvegh21
+  $ sudo ip link add vvegh23 type veth peer name vvegh32
   $
   $ sudo ip link set vvegh01 netns Isolated1
-  $ sudo ip link set vvegh02 netns Isolated2 
-  $ sudo ip link set vvegh03 netns Isolated3
+  $ sudo ip link set vvegh12 netns Isolated1
+  $ sudo ip link set vvegh21 netns Isolated2
+  $ sudo ip link set vvegh23 netns Isolated2 
+  $ sudo ip link set vvegh32 netns Isolated3
   $  
   $ ip addr add 192.168.1.1/24 dev vvegh1
   $ ip link set dev vvegh1 up
+  $
   $ ip netns exec Isolated1 ip addr add 192.168.1.2/24 dev vvegh01
   $ ip netns exec Isolated1 ip link set dev vvegh01 up
-  $ # ping 192.168.1.2
+  $ ip netns exec Isolated1 ip addr add 192.168.12.1/24 dev vvegh12
+  $ ip netns exec Isolated1 ip link set dev vvegh12 up
   $  
-  $ ip addr add 192.168.2.1/24 dev vvegh2
-  $ ip link set dev vvegh2 up
-  $ ip netns exec Isolated2 ip addr add 192.168.2.2/24 dev vvegh02
-  $ ip netns exec Isolated2 ip link set dev vvegh02 up
-  $ # ping 192.168.2.2
-  $  
-  $ ip addr add 192.168.3.1/24 dev vvegh3
-  $ ip link set dev vvegh3 up
-  $ ip netns exec Isolated3 ip addr add 192.168.3.2/24 dev vvegh03
-  $ ip netns exec Isolated3 ip link set dev vvegh03 up
-  $ # ping 192.168.3.2
-  
+  $ ip netns exec Isolated2 ip addr add 192.168.12.2/24 dev vvegh21
+  $ ip netns exec Isolated2 ip link set dev vvegh21 up
+  $ ip netns exec Isolated2 ip addr add 192.168.23.1/24 dev vvegh23
+  $ ip netns exec Isolated2 ip link set dev vvegh23 up
+  $
+  $ ip netns exec Isolated3 ip addr add 192.168.23.2/24 dev vvegh32
+  $ ip netns exec Isolated3 ip link set dev vvegh32 up
+  $ ip netns exec Isolated3 ip addr add 172.16.30.1/16 dev lo
+  $ 
+  $ ping 172.16.30.1
 
 </pre>
 </details>
