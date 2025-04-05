@@ -1,3 +1,4 @@
+
 #---------------------------------------------------------------------------------
 ubuntu:~$ ip help
 #---------------------------------------------------------------------------------
@@ -16,8 +17,31 @@ where  OBJECT := { address | addrlabel | amt | fou | help | ila | ioam | l2tp |
                     -o[neline] | -t[imestamp] | -ts[hort] | -b[atch] [filename] |
                     -rc[vbuf] [size] | -n[etns] name | -N[umeric] | -a[ll] |
                     -c[olor]}
+
+       address         - protocol (IP or IPv6) address on a device.
+       addrlabel       - label configuration for protocol address selection.
+       ioam   - manage IOAM namespaces and IOAM schemas.
+       l2tp   - tunnel ethernet over IP (L2TPv3).
+       link   - network device.
+       maddress        - multicast address.
+       monitor         - watch for netlink messages.
+       mptcp  - manage MPTCP path manager.
+       mroute - multicast routing cache entry.
+       mrule  - rule in multicast routing policy database.
+       neighbour       - manage ARP or NDISC cache entries.
+       netns  - manage network namespaces.
+       ntable - manage the neighbor cache's operation.
+       route  - routing table entry.
+       rule   - rule in routing policy database.
+       stats  - manage and show interface statistics.
+       tcp_metrics/tcpmetrics  - manage TCP Metrics
+       token  - manage tokenized interface identifiers.
+       tunnel - tunnel over IP.
+       tuntap - manage TUN/TAP devices.
+       vrf    - manage virtual routing and forwarding devices.
+       xfrm   - manage IPSec policies.
 #---------------------------------------------------------------------------------
-ubuntu:~$ ip address help
+ubuntu:~$ ip address help                                                        address - protocol (IP or IPv6) address on a device.
 #---------------------------------------------------------------------------------
 Usage: ip address {add|change|replace} IFADDR dev IFNAME [ LIFETIME ]
                                                       [ CONFFLAG-LIST ]
@@ -50,7 +74,7 @@ TYPE := { amt | bareudp | bond | bond_slave | bridge | bridge_slave |
           vcan | veth | vlan | vrf | vti | vxcan | vxlan | wwan |
           xfrm | virt_wifi }
 #---------------------------------------------------------------------------------
-ubuntu:~$ ip addrlabel help
+ubuntu:~$ ip addrlabel help                                                        addrlabel - label configuration for protocol address selection.
 #---------------------------------------------------------------------------------
 Usage: ip addrlabel { add | del } prefix PREFIX [ dev DEV ] [ label LABEL ]
        ip addrlabel [ list | flush | help ]
@@ -78,7 +102,7 @@ OPTIONS := [ csum-mode { adj-transport | neutral-map |
                          neutral-map-auto | no-action } ]
            [ ident-type { luid | use-format } ]
 #---------------------------------------------------------------------------------
-ubuntu:~$ ip ioam help
+ubuntu:~$ ip ioam help                                                            ioam   - manage IOAM namespaces and IOAM schemas.
 #---------------------------------------------------------------------------------
 Usage:  ip ioam { COMMAND | help }
         ip ioam namespace show
@@ -89,7 +113,7 @@ Usage:  ip ioam { COMMAND | help }
         ip ioam schema del ID
         ip ioam namespace set ID schema { ID | none }
 #---------------------------------------------------------------------------------
-ubuntu:~$ ip l2tp help
+ubuntu:~$ ip l2tp help                                                            l2tp   - tunnel ethernet over IP (L2TPv3).
 #---------------------------------------------------------------------------------
 Usage: ip l2tp add tunnel
           remote ADDR local ADDR
@@ -117,7 +141,7 @@ Where: NAME   := STRING
        HEXSTR := { 8 or 16 hex digits (4 / 8 bytes) }
        L2SPEC := { none | default }
 #---------------------------------------------------------------------------------
-ubuntu:~$ ip link help
+ubuntu:~$ ip link help                                                            link   - network device.
 #---------------------------------------------------------------------------------
 Usage: ip link add [link DEV | parentdev NAME] [ name ] NAME
                     [ txqueuelen PACKETS ]
@@ -211,12 +235,12 @@ where  OPTS := [ pn <u32> | xpn <u64> ] [ salt SALT ] [ ssci <u32> ] [ on | off 
        SCI  := { sci <u64> | port { 1..2^16-1 } address <lladdr> }
        SALT := 96-bit hex string
 #---------------------------------------------------------------------------------
-ubuntu:~$ ip maddress help
+ubuntu:~$ ip maddress help                                                        maddress - multicast address.
 #---------------------------------------------------------------------------------
 Usage: ip maddr [ add | del ] MULTIADDR dev STRING
        ip maddr show [ dev STRING ]
 #---------------------------------------------------------------------------------
-ubuntu:~$ ip monitor help
+ubuntu:~$ ip monitor help                                                         monitor - watch for netlink messages.
 #---------------------------------------------------------------------------------
 Usage: ip monitor [ all | OBJECTS ] [ FILE ] [ label ] [ all-nsid ]
                   [ dev DEVICE ]
@@ -224,7 +248,7 @@ OBJECTS :=  address | link | mroute | neigh | netconf |
             nexthop | nsid | prefix | route | rule | stats
 FILE := file FILENAME
 #---------------------------------------------------------------------------------
-ubuntu:~$ ip mptcp help
+ubuntu:~$ ip mptcp help                                                           mptcp - manage MPTCP path manager.
 #---------------------------------------------------------------------------------
 Usage:  ip mptcp endpoint add ADDRESS [ dev NAME ] [ id ID ]
                                       [ port NR ] [ FLAG-LIST ]
@@ -239,13 +263,13 @@ FLAG-LIST := [ FLAG-LIST ] FLAG
 FLAG  := [ signal | subflow | backup | fullmesh ]
 CHANGE-OPT := [ backup | nobackup | fullmesh | nofullmesh ]
 #---------------------------------------------------------------------------------
-ubuntu:~$ ip mroute help
+ubuntu:~$ ip mroute help                                                          mroute - multicast routing cache entry.
 #---------------------------------------------------------------------------------
 Usage: ip mroute show [ [ to ] PREFIX ] [ from PREFIX ] [ iif DEVICE ]
                       [ table TABLE_ID ]
 TABLE_ID := [ local | main | default | all | NUMBER ]
 #---------------------------------------------------------------------------------
-ubuntu:~$ ip mrule help
+ubuntu:~$ ip mrule help                                                           mrule - rule in multicast routing policy database.
 #---------------------------------------------------------------------------------
 Usage: ip rule { add | del } SELECTOR ACTION
        ip rule { flush | save | restore }
@@ -267,7 +291,7 @@ SUPPRESSOR := [ suppress_prefixlength NUMBER ]
               [ suppress_ifgroup DEVGROUP ]
 TABLE_ID := [ local | main | default | NUMBER ]
 #---------------------------------------------------------------------------------
-ubuntu:~$ ip neigh help
+ubuntu:~$ ip neigh help                                                           neighbour - manage ARP or NDISC cache entries.
 #---------------------------------------------------------------------------------
 Usage: ip neigh { add | del | change | replace }
                 { ADDR [ lladdr LLADDR ] [ nud STATE ] proxy ADDR }
@@ -285,7 +309,7 @@ ubuntu:~$ ip netconf help
 #---------------------------------------------------------------------------------
 Usage: ip netconf show [ dev STRING ]
 #---------------------------------------------------------------------------------
-ubuntu:~$ ip netns help
+ubuntu:~$ ip netns help                                                           netns - manage network namespaces.
 #---------------------------------------------------------------------------------
 Usage:  ip netns list
         ip netns add NAME
@@ -320,8 +344,9 @@ RESILIENT_ARGS := [ buckets BUCKETS ] [ idle_timer IDLE ]
 ENCAPTYPE := [ mpls ]
 ENCAPHDR := [ MPLSLABEL ]
 #---------------------------------------------------------------------------------
-Usage: ip ntable change name NAME [ dev DEV ]
+                                  ntable - manage the neighbor cache's operation.
 #---------------------------------------------------------------------------------
+Usage: ip ntable change name NAME [ dev DEV ]   
         [ thresh1 VAL ] [ thresh2 VAL ] [ thresh3 VAL ] [ gc_int MSEC ]
         [ PARMS ]
 Usage: ip ntable show [ dev DEV ] [ name NAME ]
