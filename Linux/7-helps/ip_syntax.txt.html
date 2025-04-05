@@ -79,7 +79,7 @@ where  OBJECT := { address | addrlabel | amt | fou | help | ila | ioam | l2tp |
 <a href="https://man7.org/linux/man-pages/man8/ip-xfrm.8.html">man ip-xfrm</a>
 #---------------------------------------------------------------------------------
 #---------------------------------------------------------------------------------
-#---------------------------------------------------------------------------------
+#
 #---------------------------------------------------------------------------------
 shell:~$ ip address help                                                        address - protocol (IP or IPv6) address on a device.
 <a href="https://man7.org/linux/man-pages/man8/ip-address.8.html">man ip-address</a>
@@ -504,6 +504,7 @@ offload SUBGROUP := { cpu_hit | hw_stats_info | l3_stats }
 afstats SUBGROUP := { mpls }
 #---------------------------------------------------------------------------------
 shell:~$ ip sr help                                                              sr - manage IPv6 segment routing.
+<a href="https://man7.org/linux/man-pages/man8/ip-sr.8.html">man ip-sr</a>
 #---------------------------------------------------------------------------------
 Usage: ip sr { COMMAND | help }
           ip sr hmac show
@@ -529,8 +530,10 @@ Usage:  ip tcp_metrics/tcpmetrics { COMMAND | help }
 SELECTOR := [ [ address ] PREFIX ]
 #---------------------------------------------------------------------------------
 shell:~$ ip token help                                                           token  - manage tokenized interface identifiers.
+<a href="https://man7.org/linux/man-pages/man8/ip-token.8.html">man ip-token</a>
 Usage: ip token [ list | set | del | get ] [ TOKEN ] [ dev DEV ]
 #---------------------------------------------------------------------------------
+<a href="https://man7.org/linux/man-pages/man8/ip-tunnel.8.html">man ip-tunnel</a>
 shell:~$ ip tunnel help                                                          tuntap - manage TUN/TAP devices.
 #---------------------------------------------------------------------------------
 Usage: ip tunnel { add | change | del | show | prl | 6rd } [ NAME ]
@@ -556,7 +559,18 @@ Usage: ip tuntap { add | del | show | list | lst | help } [ dev PHYS_DEV ]
 Where: USER  := { STRING | NUMBER }
        GROUP := { STRING | NUMBER }
 #---------------------------------------------------------------------------------
-Usage: ip xfrm XFRM-OBJECT { COMMAND | help }                                     xfrm - manage IPSec policies.
+shell:~$ ip vrf help                                                              vrf - manage virtual routing and forwarding devices.
+<a href="https://man7.org/linux/man-pages/man8/ip-vrf.8.html">man ip-vrf</a>
+#---------------------------------------------------------------------------------
+Usage:  ip vrf show [NAME] ...
+        ip vrf exec [NAME] cmd ...
+        ip vrf identify [PID]
+        ip vrf pids [NAME]
+#---------------------------------------------------------------------------------       
+shell:~$ ip xfrm help                                                             xfrm - manage IPSec policies.
+<a href="https://man7.org/linux/man-pages/man8/ip-xfrm.8.html">man ip-xfrm</a>
+#---------------------------------------------------------------------------------
+Usage: ip xfrm XFRM-OBJECT { COMMAND | help }                                     
 where  XFRM-OBJECT := state | policy | monitor
 #---------------------------------------------------------------------------------
 #---------------------------------------------------------------------------------
