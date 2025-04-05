@@ -344,7 +344,7 @@ RESILIENT_ARGS := [ buckets BUCKETS ] [ idle_timer IDLE ]
 ENCAPTYPE := [ mpls ]
 ENCAPHDR := [ MPLSLABEL ]
 #---------------------------------------------------------------------------------
-                                  ntable - manage the neighbor cache's operation.
+ubuntu:~$ ip ntable help                                                           ntable - manage the neighbor cache's operation.
 #---------------------------------------------------------------------------------
 Usage: ip ntable change name NAME [ dev DEV ]   
         [ thresh1 VAL ] [ thresh2 VAL ] [ thresh3 VAL ] [ gc_int MSEC ]
@@ -356,7 +356,7 @@ PARMS := [ base_reachable MSEC ] [ retrans MSEC ] [ gc_stale MSEC ]
          [ anycast_delay MSEC ] [ proxy_delay MSEC ] [ proxy_queue LEN ]
          [ locktime MSEC ]
 #---------------------------------------------------------------------------------
-ubuntu:~$ ip route help
+ubuntu:~$ ip route help                                                           route  - routing table entry.
 #---------------------------------------------------------------------------------
 Usage: ip route { list | flush } SELECTOR
        ip route save SELECTOR
@@ -415,7 +415,7 @@ IOAM6HDR := trace prealloc type IOAM6_TRACE_TYPE ns IOAM6_NAMESPACE size IOAM6_T
 XFRMINFO := if_id IF_ID [ link_dev LINK ]
 ROUTE_GET_FLAGS := [ fibmatch ]
 #---------------------------------------------------------------------------------
-ubuntu:~$ ip rule help
+ubuntu:~$ ip rule help                                                            rule - rule in routing policy database.
 #---------------------------------------------------------------------------------
 Usage: ip rule { add | del } SELECTOR ACTION
        ip rule { flush | save | restore }
@@ -437,6 +437,17 @@ SUPPRESSOR := [ suppress_prefixlength NUMBER ]
               [ suppress_ifgroup DEVGROUP ]
 TABLE_ID := [ local | main | default | NUMBER ]
 #---------------------------------------------------------------------------------
+ubuntu:~$ ip stats help                                                           stats - manage and show interface statistics.
+#---------------------------------------------------------------------------------
+Usage: ip stats help
+       ip stats show [ dev DEV ] [ group GROUP [ subgroup SUBGROUP [ suite SUITE ] ... ] ... ] ...
+       ip stats set dev DEV l3_stats { on | off }
+GROUP := { link | xstats | xstats_slave | offload | afstats }
+xstats SUBGROUP := { bridge [ suite stp ] [ suite mcast ] | bond [ suite 802.3ad ] }
+xstats_slave SUBGROUP := { bridge [ suite stp ] [ suite mcast ] | bond [ suite 802.3ad ] }
+offload SUBGROUP := { cpu_hit | hw_stats_info | l3_stats }
+afstats SUBGROUP := { mpls }
+#---------------------------------------------------------------------------------
 ubuntu:~$ ip sr help
 #---------------------------------------------------------------------------------
 Usage: ip sr { COMMAND | help }
@@ -455,12 +466,43 @@ Usage: ip tuntap { add | del | show | list | lst | help } [ dev PHYS_DEV ]
 Where: USER  := { STRING | NUMBER }
        GROUP := { STRING | NUMBER }
 #---------------------------------------------------------------------------------
-ubuntu:~$ ip tcpmetrics help
+ubuntu:~$ ip tcpmetrics help                                                      tcp_metrics/tcpmetrics  - manage TCP Metrics
 #---------------------------------------------------------------------------------
 Usage:  ip tcp_metrics/tcpmetrics { COMMAND | help }
         ip tcp_metrics { show | flush } SELECTOR
         ip tcp_metrics delete [ address ] ADDRESS
 SELECTOR := [ [ address ] PREFIX ]
+#---------------------------------------------------------------------------------
+ubuntu:~$ ip token help                                                           token  - manage tokenized interface identifiers.
+Usage: ip token [ list | set | del | get ] [ TOKEN ] [ dev DEV ]
+#---------------------------------------------------------------------------------
+ubuntu:~$ ip tunnel help                                                          tuntap - manage TUN/TAP devices.
+#---------------------------------------------------------------------------------
+Usage: ip tunnel { add | change | del | show | prl | 6rd } [ NAME ]
+        [ mode { gre | ipip | isatap | sit | vti } ]
+        [ remote ADDR ] [ local ADDR ]
+        [ [i|o]seq ] [ [i|o]key KEY ] [ [i|o]csum ]
+        [ prl-default ADDR ] [ prl-nodefault ADDR ] [ prl-delete ADDR ]
+        [ 6rd-prefix ADDR ] [ 6rd-relay_prefix ADDR ] [ 6rd-reset ]
+        [ ttl TTL ] [ tos TOS ] [ [no]pmtudisc ] [ dev PHYS_DEV ]
+
+Where: NAME := STRING
+       ADDR := { IP_ADDRESS | any }
+       TOS  := { STRING | 00..ff | inherit | inherit/STRING | inherit/00..ff }
+       TTL  := { 1..255 | inherit }
+       KEY  := { DOTTED_QUAD | NUMBER }
+#---------------------------------------------------------------------------------
+ubuntu:~$ ip tuntap help                                                          vrf - manage virtual routing and forwarding devices.
+#---------------------------------------------------------------------------------
+Usage: ip tuntap { add | del | show | list | lst | help } [ dev PHYS_DEV ]
+       [ mode { tun | tap } ] [ user USER ] [ group GROUP ]
+       [ one_queue ] [ pi ] [ vnet_hdr ] [ multi_queue ] [ name NAME ]
+
+Where: USER  := { STRING | NUMBER }
+       GROUP := { STRING | NUMBER }
+#---------------------------------------------------------------------------------
+Usage: ip xfrm XFRM-OBJECT { COMMAND | help }                                     xfrm - manage IPSec policies.
+where  XFRM-OBJECT := state | policy | monitor
 #---------------------------------------------------------------------------------
 #---------------------------------------------------------------------------------
 #---------------------------------------------------------------------------------
