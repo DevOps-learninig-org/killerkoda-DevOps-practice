@@ -295,6 +295,7 @@ OBJECTS :=  address | link | mroute | neigh | netconf |
 FILE := file FILENAME
 #---------------------------------------------------------------------------------
 shell:~$ ip mptcp help                                                           mptcp - manage MPTCP path manager.
+<a href="https://man7.org/linux/man-pages/man8/ip-mptcp.8.html">man ip-mptcp</a>
 #---------------------------------------------------------------------------------
 Usage:  ip mptcp endpoint add ADDRESS [ dev NAME ] [ id ID ]
                                       [ port NR ] [ FLAG-LIST ]
@@ -310,6 +311,7 @@ FLAG  := [ signal | subflow | backup | fullmesh ]
 CHANGE-OPT := [ backup | nobackup | fullmesh | nofullmesh ]
 #---------------------------------------------------------------------------------
 shell:~$ ip mroute help                                                          mroute - multicast routing cache entry.
+<a href="https://man7.org/linux/man-pages/man8/ip-mroute.8.html">man ip-mroute</a>
 #---------------------------------------------------------------------------------
 Usage: ip mroute show [ [ to ] PREFIX ] [ from PREFIX ] [ iif DEVICE ]
                       [ table TABLE_ID ]
@@ -338,6 +340,7 @@ SUPPRESSOR := [ suppress_prefixlength NUMBER ]
 TABLE_ID := [ local | main | default | NUMBER ]
 #---------------------------------------------------------------------------------
 shell:~$ ip neigh help                                                           neighbour - manage ARP or NDISC cache entries.
+<a href="https://man7.org/linux/man-pages/man8/ip-neighbour.8.html">man ip-neighbour</a>
 #---------------------------------------------------------------------------------
 Usage: ip neigh { add | del | change | replace }
                 { ADDR [ lladdr LLADDR ] [ nud STATE ] proxy ADDR }
@@ -352,10 +355,12 @@ STATE := { delay | failed | incomplete | noarp | none |
            permanent | probe | reachable | stale }
 #---------------------------------------------------------------------------------
 shell:~$ ip netconf help                                                         netconf - network configuration monitoring.
+<a href="https://man7.org/linux/man-pages/man8/ip-netconf.8.html">man ip-netconf</a>
 #---------------------------------------------------------------------------------
 Usage: ip netconf show [ dev STRING ]
 #---------------------------------------------------------------------------------
 shell:~$ ip netns help                                                           netns - manage network namespaces.
+<a href="https://man7.org/linux/man-pages/man8/ip-netns.8.html">man ip-netns</a>
 #---------------------------------------------------------------------------------
 Usage:  ip netns list
         ip netns add NAME
@@ -370,6 +375,7 @@ Usage:  ip netns list
 NETNSID := auto | POSITIVE-INT
 #---------------------------------------------------------------------------------
 shell:~$ ip nexthop help
+<a href="https://man7.org/linux/man-pages/man8/ip-nexthop.8.html">man ip-nexthop</a>
 #---------------------------------------------------------------------------------
 Usage: ip nexthop { list | flush } [ protocol ID ] SELECTOR
        ip nexthop { add | replace } id ID NH [ protocol ID ]
@@ -391,6 +397,7 @@ ENCAPTYPE := [ mpls ]
 ENCAPHDR := [ MPLSLABEL ]
 #---------------------------------------------------------------------------------
 shell:~$ ip ntable help                                                           ntable - manage the neighbor cache's operation.
+<a href="https://man7.org/linux/man-pages/man8/ip-ntable.8.html">man ip-ntable</a>
 #---------------------------------------------------------------------------------
 Usage: ip ntable change name NAME [ dev DEV ]   
         [ thresh1 VAL ] [ thresh2 VAL ] [ thresh3 VAL ] [ gc_int MSEC ]
@@ -403,6 +410,7 @@ PARMS := [ base_reachable MSEC ] [ retrans MSEC ] [ gc_stale MSEC ]
          [ locktime MSEC ]
 #---------------------------------------------------------------------------------
 shell:~$ ip route help                                                           route  - routing table entry.
+<a href="https://man7.org/linux/man-pages/man8/ip-route.8.html">man ip-route</a>
 #---------------------------------------------------------------------------------
 Usage: ip route { list | flush } SELECTOR
        ip route save SELECTOR
@@ -462,6 +470,7 @@ XFRMINFO := if_id IF_ID [ link_dev LINK ]
 ROUTE_GET_FLAGS := [ fibmatch ]
 #---------------------------------------------------------------------------------
 shell:~$ ip rule help                                                            rule - rule in routing policy database.
+<a href="https://man7.org/linux/man-pages/man8/ip-rule.8.html">man ip-rule</a>
 #---------------------------------------------------------------------------------
 Usage: ip rule { add | del } SELECTOR ACTION
        ip rule { flush | save | restore }
