@@ -106,14 +106,21 @@ CONFFLAG-LIST := [ CONFFLAG-LIST ] CONFFLAG
 CONFFLAG  := [ home | nodad | mngtmpaddr | noprefixroute | autojoin ]
 LIFETIME := [ valid_lft LFT ] [ preferred_lft LFT ]
 LFT := forever | SECONDS
-TYPE := { amt | bareudp | bond | bond_slave | bridge | bridge_slave |
-          dsa | dummy | erspan | geneve | gre | gretap | gtp | ifb |
-          ip6erspan | ip6gre | ip6gretap | ip6tnl |
-          ipip | ipoib | ipvlan | ipvtap |
+TYPE := { amt | 
+          bareudp | bond | bond_slave | bridge | bridge_slave |
+          dsa | dummy |
+          erspan | 
+          geneve | gre | gretap | gtp |
+          ifb |  ip6erspan | ip6gre | ip6gretap |
+          ip6tnl | ipip | ipoib | ipvlan | ipvtap |
           macsec | macvlan | macvtap |
-          netdevsim | nlmon | rmnet | sit | team | team_slave |
-          vcan | veth | vlan | vrf | vti | vxcan | vxlan | wwan |
-          xfrm | virt_wifi }
+          netdevsim | nlmon | 
+          rmnet | 
+          sit | 
+          team | team_slave |
+          vcan | veth | vlan | vrf | vti | vxcan | vxlan | virt_wifi |
+          wwan |
+          xfrm }
 #---------------------------------------------------------------------------------
 shell:~$ ip addrlabel help                                                        addrlabel - label configuration for protocol address selection.
 <a href="https://man7.org/linux/man-pages/man8/ip-addrlabel.8.html">man ip-addrlabel</a>
