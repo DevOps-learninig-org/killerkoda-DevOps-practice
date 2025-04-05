@@ -47,7 +47,7 @@ where  OBJECT := { address | addrlabel | amt | fou | help | ila | ioam | l2tp |
 
 <a href="https://man7.org/linux/man-pages/man8/ip-address.8.html">man ip-address</a>
 <a href="https://man7.org/linux/man-pages/man8/ip-addrlabel.8.html">man ip-addrlabel</a>
-<a href="https://man7.org/linux/man-pages/man8/ip-link.8.html">man ip-amt</a>
+<a href="https://man7.org/linux/man-pages/man8/ip-link.8.html">man ip-link</a>
 <a href="https://man7.org/linux/man-pages/man8/ip-fou.8.html">man ip-fou</a>
 <a href="about:blank">man ip-help</a>
 <a href="about:blank">man ip-ila</a>
@@ -145,6 +145,7 @@ OPTIONS := [ csum-mode { adj-transport | neutral-map |
            [ ident-type { luid | use-format } ]
 #---------------------------------------------------------------------------------
 shell:~$ ip ioam help                                                            ioam - manage IOAM namespaces and IOAM schemas.
+<a href="https://man7.org/linux/man-pages/man8/ip-ioam.8.html">man ip-ioam</a>
 #---------------------------------------------------------------------------------
 Usage:  ip ioam { COMMAND | help }
         ip ioam namespace show
@@ -156,6 +157,7 @@ Usage:  ip ioam { COMMAND | help }
         ip ioam namespace set ID schema { ID | none }
 #---------------------------------------------------------------------------------
 shell:~$ ip l2tp help                                                            l2tp - tunnel ethernet over IP (L2TPv3).
+<a href="https://man7.org/linux/man-pages/man8/ip-l2tp.8.html">man ip-l2tp</a>
 #---------------------------------------------------------------------------------
 Usage: ip l2tp add tunnel
           remote ADDR local ADDR
@@ -184,7 +186,7 @@ Where: NAME   := STRING
        L2SPEC := { none | default }
 #---------------------------------------------------------------------------------
 shell:~$ ip link help                                                            link - network device.
-<a href="https://man7.org/linux/man-pages/man8/ip-link.8.html">man ip-amt</a>
+<a href="https://man7.org/linux/man-pages/man8/ip-link.8.html">man ip-link</a>
 #---------------------------------------------------------------------------------
 Usage: ip link add [link DEV | parentdev NAME] [ name ] NAME
                     [ txqueuelen PACKETS ]
