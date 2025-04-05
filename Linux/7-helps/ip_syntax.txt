@@ -43,38 +43,41 @@ where  OBJECT := { address | addrlabel | amt | fou | help | ila | ioam | l2tp |
        vrf    - manage virtual routing and forwarding devices.
        xfrm   - manage IPSec policies.
 
-<a href="">man ip-address
-<a href="">man ip-addrlabel
-<a href="">man ip-amt
-<a href="">man ip-fou
-<a href="">man ip-help
-<a href="">man ip-ila
-<a href="">man ip-ioam<
-a href="">man ip-l2tp 
-<a href="">man ip-link
-<a href="">man ip-macsec
-<a href="">man ip-maddress
-<a href="">man ip-monitor
-<a href="">man ip-mptcp
-<a href="">man ip-mroute
-<a href="">man ip-mrule 
-<a href="">man ip-neighbor
-<a href="">man ip-neighbour
-<a href="">man ip-netconf
-<a href="">man ip-netns
-<a href="">man ip-nexthop
-<a href="">man ip-ntable
-<a href="">man ip-
-<a href="">man ip-ntbl
-<a href="">man ip-route
-<a href="">man ip-rule
-<a href="">man ip-sr
-<a href="">man ip-tap
-<a href="">man ip-tcpmetrics  
-token<a href="">man ip-tunnel
-<a href="">man ip-tuntap
-<a href="">man ip-vrf
-<a href="">man ip-xfrm
+<a href="https://man7.org/linux/man-pages/man8/ip-address.8.html">man ip-address</a>
+<a href="https://man7.org/linux/man-pages/man8/ip-addrlabel.8.html">man ip-addrlabel</a>
+<a href="https://man7.org/linux/man-pages/man8/ip-link.8.html">man ip-amt</a>
+<a href="https://man7.org/linux/man-pages/man8/ip-fou.8.html">man ip-fou</a>
+<a href="https://man7.org/linux/man-pages/man8/ip-help.8.html">man ip-help</a>
+<a href="https://man7.org/linux/man-pages/man8/ip-ila.8.html">man ip-ila</a>
+<a href="https://man7.org/linux/man-pages/man8/ip-ioam.8.html">man ip-ioam</a>
+<a href="https://man7.org/linux/man-pages/man8/ip-l2tp.8.html">man ip-l2tp</a>
+<a href="https://man7.org/linux/man-pages/man8/ip-link.8.html">man ip-link</a>
+<a href="https://man7.org/linux/man-pages/man8/ip-macsec.8.html">man ip-macsec</a>
+<a href="https://man7.org/linux/man-pages/man8/ip-maddress.8.html">man ip-maddress</a>
+<a href="https://man7.org/linux/man-pages/man8/ip-monitor.8.html">man ip-monitor</a>
+<a href="https://man7.org/linux/man-pages/man8/ip-mptcp.8.html">man ip-mptcp</a>
+<a href="https://man7.org/linux/man-pages/man8/ip-mroute.8.html">man ip-mroute</a>
+<a href="https://man7.org/linux/man-pages/man8/ip-mrule.8.html">man ip-mrule</a>
+<a href="https://man7.org/linux/man-pages/man8/ip-neighbor.8.html">man ip-neighbor</a>
+<a href="https://man7.org/linux/man-pages/man8/ip-neighbour.8.html">man ip-neighbour</a>
+<a href="https://man7.org/linux/man-pages/man8/ip-netconf.8.html">man ip-netconf</a>
+<a href="https://man7.org/linux/man-pages/man8/ip-netns.8.html">man ip-netns</a>
+<a href="https://man7.org/linux/man-pages/man8/ip-nexthop.8.html">man ip-nexthop</a>
+<a href="https://man7.org/linux/man-pages/man8/ip-ntable.8.html">man ip-ntable</a>
+<a href="https://man7.org/linux/man-pages/man8/ip-ntbl.8.html">man ip-ntbl</a>
+<a href="https://man7.org/linux/man-pages/man8/ip-route.8.html">man ip-route</a>
+<a href="https://man7.org/linux/man-pages/man8/ip-rule.8.html">man ip-rule</a>
+<a href="https://man7.org/linux/man-pages/man8/ip-sr.8.html">man ip-sr</a>
+<a href="https://man7.org/linux/man-pages/man8/ip-tap.8.html">man ip-tap</a>
+<a href="https://man7.org/linux/man-pages/man8/ip-tcpmetrics.8.html">man ip-tcpmetrics</a>
+<a href="https://man7.org/linux/man-pages/man8/ip-token.8.html">man ip-token</a>
+<a href="https://man7.org/linux/man-pages/man8/ip-tunnel.8.html">man ip-tunnel</a>
+<a href="https://man7.org/linux/man-pages/man8/ip-tunta.8.html">man ip-tuntap</a>
+<a href="https://man7.org/linux/man-pages/man8/ip-vrf.8.html">man ip-vrf</a>
+<a href="https://man7.org/linux/man-pages/man8/ip-xfrm.8.html">man ip-xfrm</a>
+#---------------------------------------------------------------------------------
+#---------------------------------------------------------------------------------
+#---------------------------------------------------------------------------------
 #---------------------------------------------------------------------------------
 ubuntu:~$ ip address help                                                        address - protocol (IP or IPv6) address on a device.
 #---------------------------------------------------------------------------------
