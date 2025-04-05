@@ -118,6 +118,7 @@ Where: NAME   := STRING
        L2SPEC := { none | default }
 #---------------------------------------------------------------------------------
 ubuntu:~$ ip link help
+#---------------------------------------------------------------------------------
 Usage: ip link add [link DEV | parentdev NAME] [ name ] NAME
                     [ txqueuelen PACKETS ]
                     [ address LLADDR ]
@@ -223,9 +224,50 @@ OBJECTS :=  address | link | mroute | neigh | netconf |
             nexthop | nsid | prefix | route | rule | stats
 FILE := file FILENAME
 #---------------------------------------------------------------------------------
-
+ubuntu:~$ ip mptcp help
 #---------------------------------------------------------------------------------
-ubuntu:~$ ip neighbor help
+Usage:  ip mptcp endpoint add ADDRESS [ dev NAME ] [ id ID ]
+                                      [ port NR ] [ FLAG-LIST ]
+        ip mptcp endpoint delete id ID [ ADDRESS ]
+        ip mptcp endpoint change [ id ID ] [ ADDRESS ] [ port NR ] CHANGE-OPT
+        ip mptcp endpoint show [ id ID ]
+        ip mptcp endpoint flush
+        ip mptcp limits set [ subflows NR ] [ add_addr_accepted NR ]
+        ip mptcp limits show
+        ip mptcp monitor
+FLAG-LIST := [ FLAG-LIST ] FLAG
+FLAG  := [ signal | subflow | backup | fullmesh ]
+CHANGE-OPT := [ backup | nobackup | fullmesh | nofullmesh ]
+#---------------------------------------------------------------------------------
+ubuntu:~$ ip mroute help
+#---------------------------------------------------------------------------------
+Usage: ip mroute show [ [ to ] PREFIX ] [ from PREFIX ] [ iif DEVICE ]
+                      [ table TABLE_ID ]
+TABLE_ID := [ local | main | default | all | NUMBER ]
+#---------------------------------------------------------------------------------
+ubuntu:~$ ip mrule help
+#---------------------------------------------------------------------------------
+Usage: ip rule { add | del } SELECTOR ACTION
+       ip rule { flush | save | restore }
+       ip rule [ list [ SELECTOR ]]
+SELECTOR := [ not ] [ from PREFIX ] [ to PREFIX ] [ tos TOS ]
+            [ fwmark FWMARK[/MASK] ]
+            [ iif STRING ] [ oif STRING ] [ pref NUMBER ] [ l3mdev ]
+            [ uidrange NUMBER-NUMBER ]
+            [ ipproto PROTOCOL ]
+            [ sport [ NUMBER | NUMBER-NUMBER ]
+            [ dport [ NUMBER | NUMBER-NUMBER ] ]
+ACTION := [ table TABLE_ID ]
+          [ protocol PROTO ]
+          [ nat ADDRESS ]
+          [ realms [SRCREALM/]DSTREALM ]
+          [ goto NUMBER ]
+          SUPPRESSOR
+SUPPRESSOR := [ suppress_prefixlength NUMBER ]
+              [ suppress_ifgroup DEVGROUP ]
+TABLE_ID := [ local | main | default | NUMBER ]
+#---------------------------------------------------------------------------------
+ubuntu:~$ ip neigh help
 #---------------------------------------------------------------------------------
 Usage: ip neigh { add | del | change | replace }
                 { ADDR [ lladdr LLADDR ] [ nud STATE ] proxy ADDR }
@@ -238,4 +280,163 @@ Usage: ip neigh { add | del | change | replace }
 
 STATE := { delay | failed | incomplete | noarp | none |
            permanent | probe | reachable | stale }
+#---------------------------------------------------------------------------------
+ubuntu:~$ ip netconf help
+#---------------------------------------------------------------------------------
+Usage: ip netconf show [ dev STRING ]
+#---------------------------------------------------------------------------------
+ubuntu:~$ ip netns help
+#---------------------------------------------------------------------------------
+Usage:  ip netns list
+        ip netns add NAME
+        ip netns attach NAME PID
+        ip netns set NAME NETNSID
+        ip [-all] netns delete [NAME]
+        ip netns identify [PID]
+        ip netns pids NAME
+        ip [-all] netns exec [NAME] cmd ...
+        ip netns monitor
+        ip netns list-id [target-nsid POSITIVE-INT] [nsid POSITIVE-INT]
+NETNSID := auto | POSITIVE-INT
+#---------------------------------------------------------------------------------
+ubuntu:~$ ip nexthop help
+#---------------------------------------------------------------------------------
+Usage: ip nexthop { list | flush } [ protocol ID ] SELECTOR
+       ip nexthop { add | replace } id ID NH [ protocol ID ]
+       ip nexthop { get | del } id ID
+       ip nexthop bucket list BUCKET_SELECTOR
+       ip nexthop bucket get id ID index INDEX
+SELECTOR := [ id ID ] [ dev DEV ] [ vrf NAME ] [ master DEV ]
+            [ groups ] [ fdb ]
+BUCKET_SELECTOR := SELECTOR | [ nhid ID ]
+NH := { blackhole | [ via ADDRESS ] [ dev DEV ] [ onlink ]
+        [ encap ENCAPTYPE ENCAPHDR ] |
+        group GROUP [ fdb ] [ type TYPE [ TYPE_ARGS ] ] }
+GROUP := [ <id[,weight]>/<id[,weight]>/... ]
+TYPE := { mpath | resilient }
+TYPE_ARGS := [ RESILIENT_ARGS ]
+RESILIENT_ARGS := [ buckets BUCKETS ] [ idle_timer IDLE ]
+                  [ unbalanced_timer UNBALANCED ]
+ENCAPTYPE := [ mpls ]
+ENCAPHDR := [ MPLSLABEL ]
+#---------------------------------------------------------------------------------
+Usage: ip ntable change name NAME [ dev DEV ]
+#---------------------------------------------------------------------------------
+        [ thresh1 VAL ] [ thresh2 VAL ] [ thresh3 VAL ] [ gc_int MSEC ]
+        [ PARMS ]
+Usage: ip ntable show [ dev DEV ] [ name NAME ]
+PARMS := [ base_reachable MSEC ] [ retrans MSEC ] [ gc_stale MSEC ]
+         [ delay_probe MSEC ] [ queue LEN ]
+         [ app_probes VAL ] [ ucast_probes VAL ] [ mcast_probes VAL ]
+         [ anycast_delay MSEC ] [ proxy_delay MSEC ] [ proxy_queue LEN ]
+         [ locktime MSEC ]
+#---------------------------------------------------------------------------------
+ubuntu:~$ ip route help
+#---------------------------------------------------------------------------------
+Usage: ip route { list | flush } SELECTOR
+       ip route save SELECTOR
+       ip route restore
+       ip route showdump
+       ip route get [ ROUTE_GET_FLAGS ] ADDRESS
+                            [ from ADDRESS iif STRING ]
+                            [ oif STRING ] [ tos TOS ]
+                            [ mark NUMBER ] [ vrf NAME ]
+                            [ uid NUMBER ] [ ipproto PROTOCOL ]
+                            [ sport NUMBER ] [ dport NUMBER ]
+       ip route { add | del | change | append | replace } ROUTE
+SELECTOR := [ root PREFIX ] [ match PREFIX ] [ exact PREFIX ]
+            [ table TABLE_ID ] [ vrf NAME ] [ proto RTPROTO ]
+            [ type TYPE ] [ scope SCOPE ]
+ROUTE := NODE_SPEC [ INFO_SPEC ]
+NODE_SPEC := [ TYPE ] PREFIX [ tos TOS ]
+             [ table TABLE_ID ] [ proto RTPROTO ]
+             [ scope SCOPE ] [ metric METRIC ]
+             [ ttl-propagate { enabled | disabled } ]
+INFO_SPEC := { NH | nhid ID } OPTIONS FLAGS [ nexthop NH ]...
+NH := [ encap ENCAPTYPE ENCAPHDR ] [ via [ FAMILY ] ADDRESS ]
+      [ dev STRING ] [ weight NUMBER ] NHFLAGS
+FAMILY := [ inet | inet6 | mpls | bridge | link ]
+OPTIONS := FLAGS [ mtu NUMBER ] [ advmss NUMBER ] [ as [ to ] ADDRESS ]
+           [ rtt TIME ] [ rttvar TIME ] [ reordering NUMBER ]
+           [ window NUMBER ] [ cwnd NUMBER ] [ initcwnd NUMBER ]
+           [ ssthresh NUMBER ] [ realms REALM ] [ src ADDRESS ]
+           [ rto_min TIME ] [ hoplimit NUMBER ] [ initrwnd NUMBER ]
+           [ features FEATURES ] [ quickack BOOL ] [ congctl NAME ]
+           [ pref PREF ] [ expires TIME ] [ fastopen_no_cookie BOOL ]
+TYPE := { unicast | local | broadcast | multicast | throw |
+          unreachable | prohibit | blackhole | nat }
+TABLE_ID := [ local | main | default | all | NUMBER ]
+SCOPE := [ host | link | global | NUMBER ]
+NHFLAGS := [ onlink | pervasive ]
+RTPROTO := [ kernel | boot | static | NUMBER ]
+PREF := [ low | medium | high ]
+TIME := NUMBER[s|ms]
+BOOL := [1|0]
+FEATURES := ecn
+ENCAPTYPE := [ mpls | ip | ip6 | seg6 | seg6local | rpl | ioam6 | xfrm ]
+ENCAPHDR := [ MPLSLABEL | SEG6HDR | SEG6LOCAL | IOAM6HDR | XFRMINFO ]
+SEG6HDR := [ mode SEGMODE ] segs ADDR1,ADDRi,ADDRn [hmac HMACKEYID] [cleanup]
+SEGMODE := [ encap | encap.red | inline | l2encap | l2encap.red ]
+SEG6LOCAL := action ACTION [ OPTIONS ] [ count ]
+ACTION := { End | End.X | End.T | End.DX2 | End.DX6 | End.DX4 |
+            End.DT6 | End.DT4 | End.DT46 | End.B6 | End.B6.Encaps |
+            End.BM | End.S | End.AS | End.AM | End.BPF }
+OPTIONS := OPTION [ OPTIONS ]
+OPTION := { flavors FLAVORS | srh SEG6HDR | nh4 ADDR | nh6 ADDR | iif DEV | oif DEV |
+            table TABLEID | vrftable TABLEID | endpoint PROGNAME }
+FLAVORS := { FLAVOR[,FLAVOR] }
+FLAVOR := { psp | usp | usd | next-csid }
+IOAM6HDR := trace prealloc type IOAM6_TRACE_TYPE ns IOAM6_NAMESPACE size IOAM6_TRACE_SIZE
+XFRMINFO := if_id IF_ID [ link_dev LINK ]
+ROUTE_GET_FLAGS := [ fibmatch ]
+#---------------------------------------------------------------------------------
+ubuntu:~$ ip rule help
+#---------------------------------------------------------------------------------
+Usage: ip rule { add | del } SELECTOR ACTION
+       ip rule { flush | save | restore }
+       ip rule [ list [ SELECTOR ]]
+SELECTOR := [ not ] [ from PREFIX ] [ to PREFIX ] [ tos TOS ]
+            [ fwmark FWMARK[/MASK] ]
+            [ iif STRING ] [ oif STRING ] [ pref NUMBER ] [ l3mdev ]
+            [ uidrange NUMBER-NUMBER ]
+            [ ipproto PROTOCOL ]
+            [ sport [ NUMBER | NUMBER-NUMBER ]
+            [ dport [ NUMBER | NUMBER-NUMBER ] ]
+ACTION := [ table TABLE_ID ]
+          [ protocol PROTO ]
+          [ nat ADDRESS ]
+          [ realms [SRCREALM/]DSTREALM ]
+          [ goto NUMBER ]
+          SUPPRESSOR
+SUPPRESSOR := [ suppress_prefixlength NUMBER ]
+              [ suppress_ifgroup DEVGROUP ]
+TABLE_ID := [ local | main | default | NUMBER ]
+#---------------------------------------------------------------------------------
+ubuntu:~$ ip sr help
+#---------------------------------------------------------------------------------
+Usage: ip sr { COMMAND | help }
+          ip sr hmac show
+          ip sr hmac set KEYID ALGO
+          ip sr tunsrc show
+          ip sr tunsrc set ADDRESS
+where  ALGO := { sha1 | sha256 }
+#---------------------------------------------------------------------------------
+ubuntu:~$ ip tap help
+#---------------------------------------------------------------------------------
+Usage: ip tuntap { add | del | show | list | lst | help } [ dev PHYS_DEV ]
+       [ mode { tun | tap } ] [ user USER ] [ group GROUP ]
+       [ one_queue ] [ pi ] [ vnet_hdr ] [ multi_queue ] [ name NAME ]
+
+Where: USER  := { STRING | NUMBER }
+       GROUP := { STRING | NUMBER }
+#---------------------------------------------------------------------------------
+ubuntu:~$ ip tcpmetrics help
+#---------------------------------------------------------------------------------
+Usage:  ip tcp_metrics/tcpmetrics { COMMAND | help }
+        ip tcp_metrics { show | flush } SELECTOR
+        ip tcp_metrics delete [ address ] ADDRESS
+SELECTOR := [ [ address ] PREFIX ]
+#---------------------------------------------------------------------------------
+#---------------------------------------------------------------------------------
+#---------------------------------------------------------------------------------
 #---------------------------------------------------------------------------------
