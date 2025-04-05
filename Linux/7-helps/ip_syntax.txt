@@ -20,6 +20,7 @@ where  OBJECT := { address | addrlabel | amt | fou | help | ila | ioam | l2tp |
 
        address         - protocol (IP or IPv6) address on a device.
        addrlabel       - label configuration for protocol address selection.
+       ila    - manage identifier locator addresses
        ioam   - manage IOAM namespaces and IOAM schemas.
        l2tp   - tunnel ethernet over IP (L2TPv3).
        link   - network device.
@@ -33,6 +34,7 @@ where  OBJECT := { address | addrlabel | amt | fou | help | ila | ioam | l2tp |
        ntable - manage the neighbor cache's operation.
        route  - routing table entry.
        rule   - rule in routing policy database.
+       sr     - manage IPv6 segment routing.
        stats  - manage and show interface statistics.
        tcp_metrics/tcpmetrics  - manage TCP Metrics
        token  - manage tokenized interface identifiers.
@@ -93,7 +95,7 @@ Where: PROTO { ipproto-name | 1..255 }
        PORT { 1..65535 }
        IFADDR { addr }
 #---------------------------------------------------------------------------------
-ubuntu:~$ ip ila help
+ubuntu:~$ ip ila help                                                             ila - manage identifier locator addresses
 #---------------------------------------------------------------------------------
 Usage: ip ila add loc_match LOCATOR_MATCH loc LOCATOR [ dev DEV ] OPTIONS
        ip ila del loc_match LOCATOR_MATCH [ loc LOCATOR ] [ dev DEV ]
@@ -215,7 +217,7 @@ TYPE := { amt | bareudp | bond | bond_slave | bridge | bridge_slave |
           vcan | veth | vlan | vrf | vti | vxcan | vxlan | wwan |
           xfrm | virt_wifi }
 #---------------------------------------------------------------------------------
-ubuntu:~$ ip macsec help
+ubuntu:~$ ip macsec help                                                          macsec - configure the 802.1AE keys of the interface (GCM-AES)
 #---------------------------------------------------------------------------------
 Usage: ip macsec add DEV tx sa { 0..3 } [ OPTS ] key ID KEY
        ip macsec set DEV tx sa { 0..3 } [ OPTS ]
@@ -305,7 +307,7 @@ Usage: ip neigh { add | del | change | replace }
 STATE := { delay | failed | incomplete | noarp | none |
            permanent | probe | reachable | stale }
 #---------------------------------------------------------------------------------
-ubuntu:~$ ip netconf help
+ubuntu:~$ ip netconf help                                                         netconf - network configuration monitoring.
 #---------------------------------------------------------------------------------
 Usage: ip netconf show [ dev STRING ]
 #---------------------------------------------------------------------------------
@@ -448,7 +450,7 @@ xstats_slave SUBGROUP := { bridge [ suite stp ] [ suite mcast ] | bond [ suite 8
 offload SUBGROUP := { cpu_hit | hw_stats_info | l3_stats }
 afstats SUBGROUP := { mpls }
 #---------------------------------------------------------------------------------
-ubuntu:~$ ip sr help
+ubuntu:~$ ip sr help                                                              sr - manage IPv6 segment routing.
 #---------------------------------------------------------------------------------
 Usage: ip sr { COMMAND | help }
           ip sr hmac show
