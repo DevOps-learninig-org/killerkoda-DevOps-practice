@@ -1765,4 +1765,11 @@ SUMMARY OF LESS COMMANDS
                 --incsearch                   Search file as each pattern character is typed in.
                 --line-num-width=N            Set the width of the -N line number field to N characters.
                 --mouse                       Enable mouse input.
-                --no-keypad
+                --no-keypad                   Don't send termcap keypad init/deinit strings.
+                --no-histdups                 Remove duplicates from command history.
+                --rscroll=C                   Set the character used to mark truncated lines.
+                --save-marks                  Retain marks across invocations of less.
+                --status-col-width=N          Set the width of the -J status column to N characters.
+                --use-backslash               Subsequent options use backslash as escape char.
+                --use-color                   Enables colored text.
+                --wheel-lines=N               Each click of the mouse wheel moves N lines.
