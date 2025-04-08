@@ -20,18 +20,18 @@ TCPDUMP   - Dump traffic on a network.
 SYSTEMCTL - Control the systemd system and service manager.
 NETWORKCTL - Query or modify the status of network links.
 JOURNALCTL - Print log entries from the systemd journal.
-LESS       - Display the contents of a file in a terminal
-SED        - Stream editor for filtering and transforming text
-AWK        - Pattern scanning and processing language
+LESS       - Display the contents of a file in a terminal.
+SED        - Stream editor for filtering and transforming text.
+AWK        - Pattern scanning and processing language.
 DIFF       - Compare FILES line by line.
 DU         - Summarize device usage of the set of FILEs, recursively for directories.
 DH         - Show information about the file system on which each FILE resides.
 SORT       - Sort lines of text files.
-UNIQ       - Report or omit repeated lines
-lvm
-lsblk
+UNIQ       - Report or omit repeated lines.
+LVM        - LVM2 tools.
+LSBLK      - List information about block devices.
+PARTED     - Partition manipulation program.
 zfs
-parted
 #--------------------------------------------------------------------------------CAT
 ubuntu:~$ cat /proc/version
 Linux version 6.8.0-51-generic (buildd@lcy02-amd64-091) (x86_64-linux-gnu-gcc-13 (Ubuntu 13.3.0-6ubuntu2~24.04) 13.3.0, GNU ld (GNU Binutils for Ubuntu) 2.42) #52-Ubuntu SMP PREEMPT_DYNAMIC Thu Dec  5 13:09:44 UTC 2024
@@ -2231,7 +2231,227 @@ characters.  Fields are skipped before chars.
 Note: 'uniq' does not detect repeated lines unless they are adjacent.
 You may want to sort the input first, or use 'sort -u' without 'uniq'.
 
+#--------------------------------------------------------------------------------LVM
+ubuntu:~$ lvm --help
+  Available lvm commands:
+  Use 'lvm help <command>' for more information
+   
+  config          Display and manipulate configuration information
+  devtypes        Display recognised built-in block device types
+  dumpconfig      Display and manipulate configuration information
+  formats         List available metadata formats
+  fullreport      Display full report
+  help            Display help for commands
+  lastlog         Display last command's log report
+  lvchange        Change the attributes of logical volume(s)
+  lvconvert       Change logical volume layout
+  lvcreate        Create a logical volume
+  lvdisplay       Display information about a logical volume
+  lvextend        Add space to a logical volume
+  lvmchange       With the device mapper, this is obsolete and does nothing.
+  lvmconfig       Display and manipulate configuration information
+  lvmdevices      Manage the devices file
+  lvmdiskscan     List devices that may be used as physical volumes
+  lvmsadc         Collect activity data
+  lvmsar          Create activity report
+  lvpoll          Continue already initiated poll operation on a logical volume
+  lvreduce        Reduce the size of a logical volume
+  lvremove        Remove logical volume(s) from the system
+  lvrename        Rename a logical volume
+  lvresize        Resize a logical volume
+  lvs             Display information about logical volumes
+  lvscan          List all logical volumes in all volume groups
+  pvchange        Change attributes of physical volume(s)
+  pvck            Check metadata on physical volumes
+  pvcreate        Initialize physical volume(s) for use by LVM
+  pvdata          Display the on-disk metadata for physical volume(s)
+  pvdisplay       Display various attributes of physical volume(s)
+  pvmove          Move extents from one physical volume to another
+  pvremove        Remove LVM label(s) from physical volume(s)
+  pvresize        Resize physical volume(s)
+  pvs             Display information about physical volumes
+  pvscan          List all physical volumes
+  segtypes        List available segment types
+  systemid        Display the system ID, if any, currently set on this host
+  tags            List tags defined on this host
+  version         Display software and driver version information
+  vgcfgbackup     Backup volume group configuration(s)
+  vgcfgrestore    Restore volume group configuration
+  vgchange        Change volume group attributes
+  vgck            Check the consistency of volume group(s)
+  vgconvert       Change volume group metadata format
+  vgcreate        Create a volume group
+  vgdisplay       Display volume group information
+  vgexport        Unregister volume group(s) from the system
+  vgextend        Add physical volumes to a volume group
+  vgimport        Register exported volume group with system
+  vgimportclone   Import a VG from cloned PVs
+  vgimportdevices Add devices for a VG to the devices file.
+  vgmerge         Merge volume groups
+  vgmknodes       Create the special files for volume group devices in /dev
+  vgreduce        Remove physical volume(s) from a volume group
+  vgremove        Remove volume group(s)
+  vgrename        Rename a volume group
+  vgs             Display information about volume groups
+  vgscan          Search for all volume groups
+  vgsplit         Move physical volumes into a new or existing volume group
+
+#--------------------------------------------------------------------------------LSBLK
+ubuntu:~$ lsblk --help
+
+Usage:
+ lsblk [options] [<device> ...]
+
+List information about block devices.
+
+Options:
+ -A, --noempty        don't print empty devices
+ -D, --discard        print discard capabilities
+ -E, --dedup <column> de-duplicate output by <column>
+ -I, --include <list> show only devices with specified major numbers
+ -J, --json           use JSON output format
+ -M, --merge          group parents of sub-trees (usable for RAIDs, Multi-path)
+ -O, --output-all     output all columns
+ -P, --pairs          use key="value" output format
+ -S, --scsi           output info about SCSI devices
+ -N, --nvme           output info about NVMe devices
+ -v, --virtio         output info about virtio devices
+ -T, --tree[=<column>] use tree format output
+ -a, --all            print all devices
+ -b, --bytes          print SIZE in bytes rather than in human readable format
+ -d, --nodeps         don't print slaves or holders
+ -e, --exclude <list> exclude devices by major number (default: RAM disks)
+ -f, --fs             output info about filesystems
+ -i, --ascii          use ascii characters only
+ -l, --list           use list format output
+ -m, --perms          output info about permissions
+ -n, --noheadings     don't print headings
+ -o, --output <list>  output columns
+ -p, --paths          print complete device path
+ -r, --raw            use raw output format
+ -s, --inverse        inverse dependencies
+ -t, --topology       output info about topology
+ -w, --width <num>    specifies output width as number of characters
+ -x, --sort <column>  sort output by <column>
+ -y, --shell          use column names to be usable as shell variable identifiers
+ -z, --zoned          print zone related information
+     --sysroot <dir>  use specified directory as system root
+
+ -h, --help           display this help
+ -V, --version        display version
+
+Available output columns:
+    ALIGNMENT  alignment offset
+      ID-LINK  the shortest udev /dev/disk/by-id link name
+           ID  udev ID (based on ID-LINK)
+     DISC-ALN  discard alignment offset
+          DAX  dax-capable device
+    DISC-GRAN  discard granularity
+     DISK-SEQ  disk sequence number
+     DISC-MAX  discard max bytes
+    DISC-ZERO  discard zeroes data
+      FSAVAIL  filesystem size available
+      FSROOTS  mounted filesystem roots
+       FSSIZE  filesystem size
+       FSTYPE  filesystem type
+       FSUSED  filesystem size used
+       FSUSE%  filesystem use percentage
+        FSVER  filesystem version
+        GROUP  group name
+         HCTL  Host:Channel:Target:Lun for SCSI
+      HOTPLUG  removable or hotplug device (usb, pcmcia, ...)
+        KNAME  internal kernel device name
+        LABEL  filesystem LABEL
+      LOG-SEC  logical sector size
+      MAJ:MIN  major:minor device number
+       MIN-IO  minimum I/O size
+         MODE  device node permissions
+        MODEL  device identifier
+           MQ  device queues
+         NAME  device name
+       OPT-IO  optimal I/O size
+        OWNER  user name
+    PARTFLAGS  partition flags
+    PARTLABEL  partition LABEL
+        PARTN  partition number as read from the partition table
+     PARTTYPE  partition type code or UUID
+ PARTTYPENAME  partition type name
+     PARTUUID  partition UUID
+         PATH  path to the device node
+      PHY-SEC  physical sector size
+       PKNAME  internal parent kernel device name
+       PTTYPE  partition table type
+       PTUUID  partition table identifier (usually UUID)
+           RA  read-ahead of the device
+         RAND  adds randomness
+          REV  device revision
+           RM  removable device
+           RO  read-only device
+         ROTA  rotational device
+      RQ-SIZE  request queue size
+        SCHED  I/O scheduler name
+       SERIAL  disk serial number
+         SIZE  size of the device
+        START  partition start offset
+        STATE  state of the device
+   SUBSYSTEMS  de-duplicated chain of subsystems
+   MOUNTPOINT  where the device is mounted
+  MOUNTPOINTS  all locations where device is mounted
+         TRAN  device transport type
+         TYPE  device type
+         UUID  filesystem UUID
+       VENDOR  device vendor
+        WSAME  write same max bytes
+          WWN  unique storage identifier
+        ZONED  zone model
+      ZONE-SZ  zone size
+   ZONE-WGRAN  zone write granularity
+     ZONE-APP  zone append max bytes
+      ZONE-NR  number of zones
+    ZONE-OMAX  maximum number of open zones
+    ZONE-AMAX  maximum number of active zones
+
 #--------------------------------------------------------------------------------
-#--------------------------------------------------------------------------------
-#--------------------------------------------------------------------------------
+ubuntu:~$ parted --help
+Usage: parted [OPTION]... [DEVICE [COMMAND [PARAMETERS]...]...]
+Apply COMMANDs with PARAMETERS to DEVICE.  If no COMMAND(s) are given, run in
+interactive mode.
+
+OPTIONs:
+  -h, --help                      displays this help message
+  -l, --list                      lists partition layout on all block devices
+  -m, --machine                   displays machine parseable output
+  -j, --json                      displays JSON output
+  -s, --script                    never prompts for user intervention
+  -f, --fix                       in script mode, fix instead of abort when asked
+  -v, --version                   displays the version
+  -a, --align=[none|cyl|min|opt]  alignment for new partitions
+
+COMMANDs:
+  align-check TYPE N                       check partition N for TYPE(min|opt)
+        alignment
+  help [COMMAND]                           print general help, or help on
+        COMMAND
+  mklabel,mktable LABEL-TYPE               create a new disklabel (partition
+        table)
+  mkpart PART-TYPE [FS-TYPE] START END     make a partition
+  name NUMBER NAME                         name partition NUMBER as NAME
+  print [devices|free|list,all]            display the partition table, or
+        available devices, or free space, or all found partitions
+  quit                                     exit program
+  rescue START END                         rescue a lost partition near START
+        and END
+  resizepart NUMBER END                    resize partition NUMBER
+  rm NUMBER                                delete partition NUMBER
+  select DEVICE                            choose the device to edit
+  disk_set FLAG STATE                      change the FLAG on selected device
+  disk_toggle [FLAG]                       toggle the state of FLAG on selected
+        device
+  set NUMBER FLAG STATE                    change the FLAG on partition NUMBER
+  toggle [NUMBER [FLAG]]                   toggle the state of FLAG on partition
+        NUMBER
+  type NUMBER TYPE-ID or TYPE-UUID         type set TYPE-ID or TYPE-UUID of
+        partition NUMBER
+  unit UNIT                                set the default unit to UNIT
+  version                                  display the version number and
 #--------------------------------------------------------------------------------
