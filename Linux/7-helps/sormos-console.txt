@@ -1,0 +1,2 @@
+curl -s 'http://10.192.42.106:8090/v1/pults?enabled=true'| jq 'map(del(."ssl-cert",."ssl-root-cert"))'
+curl http://10.33.139.1:8090/v1/pults/FSB_12_JAN/channels
