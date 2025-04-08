@@ -1747,27 +1747,22 @@ SUMMARY OF LESS COMMANDS
   -r  -R        --raw-control-chars  --RAW-CONTROL-CHARS   Output "raw" control characters.
   -s            --squeeze-blank-lines         Squeeze multiple blank lines.
   -S            --chop-long-lines             Chop (truncate) long lines rather than wrapping.
-  -t [tag]      --tag=[tag]                  Find a tag.
-  -T [tagsfile] --tag-file=[tagsfile]                  Use an alternate tags file.
-  -u  -U        --underline-special  --UNDERLINE-SPECIAL                  Change handling of backspaces.
-  -V            --version                  Display the version number of "less".
-  -w            --hilite-unread                  Highlight first new line after forward-screen.
-  -W            --HILITE-UNREAD                  Highlight first new line after any forward movement.
-  -x [N[,...]]  --tabs=[N[,...]]                  Set tab stops.
-  -X            --no-init                  Don't use termcap init/deinit strings.
-  -y [N]        --max-forw-scroll=[N]                  Forward scroll limit.
+  -t [tag]      --tag=[tag]                   Find a tag.
+  -T [tagsfile] --tag-file=[tagsfile]         Use an alternate tags file.
+  -u  -U        --underline-special  --UNDERLINE-SPECIAL   Change handling of backspaces.
+  -V            --version                     Display the version number of "less".
+  -w            --hilite-unread               Highlight first new line after forward-screen.
+  -W            --HILITE-UNREAD               Highlight first new line after any forward movement.
+  -x [N[,...]]  --tabs=[N[,...]]              Set tab stops.
+  -X            --no-init                     Don't use termcap init/deinit strings.
+  -y [N]        --max-forw-scroll=[N]         Forward scroll limit.
   -z [N]        --window=[N]                  Set size of window.
-  -" [c[c]]     --quotes=[c[c]]                  Set shell quote characters.
-  -~            --tilde                  Don't display tildes after end of file.
-  -# [N]        --shift=[N]                  Set horizontal scroll amount (0 = one half screen width).
-                --file-size
-                  Automatically determine the size of the input file.
-                --follow-name
-                  The F command changes files if the input file is renamed.
-                --incsearch
-                  Search file as each pattern character is typed in.
-                --line-num-width=N
-                  Set the width of the -N line number field to N characters.
-                --mouse
-                  Enable mouse input.
+  -" [c[c]]     --quotes=[c[c]]               Set shell quote characters.
+  -~            --tilde                       Don't display tildes after end of file.
+  -# [N]        --shift=[N]                   Set horizontal scroll amount (0 = one half screen width).
+                --file-size                   Automatically determine the size of the input file.
+                --follow-name                 The F command changes files if the input file is renamed.
+                --incsearch                   Search file as each pattern character is typed in.
+                --line-num-width=N            Set the width of the -N line number field to N characters.
+                --mouse                       Enable mouse input.
                 --no-keypad
