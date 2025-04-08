@@ -20,7 +20,7 @@ TCPDUMP   - Dump traffic on a network.
 SYSTEMCTL - Control the systemd system and service manager.
 NETWORKCTL - Query or modify the status of network links.
 JOURNALCTL - Print log entries from the systemd journal.
-less
+LESS       - Display the contents of a file in a terminal
 sed
 awk
 diff
@@ -1773,3 +1773,5 @@ SUMMARY OF LESS COMMANDS
                 --use-backslash               Subsequent options use backslash as escape char.
                 --use-color                   Enables colored text.
                 --wheel-lines=N               Each click of the mouse wheel moves N lines.
+
+#--------------------------------------------------------------------------------LESS
