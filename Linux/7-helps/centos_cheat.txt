@@ -10,3 +10,6 @@ find /catalog/ -maxdepth 1 -type d -exec mkdir -p {}/.script \;
 
 # Change MC editor
 select-editor
+
+du -hS /data/loader/ | sort -h -r | head -50
+du -s /* |sort -nr|cut -f 2-|while read a;do du -hs $a;done - посмотреть что забивает на разделе
