@@ -1716,34 +1716,58 @@ SUMMARY OF LESS COMMANDS
         Options may be given in one of two forms: either a single
         character preceded by a -, or a name preceded by --.
 
-  -?  ........  --help                        Display help (from command line).
-  -a  ........  --search-skip-screen          Search skips current screen.
-  -A  ........  --SEARCH-SKIP-SCREEN          Search starts just after target line.
-  -b [N]  ....  --buffers=[N]                 Number of buffers.
-  -B  ........  --auto-buffers                Don't automatically allocate buffers for pipes.
-  -c  ........  --clear-screen                Repaint by clearing rather than scrolling.
-  -d  ........  --dumb                        Dumb terminal.
-  -D xcolor  .  --color=xcolor                Set screen colors.
-  -e  -E  ....  --quit-at-eof  --QUIT-AT-EOF  Quit at end of file.
-  -f  ........  --force                       Force open non-regular files.
-  -F  ........  --quit-if-one-screen          Quit if entire file fits on first screen.
-  -g  ........  --hilite-search               Highlight only last match for searches.
-  -G  ........  --HILITE-SEARCH               Don't highlight any matches for searches.
-  -h [N]  ....  --max-back-scroll=[N]         Backward scroll limit.
-  -i  ........  --ignore-case                 Ignore case in searches that do not contain uppercase.
-  -I  ........  --IGNORE-CASE                 Ignore case in all searches.
-  -j [N]  ....  --jump-target=[N]             Screen position of target lines.
-  -J  ........  --status-column               Display a status column at left edge of screen.
-  -k [file]  .  --lesskey-file=[file]         Use a lesskey file.
-  -K  ........  --quit-on-intr                Exit less in response to ctrl-C.
-  -L  ........  --no-lessopen                 Ignore the LESSOPEN environment variable.
-  -m  -M  ....  --long-prompt  --LONG-PROMPT  Set prompt style.
-  -n  -N  ....  --line-numbers  --LINE-NUMBERS  Don't use line numbers.
-  -o [file]  .  --log-file=[file]             Copy to log file (standard input only).
-  -O [file]  .  --LOG-FILE=[file]             Copy to log file (unconditionally overwrite).
+  -?            --help                        Display help (from command line).
+  -a            --search-skip-screen          Search skips current screen.
+  -A            --SEARCH-SKIP-SCREEN          Search starts just after target line.
+  -b [N]        --buffers=[N]                 Number of buffers.
+  -B            --auto-buffers                Don't automatically allocate buffers for pipes.
+  -c            --clear-screen                Repaint by clearing rather than scrolling.
+  -d            --dumb                        Dumb terminal.
+  -D xcolor     --color=xcolor                Set screen colors.
+  -e  -E        --quit-at-eof  --QUIT-AT-EOF  Quit at end of file.
+  -f            --force                       Force open non-regular files.
+  -F            --quit-if-one-screen          Quit if entire file fits on first screen.
+  -g            --hilite-search               Highlight only last match for searches.
+  -G            --HILITE-SEARCH               Don't highlight any matches for searches.
+  -h [N]        --max-back-scroll=[N]         Backward scroll limit.
+  -i            --ignore-case                 Ignore case in searches that do not contain uppercase.
+  -I            --IGNORE-CASE                 Ignore case in all searches.
+  -j [N]        --jump-target=[N]             Screen position of target lines.
+  -J            --status-column               Display a status column at left edge of screen.
+  -k [file]     --lesskey-file=[file]         Use a lesskey file.
+  -K            --quit-on-intr                Exit less in response to ctrl-C.
+  -L            --no-lessopen                 Ignore the LESSOPEN environment variable.
+  -m  -M        --long-prompt  --LONG-PROMPT  Set prompt style.
+  -n  -N        --line-numbers  --LINE-NUMBERS  Don't use line numbers.
+  -o [file]     --log-file=[file]             Copy to log file (standard input only).
+  -O [file]     --LOG-FILE=[file]             Copy to log file (unconditionally overwrite).
   -p [pattern]  --pattern=[pattern]           Start at pattern (from command line).
   -P [prompt]   --prompt=[prompt]             Define new prompt.
-  -q  -Q  ....  --quiet  --QUIET  --silent --SILENT   Quiet the terminal bell.
-  -r  -R  ....  --raw-control-chars  --RAW-CONTROL-CHARS   Output "raw" control characters.
-  -s  ........  --squeeze-blank-lines         Squeeze multiple blank lines.
-  -S  ........  --chop-long-lines             Chop (truncate) long lines rather than wrapping.
+  -q  -Q        --quiet  --QUIET  --silent --SILENT   Quiet the terminal bell.
+  -r  -R        --raw-control-chars  --RAW-CONTROL-CHARS   Output "raw" control characters.
+  -s            --squeeze-blank-lines         Squeeze multiple blank lines.
+  -S            --chop-long-lines             Chop (truncate) long lines rather than wrapping.
+  -t [tag]      --tag=[tag]                  Find a tag.
+  -T [tagsfile] --tag-file=[tagsfile]                  Use an alternate tags file.
+  -u  -U        --underline-special  --UNDERLINE-SPECIAL                  Change handling of backspaces.
+  -V            --version                  Display the version number of "less".
+  -w            --hilite-unread                  Highlight first new line after forward-screen.
+  -W            --HILITE-UNREAD                  Highlight first new line after any forward movement.
+  -x [N[,...]]  --tabs=[N[,...]]                  Set tab stops.
+  -X            --no-init                  Don't use termcap init/deinit strings.
+  -y [N]        --max-forw-scroll=[N]                  Forward scroll limit.
+  -z [N]        --window=[N]                  Set size of window.
+  -" [c[c]]     --quotes=[c[c]]                  Set shell quote characters.
+  -~            --tilde                  Don't display tildes after end of file.
+  -# [N]        --shift=[N]                  Set horizontal scroll amount (0 = one half screen width).
+                --file-size
+                  Automatically determine the size of the input file.
+                --follow-name
+                  The F command changes files if the input file is renamed.
+                --incsearch
+                  Search file as each pattern character is typed in.
+                --line-num-width=N
+                  Set the width of the -N line number field to N characters.
+                --mouse
+                  Enable mouse input.
+                --no-keypad
