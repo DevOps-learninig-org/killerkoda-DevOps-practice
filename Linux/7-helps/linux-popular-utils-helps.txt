@@ -2411,7 +2411,7 @@ Available output columns:
     ZONE-OMAX  maximum number of open zones
     ZONE-AMAX  maximum number of active zones
 
-#--------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------PARTED
 ubuntu:~$ parted --help
 Usage: parted [OPTION]... [DEVICE [COMMAND [PARAMETERS]...]...]
 Apply COMMANDs with PARAMETERS to DEVICE.  If no COMMAND(s) are given, run in
