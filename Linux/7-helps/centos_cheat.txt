@@ -12,6 +12,6 @@ find /catalog/ -maxdepth 1 -type d -exec mkdir -p {}/.script \;
 select-editor
 
 df -Th
-du -hst 1M ./* 
+du -sh ./* 
 
 iostat -xmcNzt 3
