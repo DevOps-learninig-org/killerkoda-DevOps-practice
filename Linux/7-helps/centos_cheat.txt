@@ -12,6 +12,3 @@ find /catalog/ -maxdepth 1 -type d -exec mkdir -p {}/.script \;
 select-editor
 
 du -haSt 1M / | sort -h | tail
-
-du -hS /data/loader/ | sort -h -r | head -50
-du -s /* |sort -nr|cut -f 2-|while read a;do du -hs $a;done - посмотреть что забивает на разделе
