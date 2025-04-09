@@ -15,6 +15,7 @@ PS        - Report a snapshot of the current processes.
 iostat    - 
 pidstat   - 
 vmstat    - 
+mpstat    - 
 netstat   - 
 IP        - Show / manipulate routing, network devices, interfaces and tunnels.
 SS        - Utility to investigate sockets.
