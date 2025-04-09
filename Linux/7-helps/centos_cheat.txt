@@ -13,3 +13,5 @@ select-editor
 
 df -Th
 du -haSt 1M / | sort -h | tail
+
+iostat -xmcNzt 3
