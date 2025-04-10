@@ -17,6 +17,6 @@ ps -fax     # Opposite to $ ps aux
 df -Th      # Opposite to $ df -h
 du -sh ./*  # Opposite to $ du -hS /data/loader/ | sort -h -r | head -50
 
-iostat -zxcMnt 3
+iostat -zxcmNt 3
 
 diff -u <(man 1 intro | col) <(man 2 intro | cat) | less
