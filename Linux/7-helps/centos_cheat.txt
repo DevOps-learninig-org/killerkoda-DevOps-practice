@@ -14,4 +14,4 @@ select-editor
 df -Th
 du -sh ./* 
 
-iostat -xmcNzt 3
+iostat -zxcMnt 3 
