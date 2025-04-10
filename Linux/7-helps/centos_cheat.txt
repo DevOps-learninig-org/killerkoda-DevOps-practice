@@ -11,6 +11,8 @@ find /catalog/ -maxdepth 1 -type d -exec mkdir -p {}/.script \;
 # Change MC editor
 select-editor
 
+ps -fax
+
 df -Th
 du -sh ./* 
 
