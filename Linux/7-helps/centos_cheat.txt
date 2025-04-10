@@ -11,6 +11,11 @@ rpm2cpio *.rpm | cpio -idmv
 # Create subdirectory in all directories of /catalog
 find /catalog/ -mindepth 1 -maxdepth 1 -type d -exec mkdir -p {}/.sub \;
 
+ls -AlF     # Opposite to $ ls -la
+# variants:  
+# (-AlFR | less) - recursive
+# (-AlFS) - sort by size, (-AlFtr) - sort by time in reverce order
+
 cd -        # Go to previously visited catalog
 ps -fax     # Opposite to $ ps aux
 
