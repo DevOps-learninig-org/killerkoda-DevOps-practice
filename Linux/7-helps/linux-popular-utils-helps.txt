@@ -14,7 +14,8 @@ LSIPC     - Show information on IPC facilities.
 PS        - Report a snapshot of the current processes.
 iostat    - 
 pidstat   - 
-vmstat    - 
+vmstat    -
+free      - 
 mpstat    - 
 netstat   - 
 IP        - Show / manipulate routing, network devices, interfaces and tunnels.
