@@ -9,7 +9,7 @@ rpm -qlp package.rpm
 rpm2cpio *.rpm | cpio -idmv
 
 # Create subdirectory in all directories of /catalog
-find /catalog/ -mindepth 1 -maxdepth 1 -type d -exec mkdir -p {}/.script \;
+find /catalog/ -mindepth 1 -maxdepth 1 -type d -exec mkdir -p {}/.sub \;
 
 cd -        # Go to previously visited catalog
 ps -fax     # Opposite to $ ps aux
