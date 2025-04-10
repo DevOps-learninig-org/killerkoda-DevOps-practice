@@ -1,3 +1,6 @@
+# Change MC editor
+select-editor
+
 # Install
 rpm -i *.rpm
 # List
@@ -6,10 +9,7 @@ rpm -qlp package.rpm
 rpm2cpio *.rpm | cpio -idmv
 
 # Create subdirectory in all directories of /catalog
-find /catalog/ -maxdepth 1 -type d -exec mkdir -p {}/.script \;
-
-# Change MC editor
-select-editor
+find /catalog/ -mindepth 1 -maxdepth 1 -type d -exec mkdir -p {}/.script \;
 
 cd -        # Go to previously visited catalog
 ps -fax     # Opposite to $ ps aux
