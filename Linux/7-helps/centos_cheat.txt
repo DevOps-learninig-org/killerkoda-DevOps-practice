@@ -1,11 +1,13 @@
 # Change MC editor
 select-editor
 
-# Install
+# Install single package
 rpm -i *.rpm
-# List
+# Find indtalled packages
+rpm -qa | grep somepack*
+# List rpm contents
 rpm -qlp package.rpm
-# Unpack
+# Unpack rpm package
 rpm2cpio *.rpm | cpio -idmv
 
 # Create subdirectory in all directories of /catalog
