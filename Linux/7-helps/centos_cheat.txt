@@ -24,6 +24,8 @@ ps -fax     # Opposite to $ ps aux
 df -Th      # Opposite to $ df -h
 du -sh ./*  # Opposite to $ du -hS /data/loader/ | sort -h -r | head -50
 
+cut -d\| -f1   # Opposite to $ awk -F \| '{print $1}'
+
 iostat -cNx 3
 
 # Initial network diagnostic
