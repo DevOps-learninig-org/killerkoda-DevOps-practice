@@ -391,12 +391,10 @@ For more details see lsmem(1).
 ubuntu:~$ lsblk --version
 lsblk from util-linux 2.39.3
 ubuntu:~$ lsblk --help   
-
 Usage:
  lsblk [options] [<device> ...]
 
 List information about block devices.
-
 Options:
  -A, --noempty        don't print empty devices
  -D, --discard        print discard capabilities
@@ -511,15 +509,11 @@ ubuntu:~$ lsmod --help
 Usage: lsmod
 
 #--------------------------------------------------------------------------------LOSETUP
-ubuntu:~$ losetup
 ubuntu:~$ losetup --help
-
 Usage:
  losetup [options] [<loopdev>]
  losetup [options] -f | <loopdev> <file>
-
 Set up and control loop devices.
-
 Options:
  -a, --all                     list all used devices
  -d, --detach <loopdev>...     detach one or more devices
@@ -547,7 +541,6 @@ Options:
 
  -h, --help                    display this help
  -V, --version                 display version
-
 Available output columns:
          NAME  loop device name
     AUTOCLEAR  autoclear flag set
@@ -561,17 +554,13 @@ Available output columns:
     SIZELIMIT  size limit of the file in bytes
           DIO  access backing file with direct-io
       LOG-SEC  logical sector size in bytes
-
 For more details see losetup(8).
 
 #--------------------------------------------------------------------------------LSLOGINS
 ubuntu:~$ lslogins --help
-
 Usage:
  lslogins [options] [<username>]
-
 Display information about known users in the system.
-
 Options:
  -a, --acc-expiration     display info about passwords expiration
  -c, --colon-separate     display data in a format similar to /etc/passwd
@@ -600,7 +589,6 @@ Options:
 
  -h, --help               display this help
  -V, --version            display version
-
 Available output columns:
            USER  user name
             UID  user ID
@@ -629,19 +617,16 @@ Available output columns:
       PWD-EXPIR  password expiration date
         CONTEXT  the user's security context
            PROC  number of processes run by the user
-
 For more details see lslogins(1).
 
 #--------------------------------------------------------------------------------LSNS
 ubuntu:~$ lsns --version
 lsns from util-linux 2.39.3
-ubuntu:~$ lsns --help   
 
+ubuntu:~$ lsns --help   
 Usage:
  lsns [options] [<namespace>]
-
 List system namespaces.
-
 Options:
  -J, --json             use JSON output format
  -l, --list             use list format output
@@ -655,10 +640,8 @@ Options:
  -W, --nowrap           don't use multi-line representation
  -t, --type <name>      namespace type (mnt, net, ipc, user, pid, uts, cgroup, time)
  -T, --tree <rel>       use tree format (parent, owner, or process)
-
  -h, --help             display this help
  -V, --version          display version
-
 Available output columns:
           NS  namespace identifier (inode number)
         TYPE  kind of namespace
@@ -673,8 +656,6 @@ Available output columns:
         NSFS  nsfs mountpoint (usually used network subsystem)
          PNS  parent namespace identifier (inode number)
          ONS  owner namespace identifier (inode number)
-
-For more details see lsns(8).
 
 #--------------------------------------------------------------------------------LSOF
 ubuntu:~$ lsof --help
@@ -719,16 +700,13 @@ ubuntu:~$ lsipc --help
 
 Usage:
  lsipc [options]
-
 Show information on IPC facilities.
-
 Resource options:
  -m, --shmems      shared memory segments
  -q, --queues      message queues
  -s, --semaphores  semaphores
  -g, --global      info about system-wide usage (may be used with -m, -q and -s)
  -i, --id <id>     print details on resource identified by <id>
-
 Options:
      --noheadings         don't print headings
      --notruncate         don't truncate output
@@ -744,10 +722,8 @@ Options:
  -r, --raw                display in raw mode
  -t, --time               show attach, detach and change times
  -y, --shell              use column names to be usable as shell variable identifiers
-
  -h, --help               display this help
  -V, --version            display version
-
 Generic columns:
             KEY  Resource key
              ID  Resource ID
@@ -762,7 +738,6 @@ Generic columns:
             GID  Group ID
           GROUP  Group name
           CTIME  Time of the last change
-
 Shared-memory columns (--shmems):
            SIZE  Segment size
          NATTCH  Number of attached processes
@@ -772,7 +747,6 @@ Shared-memory columns (--shmems):
         COMMAND  Creator command line
            CPID  PID of the creator
            LPID  PID of last user
-
 Message-queue columns (--queues):
       USEDBYTES  Bytes used
            MSGS  Number of messages
@@ -780,11 +754,9 @@ Message-queue columns (--queues):
            RECV  Time of last msg received
           LSPID  PID of the last msg sender
           LRPID  PID of the last msg receiver
-
 Semaphore columns (--semaphores):
           NSEMS  Number of semaphores
           OTIME  Time of the last operation
-
 Summary columns (--global):
        RESOURCE  Resource name
     DESCRIPTION  Resource description
@@ -792,14 +764,10 @@ Summary columns (--global):
            USED  Currently used
            USE%  Currently use percentage
 
-For more details see lsipc(1).
-
 #--------------------------------------------------------------------------------PS
 ubuntu:~$ ps --help all
-
 Usage:
  ps [options]
-
 Basic options:
  -A, -e               all processes
  -a                   all with tty, except session leaders
@@ -809,15 +777,13 @@ Basic options:
   r                   only running processes
   T                   all processes on this terminal
   x                   processes without controlling ttys
-
 Selection by list:
  -C <command>         command name
  -G, --Group <GID>    real group id or name
  -g, --group <group>  session or effective group name
  -p, p, --pid <PID>   process id
         --ppid <PID>  parent process id
- -q, q, --quick-pid <PID>
-                      process id (quick mode)
+ -q, q, --quick-pid <PID>    process id (quick mode)
  -s, --sid <session>  session id
  -t, t, --tty <tty>   terminal
  -u, U, --user <UID>  effective user id or name
@@ -826,7 +792,6 @@ Selection by list:
   The selection options take as their argument either:
     a comma-separated list e.g. '-u root,nobody' or
     a blank-separated list e.g. '-p 123 4567'
-
 Output formats:
  -D <format>          date format for lstart
  -F                   extra full
@@ -856,13 +821,11 @@ Output formats:
      --rows, --lines <num>
                       set screen height
      --signames       display signal masks using signal names
-
 Show threads:
   H                   as if they were processes
  -L                   possibly with LWP and NLWP columns
  -m, m                after processes
  -T                   possibly with SPID column
-
 Miscellaneous options:
  -c                   show scheduling class with -l option
   c                   show true command name
@@ -875,8 +838,6 @@ Miscellaneous options:
  -V, V, --version     display version information and exit
  -w, w                unlimited output width
 
-        --help <simple|list|output|threads|misc|all>
-                      display help and exit
 #--------------------------------------------------------------------------------IOSTAT
 Usage: iostat [ options ] [ <interval> [ <count> ] ]
 OPTIONS
@@ -902,7 +863,7 @@ OPTIONS
 -j { ID | LABEL | PATH | UUID | ... } [ device [...] | ALL ] - Display  persistent device names.
 -k       - Display statistics in kilobytes per second.
 -m       - Display statistics in megabytes per second.
--N       - Display the registered device mapper names for any device mapper devices.  Useful for viewing LVM2 statistics.
+-N       - Display the registered device mapper names for any device mapper devices. Useful for viewing LVM2 statistics.
 -o JSON  - Display  the  statistics  in JSON (JavaScript Object Notation) format.
 -p [ { device[,...] | ALL } ]   - Display statistics for block devices and all their partitions that are used by the system.
 --pretty - The device name will be printed on the right side. The report may also be broken
@@ -1053,9 +1014,7 @@ where  OBJECT := { qdisc | class | filter | chain |
                      -nm | -nam[es] | { -cf | -conf } path
                      -br[ief] }
 ubuntu:~$ man tc
-NAME
-       tc - show / manipulate traffic control settings
-
+tc - show / manipulate traffic control settings
 SYNOPSIS
        tc [ OPTIONS ] qdisc [ add | change | replace | link | delete ]
          dev DEV [ parent qdisc-id | root ]
@@ -1074,8 +1033,11 @@ SYNOPSIS
          filtertype [ filtertype specific parameters ] flowid _flow-id
        tc  [ OPTIONS ] chain [ add | delete | get ]
          dev DEV [ parent qdisc-id | root ] filtertype [ filtertype specific parameters ]
-       tc [ OPTIONS ] chain [ add | delete | get ] block BLOCK_INDEX filtertype [ filtertype specific parameters ]
-       tc [ OPTIONS ] [ FORMAT ] qdisc { show | list } [ dev DEV ] [ root | ingress | handle QHANDLE | parent CLASSID ]  [  invisible ]
+       tc [ OPTIONS ] chain [ add | delete | get ] 
+         block BLOCK_INDEX 
+         filtertype [ filtertype specific parameters ]
+       tc [ OPTIONS ] [ FORMAT ] qdisc { show | list } 
+         [ dev DEV ] [ root | ingress | handle QHANDLE | parent CLASSID ]  [ invisible ]
        tc [ OPTIONS ] [ FORMAT ] class show dev DEV
        tc [ OPTIONS ] filter show dev DEV
        tc [ OPTIONS ] filter show block BLOCK_INDEX
@@ -1083,7 +1045,9 @@ SYNOPSIS
        tc [ OPTIONS ] chain show block BLOCK_INDEX
        tc [ OPTIONS ] monitor [ file FILENAME ]
 
-        OPTIONS  :=  {  [  -force ] -b[atch] [ filename ] | [ -n[etns] name ] | [ -N[umeric] ] | [ -nm | -nam[es] ] | [ { -cf | -c[onf] } [ filename ] ] [ -t[imestamp] ] | [ -t[short] | [ -o[neline] ] }
+        OPTIONS  :=  {  [  -force ] -b[atch] [ filename ] | [ -n[etns] name ] |
+          [ -N[umeric] ] | [ -nm | -nam[es] ] | [ { -cf | -c[onf] } [ filename ] ]
+          [ -t[imestamp] ] | [ -t[short] | [ -o[neline] ] }
         FORMAT := { -s[tatistics] | -d[etails] | -r[aw] | -i[ec] | -g[raph] | -j[json] | -p[retty] | -col[or] }
 
 #--------------------------------------------------------------------------------ETHTOOL
