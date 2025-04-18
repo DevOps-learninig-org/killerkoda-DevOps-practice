@@ -1,8 +1,16 @@
+# My TOP of Hot-keys
+Ctrl+Shift+R            # Open interactive history
+Ctrl+Shift+_            # Undo last command
+Ctrl+A - Ctrl+E         # Goto start or end of current line
+Ctrl+LEFT - Ctrl+RIGHT  # Goto beginig/end of current word under cursor
+Alt+Backspace           # Delete current word  
+Alt+D                   # Delete word after cursor
+
 # Change MC editor
 select-editor
 
 # Install single package
-rpm -i *.rpm
+rpm -i *.rpm  # Or yum install *.rpm -y
 # Find indtalled packages
 rpm -qa | grep somepack*
 # List rpm contents
