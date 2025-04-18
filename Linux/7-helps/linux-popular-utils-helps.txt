@@ -12,7 +12,7 @@ LSNS      - List system namespaces.
 LSOF      - list open files.
 LSIPC     - Show information on IPC facilities.
 PS        - Report a snapshot of the current processes.
-iostat    - 
+IOSTAT    - CPU and input/output statistics for devices and partitions
 pidstat   - 
 vmstat    -
 free      - 
@@ -880,14 +880,14 @@ Miscellaneous options:
 #--------------------------------------------------------------------------------IOSTAT
 Usage: iostat [ options ] [ <interval> [ <count> ] ]
 OPTIONS
--c     Display the CPU utilization report.
---compact Don't break the Device Utilization Report into sub-reports so that all the metrics get displayed on a single line.
--d     Display the device utilization report.
---dec={ 0 | 1 | 2 }
-Specify the number of decimal places to use (0 to 2, default value is 2).
--f directory  - use only the files located in the alternative directory
-+f directory  - use both the standard kernel files and the files located in the alternative directory  to  read  device
-  directory is a directory containing files with statistics for devices managed in userspace.  It may contain:
+-c             - Display the CPU utilization report.
+--compact      - Don't break the Device Utilization Report into sub-reports.
+-d             - Display the device utilization report.
+--dec={ 0 | 1 | 2 }   - Specify the number of decimal places to use (0 to 2, default value is 2).
+-f directory  - Use only the files located in the alternative directory.
++f directory  - Use both the standard kernel files and the files located in the alternative directory
+  Directory is containing files with statistics for devices managed in userspace.
+  It may contain:
     - a "diskstats" file whose format is compliant with that located in "/proc",
     - statistics for individual devices contained in files whose format is compliant with that of files located in "/sys".
   In particular, the following files located in directory may be used by iostat:
@@ -895,30 +895,28 @@ Specify the number of decimal places to use (0 to 2, default value is 2).
     directory/block/device/partition/stat
     partition files must have an entry in directory/dev/block/ directory, e.g.:
     directory/dev/block/major:minor --> ../../block/device/partition
--g group_name { device [...] | ALL } - Display  statistics  for a group of devices.  
--H     - with option -g and indicates that only global statistics for the group to be displayed.
--h     This option is equivalent to specifying --human --pretty.
---human             Print sizes in human readable format (e.g. 1.0k, 1.2M, etc.)
+-g group_name { device [...] | ALL }   - Display  statistics  for a group of devices.  
+-H       - with option -g and indicates that only global statistics for the group to be displayed.
+-h       - This option is equivalent to specifying --human --pretty.
+--human  - Print sizes in human readable format (e.g. 1.0k, 1.2M, etc.)
 -j { ID | LABEL | PATH | UUID | ... } [ device [...] | ALL ] - Display  persistent device names.
--k     Display statistics in kilobytes per second.
--m     Display statistics in megabytes per second.
--N     Display the registered device mapper names for any device mapper devices.  Useful for viewing LVM2 statistics.
--o JSON Display  the  statistics  in JSON (JavaScript Object Notation) format.
--p [ { device[,...] | ALL } ] - Display statistics for block devices and all their partitions that are used by the system.
---pretty The device name will be printed on the right side. The report may also be broken
--s     Display a short (narrow) version of the report that should fit in 80 characters wide screens.
--t     Print the time for each report displayed. The timestamp format may depend on the value of the S_TIME_FORMAT environment variable (see below).
--V     Print version number then exit.
--x     Display extended statistics.
--y     Omit first report with statistics since system boot, if displaying multiple records at given interval.
--z     Tell iostat to omit output for any devices for which there was no activity during the sample period.
+-k       - Display statistics in kilobytes per second.
+-m       - Display statistics in megabytes per second.
+-N       - Display the registered device mapper names for any device mapper devices.  Useful for viewing LVM2 statistics.
+-o JSON  - Display  the  statistics  in JSON (JavaScript Object Notation) format.
+-p [ { device[,...] | ALL } ]   - Display statistics for block devices and all their partitions that are used by the system.
+--pretty - The device name will be printed on the right side. The report may also be broken
+-s       - Display a short (narrow) version of the report that should fit in 80 characters wide screens.
+-t       - Print the time for each report displayed. The timestamp format may depend on the value of the S_TIME_FORMAT environment variable (see below).
+-V       - Print version number then exit.
+-x       - Display extended statistics.
+-y       - Omit first report with statistics since system boot, if displaying multiple records at given interval.
+-z       - Tell iostat to omit output for any devices for which there was no activity during the sample period.
 
 #--------------------------------------------------------------------------------VMSTAT
 ubuntu:~$ vmstat --help
-
 Usage:
  vmstat [options] [delay [count]]
-
 Options:
  -a, --active           active/inactive memory
  -f, --forks            number of forks since boot
@@ -937,7 +935,6 @@ Options:
  -V, --version  output version information and exit
 
 #--------------------------------------------------------------------------------IP
-ubuntu:~$
 ubuntu:~$ dpkg -l iproute2
 ii  iproute2       6.1.0-1ubuntu6 amd64        networking and traffic control tools
 
@@ -1060,11 +1057,23 @@ NAME
        tc - show / manipulate traffic control settings
 
 SYNOPSIS
-       tc [ OPTIONS ] qdisc [ add | change | replace | link | delete ] dev DEV [ parent qdisc-id | root ] [ handle qdisc-id ] [ingress_block BLOCK_INDEX ] [ egress_block BLOCK_INDEX ] qdisc [ qdisc specific parameters ]
-       tc  [  OPTIONS  ]  class [ add | change | replace | delete | show ] dev DEV parent qdisc-id [ classid class-id ] qdisc [qdisc specific parameters ]
-       tc [ OPTIONS ] filter [ add | change | replace | delete | get ] dev DEV [ parent qdisc-id | root ] [ handle filter-id  ] protocol protocol prio priority filtertype [ filtertype specific parameters ] flowid flow-id
-       tc [ OPTIONS ] filter [ add | change | replace | delete | get ] block BLOCK_INDEX [ handle filter-id ] protocol protocol prio priority filtertype [ filtertype specific parameters ] flowid flow-id
-       tc  [ OPTIONS ] chain [ add | delete | get ] dev DEV [ parent qdisc-id | root ] filtertype [ filtertype specific parameters ]
+       tc [ OPTIONS ] qdisc [ add | change | replace | link | delete ]
+         dev DEV [ parent qdisc-id | root ]
+         [ handle qdisc-id ] [ingress_block BLOCK_INDEX ] [ egress_block BLOCK_INDEX ] 
+         qdisc [ qdisc specific parameters ]
+       tc [ OPTIONS ] class [ add | change | replace | delete | show ]
+         dev DEV parent qdisc-id [ classid class-id ]
+         qdisc [qdisc specific parameters ]
+       tc [ OPTIONS ] filter [ add | change | replace | delete | get ] 
+         dev DEV [ parent qdisc-id | root ] [ handle filter-id  ]
+         protocol _protocol prio _priority
+         filtertype [ filtertype specific parameters ] flowid flow-id
+       tc [ OPTIONS ] filter [ add | change | replace | delete | get ]\
+         block BLOCK_INDEX [ handle filter-id ]
+         protocol _protocol prio _priority 
+         filtertype [ filtertype specific parameters ] flowid _flow-id
+       tc  [ OPTIONS ] chain [ add | delete | get ]
+         dev DEV [ parent qdisc-id | root ] filtertype [ filtertype specific parameters ]
        tc [ OPTIONS ] chain [ add | delete | get ] block BLOCK_INDEX filtertype [ filtertype specific parameters ]
        tc [ OPTIONS ] [ FORMAT ] qdisc { show | list } [ dev DEV ] [ root | ingress | handle QHANDLE | parent CLASSID ]  [  invisible ]
        tc [ OPTIONS ] [ FORMAT ] class show dev DEV
