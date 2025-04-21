@@ -208,10 +208,9 @@ Usage: ip link add [link DEV | parentdev NAME] [ name ] NAME
                     type TYPE [ ARGS ]
 
         ip link delete { DEVICE | dev DEVICE | group DEVGROUP } type TYPE [ ARGS ]
-
         ip link set { DEVICE | dev DEVICE | group DEVGROUP }
-                        [ { up | down } ]
-                        [ type TYPE ARGS ]
+                [ { up | down } ]
+                [ type TYPE ARGS ]
                 [ arp { on | off } ]
                 [ dynamic { on | off } ]
                 [ multicast { on | off } ]
@@ -359,11 +358,10 @@ Usage: ip neigh { add | del | change | replace }
                 [ protocol PROTO ]
 
         ip neigh { show | flush } [ proxy ] [ to PREFIX ] [ dev DEV ] [ nud STATE ]
-                                  [ vrf NAME ] [ nomaster ]
+              [ vrf NAME ] [ nomaster ]
         ip neigh get { ADDR | proxy ADDR } dev DEV
 
-STATE := { delay | failed | incomplete | noarp | none |
-           permanent | probe | reachable | stale }
+STATE := { delay | failed | incomplete | noarp | none |  permanent | probe | reachable | stale }
 #---------------------------------------------------------------------------------
 shell:~$ ip netconf help                                                         netconf - network configuration monitoring.
 <a href="https://man7.org/linux/man-pages/man8/ip-netconf.8.html">man ip-netconf</a>
@@ -393,17 +391,14 @@ Usage: ip nexthop { list | flush } [ protocol ID ] SELECTOR
        ip nexthop { get | del } id ID
        ip nexthop bucket list BUCKET_SELECTOR
        ip nexthop bucket get id ID index INDEX
-SELECTOR := [ id ID ] [ dev DEV ] [ vrf NAME ] [ master DEV ]
-            [ groups ] [ fdb ]
+SELECTOR := [ id ID ] [ dev DEV ] [ vrf NAME ] [ master DEV ] [ groups ] [ fdb ]
 BUCKET_SELECTOR := SELECTOR | [ nhid ID ]
 NH := { blackhole | [ via ADDRESS ] [ dev DEV ] [ onlink ]
-        [ encap ENCAPTYPE ENCAPHDR ] |
-        group GROUP [ fdb ] [ type TYPE [ TYPE_ARGS ] ] }
+        [ encap ENCAPTYPE ENCAPHDR ] | group GROUP [ fdb ] [ type TYPE [ TYPE_ARGS ] ] }
 GROUP := [ <id[,weight]>/<id[,weight]>/... ]
 TYPE := { mpath | resilient }
 TYPE_ARGS := [ RESILIENT_ARGS ]
-RESILIENT_ARGS := [ buckets BUCKETS ] [ idle_timer IDLE ]
-                  [ unbalanced_timer UNBALANCED ]
+RESILIENT_ARGS := [ buckets BUCKETS ] [ idle_timer IDLE ] [ unbalanced_timer UNBALANCED ]
 ENCAPTYPE := [ mpls ]
 ENCAPHDR := [ MPLSLABEL ]
 #---------------------------------------------------------------------------------
@@ -411,8 +406,7 @@ shell:~$ ip ntable help                                                         
 <a href="https://man7.org/linux/man-pages/man8/ip-ntable.8.html">man ip-ntable</a>
 #---------------------------------------------------------------------------------
 Usage: ip ntable change name NAME [ dev DEV ]   
-        [ thresh1 VAL ] [ thresh2 VAL ] [ thresh3 VAL ] [ gc_int MSEC ]
-        [ PARMS ]
+        [ thresh1 VAL ] [ thresh2 VAL ] [ thresh3 VAL ] [ gc_int MSEC ] [ PARMS ]
 Usage: ip ntable show [ dev DEV ] [ name NAME ]
 PARMS := [ base_reachable MSEC ] [ retrans MSEC ] [ gc_stale MSEC ]
          [ delay_probe MSEC ] [ queue LEN ]
@@ -428,15 +422,15 @@ Usage: ip route { list | flush } SELECTOR
        ip route restore
        ip route showdump
        ip route get [ ROUTE_GET_FLAGS ] ADDRESS
-                            [ from ADDRESS iif STRING ]
-                            [ oif STRING ] [ tos TOS ]
-                            [ mark NUMBER ] [ vrf NAME ]
-                            [ uid NUMBER ] [ ipproto PROTOCOL ]
-                            [ sport NUMBER ] [ dport NUMBER ]
+              [ from ADDRESS iif STRING ]
+              [ oif STRING ] [ tos TOS ]
+              [ mark NUMBER ] [ vrf NAME ]
+              [ uid NUMBER ] [ ipproto PROTOCOL ]
+              [ sport NUMBER ] [ dport NUMBER ]
        ip route { add | del | change | append | replace } ROUTE
 SELECTOR := [ root PREFIX ] [ match PREFIX ] [ exact PREFIX ]
-            [ table TABLE_ID ] [ vrf NAME ] [ proto RTPROTO ]
-            [ type TYPE ] [ scope SCOPE ]
+              [ table TABLE_ID ] [ vrf NAME ] [ proto RTPROTO ]
+              [ type TYPE ] [ scope SCOPE ]
 ROUTE := NODE_SPEC [ INFO_SPEC ]
 NODE_SPEC := [ TYPE ] PREFIX [ tos TOS ]
              [ table TABLE_ID ] [ proto RTPROTO ]
@@ -456,26 +450,26 @@ OPTIONS := FLAGS [ mtu NUMBER ] [ advmss NUMBER ] [ as [ to ] ADDRESS ]
 TYPE := { unicast | local | broadcast | multicast | throw |
           unreachable | prohibit | blackhole | nat }
 TABLE_ID := [ local | main | default | all | NUMBER ]
-SCOPE := [ host | link | global | NUMBER ]
-NHFLAGS := [ onlink | pervasive ]
-RTPROTO := [ kernel | boot | static | NUMBER ]
+SCOPE    := [ host | link | global | NUMBER ]
+NHFLAGS  := [ onlink | pervasive ]
+RTPROTO  := [ kernel | boot | static | NUMBER ]
 PREF := [ low | medium | high ]
 TIME := NUMBER[s|ms]
 BOOL := [1|0]
-FEATURES := ecn
+FEATURES  := ecn
 ENCAPTYPE := [ mpls | ip | ip6 | seg6 | seg6local | rpl | ioam6 | xfrm ]
-ENCAPHDR := [ MPLSLABEL | SEG6HDR | SEG6LOCAL | IOAM6HDR | XFRMINFO ]
-SEG6HDR := [ mode SEGMODE ] segs ADDR1,ADDRi,ADDRn [hmac HMACKEYID] [cleanup]
-SEGMODE := [ encap | encap.red | inline | l2encap | l2encap.red ]
+ENCAPHDR  := [ MPLSLABEL | SEG6HDR | SEG6LOCAL | IOAM6HDR | XFRMINFO ]
+SEG6HDR   := [ mode SEGMODE ] segs ADDR1,ADDRi,ADDRn [hmac HMACKEYID] [cleanup]
+SEGMODE   := [ encap | encap.red | inline | l2encap | l2encap.red ]
 SEG6LOCAL := action ACTION [ OPTIONS ] [ count ]
-ACTION := { End | End.X | End.T | End.DX2 | End.DX6 | End.DX4 |
+ACTION    := { End | End.X | End.T | End.DX2 | End.DX6 | End.DX4 |
             End.DT6 | End.DT4 | End.DT46 | End.B6 | End.B6.Encaps |
             End.BM | End.S | End.AS | End.AM | End.BPF }
 OPTIONS := OPTION [ OPTIONS ]
-OPTION := { flavors FLAVORS | srh SEG6HDR | nh4 ADDR | nh6 ADDR | iif DEV | oif DEV |
+OPTION  := { flavors FLAVORS | srh SEG6HDR | nh4 ADDR | nh6 ADDR | iif DEV | oif DEV |
             table TABLEID | vrftable TABLEID | endpoint PROGNAME }
 FLAVORS := { FLAVOR[,FLAVOR] }
-FLAVOR := { psp | usp | usd | next-csid }
+FLAVOR  := { psp | usp | usd | next-csid }
 IOAM6HDR := trace prealloc type IOAM6_TRACE_TYPE ns IOAM6_NAMESPACE size IOAM6_TRACE_SIZE
 XFRMINFO := if_id IF_ID [ link_dev LINK ]
 ROUTE_GET_FLAGS := [ fibmatch ]
@@ -487,20 +481,20 @@ Usage: ip rule { add | del } SELECTOR ACTION
        ip rule { flush | save | restore }
        ip rule [ list [ SELECTOR ]]
 SELECTOR := [ not ] [ from PREFIX ] [ to PREFIX ] [ tos TOS ]
-            [ fwmark FWMARK[/MASK] ]
-            [ iif STRING ] [ oif STRING ] [ pref NUMBER ] [ l3mdev ]
-            [ uidrange NUMBER-NUMBER ]
-            [ ipproto PROTOCOL ]
-            [ sport [ NUMBER | NUMBER-NUMBER ]
-            [ dport [ NUMBER | NUMBER-NUMBER ] ]
+       [ fwmark FWMARK[/MASK] ]
+       [ iif STRING ] [ oif STRING ] [ pref NUMBER ] [ l3mdev ]
+       [ uidrange NUMBER-NUMBER ]
+       [ ipproto PROTOCOL ]
+       [ sport [ NUMBER | NUMBER-NUMBER ]
+       [ dport [ NUMBER | NUMBER-NUMBER ] ]
 ACTION := [ table TABLE_ID ]
-          [ protocol PROTO ]
-          [ nat ADDRESS ]
-          [ realms [SRCREALM/]DSTREALM ]
-          [ goto NUMBER ]
-          SUPPRESSOR
+       [ protocol PROTO ]
+       [ nat ADDRESS ]
+       [ realms [SRCREALM/]DSTREALM ]
+       [ goto NUMBER ]
+       SUPPRESSOR
 SUPPRESSOR := [ suppress_prefixlength NUMBER ]
-              [ suppress_ifgroup DEVGROUP ]
+       [ suppress_ifgroup DEVGROUP ]
 TABLE_ID := [ local | main | default | NUMBER ]
 #---------------------------------------------------------------------------------
 shell:~$ ip stats help                                                           stats - manage and show interface statistics.
@@ -518,10 +512,10 @@ shell:~$ ip sr help                                                             
 <a href="https://man7.org/linux/man-pages/man8/ip-sr.8.html">man ip-sr</a>
 #---------------------------------------------------------------------------------
 Usage: ip sr { COMMAND | help }
-          ip sr hmac show
-          ip sr hmac set KEYID ALGO
-          ip sr tunsrc show
-          ip sr tunsrc set ADDRESS
+       ip sr hmac show
+       ip sr hmac set KEYID ALGO
+       ip sr tunsrc show
+       ip sr tunsrc set ADDRESS
 where  ALGO := { sha1 | sha256 }
 #---------------------------------------------------------------------------------
 shell:~$ ip tap help
@@ -548,12 +542,12 @@ Usage: ip token [ list | set | del | get ] [ TOKEN ] [ dev DEV ]
 shell:~$ ip tunnel help                                                          tuntap - manage TUN/TAP devices.
 #---------------------------------------------------------------------------------
 Usage: ip tunnel { add | change | del | show | prl | 6rd } [ NAME ]
-        [ mode { gre | ipip | isatap | sit | vti } ]
-        [ remote ADDR ] [ local ADDR ]
-        [ [i|o]seq ] [ [i|o]key KEY ] [ [i|o]csum ]
-        [ prl-default ADDR ] [ prl-nodefault ADDR ] [ prl-delete ADDR ]
-        [ 6rd-prefix ADDR ] [ 6rd-relay_prefix ADDR ] [ 6rd-reset ]
-        [ ttl TTL ] [ tos TOS ] [ [no]pmtudisc ] [ dev PHYS_DEV ]
+       [ mode { gre | ipip | isatap | sit | vti } ]
+       [ remote ADDR ] [ local ADDR ]
+       [ [i|o]seq ] [ [i|o]key KEY ] [ [i|o]csum ]
+       [ prl-default ADDR ] [ prl-nodefault ADDR ] [ prl-delete ADDR ]
+       [ 6rd-prefix ADDR ] [ 6rd-relay_prefix ADDR ] [ 6rd-reset ]
+       [ ttl TTL ] [ tos TOS ] [ [no]pmtudisc ] [ dev PHYS_DEV ]
 
 Where: NAME := STRING
        ADDR := { IP_ADDRESS | any }
@@ -566,17 +560,16 @@ shell:~$ ip tuntap help                                                         
 Usage: ip tuntap { add | del | show | list | lst | help } [ dev PHYS_DEV ]
        [ mode { tun | tap } ] [ user USER ] [ group GROUP ]
        [ one_queue ] [ pi ] [ vnet_hdr ] [ multi_queue ] [ name NAME ]
-
 Where: USER  := { STRING | NUMBER }
        GROUP := { STRING | NUMBER }
 #---------------------------------------------------------------------------------
 shell:~$ ip vrf help                                                              vrf - manage virtual routing and forwarding devices.
 <a href="https://man7.org/linux/man-pages/man8/ip-vrf.8.html">man ip-vrf</a>
 #---------------------------------------------------------------------------------
-Usage:  ip vrf show [NAME] ...
-        ip vrf exec [NAME] cmd ...
-        ip vrf identify [PID]
-        ip vrf pids [NAME]
+Usage: ip vrf show [NAME] ...
+       ip vrf exec [NAME] cmd ...
+       ip vrf identify [PID]
+       ip vrf pids [NAME]
 #---------------------------------------------------------------------------------       
 shell:~$ ip xfrm help                                                             xfrm - manage IPSec policies.
 <a href="https://man7.org/linux/man-pages/man8/ip-xfrm.8.html">man ip-xfrm</a>
