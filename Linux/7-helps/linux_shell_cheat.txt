@@ -30,7 +30,7 @@ cd -        # Go to previously visited catalog
 ps -fax     # Opposite to $ ps aux
 
 df -Th      # Opposite to $ df -h
-du -sh ./*  # Opposite to $ du -hS /data/loader/ | sort -h -r | head -50
+du -sh ./* | sort -h
 
 cut -d\| -f1   # Opposite to $ awk -F \| '{print $1}'
 
