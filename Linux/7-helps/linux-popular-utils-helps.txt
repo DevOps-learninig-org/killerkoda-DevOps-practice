@@ -29,7 +29,7 @@ SED        - Stream editor for filtering and transforming text.
 AWK        - Pattern scanning and processing language.
 DIFF       - Compare FILES line by line.
 DU         - Summarize device usage of the set of FILEs, recursively for directories.
-DH         - Show information about the file system on which each FILE resides.
+DF         - Show information about the file system on which each FILE resides.
 SORT       - Sort lines of text files.
 UNIQ       - Report or omit repeated lines.
 LVM        - LVM2 tools.
@@ -2100,8 +2100,8 @@ Ordering options:
       --random-source=FILE    get random bytes from FILE
   -r, --reverse               reverse the result of comparisons
       --sort=WORD             sort according to WORD:
-                                general-numeric -g, human-numeric -h, month -M,
-                                numeric -n, random -R, version -V
+                              general-numeric -g, human-numeric -h, month -M,
+                              numeric -n, random -R, version -V
   -V, --version-sort          natural sort of (version) numbers within text
 
 Other options:
