@@ -13,7 +13,7 @@ LSOF      - list open files.
 LSIPC     - Show information on IPC facilities.
 PS        - Report a snapshot of the current processes.
 IOSTAT    - CPU and input/output statistics for devices and partitions
-vmstat    -
+VMSTAT    - Report virtual memory statistics
 free      - 
 mpstat    - 
 IP        - Show / manipulate routing, network devices, interfaces and tunnels.
