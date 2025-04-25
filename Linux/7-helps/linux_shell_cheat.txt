@@ -35,6 +35,8 @@ du -sh ./* | sort -h
 cut -d\| -f1   # Opposite to $ awk -F \| '{print $1}'
 
 iostat -cNx 3
+lsof -i TCP -i UDP   # Opposite to $ ss -tulpan
+lsof -i TCP:22       # Who is on 22 TCP port
 
 # Initial network diagnostic
 ip -br ad
