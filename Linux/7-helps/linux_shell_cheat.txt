@@ -30,7 +30,7 @@ iostat -cNx 3        # Show FS and CPU load every 3 second
 ss -s                # Brief states
 # ss -tulpan         # Means Socket State -TCP -UDP -LISTEN_only -ProcID -a_LISTEN+ESTAB -numeric 
 # ss -uapt           # is the same as $ ss -tulpan
-lsof -i              # List open sockets
+watch lsof -i        # List open sockets every 2 second
 lsof -i4             # Opposite to $ ss -tulpan, show IPv4 sockets
 lsof -i TCP:22-1024  # Who is on the range from 22 to 1024 TCP port
 lsof +D /var/log     # Print all open files in /var/log
