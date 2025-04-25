@@ -1,6 +1,6 @@
 # My TOP of Hot-keys
 Ctrl+Shift+R            # Open interactive history
-Ctrl+Shift+_            # Undo last command
+Ctrl+Shift+_            # Undo last mistake edit (or deletion)
 Ctrl+A - Ctrl+E         # Goto start or end of current line
 Ctrl+LEFT - Ctrl+RIGHT  # Goto beginig/end of current word under cursor
 Alt+Backspace           # Delete current word  
@@ -8,15 +8,6 @@ Alt+D                   # Delete word after cursor
 
 # Change MC editor
 select-editor
-
-# Install single package
-rpm -i *.rpm  # Or yum install *.rpm -y
-# Find indtalled packages
-rpm -qa | grep somepack*
-# List rpm contents
-rpm -qlp package.rpm
-# Unpack rpm package
-rpm2cpio *.rpm | cpio -idmv
 
 # Create subdirectory in all directories of /catalog
 find /catalog/ -mindepth 1 -maxdepth 1 -type d -exec mkdir -p {}/.sub \;
@@ -30,7 +21,7 @@ cd -        # Go to previously visited catalog
 ps fax     # Opposite to $ ps aux
 
 df -Th               # Opposite to $ df -h
-du -sh ./* | sort -h
+du -sh ./* | sort -h # Show sizes of all contents in directory
 
 cut -d\| -f1         # Opposite to $ awk -F \| '{print $1}'
 
@@ -50,3 +41,12 @@ watch -n 1.5 ip -s link show enp1s0   # Watch interface stats every 1.5 sec
 ethtool enp0s1
 
 diff -u <(man 1 intro | col) <(man 2 intro | cat) | less
+
+# Install single package
+rpm -i *.rpm  # Or yum install *.rpm -y
+# Find indtalled packages
+rpm -qa | grep somepack*
+# List rpm contents
+rpm -qlp package.rpm
+# Unpack rpm package
+rpm2cpio *.rpm | cpio -idmv
