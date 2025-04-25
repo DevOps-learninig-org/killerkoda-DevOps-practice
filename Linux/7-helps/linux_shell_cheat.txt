@@ -46,6 +46,7 @@ lsof +D /var/log     # Print all open files in /var/log
 # Initial network diagnostic
 ip -br ad
 watch "ip -s link"
+watch -n 1.5 ip -s link show enp1s0   # Watch interface stats every 1.5 sec
 ethtool enp0s1
 
 diff -u <(man 1 intro | col) <(man 2 intro | cat) | less
