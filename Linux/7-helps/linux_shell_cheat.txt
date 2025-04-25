@@ -33,8 +33,9 @@ ss -s                # Brief states
 lsof -i4             # Opposite to $ ss -tulpan
 lsof -i TCP:22-1024  # Who is on the range from 22 to 1024 TCP port
 lsof +D /var/log     # Print all open files in /var/log
-lsof -u nginx        # List open files of nginx process
-lsof -u ^[user1]      # List open files except opened by user1
+lsof -u nginx        # List open files of nginx user
+lsof -u ^[user1]     # List open files except opened by user1
+lsof -c nginx        # List open files of nginx process
 
 # Initial network diagnostic
 ip -br ad
