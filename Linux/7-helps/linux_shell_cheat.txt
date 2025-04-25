@@ -27,20 +27,21 @@ ls -AlF     # Opposite to $ ls -la
 # (-AlFS) - sort by size, (-AlFtr) - sort by time in reverce order
 
 cd -        # Go to previously visited catalog
-ps -fax     # Opposite to $ ps aux
+ps fax     # Opposite to $ ps aux
 
-df -Th      # Opposite to $ df -h
+df -Th               # Opposite to $ df -h
 du -sh ./* | sort -h
 
-cut -d\| -f1   # Opposite to $ awk -F \| '{print $1}'
+cut -d\| -f1         # Opposite to $ awk -F \| '{print $1}'
 
-iostat -cNx 3
+iostat -cNx 3        # Show FS and CPU load every 3 second
 
 ss -s                # Brief states
 # ss -tulpan         # Means Socket State -TCP -UDP -LISTEN_only -ProcID -a_LISTEN+ESTAB -numeric 
 # ss -uapt           # is the same as $ ss -tulpan
 lsof -i4             # Opposite to $ ss -tulpan
 lsof -i TCP:22       # Who is on 22 TCP port
+lsof +D /var/log     # Print all open files in /var/log
 
 # Initial network diagnostic
 ip -br ad
