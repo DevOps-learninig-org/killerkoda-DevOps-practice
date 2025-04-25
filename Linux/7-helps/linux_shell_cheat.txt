@@ -38,7 +38,7 @@ iostat -cNx 3
 
 ss -s                # Brief states
 # ss -tulpan         # Means Socket State -TCP -UDP -LISTEN_only -ProcID -a_LISTEN+ESTAB -numeric 
-                     # $ ss -uapt  # is the same as $ ss -tulpan
+# ss -uapt           # is the same as $ ss -tulpan
 lsof -i4             # Opposite to $ ss -tulpan
 lsof -i TCP:22       # Who is on 22 TCP port
 
