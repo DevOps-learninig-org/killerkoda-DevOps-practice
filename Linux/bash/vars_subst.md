@@ -9,7 +9,7 @@ First of all - useful links:
 <br>
 <details><summary>List of builtin variables</summary>
 <pre>
-<strong>set</strong>    Run thi command to see all current variables
+<strong>set</strong>    Run this command to see all current variables
 <strong>$* / $@</strong>		Function/script positional parameters (arguments). Expand as follows:
   $* and $@ are the same as $1 $2 ... (note that it generally makes no sense to leave those unquoted)
   "$*" is the same as "$1 $2 ..." 1
