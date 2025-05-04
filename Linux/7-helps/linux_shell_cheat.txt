@@ -52,5 +52,6 @@ rpm -i *.rpm  # Or yum install *.rpm -y
 rpm -qa | grep somepack*
 # List rpm contents
 rpm -qlp package.rpm
+dpkg -L installed-package
 # Unpack rpm package
 rpm2cpio *.rpm | cpio -idmv
