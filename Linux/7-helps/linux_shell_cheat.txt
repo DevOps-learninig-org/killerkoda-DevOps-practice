@@ -21,7 +21,7 @@ cd -        # Go to previously visited catalog
 ps fax     # Opposite to $ ps aux
 
 for pf  in $(ls -1 /proc | grep -v '^[0-9]'); do echo $pf; done      # SAME AS
-find /proc/ -maxdepth 1 -not -regex '^/proc/[0-9]*' -exec echo {} \; # SAME AS
+find /proc/ -maxdepth 1 -not -regex '^/proc/[0-9]*' -exec echo {} \; # YOU MAY USE less IN exec SECTION ;)
 
 df -Th               # Opposite to $ df -h
 du -sh ./* | sort -h # Show sizes of all contents in directory
