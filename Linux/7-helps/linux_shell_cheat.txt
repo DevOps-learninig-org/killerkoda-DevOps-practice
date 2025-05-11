@@ -15,10 +15,8 @@ cd -        # Go to previously visited catalog
 ps fax     # Opposite to $ ps aux
 
 # Explore /proc pseudofs
-# for pf in $(ls -1 /proc | grep -v '^[0-9]'); do echo $pf; done      # SAME AS
-find /proc/ -maxdepth 1 -type f -not -regex '^/proc/[0-9]*' -exec echo {} \; # YOU MAY USE less IN exec SECTION (= ^G :f Print current file name. -N enumerate lines)
-find /proc/ -maxdepth 1 -type f -not -regex '^/proc/[0-9]*' -exec less {} +  # USE :n  :p to navigate between open files
 find /proc -not -regex '.*kmsg\|.*kcore\|.*kallsyms\|.*kpage.*' -maxdepth 1 -type f -exec echo {} ---=== NEXT ===------------ \; -exec cat {} \; | less
+find /proc -maxdepth 1 -type d -not -regex '.*/[0-9]*'
 
 # Explore /sys pseudofs
 ls /sys
