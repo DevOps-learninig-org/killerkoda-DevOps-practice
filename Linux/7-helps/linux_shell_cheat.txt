@@ -28,9 +28,9 @@ find /sys/ -maxdepth 2 | less
 
 lsblk
 df -Th               # Opposite to $ df -h
+pvs;vgs;lvs
 du -sh ./* | sort -h # Show sizes of all contents in directory
 iostat -cNx 3        # Show FS and CPU load every 3 second
-
 
 # Initial network diagnostic
 ip -br ad
