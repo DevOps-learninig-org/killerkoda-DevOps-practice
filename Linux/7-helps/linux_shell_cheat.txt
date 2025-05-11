@@ -9,9 +9,6 @@ Alt+D                   # Delete word after cursor
 # Change MC editor
 select-editor
 
-# Create subdirectory in all directories of /catalog
-find /catalog/ -mindepth 1 -maxdepth 1 -type d -exec mkdir -p {}/.sub \;
-
 ls -AlF     # Opposite to $ ls -la
 # variants:  
 # (-AlFR | less) - recursive
@@ -20,7 +17,7 @@ ls -AlF     # Opposite to $ ls -la
 cd -        # Go to previously visited catalog
 ps fax     # Opposite to $ ps aux
 
-for pf  in $(ls -1 /proc | grep -v '^[0-9]'); do echo $pf; done      # SAME AS
+for pf in $(ls -1 /proc | grep -v '^[0-9]'); do echo $pf; done      # SAME AS
 find /proc/ -maxdepth 1 -type f -not -regex '^/proc/[0-9]*' -exec echo {} \; # YOU MAY USE less IN exec SECTION (= ^G :f Print current file name. -N enumerate lines)
 find /proc/ -maxdepth 1 -type f -not -regex '^/proc/[0-9]*' -exec less {} +  # USE :n  :p to navigate between open files
 
@@ -48,11 +45,9 @@ lsof -u nginx        # List open files of nginx user
 lsof -u ^[user1]     # List open files except opened by user1
 lsof -c nginx        # List open files of nginx process
 
-# Initial network diagnostic
-ip -br ad
-watch "ip -s link"
-watch -n 1.5 ip -s link show enp1s0   # Watch interface stats every 1.5 sec
-ethtool enp0s1
+
+# Create subdirectory in all directories of /catalog
+find /catalog/ -mindepth 1 -maxdepth 1 -type d -exec mkdir -p {}/.sub \;
 
 diff -u <(man 1 intro | col) <(man 2 intro | cat) | less
 
