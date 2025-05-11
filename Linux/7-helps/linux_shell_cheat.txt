@@ -17,9 +17,14 @@ ls -AlF     # Opposite to $ ls -la
 cd -        # Go to previously visited catalog
 ps fax     # Opposite to $ ps aux
 
+# Explore /proc pseudofs
 for pf in $(ls -1 /proc | grep -v '^[0-9]'); do echo $pf; done      # SAME AS
 find /proc/ -maxdepth 1 -type f -not -regex '^/proc/[0-9]*' -exec echo {} \; # YOU MAY USE less IN exec SECTION (= ^G :f Print current file name. -N enumerate lines)
 find /proc/ -maxdepth 1 -type f -not -regex '^/proc/[0-9]*' -exec less {} +  # USE :n  :p to navigate between open files
+
+# Explore /sys pseudofs
+ls /sys
+find /sys/ -maxdepth 2 | less
 
 df -Th               # Opposite to $ df -h
 du -sh ./* | sort -h # Show sizes of all contents in directory
