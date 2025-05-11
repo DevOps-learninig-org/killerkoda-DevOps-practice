@@ -32,8 +32,8 @@ cut -d\| -f1         # Opposite to $ awk -F \| '{print $1}'
 iostat -cNx 3        # Show FS and CPU load every 3 second
 
 ss -s                # Brief states
-# ss -tulpan         # Means Socket State -TCP -UDP -LISTEN_only -ProcID -a_LISTEN+ESTAB -numeric 
-# ss -uapt           # is the same as $ ss -tulpan
+# ss -tulpan         # Means Socket State -TCP -UDP -LISTEN_only -ProcID -a_LISTEN+ESTAB -numeric # !!! IT EXCLUDES nl,u_seq,u_dgr,u_str,*v6 PROTO !!!
+ss -pan            # is the same as $ ss -tulpan EVEN BETTER !!!
 watch lsof -i        # List open sockets every 2 second
 lsof -i4             # Opposite to $ ss -tulpan, show IPv4 sockets
 lsof -i TCP:22-1024  # Who is on the range from 22 to 1024 TCP port
