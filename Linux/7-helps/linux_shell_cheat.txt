@@ -1,4 +1,4 @@
-# My TOP of Hot-keys
+# My TOP Hot-keys
 Ctrl+LEFT - Ctrl+RIGHT  # Goto beginig/end of current word under cursor
 Ctrl+A - Ctrl+E         # Goto start or end of current line
 Alt+Backspace           # Delete current word 
