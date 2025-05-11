@@ -23,7 +23,7 @@ find /proc -maxdepth 1 -type d -not -regex '.*/[0-9]*'
 ls /sys
 find /sys/ -maxdepth 2 | less
 
-lsblk
+lsblk -fm
 df -Th               # Opposite to $ df -h
 pvs;vgs;lvs
 du -sh ./* | sort -h # Show sizes of all contents in directory
