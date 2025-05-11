@@ -6,9 +6,6 @@ Ctrl+LEFT - Ctrl+RIGHT  # Goto beginig/end of current word under cursor
 Alt+Backspace           # Delete current word  
 Alt+D                   # Delete word after cursor
 
-# Change MC editor
-select-editor
-
 ls -AlF     # Opposite to $ ls -la
 # variants:  
 # (-AlFR | less) - recursive
@@ -49,6 +46,8 @@ lsof -u nginx        # List open files of nginx user
 lsof -u ^[user1]     # List open files except opened by user1
 lsof -c nginx        # List open files of nginx process
 
+# Change MC editor
+select-editor
 
 # Create subdirectory in all directories of /catalog
 find /catalog/ -mindepth 1 -maxdepth 1 -type d -exec mkdir -p {}/.sub \;
