@@ -18,6 +18,7 @@ ps fax     # Opposite to $ ps aux
 # for pf in $(ls -1 /proc | grep -v '^[0-9]'); do echo $pf; done      # SAME AS
 find /proc/ -maxdepth 1 -type f -not -regex '^/proc/[0-9]*' -exec echo {} \; # YOU MAY USE less IN exec SECTION (= ^G :f Print current file name. -N enumerate lines)
 find /proc/ -maxdepth 1 -type f -not -regex '^/proc/[0-9]*' -exec less {} +  # USE :n  :p to navigate between open files
+find /proc ! -name kmsg ! -name kcore ! -name kallsyms ! -name kpage* -maxdepth 1 -type f -exec echo {} ---=== NEXT ===--------------- \; -exec cat {} \; | less
 
 # Explore /sys pseudofs
 ls /sys
