@@ -47,6 +47,9 @@ lsof -u nginx        # List open files of nginx user
 lsof -u ^[user1]     # List open files except opened by user1
 lsof -c nginx        # List open files of nginx process
 
+# Explore system logs
+journalctl
+
 # Change MC editor
 select-editor
 
