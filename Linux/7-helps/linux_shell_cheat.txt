@@ -52,6 +52,7 @@ systemctl
 
 # Explore system logs
 journalctl
+tail -f /var/log/some.log
 
 # Change MC editor
 select-editor
