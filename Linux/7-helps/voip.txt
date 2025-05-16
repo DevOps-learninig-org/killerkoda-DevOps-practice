@@ -3,3 +3,10 @@ apt install sip-tester sngrep
 
 # building console SIP-client 
 https://docs.pjsip.org/en/latest/pjsua2/building.html#common-requirements
+
+# Create empty wav
+sudo apt-get install libsox-fmt-all        # On CentOS you must recompile SoX to get .mp3
+sox -n -r 44100 -c 1 empty.wav trim 0 0    # One channel empty WAV
+sox -n output.wav synth 1:0 sine 1000-5000 # Create wav with 1 min sinus from 1000 to 5000 Hz
+soxi empty.wav
+sox -M empty.wav empty.wav empty.mp3       # Merge into MP3
