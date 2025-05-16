@@ -1,2 +1,5 @@
 # Usefull prgrams
 apt install sip-tester sngrep
+
+# building console SIP-client 
+https://docs.pjsip.org/en/latest/pjsua2/building.html#common-requirements
