@@ -1,6 +1,7 @@
 # Usefull prgrams
 apt install sip-tester sngrep
 
+sudo sngrep -d ens18 -l 100 -cR host 81.88.86.55
 sudo sngrep -d ens18 -l 100 -cRN -O 8_cals.pcap host 8.8.8.8
 sngrep -I 8_cals.pcap
 
