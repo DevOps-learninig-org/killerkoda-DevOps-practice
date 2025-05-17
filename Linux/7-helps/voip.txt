@@ -5,6 +5,9 @@ sudo sngrep -d ens18 -l 100 -cR host 81.88.86.55              # Visual mode
 sudo sngrep -d ens18 -l 100 -cRN -O 8_cals.pcap host 8.8.8.8  # PCAP mode
 sngrep -I 8_cals.pcap
 
+tcpdump -i ens18 -w 88.pcap -U -A host 8.8.8.8
+tcpdump -A -r 88.pcap
+
 # Create empty wav
 sudo apt-get install libsox-fmt-all        # On CentOS you must recompile SoX to get .mp3
 sox -n -r 44100 -c 1 empty.wav trim 0 0    # One channel empty WAV
