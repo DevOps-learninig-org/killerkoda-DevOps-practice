@@ -14,8 +14,7 @@ sox -n -r 44100 -c 1 empty.wav trim 0 0    # One channel empty WAV
 sox -n output.wav synth 1:0 sine 1000-5000 # Create wav with 1 min sinus from 1000 to 5000 Hz
 for f in {1..10}; do
   filebase="$RANDOM"-"$RANDOM"-"$RANDOM";
-  sox -n "$filebase"-m-in.wav synth 1:0 sine 1000-"$f"000;
-  sox -n "$filebase"-m-out.wav synth 1:0 sine 1000-"$f"000;
+  sox -n "$filebase"-in.wav synth 1:0 sine 1000-"$f"000;
+  sox -n "$filebase"-out.wav synth 1:0 sine 1000-"$f"000;
 done
-soxi empty.wav
-sox -M empty.wav empty.wav empty.mp3       # Merge into MP3
+sox -M ${filebase}-in.wav ${filebase}-out.wav ${filebase}.mp3       # Merge into MP3
