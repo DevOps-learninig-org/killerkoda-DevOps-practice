@@ -17,4 +17,4 @@ for f in {1..10}; do
   sox -n "$filebase"-in.wav synth 1:0 sine 1000-"$f"000;
   sox -n "$filebase"-out.wav synth 1:0 sine 1000-"$f"000;
 done
-sox -M ${filebase}-in.wav ${filebase}-out.wav ${filebase}.mp3       # Merge into MP3
+sox -M ${filebase}-in.wav ${filebase}-out.wav ${filebase}.mp3       # Merge to MP3
