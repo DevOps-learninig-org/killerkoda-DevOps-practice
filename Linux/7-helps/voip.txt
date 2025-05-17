@@ -1,8 +1,8 @@
 # Usefull prgrams
 apt install sip-tester sngrep
 
-# building console SIP-client 
-https://docs.pjsip.org/en/latest/pjsua2/building.html#common-requirements
+sudo sngrep -d ens18 -l 100 -cRN -O 8_cals.pcap host 8.8.8.8
+sngrep -I 8_cals.pcap
 
 # Create empty wav
 sudo apt-get install libsox-fmt-all        # On CentOS you must recompile SoX to get .mp3
