@@ -11,7 +11,7 @@ cd kamailio-6.0.1/
 make cfg
 # make include_modules="db_mysql dialplan tls" cfg
 vim src/modules.lst
-#  include_modules= db_mysql dialplan tls
+#  include_modules= db_mysql dialplan tls jsonrpcs
 
 make all
 make install
