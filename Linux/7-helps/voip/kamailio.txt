@@ -17,15 +17,22 @@ make install
 make install-systemd-debian
 
 # Configuring---------------------------------------
-# Database
+# --- Database
 # https://dev.mysql.com/doc/mysql-getting-started/en/
 
 mysql_secure_installation
 mysql -u root -p
 # ALTER USER 'root'@'localhost' IDENTIFIED BY 'new_password';
-# CREATE DATABASE kamailio;
-# CREATE USER 'kamailio'@'localhost' IDENTIFIED BY 'kamailiorw';
-# GRANT ALL PRIVILEGES ON kamailio.* TO 'kamailio'@'localhost';
 
 vi /usr/local/etc/kamailio/kamctlrc
-#  DBENGINE=MYSQL
+# DBENGINE=MYSQL
+# DBHOST=localhost
+# DBPORT=3306
+# DBNAME=kamailio
+# DBRWUSER="kamailio"
+# DBRWPW="kamailiorw"
+/usr/local/sbin/kamdbctl create
+
+# --- Kamailio
+vi /usr/local/etc/kamailio/kamailio.cfg
+
