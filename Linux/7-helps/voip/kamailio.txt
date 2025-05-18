@@ -13,7 +13,6 @@ make cfg
 vim src/modules.lst
 #  include_modules= db_mysql dialplan tls
 
-
 make all
 make install
 make install-systemd-debian
