@@ -26,14 +26,19 @@ mysql -u root -p
 # ALTER USER 'root'@'localhost' IDENTIFIED BY 'new_password';
 
 vi /usr/local/etc/kamailio/kamctlrc
+# SIP_DOMAIN=mysipserver.com
 # DBENGINE=MYSQL
 # DBHOST=localhost
-# DBPORT=3306
-# DBNAME=kamailio
 # DBRWUSER="kamailio"
 # DBRWPW="kamailiorw"
 /usr/local/sbin/kamdbctl create
 
 # --- Kamailio
+vi /usr/local/etc/kamailio/kamailio.cfg
+# SIP_DOMAIN=mysipserver.com
 vi /usr/local/etc/kamailio/kamailio-local.cfg
+# #!define WITH_MYSQL
+# #!define WITH_AUTH
+
+
 
