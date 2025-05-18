@@ -35,5 +35,5 @@ vi /usr/local/etc/kamailio/kamctlrc
 /usr/local/sbin/kamdbctl create
 
 # --- Kamailio
-vi /usr/local/etc/kamailio/kamailio.cfg
+vi /usr/local/etc/kamailio/kamailio-local.cfg
 
