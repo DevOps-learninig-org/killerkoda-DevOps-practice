@@ -1,1 +1,17 @@
- 
+# https://kamailio.org/docs/tutorials/6.0.x/kamailio-install-guide-git/#prerequisites
+# Installing
+
+wget https://github.com/kamailio/kamailio/archive/refs/tags/6.0.1.tar.gz
+tar -x -zf 6.0.1.tar.gz
+cd kamailio-6.0.1/
+
+apt-get install gcc g++ flex bison libmysqlclient-dev
+apt-get install mysql-server
+
+vim src/modules.lst
+  include_modules= db_mysql dialplan tls
+# make include_modules="db_mysql dialplan tls" cfg
+
+make all
+make install
+make install-systemd-debian
