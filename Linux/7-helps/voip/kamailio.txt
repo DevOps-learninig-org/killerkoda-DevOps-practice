@@ -32,7 +32,8 @@ comment # modules_all=
 make modules
 cp src/modules/db_mysql/db_mysql.so /usr/lib/x86_64-linux-gnu/kamailio/modules/
 cp utils/kamctl/kamdbctl.mysql /usr/lib/x86_64-linux-gnu/kamailio/kamctl/
-cp -r utils/kamctl/mysql /usr/lib/x86_64-linux-gnu/kamailio/kamctl/
+mkdir /usr/local/share/kamailio
+cp -r utils/kamctl/mysql mkdir /usr/local/share/kamailio
 sed -i '/^#!define WITH_MYSQL$/d' /etc/kamailio/kamailio.cfg
 sed -i '1i\#!define WITH_MYSQL' /etc/kamailio/kamailio.cfg
 kamctl restart && kamctl srv modules
@@ -53,7 +54,7 @@ vi /usr/local/etc/kamailio/kamctlrc # or vi /etc/kamailio/kamctlrc
 # DBHOST=localhost
 # DBRWUSER="kamailio"
 # DBRWPW="kamailiorw"
-/usr/local/sbin/kamdbctl create
+/usr/local/sbin/kamdbctl create # /usr/sbin/kamdbctl create
 
 # --- Kamailio
 vi /usr/local/etc/kamailio/kamailio.cfg
