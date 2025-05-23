@@ -19,21 +19,27 @@ make all
 make install
 make install-systemd-debian
 
-# If you need just modules
+# If you need just modules: 
+cat <<EOF > kamdb_mysql.sh # heredoc
+#!/bin/bash
+apt install kamailio -y
+apt-get install libmysqlclient-dev -y
 # kamctl srv version
-# apt-get install libmysqlclient-dev -y
-# make include_modules="db_mysql" cfg
-# vi src/modules.lst
-# comment # modules_all=
-# cp src/modules/db_mysql/db_mysql.so /usr/lib/x86_64-linux-gnu/kamailio/modules/
-# vi /etc/kamailio/kamailio.cfg
-# #!define WITH_MYSQL
-# kamctl restart && ramctl srv modules
+wget https://www.kamailio.org/pub/kamailio/5.7.4/src/kamailio-5.7.4_src.tar.gz && tar -x -zf kamailio-5.7.4_src.tar.gz && cd kamailio-5.7.4
+make include_modules="db_mysql" cfg
+sed -i '/^modules_all=/ s/^/#/' src/modules.lst
+comment # modules_all=
+make modules
+cp src/modules/db_mysql/db_mysql.so /usr/lib/x86_64-linux-gnu/kamailio/modules/
+sed -i '1i\#!define WITH_MYSQL' /etc/kamailio/kamailio.cfg
+kamctl restart && kamctl srv modules
+EOF
 
 # Configuring---------------------------------------
 # --- Database
 # https://dev.mysql.com/doc/mysql-getting-started/en/
 
+apt-get install mysql-server -y
 mysql_secure_installation
 mysql -u root -p
 # ALTER USER 'root'@'localhost' IDENTIFIED BY 'new_password';
