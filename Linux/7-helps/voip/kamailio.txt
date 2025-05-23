@@ -1,6 +1,7 @@
 # https://kamailio.org/docs/tutorials/6.0.x/kamailio-install-guide-git/#prerequisites
 # Installing---------------------------------------
 
+# Sources https://www.kamailio.org/pub/kamailio/
 wget https://github.com/kamailio/kamailio/archive/refs/tags/6.0.1.tar.gz
 tar -x -zf 6.0.1.tar.gz
 
@@ -9,13 +10,25 @@ apt-get install mysql-server -y
 
 cd kamailio-6.0.1/
 make cfg
+
 # make include_modules="db_mysql dialplan tls" cfg
-vim src/modules.lst
+vi src/modules.lst
 #  include_modules= db_mysql dialplan tls countersacc cfg_rpc ctl sanity xlog siputils textopsx textops registrar usrloc maxfwd pv rr sl tmx tm corex kex jsonrpcs
 
 make all
 make install
 make install-systemd-debian
+
+# If you need just modules
+# kamctl srv version
+# apt-get install libmysqlclient-dev -y
+# make include_modules="db_mysql" cfg
+# vi src/modules.lst
+# comment # modules_all=
+# cp src/modules/db_mysql/db_mysql.so /usr/lib/x86_64-linux-gnu/kamailio/modules/
+# vi /etc/kamailio/kamailio.cfg
+# #!define WITH_MYSQL
+# kamctl restart && ramctl srv modules
 
 # Configuring---------------------------------------
 # --- Database
