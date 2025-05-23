@@ -54,7 +54,7 @@ vi /usr/local/etc/kamailio/kamctlrc # or vi /etc/kamailio/kamctlrc
 # DBHOST=localhost
 # DBRWUSER="kamailio"
 # DBRWPW="kamailiorw"
-/usr/local/sbin/kamdbctl create # /usr/sbin/kamdbctl create
+/usr/local/sbin/kamdbctl create # /usr/sbin/kamdbctl create # if CREATE USER failed try FLUSH PRIVILEGES
 
 # --- Kamailio
 vi /usr/local/etc/kamailio/kamailio.cfg
