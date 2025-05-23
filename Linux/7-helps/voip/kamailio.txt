@@ -45,7 +45,7 @@ mysql_secure_installation
 mysql -u root -p
 # ALTER USER 'root'@'localhost' IDENTIFIED BY 'new_password';
 
-vi /usr/local/etc/kamailio/kamctlrc
+vi /usr/local/etc/kamailio/kamctlrc # or vi /etc/kamailio/kamctlrc
 # SIP_DOMAIN=mysipserver.com
 # DBENGINE=MYSQL
 # DBHOST=localhost
