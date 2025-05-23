@@ -31,6 +31,7 @@ sed -i '/^modules_all=/ s/^/#/' src/modules.lst
 comment # modules_all=
 make modules
 cp src/modules/db_mysql/db_mysql.so /usr/lib/x86_64-linux-gnu/kamailio/modules/
+cp utils/kamctl/kamctl.mysql  /usr/lib/x86_64-linux-gnu/kamailio/kamctl/
 cp utils/kamctl/kamdbctl.mysql /usr/lib/x86_64-linux-gnu/kamailio/kamctl/
 mkdir /usr/local/share/kamailio
 cp -r utils/kamctl/mysql mkdir /usr/local/share/kamailio
