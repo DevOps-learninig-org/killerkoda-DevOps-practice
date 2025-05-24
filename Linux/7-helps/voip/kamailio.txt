@@ -26,19 +26,16 @@ apt install kamailio -y
 apt-get install libmysqlclient-dev -y
 # kamctl srv version
 wget https://www.kamailio.org/pub/kamailio/5.7.4/src/kamailio-5.7.4_src.tar.gz && tar -x -zf kamailio-5.7.4_src.tar.gz && cd kamailio-5.7.4
-make include_modules="db_mysql" cfg
-sed -i '/^modules_all=/ s/^/#/' src/modules.lst
-comment # modules_all=
-make modules
-cp src/modules/db_mysql/db_mysql.so /usr/lib/x86_64-linux-gnu/kamailio/modules/
-cp utils/kamctl/kamctl.mysql  /usr/lib/x86_64-linux-gnu/kamailio/kamctl/
-cp utils/kamctl/kamdbctl.mysql /usr/lib/x86_64-linux-gnu/kamailio/kamctl/
-mkdir /usr/local/share/kamailio
+make modules modules=src/modules/db_mysql/
+make install-modules modules=src/modules/db_mysql/
 cp -r utils/kamctl/mysql mkdir /usr/local/share/kamailio
 sed -i '/^#!define WITH_MYSQL$/d' /etc/kamailio/kamailio.cfg
 sed -i '1i\#!define WITH_MYSQL' /etc/kamailio/kamailio.cfg
 kamctl restart && kamctl srv modules
 EOF
+
+# TSHOOT journalctl -u kamailio 
+# vi utils/kamctl/Makefile
 
 # Configuring---------------------------------------
 # --- Database
