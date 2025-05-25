@@ -46,12 +46,15 @@ mysql_secure_installation
 mysql -u root -p
 # ALTER USER 'root'@'localhost' IDENTIFIED BY 'new_password';
 
-vi /usr/local/etc/kamailio/kamctlrc # or vi /etc/kamailio/kamctlrc
-# SIP_DOMAIN=mysipserver.com
-# DBENGINE=MYSQL
-# DBHOST=localhost
-# DBRWUSER="kamailio"
-# DBRWPW="kamailiorw"
+# vi /usr/local/etc/kamailio/kamctlrc # or vi /etc/kamailio/kamctlrc
+cat <<EOF | bash # heredoc
+sed -i 's/^# \(SIP_DOMAIN=.*\)/\1/' /etc/kamailio/kamctlrc
+sed -i 's/^# \(DBENGINE=.*\)/\1/' /etc/kamailio/kamctlrc
+sed -i 's/^# \(DBNAME=.*\)/\1/' /etc/kamailio/kamctlrc
+sed -i 's/^# \(DBHOST=.*\)/\1/' /etc/kamailio/kamctlrc
+sed -i 's/^# \(DBRWUSER=.*\)/\1/' /etc/kamailio/kamctlrc
+sed -i 's/^# \(DBRWPW=.*\)/\1/' /etc/kamailio/kamctlrc
+EOF
 /usr/local/sbin/kamdbctl create # /usr/sbin/kamdbctl create # if CREATE USER failed try FLUSH PRIVILEGES
 kamctl db exec 'SHOW TABLES;'
 
