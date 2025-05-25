@@ -55,7 +55,7 @@ sed -i 's/^# \(DBHOST=.*\)/\1/' /etc/kamailio/kamctlrc
 sed -i 's/^# \(DBRWUSER=.*\)/\1/' /etc/kamailio/kamctlrc
 sed -i 's/^# \(DBRWPW=.*\)/\1/' /etc/kamailio/kamctlrc
 EOF
-/usr/local/sbin/kamdbctl create # /usr/sbin/kamdbctl create # if CREATE USER failed try FLUSH PRIVILEGES
+/usr/sbin/kamdbctl create # /usr/local/sbin/kamdbctl create #  # if CREATE USER failed try FLUSH PRIVILEGES
 kamctl db exec 'SHOW TABLES;'
 
 # --- Kamailio
