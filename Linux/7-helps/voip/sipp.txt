@@ -1,1 +1,2 @@
+apt install sip-tester
 
