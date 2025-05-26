@@ -6,7 +6,8 @@ First of all - useful links:
 - [tldp.org - Parameter Substitution](https://tldp.org/LDP/abs/html/parameter-substitution.html)
 - [tldp.org - Manipulating Variables](https://tldp.org/LDP/abs/html/manipulatingvars.html)
 - [tldp.org - Regular Expressions](https://tldp.org/LDP/abs/html/regexp.html)
-- `man --pager='less -p "Parameter Expansion"' bash`{exec}
+- `man --pager='less -p "Parameter Expansion"' bash`{{exec}}
+- `man --pager='less -p "^\s+Command Substitution"' bash`{{exec}}
 <br>
 <details><summary>List of builtin variables</summary>
 <pre>
