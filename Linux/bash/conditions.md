@@ -5,6 +5,7 @@ First of all - useful links:
 - [tldp.org - Introduction to if](https://tldp.org/LDP/Bash-Beginners-Guide/html/sect_07_01.html)
 - [tldp.org - Advanced Bash-Scripting Guide #Testing and Branching](https://tldp.org/LDP/abs/html/testbranch.html)
 - [baeldung.com - Differences Between Single and Double Brackets in Bash](https://www.baeldung.com/linux/bash-single-vs-double-brackets)
+- `man --pager='less -p "^\s+Compound Commands"' bash`{{exec}}
 <br>
 <details><summary>IF-THEN-ELIF-ELSE construction</summary>
 <pre>
