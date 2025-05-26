@@ -6,6 +6,7 @@ First of all - useful links:
 - [tldp.org - Advanced Bash-Scripting Guide #Testing and Branching](https://tldp.org/LDP/abs/html/testbranch.html)
 - [baeldung.com - Differences Between Single and Double Brackets in Bash](https://www.baeldung.com/linux/bash-single-vs-double-brackets)
 - `man --pager='less -p "^\s+Compound Commands"' bash`{{exec}}
+- `man --pager='less -p "^CONDITIONAL EXPRESSIONS"' bash`{{exec}}
 <br>
 <details><summary>IF-THEN-ELIF-ELSE construction</summary>
 <pre>
