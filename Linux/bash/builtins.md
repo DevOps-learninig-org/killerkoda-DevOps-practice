@@ -4,7 +4,7 @@ First of all - useful links:
 - [tldp.org - Internal Commands and Builtins](https://tldp.org/LDP/abs/html/internal.html)
 - [learnxinyminutes.com - Learn BASH in Y seconds](https://learnxinyminutes.com/docs/bash/)
 - execute `help`{{exec}} command
-- `man --pager='less -p "SHELL BUILTIN COMMANDS"' bash`{exec}  
+- `man --pager='less -p "^SHELL BUILTIN COMMANDS"' bash`{exec}  
   
 Source:
 - [savannah.gnu.org - BASH source](http://git.savannah.gnu.org/cgit/bash.git/tree/)
