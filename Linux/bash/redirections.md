@@ -4,6 +4,7 @@ First of all - useful links:
 - [devhints.io - Bash scripting cheatsheet #Miscellaneous](https://devhints.io/bash#miscellaneous)
 - [gnu.org - Redirections](https://www.gnu.org/software/bash/manual/html_node/Redirections.html)
 - [tldp.org - I/O Redirection](https://tldp.org/LDP/abs/html/io-redirection.html)
+- `man --pager='less -p "^REDIRECTION"' bash`{{exec}}
 <br>
 <details open><summary>File descriptors</summary>
 <pre>
