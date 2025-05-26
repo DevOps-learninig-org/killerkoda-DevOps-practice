@@ -9,6 +9,7 @@ Read some useful articles before:
 - [redhat.com - Bash Commands Cheat Sheet](https://developers.redhat.com/cheat-sheets/bash-shell-cheat-sheet)
 - [learnxinyminutes.com - Learn BASH in Y minutes](https://learnxinyminutes.com/docs/bash/)
 - `man bash`{{exec}}
+- `man --pager='less -p "Commands for Moving"' bash`{exec}
 
 Get source code:
 
