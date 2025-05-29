@@ -7,10 +7,10 @@ Alt+D                   # Delete word after cursor
 Ctrl+Shift+R            # Open interactive history
 
 ls -AlF     # Opposite to $ ls -la
-cd -        # Go to previously visited catalog
 # variants:  
 # (-AlFR | less) - recursive
 # (-AlFS) - sort by size, (-AlFtr) - sort by time in reverce order
+cd -        # Go to previously visited catalog
 
 ps fax     # Opposite to $ ps aux
 
