@@ -2,6 +2,8 @@
 apt install sip-tester sngrep
 
 sudo asterisk -rx "core show channels" | grep trunkname
+sudo asterisk -rx "pjsip list channels" | grep trunkname
+sudo asterisk -rx "pjsip show aors" | grep Unavail
 
 sudo sngrep -d ens18 -l 100 -cR host 81.88.86.55              # Visual mode
 sudo sngrep -d ens18 -l 100 -cRN -O 8_cals.pcap host 8.8.8.8  # PCAP mode
