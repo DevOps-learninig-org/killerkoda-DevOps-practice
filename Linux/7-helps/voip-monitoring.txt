@@ -9,6 +9,8 @@ sudo asterisk -rx "core show uptime"
 sudo asterisk -rx "core show channels" | grep trunkname
 sudo asterisk -rx "pjsip show settings"
 sudo asterisk -rx "pjsip list channels" | grep trunkname
+sudo asterisk -rx "pjsip show endpoint trunkname"
+sudo asterisk -rx "pjsip dialplan show trunkcontext"
 sudo asterisk -rx "pjsip show aors" | grep Unavail
 sudo asterisk -rx "pjsip show aors" | grep Avail
 sudo asterisk -rx "pjsip list endpoints" | grep "In use"
