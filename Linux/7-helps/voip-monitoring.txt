@@ -1,10 +1,16 @@
 # Usefull prgrams
 apt install sip-tester sngrep
 
+# --- Asterisk statistic --- 
+sudo asterisk -rx "core show sysinfo"
+sudo asterisk -rx "core show settings"
+sudo asterisk -rx "core show calls"
 sudo asterisk -rx "core show channels" | grep trunkname
 sudo asterisk -rx "pjsip list channels" | grep trunkname
 sudo asterisk -rx "pjsip show aors" | grep Unavail
+sudo asterisk -rx "pjsip show aors" | grep Avail
 
+# --- Realtime monitoring ---
 sudo sngrep -d ens18 -l 100 -cR host 81.88.86.55              # Visual mode
 sudo sngrep -d ens18 -l 100 -cRN -O 8_cals.pcap host 8.8.8.8  # PCAP mode
 sngrep -I 8_cals.pcap
@@ -12,7 +18,7 @@ sngrep -I 8_cals.pcap
 tcpdump -i ens18 -w 88.pcap -U -A host 8.8.8.8
 tcpdump -A -r 88.pcap
 
-# Create empty wav
+# --- Create empty wav ---
 sudo apt-get install libsox-fmt-all        # On CentOS you must recompile SoX to get .mp3
 sox -n -r 44100 -c 1 empty.wav trim 0 0    # One channel empty WAV
 sox -n output.wav synth 1:0 sine 1000-5000 # Create wav with 1 min sinus from 1000 to 5000 Hz
