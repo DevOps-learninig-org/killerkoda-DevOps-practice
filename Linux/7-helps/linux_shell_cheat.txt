@@ -60,6 +60,9 @@ select-editor
 # Create subdirectory in all directories of /catalog
 find /catalog/ -mindepth 1 -maxdepth 1 -type d -exec mkdir -p {}/.sub \;
 
+# Copy files with absolute path. Useful for chroot and containers
+tar -c -h /path/to/file1 /path/to/file2 | tar -x -C newroot/
+
 # Create empty wav
 sudo apt-get install libsox-fmt-all       # On CentOS you must recompile SoX to get .mp3
 sox -n -r 44100 -c 1 empty.wav trim 0 0   # One channel empty WAV
