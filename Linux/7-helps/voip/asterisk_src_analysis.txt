@@ -65,7 +65,23 @@ Core components of Asterisk Core:
 - Bucket API
   https://github.com/asterisk/asterisk/blob/master/main/bucket.c
 
+  The "bucket" in main/bucket.c is typically used for managing collections of items, often as part of a hash
+  table or similar structure. In C projects, buckets are commonly used to organize data for efficient lookup,
+  storage, and retrieval, especially when dealing with large datasets.
+  
+  Possible Use Cases in Asterisk:
+  
+  Storing and managing call-related data
+  Tracking sessions or resources
+  Implementing fast lookup tables for internal data structures
+  API:
+  The "Bucket API" in this context refers to the set of functions and data structures in bucket.c that allow
+  other parts of Asterisk to create, manipulate, and destroy these bucket-based collections.
+
 - Timing - Timing source management
   https://github.com/asterisk/asterisk/blob/master/main/timing.c
+
+- Other - Other key Entitys and routines
+  https://github.com/asterisk/asterisk/blob/c7a82711f628f62efe9ddbd51f420d12a4e59389/main/asterisk.c#L4301
 
 
