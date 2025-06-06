@@ -11,6 +11,9 @@ Core components of Asterisk Core:
   https://github.com/asterisk/asterisk/blob/c7a82711f628f62efe9ddbd51f420d12a4e59389/configs/samples/asterisk.conf.sample#L6
   /var/lib/asterisk/astdb.sqlite3 - Default AstDB path
 
+- Scheduler
+  https://github.com/asterisk/asterisk/blob/c7a82711f628f62efe9ddbd51f420d12a4e59389/main/sched.c
+
 - Taskprocessor
   https://github.com/asterisk/asterisk/blob/master/main/taskprocessor.c
 
@@ -80,6 +83,11 @@ Core components of Asterisk Core:
 
 - Timing - Timing source management
   https://github.com/asterisk/asterisk/blob/master/main/timing.c
+
+- Config Parser
+  http://github.com/asterisk/asterisk/blob/c7a82711f628f62efe9ddbd51f420d12a4e59389/pbx/pbx_config.c
+
+
 
 - Other - Other key Entitys and routines
   https://github.com/asterisk/asterisk/blob/c7a82711f628f62efe9ddbd51f420d12a4e59389/main/asterisk.c#L4301
