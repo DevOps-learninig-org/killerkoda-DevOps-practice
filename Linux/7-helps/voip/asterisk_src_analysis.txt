@@ -3,10 +3,16 @@ https://github.com/asterisk/asterisk/blob/c7a82711f628f62efe9ddbd51f420d12a4e593
 
 Core components of Asterisk Core:
 ---------------------------------
-astobj2 - replacement containers for asterisk data structures.
-https://github.com/asterisk/asterisk/blob/master/main/astobj2.c
+- astobj2 - replacement containers for asterisk data structures.
+  https://github.com/asterisk/asterisk/blob/master/main/astobj2.c
 
-AstDB - Asterisk internal database (wrapper over SQLite3) 
-https://github.com/asterisk/asterisk/blob/master/main/db.c
-https://github.com/asterisk/asterisk/blob/c7a82711f628f62efe9ddbd51f420d12a4e59389/configs/samples/asterisk.conf.sample#L6
-/var/lib/asterisk/astdb.sqlite3 - Default AstDB path
+- AstDB - Asterisk internal database (wrapper over SQLite3) 
+  https://github.com/asterisk/asterisk/blob/master/main/db.c
+  https://github.com/asterisk/asterisk/blob/c7a82711f628f62efe9ddbd51f420d12a4e59389/configs/samples/asterisk.conf.sample#L6
+  /var/lib/asterisk/astdb.sqlite3 - Default AstDB path
+
+- Taskprocessor
+  https://github.com/asterisk/asterisk/blob/master/main/taskprocessor.c
+
+- Stasis Message Bus - internal Event-Driven Asterisk Bus
+  https://github.com/asterisk/asterisk/blob/master/main/stasis.c
