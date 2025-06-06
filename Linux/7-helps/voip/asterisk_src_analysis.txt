@@ -51,3 +51,21 @@ Core components of Asterisk Core:
   In summary: "sorcery" in Asterisk is a core infrastructure for abstract, flexible, and pluggable configuration
   object management. It is not related to magic, but rather is a system that makes it easy to add, retrieve,
   and manipulate configuration objects from various sources.
+
+- PBX - Core PBX routines
+  https://github.com/asterisk/asterisk/blob/master/main/pbx.c
+
+  The pbx.c file in Asterisk implements the core Private Branch Exchange (PBX) logic. It manages dialplan
+  processing, extension matching, call routing, and context management—the fundamental functions of the 
+  Asterisk telephony engine.
+
+- Logger
+  https://github.com/asterisk/asterisk/blob/master/main/logger.c
+
+- Bucket API
+  https://github.com/asterisk/asterisk/blob/master/main/bucket.c
+
+- Timing - Timing source management
+  https://github.com/asterisk/asterisk/blob/master/main/timing.c
+
+
