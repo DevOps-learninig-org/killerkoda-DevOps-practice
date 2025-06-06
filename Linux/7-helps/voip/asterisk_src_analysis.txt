@@ -1,0 +1,11 @@
+# Entry point for all subsystems init routines:
+https://github.com/asterisk/asterisk/blob/c7a82711f628f62efe9ddbd51f420d12a4e59389/main/asterisk.c#L4212
+
+Core components of Asterisk Core:
+---------------------------------
+astobj2 - replacement containers for asterisk data structures.
+https://github.com/asterisk/asterisk/blob/master/main/astobj2.c
+
+AstDB - Asterisk internal database (wrapper over SQLite3) 
+https://github.com/asterisk/asterisk/blob/master/main/db.c
+https://github.com/asterisk/asterisk/blob/c7a82711f628f62efe9ddbd51f420d12a4e59389/configs/samples/asterisk.conf.sample#L6
