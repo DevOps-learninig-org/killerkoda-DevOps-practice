@@ -16,3 +16,38 @@ Core components of Asterisk Core:
 
 - Stasis Message Bus - internal Event-Driven Asterisk Bus
   https://github.com/asterisk/asterisk/blob/master/main/stasis.c
+
+  In the context of the Asterisk project, "Stasis" is an internal messaging and application framework used
+  within Asterisk to facilitate communication between different modules and components. It acts as a broker
+  for events and messages, allowing various parts of the system—such as the core call-handling logic, channel
+  drivers, and external applications—to communicate asynchronously and in a decoupled manner.
+  
+  Stasis is especially important for features like the Asterisk REST Interface (ARI), where it enables real-time
+  control and monitoring of calls, channels, and bridges from external applications. Through Stasis, developers
+  can interact with calls programmatically, receive events, and send commands without being tightly coupled to
+  the internal workings of Asterisk.
+  
+  Key points about Stasis in Asterisk:
+  - It is a messaging bus/framework within Asterisk.
+  - It enables asynchronous communication between modules.
+  - It is central to the operation of ARI (Asterisk REST Interface).
+  - It allows for flexible and decoupled application development.
+
+- Sorcery
+  https://github.com/asterisk/asterisk/blob/master/main/sorcery.c
+
+  In the context of Asterisk, "sorcery" refers to a framework and API for managing configuration objects 
+  and their storage backends in a modular and extensible way.
+  Specifically:
+  The "sorcery" system allows Asterisk modules to define object types (such as users, endpoints, etc.) and
+  map those types to "wizards,"   which are storage modules responsible for creating, retrieving, updating,
+  and deleting these objects.
+  A "sorcery" instance holds all information about object types, their fields, and their mappings to storage
+  backends ("wizards").
+  The sorcery system can be configured via the sorcery.conf file, which determines how different object types
+  are stored or retrieved (e.g., from configuration files, databases, etc.).
+  The file sorcery.c implements the logic for managing "sorcery" instances, the registration of object types,
+  and the mapping of those types to storage wizards.
+  In summary: "sorcery" in Asterisk is a core infrastructure for abstract, flexible, and pluggable configuration
+  object management. It is not related to magic, but rather is a system that makes it easy to add, retrieve,
+  and manipulate configuration objects from various sources.
