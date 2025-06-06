@@ -17,6 +17,30 @@ Core components of Asterisk Core:
 - Taskprocessor
   https://github.com/asterisk/asterisk/blob/master/main/taskprocessor.c
 
+  Taskprocessor
+  Purpose: Manages queues of tasks and serializes their execution, typically using dedicated threads.
+  How it works: A taskprocessor is a named object that holds a FIFO queue of tasks. Tasks are pushed onto the queue and are 
+  executed one at a time, in order, by a thread associated with the taskprocessor.
+  Usage: Used to ensure that certain tasks (like message handling or SIP transactions) are processed in order and not concurrently. 
+  Modules can share or create their own taskprocessors for their specific needs.
+  API: See include/asterisk/taskprocessor.h. Tasks are pushed with ast_taskprocessor_push(), and the taskprocessor handles them in turn.
+
+  Scheduler
+  Purpose: Schedules tasks to be executed at specific times in the future or at recurring intervals.
+  How it works: The scheduler keeps a list of timed events. When a scheduled time is reached, the scheduler triggers the execution 
+  of the associated task. This may involve pushing the task to a taskprocessor for serialized execution.
+  Usage: Commonly used for periodic tasks, timeouts, and delayed actions. In the PJSIP SIP stack, for example, scheduled tasks are
+  managed with both a scheduler context (for timing) and a taskprocessor (for actual execution).
+  API: See files like main/sched.c and res/res_pjsip/pjsip_scheduler.c. Tasks are scheduled with functions like ast_sched_add().
+  Key Differences
+  Taskprocessor: Serializes and executes tasks, ensuring order and thread safety.
+  Scheduler: Triggers tasks based on time, but does not itself execute the task logic—instead, it usually pushes these tasks to a
+  taskprocessor.
+
+  Summary:
+  Use a scheduler when you want something to happen at a specific time or repeatedly.
+  Use a taskprocessor when you need to serialize execution of tasks, regardless of when they are triggered.
+
 - Stasis Message Bus - internal Event-Driven Asterisk Bus
   https://github.com/asterisk/asterisk/blob/master/main/stasis.c
 
