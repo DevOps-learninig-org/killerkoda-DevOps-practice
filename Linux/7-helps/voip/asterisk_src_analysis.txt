@@ -41,6 +41,47 @@ Core components of Asterisk Core:
   Use a scheduler when you want something to happen at a specific time or repeatedly.
   Use a taskprocessor when you need to serialize execution of tasks, regardless of when they are triggered.
 
+- Memory Manager
+  https://github.com/asterisk/asterisk/blob/master/main/astmm.c
+
+  The file main/astmm.c in the Asterisk project is responsible for memory management with a strong emphasis on debugging and
+  tracking memory usage. Its main purposes are:
+  Custom Memory Allocation Wrappers:
+  It provides custom implementations for memory allocation functions like malloc, calloc, realloc, strdup,
+  and their variants. These wrappers add additional tracking and error-handling capabilities beyond the
+  standard C library functions.
+
+  Memory Debugging and Leak Detection:
+  When compiled with debugging enabled (__AST_DEBUG_MALLOC), it tracks all memory allocations, their sizes,
+  locations (file, line, function), and can detect memory leaks (memory that was allocated but not freed) 
+  at program exit.
+  It maintains a hash table of all active allocations.
+  It can log allocations and frees, and report unfreed memory at exit.
+
+  Corruption and Fence Checking:
+  The code adds “fence” values before and after each allocated memory region to detect buffer overflows or 
+  underflows (memory corruption). If these fences are overwritten, it logs a warning and can intentionally
+  crash the program to aid in debugging.
+
+  CLI Tools for Memory Diagnostics:
+  The file implements several Asterisk CLI commands (like memory show allocations, memory show summary, etc.)
+  for interactively
+  checking memory usage, outstanding allocations, and possible anomalies.
+
+  Failure Simulation for Testing:
+  There is support for chaos testing via macros like DEBUG_CHAOS_RETURN, which can randomly force memory 
+  allocation failures.
+  This helps developers test how robustly the application handles out-of-memory situations.
+
+  Backtrace Support:
+  With debugging enabled, it can capture and print backtraces for memory allocations, making it easier to 
+  find where a particular allocation originated.
+
+  In summary:
+  Asterisk MM is a sophisticated memory manager and debugging aid for Asterisk. It is used to catch memory-related
+  bugs (like leaks and corruption), analyze memory usage interactively, and improve the reliability of the project
+  by enabling robust diagnostics and testing.
+
 - Stasis Message Bus - internal Event-Driven Asterisk Bus
   https://github.com/asterisk/asterisk/blob/master/main/stasis.c
 
