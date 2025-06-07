@@ -65,8 +65,7 @@ Core components of Asterisk Core:
 
   CLI Tools for Memory Diagnostics:
   The file implements several Asterisk CLI commands (like memory show allocations, memory show summary, etc.)
-  for interactively
-  checking memory usage, outstanding allocations, and possible anomalies.
+  for interactively checking memory usage, outstanding allocations, and possible anomalies. (DEBUG_MALLOC)
 
   Failure Simulation for Testing:
   There is support for chaos testing via macros like DEBUG_CHAOS_RETURN, which can randomly force memory 
