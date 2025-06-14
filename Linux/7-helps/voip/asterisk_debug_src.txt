@@ -1,0 +1,60 @@
+To compile Asterisk in debug mode to set a breakpoint in the desired module for step-by-step debugging, follow these steps:
+
+Step 1: Clone Asterisk source code
+----------------------------------
+Fetch the latest version of Asterisk from its official repository on GitHub:
+git clone https://github.com/asterisk/asterisk.git
+cd asterisk
+
+Step 2: Set up your environment
+----------------------------------
+Make sure you have necessary development tools and dependencies installed:
+./contrib/scripts/install_prereq instal
+
+Step 3: Configure project with debug support
+----------------------------------
+Run the configuration script enabling debug symbols and disabling optimizations:
+./configure CFLAGS="-ggdb -O0" --enable-debug
+make menuselect
+[*] DEBUG_THREADS
+[ ] DONT_OPTIMIZE
+
+The CFLAGS option adds symbolic information and turns off compiler optimization (-O0), which is essential for detailed debugging.
+
+Step 4: Build Asterisk
+----------------------------------
+Compile the project while preserving debug symbols:
+make clean && make menuselect # Select modules via menu interface
+make -j$(nproc)
+
+You can choose specific modules to be built through the interactive Menuselect menu (for example, channel modules or applications).
+
+Step 5: Run Asterisk under GDB debugger
+----------------------------------
+Start Asterisk within the GDB debugger by running:
+gdb ./asterisk
+(gdb) run -vvv -c
+
+Now Asterisk runs inside GDB. To add a breakpoint before executing a particular function, enter this command:
+(gdb) break asterisk.c:asterisk_daemon
+(gdb) set follow-fork-mode child
+(gdb) run
+(gdb) n
+....
+(gdb) info inferiors
+
+For instance, if you want to stop execution at an incoming call processing function in the SIP channel file:
+(gdb) break channels/chan_sip.c:sip_handle_request_invite
+
+Then resume execution using:
+(gdb) continue
+
+Step 6: Step-through debugging
+----------------------------------
+After hitting the breakpoint, proceed line-by-line with commands like:
+(gdb) next      # Execute next statement
+(gdb) step      # Enter into a function
+(gdb) print var # Print value of a variable
+
+
+By following these steps, you'll be able to thoroughly inspect program behavior during runtime.
