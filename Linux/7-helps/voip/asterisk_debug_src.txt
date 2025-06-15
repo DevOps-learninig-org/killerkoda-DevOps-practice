@@ -9,7 +9,7 @@ cd asterisk
 Step 2: Set up your environment
 ----------------------------------
 Make sure you have necessary development tools and dependencies installed:
-./contrib/scripts/install_prereq instal
+./contrib/scripts/install_prereq install
 
 Step 3: Configure project with debug support
 ----------------------------------
