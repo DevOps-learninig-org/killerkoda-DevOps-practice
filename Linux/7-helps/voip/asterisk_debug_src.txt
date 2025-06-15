@@ -14,10 +14,10 @@ Make sure you have necessary development tools and dependencies installed:
 Step 3: Configure project with debug support
 ----------------------------------
 Run the configuration script enabling debug symbols and disabling optimizations:
-./configure CFLAGS="-ggdb -O0" --enable-debug
+./configure --enable-debug
 make menuselect
 [*] DEBUG_THREADS
-[ ] DONT_OPTIMIZE
+[*] DONT_OPTIMIZE
 
 The CFLAGS option adds symbolic information and turns off compiler optimization (-O0), which is essential for detailed debugging.
 
