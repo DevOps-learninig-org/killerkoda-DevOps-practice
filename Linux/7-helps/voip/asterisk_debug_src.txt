@@ -18,6 +18,7 @@ Run the configuration script enabling debug symbols and disabling optimizations:
 make menuselect
 [*] DEBUG_THREADS
 [*] DONT_OPTIMIZE
+[*] AO2_DEBUG
 
 The CFLAGS option adds symbolic information and turns off compiler optimization (-O0), which is essential for detailed debugging.
 
