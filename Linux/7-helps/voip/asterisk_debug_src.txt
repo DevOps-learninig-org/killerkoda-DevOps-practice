@@ -29,6 +29,7 @@ make clean && make menuselect # Select modules via menu interface
 make -j$(nproc)
 make install
 make basic-pbx
+> /etc/asterisk/pjsip.conf
 make install-logrotate
 cp contrib/systemd/asterisk.service $(pkg-config systemd --variable systemdsystemunitdir)
 systemctl daemon-reload
