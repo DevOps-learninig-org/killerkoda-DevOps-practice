@@ -27,6 +27,11 @@ Step 4: Build Asterisk
 Compile the project while preserving debug symbols:
 make clean && make menuselect # Select modules via menu interface
 make -j$(nproc)
+make install
+make basic-pbx
+make install-logrotate
+cp contrib/systemd/asterisk.service $(pkg-config systemd --variable systemdsystemunitdir)
+systemctl daemon-reload
 
 You can choose specific modules to be built through the interactive Menuselect menu (for example, channel modules or applications).
 
