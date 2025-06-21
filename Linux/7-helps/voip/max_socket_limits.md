@@ -82,7 +82,7 @@ ls -1 /proc/<PID>/fd | wc -l
 ### 5. **Optimization for Kamailio/SIP Servers**  
 If Kamailio handles thousands of calls:
 0. Increase limits for running process
-   ```
+   ```bash
    prlimit --pid <PID> --nofile=<SOFT>[:<HARD>]
    ```
 1. Increase limits in `/etc/security/limits.conf`:  
