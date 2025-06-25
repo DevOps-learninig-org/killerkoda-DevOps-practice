@@ -1,5 +1,5 @@
 How to Resize an ext4 Partition on /dev/sda2 After Expanding a Virtual Disk in a VM
-
+---
 If you’ve expanded a virtual disk in a VM and need to extend the ext4 partition (/dev/sda2), follow these steps:
 1. Verify That the Physical Disk Has Been Expanded
 
