@@ -1,15 +1,15 @@
 How to Resize an ext4 Partition on /dev/sda2 After Expanding a Virtual Disk in a VM
 ---
 If you’ve expanded a virtual disk in a VM and need to extend the ext4 partition (/dev/sda2), follow these steps:
-1. Verify That the Physical Disk Has Been Expanded
 
+### 1. Verify That the Physical Disk Has Been Expanded
 Check if the virtual disk was successfully enlarged:
 ```bash
     lsblk
 ```
 Look at the size of sda (the parent device).
 
-2. Resize the Partition /dev/sda2
+### 2. Resize the Partition /dev/sda2
 Use growpart (from the cloud-utils package):
 ```bash
     growpart /dev/sda 2
@@ -21,19 +21,20 @@ If growpart is not available, use parted:
 ```
 Confirm with Yes if prompted.
 
-3. Update the Partition Table
+### 3. Update the Partition Table
 Reread the partition table without rebooting:
 ```bash
     partprobe /dev/sda
 ```
-5. Expand the ext4 Filesystem
+
+### 5. Expand the ext4 Filesystem
 Use resize2fs to resize the filesystem:
 ```bash
     resize2fs /dev/sda2
 ```
 (Works even if the filesystem is mounted on modern systems.)
 
-7. Verify the Changes
+### 6. Verify the Changes
 Confirm that the partition and filesystem now use all available space:
 ```bash
     df -h /dev/sda2
