@@ -1,0 +1,52 @@
+{
+  "title": "Most popular enterprice services",
+  "description": "Most popular services and applications",
+  "details": {
+    "intro": {
+      "text": "service/intro.md",
+      "foreground": "scripts/foreground.sh",
+      "background": "scripts/background.sh"
+    },
+    "steps": [
+      {
+        "title": "1/8 DNS server [53:00]",
+        "text": "dns.md",
+        "verify": "scripts/check.sh"
+      },{
+        "title": "2/8 DHCP, NTP and TFTP [46:00]",
+        "text": "dhcp_ntp_tftp.md",
+        "verify": "scripts/check.sh"
+      },{
+        "title": "3/8 LDAP and Diameter [39:00]",
+        "text": "ldap_kerberos.md",
+        "verify": "scripts/check.sh"
+      },{
+        "title": "4/8 NFS, Samba [32:00]",
+        "text": "nfs_samba.md",
+        "verify": "scripts/check.sh"
+      },{
+        "title": "5/8 Web server or Load Balancer [25:00]",
+        "text": "web_lb.md",
+        "verify": "scripts/check.sh"
+      },{
+        "title": "6/8 PostgreSQL, MariaDB [18:00]",
+        "text": "postgresql_mariadb.md",
+        "verify": "scripts/check.sh"
+      },{
+        "title": "7/8 SSH and Virtual Private Networks [11:00]",
+        "text": "ssh_vpn.md",
+        "verify": "scripts/check.sh"
+      },{
+        "title": "8/8 Voice over IP [00:00]",
+        "text": "voip.md",
+        "verify": "scripts/check.sh"
+      }
+    ],
+    "finish": {
+      "text": "service/finish.md"
+    }
+  },
+  "backend": {
+    "imageid": "kubernetes-kubeadm-2nodes"
+  }
+}
