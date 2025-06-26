@@ -3,32 +3,32 @@
   "description" : "Learn how to administer linux hosts",
   "items": [
     {
-      "path": "bash",
+      "path": "1-bash",
       "title": "Introduction to BASH shell",
       "description" : "MON - Practice with BASH scripting"
     },
     {
-      "path": "common",
+      "path": "2-common",
       "title": "Common linux utilities",
       "description" : "TUE - Most common linux utilities theory and practice"
     },
     {
-      "path": "localhost",
+      "path": "3-localhost",
       "title": "Localhost administration",
       "description": "WED - Learn how to administer localhost"
     },
     { 
-      "path": "networking",
+      "path": "4-networking",
       "title": "Linux networking practice",
       "description" : "THU - Practice with linux networking"
     },
     { 
-      "path": "storage", 
+      "path": "5-storage", 
       "title": "Linux storage practice",
       "description" : "FRI - Practice with linux storage"
     },
     {
-      "path": "services",
+      "path": "6-services",
       "title": "Services for enterprise",
       "description": "SAT - Most popular services and applications" 
     }
