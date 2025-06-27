@@ -3,42 +3,42 @@
   "description" : "Covers concepts, strategy, tools, and tuning for operating system",
   "items": [
     {
-      "path": "OS_theory",
+      "path": "1-OS_theory",
       "title": "OS theory",
       "description": "Operating Systems common theory"
     },
     {
-      "path": "Observability_Tools",
+      "path": "2-Observability_Tools",
       "title": "Observability Tools",
       "description": "The most popular monitoring utilities"
     },
     {
-      "path": "CPU",
+      "path": "3-CPU",
       "title": "CPUs",
       "description": "Deep dive into CPU perfomance tuning"
     },
     { 
-      "path": "Memory",
+      "path": "4-Memory",
       "title": "RAM and VM",
       "description": "Looking at memory performance"
     },
     { 
-      "path": "FS", 
+      "path": "5-FS", 
       "title": "File Systems",
       "description": "Looking at memory performance"
     },
     {
-      "path": "Disks",
+      "path": "6-Disks",
       "title": "Persistent memory devices",
       "description": "Monitoring and tuning storage device performance"
     },
     {
-      "path": "Network",
+      "path": "7-Network",
       "title": "Network",
       "description": "Network Performance Theory and Practice" 
     },
     {
-      "path": "SAR_perf_Ftrace",
+      "path": "8-SAR_perf_Ftrace",
       "title": "SAR, perf, Ftrace",
       "description": "Learn powerful tools" 
     }
