@@ -25,7 +25,7 @@
     { 
       "path": "5-FS", 
       "title": "File Systems",
-      "description": "Looking at memory performance"
+      "description": "VFS and FS instrumentation"
     },
     {
       "path": "6-Disks",
