@@ -7,12 +7,24 @@
     },
     "steps": [
       {
-        "title": "1/2 Title [00:00]",
-        "text": "step1_text.md",
+        "title": "1/5 Applications and Libraries [00:00]",
+        "text": "app_lib.md",
         "verify": "scripts/check.sh"
       },{
-        "title": "2/2 Title [00:00]",
-        "text": "step2_text.md",
+        "title": "2/5 VFS and Storeage subsystam [00:00]",
+        "text": "vfs_storage.md",
+        "verify": "scripts/check.sh"
+      },{
+        "title": "3/5 Network stack [00:00]",
+        "text": "network.md",
+        "verify": "scripts/check.sh"
+      },{
+        "title": "4/5 Scheduler and Memory [00:00]",
+        "text": "scheduler_mem.md",
+        "verify": "scripts/check.sh"
+      },{
+        "title": "5/5 CPU and DRAM [00:00]",
+        "text": "cpu_dram.md",
         "verify": "scripts/check.sh"
       }
     ],
