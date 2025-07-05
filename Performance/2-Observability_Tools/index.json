@@ -7,8 +7,8 @@
     },
     "steps": [
       {
-        "title": "1/5 Applications and Libraries [00:00]",
-        "text": "app_lib.md",
+        "title": "1/5 Observability tools packages [00:00]",
+        "text": "tool_packages.md",
         "verify": "scripts/check.sh"
       },{
         "title": "2/5 VFS and Storeage subsystam [00:00]",
