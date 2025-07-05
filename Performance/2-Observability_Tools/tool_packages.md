@@ -1,6 +1,6 @@
 First of all - useful links:
 
-- []()
+- [https://www.brendangregg.com/blog/2024-03-24/linux-crisis-tools.html](Brendan Gregg - Linux Crisis Tools)
 
 Interesting video tutorials:
 - [youtube.com - ]()
