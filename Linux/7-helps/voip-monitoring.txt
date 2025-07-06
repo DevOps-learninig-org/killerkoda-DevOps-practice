@@ -16,6 +16,7 @@ sudo asterisk -rx "pjsip show aors" | grep Avail
 sudo asterisk -rx "pjsip list endpoints" | grep "In use"
 sudo asterisk -rx "pjsip list endpoints" | grep Unavailable
 sudo asterisk -rx "pjsip show registrations"
+# sudo asterisk -rx "pjsip send register my_trunk"
 sudo asterisk -rx "pjsip show auths"
 sudo asterisk -rx "pjsip show scheduled_tasks"
 
