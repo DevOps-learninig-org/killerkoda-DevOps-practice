@@ -21,6 +21,7 @@ sudo asterisk -rx "pjsip show auths"
 sudo asterisk -rx "pjsip show scheduled_tasks"
 
 # --- Realtime monitoring ---
+sudo sngrep -d ens18 -l 100 host 81.88.86.55              
 sudo sngrep -d ens18 -l 100 -cR host 81.88.86.55              # Visual mode
 sudo sngrep -d ens18 -l 100 -cRN -O cals.pcap host 8.8.8.8  # PCAP mode
 sngrep -I cals.pcap
