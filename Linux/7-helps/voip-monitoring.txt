@@ -1,4 +1,4 @@
-# Usefull prgrams
+# Usefull tools
 apt install sip-tester sngrep
 
 # --- Asterisk statistic --- 
