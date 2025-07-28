@@ -54,6 +54,9 @@ systemctl
 journalctl
 tail -f /var/log/some.log
 
+sudo traceroute -T example.ru -p 5060
+sudo traceroute -I example.ru
+
 # Change MC editor
 select-editor
 
