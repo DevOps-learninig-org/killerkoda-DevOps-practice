@@ -31,6 +31,8 @@ make install
 make basic-pbx
 > /etc/asterisk/pjsip.conf
 make install-logrotate
+groupadd asterisk
+useradd -g asterisk asterisk
 cp contrib/systemd/asterisk.service $(pkg-config systemd --variable systemdsystemunitdir)
 systemctl daemon-reload
 
