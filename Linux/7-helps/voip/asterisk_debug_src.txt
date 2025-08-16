@@ -15,11 +15,11 @@ Step 3: Configure project with debug support
 ----------------------------------
 Run the configuration script enabling debug symbols and disabling optimizations:
 ./configure --enable-debug
+make -p | grep -E '^[a-zA-Z_-]+:' | cut -d: -f1 | sort -u
 make menuselect
 [*] DEBUG_THREADS
 [*] DONT_OPTIMIZE
 [*] AO2_DEBUG
-or ./configure --enable-debug CFLAGS="-DDEBUG_THREADS -DDONT_OPTIMIZE -DAO2_DEBUG"
 
 The CFLAGS option adds symbolic information and turns off compiler optimization (-O0), which is essential for detailed debugging.
 
@@ -65,6 +65,5 @@ After hitting the breakpoint, proceed line-by-line with commands like:
 (gdb) next      # Execute next statement
 (gdb) step      # Enter into a function
 (gdb) print var # Print value of a variable
-
 
 By following these steps, you'll be able to thoroughly inspect program behavior during runtime.
