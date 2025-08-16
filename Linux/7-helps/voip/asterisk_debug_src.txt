@@ -23,7 +23,6 @@ The CFLAGS option adds symbolic information and turns off compiler optimization 
 Step 4: Build Asterisk
 ----------------------------------
 Compile the project while preserving debug symbols:
-make clean && make menuselect # Select modules via menu interface
 make -j$(nproc)
 make install
 make basic-pbx
