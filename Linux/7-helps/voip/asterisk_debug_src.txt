@@ -14,12 +14,9 @@ Make sure you have necessary development tools and dependencies installed:
 Step 3: Configure project with debug support
 ----------------------------------
 Run the configuration script enabling debug symbols and disabling optimizations:
-./configure --enable-debug
+./configure --help
+./configure --enable-dev-mode
 make -p | grep -E '^[a-zA-Z_-]+:' | cut -d: -f1 | sort -u
-make menuselect
-[*] DEBUG_THREADS
-[*] DONT_OPTIMIZE
-[*] AO2_DEBUG
 
 The CFLAGS option adds symbolic information and turns off compiler optimization (-O0), which is essential for detailed debugging.
 
