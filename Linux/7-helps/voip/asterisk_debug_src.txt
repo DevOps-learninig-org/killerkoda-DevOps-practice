@@ -16,7 +16,13 @@ Step 3: Configure project with debug support
 Run the configuration script enabling debug symbols and disabling optimizations:
 ./configure --help
 ./configure --enable-dev-mode
+make menuselect.makeopts
+menuselect/menuselect --disable-all menuselect.makedeps
 make -p | grep -E '^[a-zA-Z_-]+:' | cut -d: -f1 | sort -u
+make
+make install && make clean
+touch /etc/asterisk/modules.conf
+asterisk -f
 
 The CFLAGS option adds symbolic information and turns off compiler optimization (-O0), which is essential for detailed debugging.
 
@@ -63,3 +69,55 @@ After hitting the breakpoint, proceed line-by-line with commands like:
 (gdb) print var # Print value of a variable
 
 By following these steps, you'll be able to thoroughly inspect program behavior during runtime.
+
+.vscode/launch.json  # install GDB and C/C++ for Visual Studio Code first
+----------------------------------
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Debug Asterisk (Local Attach)",
+      "type": "cppdbg",
+      "request": "attach",
+      "program": "/usr/sbin/asterisk",
+      "processId": "${command:pickProcess}",
+      "MIMode": "gdb",
+      "miDebuggerPath": "/usr/bin/gdb",
+      "miDebuggerArgs": "--interpreter=mi",
+      "cwd": "${workspaceFolder}",
+      "setupCommands": [
+        {
+          "description": "Enable pretty-printing",
+          "text": "-enable-pretty-printing",
+          "ignoreFailures": true
+        },
+        {
+          "description": "Set debug mode",
+          "text": "handle SIG33 pass nostop noprint"
+        }
+      ],
+      "stopAtEntry": false,
+      "externalConsole": false
+    },
+    {
+      "name": "Debug Asterisk (Local Launch)",
+      "type": "cppdbg",
+      "request": "launch",
+      "program": "/usr/sbin/asterisk",
+      "args": ["-f", "-vvvgc"],  // Консольный режим с максимальным логгированием
+      "stopAtEntry": false,
+      "cwd": "${workspaceFolder}",
+      "environment": [],
+      "externalConsole": false,
+      "MIMode": "gdb",
+      "miDebuggerPath": "/usr/bin/gdb",
+      "setupCommands": [
+        {
+          "description": "Enable pretty-printing",
+          "text": "-enable-pretty-printing",
+          "ignoreFailures": true
+        }
+      ]
+    }
+  ]
+}
