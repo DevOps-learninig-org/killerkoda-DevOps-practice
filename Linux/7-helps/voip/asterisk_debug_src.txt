@@ -137,3 +137,56 @@ manager - Asterisk Manager Interface
 plc - PLC
 sounds - Sounds Index
 udptl - UDPTL
+
+----------------------------------
+acl – Named ACL system
+Provides a named Access Control List (ACL) system. Allows defining IP-based access rules (e.g., for SIP peers) to restrict or permit connections.
+
+ccss – Call Completion Supplementary Services
+Implements call completion features like CCBS (Call Completion on Busy Subscriber) and CCNR (Call Completion on No Reply) for SIP telephony in enterprise environments.
+
+cdr – CDR Engine
+Generates Call Detail Records (call logs). Stores call metadata (start/end time, duration, caller ID, etc.) for billing and analytics.
+
+cel – CEL Engine
+Provides Channel Event Logging, recording detailed call events (transfers, holds, etc.) beyond basic CDR data.
+
+dnsmgr – DNS Manager
+Manages DNS queries and caching. Helps Asterisk dynamically resolve SIP providers' SRV/TXT records.
+
+dsp – DSP
+Handles Digital Signal Processing—DTMF detection, echo cancellation, fax tone analysis, and other audio operations.
+
+enum – ENUM Support
+Supports E.164 Number Mapping (ENUM), converting phone numbers into DNS queries (e.g., +1234 → sip:user@example.com).
+
+extconfig – Configuration
+Enables loading Asterisk configurations from external sources (e.g., MySQL, PostgreSQL) instead of flat files.
+
+features – Call Features
+Implements core call features:
+    Call Parking
+    Blind/Attended Transfer
+    Hold/Resume
+    DTMF-controlled functions
+
+http – Built-in HTTP Server
+Embedded HTTP server for web-based management (AMI/AJAM) or serving static files (e.g., sound prompts).
+
+indications – Indication Tone Handling
+Manages country-specific call progress tones (busy signals, dial tones, etc.).
+
+logger – Logger
+Controls Asterisk’s logging system (verbosity levels, log destinations like files/syslog).
+
+manager – Asterisk Manager Interface (AMI)
+TCP-based API for external control/monitoring of Asterisk (call management, events, etc.).
+
+plc – Packet Loss Concealment
+Compensates for VoIP packet loss by masking audio gaps (improves call quality).
+
+sounds – Sounds Index
+Indexes audio files (IVR prompts, hold music) for fast playback.
+
+udptl – UDPTL
+Implements UDP Transport Layer for T.38 fax over IP (FoIP) transmissions.
