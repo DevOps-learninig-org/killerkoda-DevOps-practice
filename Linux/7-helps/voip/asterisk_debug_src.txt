@@ -118,3 +118,22 @@ By following these steps, you'll be able to thoroughly inspect program behavior 
     }
   ]
 }
+
+Naked asterisk (menuselect/menuselect --disable-all menuselect.makedeps) modules description
+----------------------------------
+acl - Named ACL system
+ccss - Call Completion Supplementary Services
+cdr - CDR Engine
+cel - CEL Engine
+dnsmgr - DNS Manager
+dsp - DSP
+enum - ENUM Support
+extconfig - Configuration
+features - Call Features
+http - Built-in HTTP Server
+indications - Indication Tone Handling 
+logger - Logger
+manager - Asterisk Manager Interface
+plc - PLC
+sounds - Sounds Index
+udptl - UDPTL
