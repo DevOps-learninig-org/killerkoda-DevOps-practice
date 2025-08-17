@@ -119,7 +119,7 @@ By following these steps, you'll be able to thoroughly inspect program behavior 
   ]
 }
 
-Naked asterisk (menuselect/menuselect --disable-all menuselect.makedeps) modules description
+Naked Asterisk (menuselect/menuselect --disable-all menuselect.makedeps) modules description
 ----------------------------------
 acl - Named ACL system
 ccss - Call Completion Supplementary Services
