@@ -141,24 +141,31 @@ udptl - UDPTL
 ----------------------------------
 acl – Named ACL system
 Provides a named Access Control List (ACL) system. Allows defining IP-based access rules (e.g., for SIP peers) to restrict or permit connections.
+https://github.com/asterisk/asterisk/blob/master/main/acl.c
 
 ccss – Call Completion Supplementary Services
 Implements call completion features like CCBS (Call Completion on Busy Subscriber) and CCNR (Call Completion on No Reply) for SIP telephony in enterprise environments.
+https://github.com/asterisk/asterisk/blob/master/main/ccss.c
 
 cdr – CDR Engine
 Generates Call Detail Records (call logs). Stores call metadata (start/end time, duration, caller ID, etc.) for billing and analytics.
+https://github.com/asterisk/asterisk/blob/master/main/cdr.c
 
 cel – CEL Engine
 Provides Channel Event Logging, recording detailed call events (transfers, holds, etc.) beyond basic CDR data.
+https://github.com/asterisk/asterisk/blob/master/main/cel.c
 
 dnsmgr – DNS Manager
 Manages DNS queries and caching. Helps Asterisk dynamically resolve SIP providers' SRV/TXT records.
+https://github.com/asterisk/asterisk/blob/master/main/dnsmgr.c
 
 dsp – DSP
 Handles Digital Signal Processing—DTMF detection, echo cancellation, fax tone analysis, and other audio operations.
+https://github.com/asterisk/asterisk/blob/master/main/dsp.c
 
 enum – ENUM Support
 Supports E.164 Number Mapping (ENUM), converting phone numbers into DNS queries (e.g., +1234 → sip:user@example.com).
+https://github.com/asterisk/asterisk/blob/master/main/enum.c
 
 extconfig – Configuration
 Enables loading Asterisk configurations from external sources (e.g., MySQL, PostgreSQL) instead of flat files.
@@ -169,24 +176,32 @@ Implements core call features:
     Blind/Attended Transfer
     Hold/Resume
     DTMF-controlled functions
+https://github.com/asterisk/asterisk/blob/master/main/features.c
 
 http – Built-in HTTP Server
 Embedded HTTP server for web-based management (AMI/AJAM) or serving static files (e.g., sound prompts).
+https://github.com/asterisk/asterisk/blob/master/main/http.c
 
 indications – Indication Tone Handling
 Manages country-specific call progress tones (busy signals, dial tones, etc.).
+https://github.com/asterisk/asterisk/blob/master/main/indications.c
 
 logger – Logger
 Controls Asterisk’s logging system (verbosity levels, log destinations like files/syslog).
+https://github.com/asterisk/asterisk/blob/master/main/logger.c
 
 manager – Asterisk Manager Interface (AMI)
 TCP-based API for external control/monitoring of Asterisk (call management, events, etc.).
+https://github.com/asterisk/asterisk/blob/master/main/manager.c
 
 plc – Packet Loss Concealment
 Compensates for VoIP packet loss by masking audio gaps (improves call quality).
+https://github.com/asterisk/asterisk/blob/master/main/plc.c
 
 sounds – Sounds Index
 Indexes audio files (IVR prompts, hold music) for fast playback.
 
+
 udptl – UDPTL
 Implements UDP Transport Layer for T.38 fax over IP (FoIP) transmissions.
+https://github.com/asterisk/asterisk/blob/master/main/udptl.c
