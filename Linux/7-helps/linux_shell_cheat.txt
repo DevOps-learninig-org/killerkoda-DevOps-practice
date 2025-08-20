@@ -19,6 +19,7 @@ find /proc -maxdepth 1 -type f -not -regex '.*/[0-9]*'
 find /proc -not -regex '.*kmsg\|.*kcore\|.*kallsyms\|.*kpage.*' -maxdepth 1 -type f -exec echo {} ---=== NEXT ===------------ \; -exec cat {} \; | less
 find /proc -maxdepth 1 -type d -not -regex '.*/[0-9]*'
 for f in *; do [ -f "$f" ] && grep -q "$f" /etc/crontab && echo "$f: $(fgrep "$f" /etc/crontab)" || echo "$f: ---"; done
+for f in *; do [ -f "$f" ] && grep -q "$f" /etc/crontab && echo "$f: $(fgrep "$f" /etc/crontab)" || echo "$(tput setaf 1)$f: ---$(tput sgr0)"; done
 
 # Explore /sys pseudofs
 ls /sys
