@@ -18,6 +18,10 @@ cd -        # Go to previously visited catalog
 
 ps fax     # Opposite to $ ps aux
 
+# Check CPU usage
+#----------------
+
+
 # Explore /proc pseudofs
 find /proc -maxdepth 1 -type f -not -regex '.*/[0-9]*'
 find /proc -not -regex '.*kmsg\|.*kcore\|.*kallsyms\|.*kpage.*' -maxdepth 1 -type f -exec echo {} ---=== NEXT ===------------ \; -exec cat {} \; | less
@@ -84,7 +88,8 @@ sox -M empty.wav empty.wav empty.mp3      # Merge into MP3
 diff -u <(man 1 intro | col) <(man 2 intro | cat) | less
 cut -d\| -f1         # Opposite to $ awk -F \| '{print $1}'
 
-# Install single package
+# Install single PACKAGE
+#-----------------------
 rpm -i *.rpm  # Or yum install *.rpm -y
 # Find indtalled packages
 rpm -qa | grep somepack*
