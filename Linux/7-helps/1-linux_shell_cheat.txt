@@ -55,6 +55,7 @@ find /sys/ -maxdepth 2 | less
 #----------------
 lsblk -fm
 df -Th               # Opposite to $ df -h
+df -i                # Explore inodes
 pvs;vgs;lvs
 du -sh ./* | sort -h # Show sizes of all contents in directory
 iostat -cNx 3        # Show FS and CPU load every 3 second
