@@ -30,10 +30,14 @@ cat /proc/interrupts
 # Контекстные переключения
 watch -n 0.1 'vmstat -s | grep -i "context switch"'
 
+# RAM MEMORY usage
+#-----------------
+free -h
+
 # Explore OS PROCESSES
 #---------------------
 ps fax
-ps -eo pid,ppid,cmd,%mem,%cpu --sort=-%cpu | head -15
+ps aux --sort=-%cpu | head -10
 
 # Explore /proc pseudofs
 find /proc -maxdepth 1 -type f -not -regex '.*/[0-9]*'
