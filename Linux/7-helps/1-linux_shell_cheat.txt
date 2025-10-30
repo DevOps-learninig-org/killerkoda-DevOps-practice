@@ -55,8 +55,9 @@ find /sys/ -maxdepth 2 | less
 # Explore STORAGE
 #----------------
 lsblk -fm
-df -Th               # Opposite to $ df -h
 df -i                # Explore inodes
+df -Th               # Opposite to $ df -h
+smartctl -H /dev/sda
 pvs;vgs;lvs
 du -sh ./* | sort -h # Show sizes of all contents in directory
 iostat -cNx 3        # Show FS and CPU load every 3 second
@@ -88,6 +89,7 @@ systemctl
 
 # Explore system logs
 journalctl
+journalctl -p 3 -xb  # Critical errors
 tail -f /var/log/some.log
 
 # Change MC editor
