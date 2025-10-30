@@ -10,10 +10,10 @@ Ctrl+Shift+R            # Open interactive history
 Alt+D                  # Undo
 Alt+Shift+D            # Redo
 
-ls -AlF     # Opposite to $ ls -la
-# variants:  
-# (-AlFR | less) - recursive
-# (-AlFS) - sort by size, (-AlFtr) - sort by time in reverce order
+ls -AlF     # Opposite to $ ls -la 
+            # (-AlFR | less) - recursive
+            # (-AlFS) - sort by size
+            # (-AlFtr) - sort by time in reverce order
 cd -        # Go to previously visited catalog
 
 ps fax     # Opposite to $ ps aux
