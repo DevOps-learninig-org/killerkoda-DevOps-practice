@@ -29,14 +29,16 @@ src=/etc/crontab ;for f in *; do [ -f "$f" ] && grep -q "$f" $src && echo "$f: $
 ls /sys
 find /sys/ -maxdepth 2 | less
 
-# Explore storage
+# Explore STORAGE
+#----------------
 lsblk -fm
 df -Th               # Opposite to $ df -h
 pvs;vgs;lvs
 du -sh ./* | sort -h # Show sizes of all contents in directory
 iostat -cNx 3        # Show FS and CPU load every 3 second
 
-# Initial network diagnostic
+# Initial NETWORK diagnostic
+#---------------------------
 ip -br ad
 watch "ip -s link"
 watch -n 1.5 ip -s link show enp1s0   # Watch interface stats every 1.5 sec
@@ -54,15 +56,15 @@ lsof -u nginx        # List open files of nginx user
 lsof -u ^[user1]     # List open files except opened by user1
 lsof -c nginx        # List open files of nginx process
 
+sudo traceroute -T example.ru -p 5060
+sudo traceroute -I example.ru
+
 # Explore system daemons and startup
 systemctl
 
 # Explore system logs
 journalctl
 tail -f /var/log/some.log
-
-sudo traceroute -T example.ru -p 5060
-sudo traceroute -I example.ru
 
 # Change MC editor
 select-editor
