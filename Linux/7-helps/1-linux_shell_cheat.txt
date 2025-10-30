@@ -6,6 +6,10 @@ Ctrl+Shift+_            # Undo last mistake edit (or deletion)
 Alt+D                   # Delete word after cursor
 Ctrl+Shift+R            # Open interactive history
 
+# In Windows interface
+Alt+D                  # Undo
+Alt+Shift+D            # Redo
+
 ls -AlF     # Opposite to $ ls -la
 # variants:  
 # (-AlFR | less) - recursive
