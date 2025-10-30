@@ -20,7 +20,17 @@ ps fax     # Opposite to $ ps aux
 
 # Check CPU usage
 #----------------
+lscpu
+cat /proc/cpuinfo
+lshw -C cpu
+mpstat -P ALL 1 3
+cat /sys/devices/system/cpu/cpu*/
+cat /proc/interrupts
 
+# Explore OS PROCESSES
+#---------------------
+ps fax
+ps -eo pid,ppid,cmd,%mem,%cpu --sort=-%cpu | head -15
 
 # Explore /proc pseudofs
 find /proc -maxdepth 1 -type f -not -regex '.*/[0-9]*'
