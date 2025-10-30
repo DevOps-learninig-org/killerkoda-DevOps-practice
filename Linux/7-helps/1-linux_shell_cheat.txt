@@ -28,7 +28,7 @@ mpstat -P ALL 1 3
 cat /sys/devices/system/cpu/cpu*/
 cat /proc/interrupts
 
-# Контекстные переключения
+# context switch
 watch -n 0.1 'vmstat -s | grep -i "context switch"'
 
 # RAM MEMORY usage
@@ -88,6 +88,7 @@ sudo traceroute -I example.ru
 systemctl
 
 # Explore system logs
+dmesg | grep -i "error"
 journalctl
 journalctl -p 3 -xb  # Critical errors
 tail -f /var/log/some.log
