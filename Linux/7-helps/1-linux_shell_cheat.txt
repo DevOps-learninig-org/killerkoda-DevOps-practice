@@ -38,7 +38,8 @@ ps aux --sort=-%mem | head -10
 
 # Explore OS PROCESSES
 #---------------------
-ps fax
+ps fax            # Explore process tree
+ps -eLf           # Explore threads
 
 # Explore /proc pseudofs
 find /proc -maxdepth 1 -type f -not -regex '.*/[0-9]*'
