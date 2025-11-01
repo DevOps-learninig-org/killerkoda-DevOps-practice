@@ -93,23 +93,11 @@ journalctl
 journalctl -p 3 -xb  # Critical errors
 tail -f /var/log/some.log
 
-# Change MC editor
-select-editor
-
 # Create subdirectory in all directories of /catalog
 find /catalog/ -mindepth 1 -maxdepth 1 -type d -exec mkdir -p {}/.sub \;
 
 # Copy files with absolute path. Useful for chroot and containers
 tar -c -h /path/to/file1 /path/to/file2 | tar -x -C newroot/
-
-# Create empty wav
-sudo apt-get install libsox-fmt-all       # On CentOS you must recompile SoX to get .mp3
-sox -n -r 44100 -c 1 empty.wav trim 0 0   # One channel empty WAV
-soxi empty.wav
-sox -M empty.wav empty.wav empty.mp3      # Merge into MP3
-
-diff -u <(man 1 intro | col) <(man 2 intro | cat) | less
-cut -d\| -f1         # Opposite to $ awk -F \| '{print $1}'
 
 # Install single PACKAGE
 #-----------------------
